@@ -1,0 +1,615 @@
+{% doc %}
+  @prompt
+    Create a full-width hero section with a dark navy background image. At the top center, place the PULS logo. Below the logo, add a bold headline: ‘This Isn’t Just Coffee… it’s YOUR NEW SECRET WEAPON’. Underneath, add a supporting line: ‘Protein x Creatine x Focus-boosting MCTs’, followed by smaller lighter text for: ‘Fuel your brain, body, and energy — every morning.’ and ‘Forget overpriced lattes and messy powders. This is coffee engineered for performance.’
+    
+    Then add a bold white callout: ‘Only 500 spots in the first drop. Don’t miss out.’ with a smaller line under it: ‘Early signups unlock the launch drop.’
+    
+    Directly beneath this text, add a signup form integrated with Mailchimp: rounded white input field with placeholder ‘Your Email Address’ and a yellow button labeled ‘Claim Early Access’ with a right arrow.
+    
+    Make sure spacing is tight and balanced vertically, and the background fills edge-to-edge with no white gap at the bottom.
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-hero-section-{{ ai_gen_id }} {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #1a1a2e;
+    background-image: url('{{ block.settings.background_image | image_url: width: 2000 }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+  }
+
+  .ai-hero-section-{{ ai_gen_id }}::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(26, 26, 46, {{ block.settings.overlay_opacity | divided_by: 100.0 }});
+    z-index: 1;
+  }
+
+  .ai-hero-content-{{ ai_gen_id }} {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    width: 100%;}
+
+  .ai-hero-logo-{{ ai_gen_id }} {
+    margin-bottom: 40px;
+  }
+
+  .ai-hero-logo-{{ ai_gen_id }} img {
+    max-width: {{ block.settings.logo_width }}px;
+    height: auto;
+  }
+
+  .ai-hero-logo-placeholder-{{ ai_gen_id }} {
+    width: {{ block.settings.logo_width }}px;
+    height: 80px;
+    margin: 0 auto {{ block.settings.spacing_tight }}px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+
+  .ai-hero-logo-placeholder-{{ ai_gen_id }} svg {
+    width: 60px;
+    height: 60px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  .ai-hero-headline-{{ ai_gen_id }} {
+    font-size: {{ block.settings.headline_size }}px;
+    font-weight: 700;
+    color: {{ block.settings.headline_color }};
+    margin: 0 0 {{ block.settings.spacing_tight }}px 0;
+    line-height: 1.2;
+  }
+
+  .ai-hero-subheadline-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subheadline_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.subheadline_color }};
+    margin: 0 0 {{ block.settings.spacing_tight }}px 0;
+    line-height: 1.3;
+  }
+
+  .ai-hero-description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.description_size }}px;
+    color: {{ block.settings.description_color }};
+    margin: 0 0 {{ block.settings.spacing_medium }}px 0;
+    line-height: 1.5;opacity: 0.9;
+  }
+
+  .ai-hero-callout-{{ ai_gen_id }} {
+    font-size: {{ block.settings.callout_size }}px;
+    font-weight: 700;
+    color: {{ block.settings.callout_color }};
+    margin: 0 0 {{ block.settings.spacing_small }}px 0;
+    line-height: 1.3;
+  }
+
+  .ai-hero-callout-sub-{{ ai_gen_id }} {
+    font-size: {{ block.settings.callout_sub_size }}px;
+    color: {{ block.settings.callout_sub_color }};
+    margin: 0 0 {{ block.settings.spacing_medium }}px 0;
+    opacity: 0.8;
+  }
+
+  .ai-hero-form-{{ ai_gen_id }} {
+    display: flex;
+    gap: 12px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ai-hero-input-{{ ai_gen_id }} {
+    flex: 1;
+    padding: 16px 20px;
+    border: none;
+    border-radius: {{ block.settings.input_border_radius }}px;
+    font-size: 16px;
+    background-color: {{ block.settings.input_background }};
+    color: {{ block.settings.input_text_color }};
+  }
+
+  .ai-hero-input-{{ ai_gen_id }}::placeholder {
+    color: {{ block.settings.input_placeholder_color }};
+    opacity: 0.7;
+  }
+
+  .ai-hero-button-{{ ai_gen_id }} {
+    padding: 16px 24px;
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.button_text_color }};
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+  }
+
+  .ai-hero-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_color }};
+  }
+
+  .ai-hero-arrow-{{ ai_gen_id }} {
+    width: 16px;
+    height: 16px;
+  }
+
+  .ai-hero-form-success-{{ ai_gen_id }} {
+    color: {{ block.settings.success_color }};
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
+  .ai-hero-form-error-{{ ai_gen_id }} {
+    color: {{ block.settings.error_color }};
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-hero-section-{{ ai_gen_id }} {
+      min-height: 100vh;
+      padding: 30px 15px;
+    }
+
+    .ai-hero-headline-{{ ai_gen_id }} {
+      font-size: {{ block.settings.headline_size | times: 0.8 }}px;
+    }
+
+    .ai-hero-subheadline-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subheadline_size | times: 0.9 }}px;
+    }
+
+    .ai-hero-form-{{ ai_gen_id }} {
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .ai-hero-logo-{{ ai_gen_id }} img {
+      max-width: {{ block.settings.logo_width | times: 0.8 }}px;
+    }
+
+    .ai-hero-logo-placeholder-{{ ai_gen_id }} {
+      width: {{ block.settings.logo_width | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<hero-section-{{ ai_gen_id }}
+  class="ai-hero-section-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-hero-content-{{ ai_gen_id }}">
+    <div class="ai-hero-logo-{{ ai_gen_id }}">
+      {% if block.settings.logo %}
+        <img
+          src="{{ block.settings.logo | image_url: width: 400 }}"
+          alt="{{ block.settings.logo.alt | escape }}"
+          loading="lazy"
+          width="{{ block.settings.logo.width }}"
+          height="{{ block.settings.logo.height }}"
+        >
+      {% else %}
+        <div class="ai-hero-logo-placeholder-{{ ai_gen_id }}">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+            <circle cx="9" cy="9" r="2"/>
+            <path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/>
+          </svg>
+        </div>
+      {% endif %}
+    </div>
+
+    <h1 class="ai-hero-headline-{{ ai_gen_id }}">{{ block.settings.headline }}</h1>
+
+    <h2 class="ai-hero-subheadline-{{ ai_gen_id }}">{{ block.settings.subheadline }}</h2>
+
+    <div class="ai-hero-description-{{ ai_gen_id }}">
+      {{ block.settings.description }}
+    </div>
+
+    <div class="ai-hero-callout-{{ ai_gen_id }}">{{ block.settings.callout }}</div>
+
+    <div class="ai-hero-callout-sub-{{ ai_gen_id }}">{{ block.settings.callout_sub }}</div>
+
+    {%- form 'contact' -%}
+      <input type="hidden" name="contact[tags]" value="newsletter">
+      <div class="ai-hero-form-{{ ai_gen_id }}">
+        <input
+          type="email"
+          name="contact[email]"
+          class="ai-hero-input-{{ ai_gen_id }}"
+          value="{{ form.email }}"
+          aria-required="true"
+          autocorrect="off"
+          autocapitalize="off"
+          autocomplete="email"
+          {% if form.errors %}
+            aria-invalid="true"
+            aria-describedby="ai-hero-form-error-{{ ai_gen_id }}"
+          {% endif %}
+          {% if form.posted_successfully? %}
+            aria-describedby="ai-hero-form-success-{{ ai_gen_id }}"
+          {% endif %}placeholder="{{ block.settings.input_placeholder }}"
+          required
+        >
+        <button
+          type="submit"
+          class="ai-hero-button-{{ ai_gen_id }}">
+          {{ block.settings.button_text }}
+          <svg class="ai-hero-arrow-{{ ai_gen_id }}" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12h14"/>
+            <path d="m12 5 7 7-7 7"/>
+          </svg>
+        </button>
+      </div>
+      {%- if form.errors -%}
+        <div
+          id="ai-hero-form-error-{{ ai_gen_id }}"
+          class="ai-hero-form-error-{{ ai_gen_id }}"
+        >
+          {{ form.errors.messages.email }}
+        </div>
+      {%- endif -%}
+      {%- if form.posted_successfully? -%}
+        <div
+          id="ai-hero-form-success-{{ ai_gen_id }}"
+          class="ai-hero-form-success-{{ ai_gen_id }}"
+        >
+          {{ block.settings.success_message }}
+        </div>
+      {%- endif -%}
+    {%- endform -%}
+  </div>
+</hero-section-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class HeroSection{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.setupFormHandling();
+      }
+
+      setupFormHandling() {
+        const form = this.querySelector('form');
+        if (form) {
+          form.addEventListener('submit', function(e) {
+            const email = form.querySelector('input[type="email"]').value;
+            if (!email || !email.includes('@')) {
+              e.preventDefault();
+              return false;
+            }
+          });
+        }
+      }
+    }
+
+    customElements.define('hero-section-{{ ai_gen_id }}', HeroSection{{ ai_gen_id }});
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Hero section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "Overlay opacity",
+      "default": 50
+    },
+    {
+      "type": "header",
+      "content": "Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo image"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 100,
+      "max": 400,
+      "step": 20,
+      "unit": "px",
+      "label": "Logo width",
+      "default": 200
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "headline",
+      "label": "Headline",
+      "default": "This Isn't Just Coffee… it's YOUR NEW SECRET WEAPON"
+    },
+    {
+      "type": "text",
+      "id": "subheadline",
+      "label": "Subheadline",
+      "default": "Protein x Creatine x Focus-boosting MCTs"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Fuel your brain, body, and energy — every morning. Forget overpriced lattes and messy powders. This is coffee engineered for performance."
+    },
+    {
+      "type": "text",
+      "id": "callout",
+      "label": "Callout text",
+      "default": "Only 500 spots in the first drop. Don't miss out."
+    },
+    {
+      "type": "text",
+      "id": "callout_sub",
+      "label": "Callout subtext",
+      "default": "Early signups unlock the launch drop."
+    },
+    {
+      "type": "header",
+      "content": "Form"
+    },
+    {
+      "type": "text",
+      "id": "input_placeholder",
+      "label": "Email placeholder",
+      "default": "Your Email Address"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Claim Early Access"
+    },
+    {
+      "type": "text",
+      "id": "success_message",
+      "label": "Success message",
+      "default": "Thanks! You're on the list for early access."
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "headline_size",
+      "min": 24,
+      "max": 72,
+      "step": 4,
+      "unit": "px",
+      "label": "Headline size",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "subheadline_size",
+      "min": 16,
+      "max": 36,
+      "step": 2,
+      "unit": "px",
+      "label": "Subheadline size",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "description_size",
+      "min": 14,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Description size",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "callout_size",
+      "min": 16,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Callout size",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "callout_sub_size",
+      "min": 12,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Callout subtext size",
+      "default": 16
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "headline_color",
+      "label": "Headline color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "subheadline_color",
+      "label": "Subheadline color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "description_color",
+      "label": "Description color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "callout_color",
+      "label": "Callout color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "callout_sub_color",
+      "label": "Callout subtext color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "input_background",
+      "label": "Input background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "input_text_color",
+      "label": "Input text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "input_placeholder_color",
+      "label": "Input placeholder color",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button color",
+      "default": "#FFD700"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button hover color",
+      "default": "#FFC107"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "success_color",
+      "label": "Success color",
+      "default": "#28a745"
+    },
+    {
+      "type": "color",
+      "id": "error_color",
+      "label": "Error color",
+      "default": "#dc3545"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "spacing_tight",
+      "min": 8,
+      "max": 32,
+      "step": 4,
+      "unit": "px",
+      "label": "Tight spacing",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "spacing_small",
+      "min": 4,
+      "max": 16,
+      "step": 4,
+      "unit": "px",
+      "label": "Small spacing",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "spacing_medium",
+      "min": 20,
+      "max": 60,
+      "step": 4,
+      "unit": "px",
+      "label": "Medium spacing",
+      "default": 32
+    },
+    {
+      "type": "range",
+      "id": "input_border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Input border radius",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Button border radius",
+      "default": 24
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero section"
+    }
+  ],
+  "tag": null
+}
+{% endschema %}

@@ -1,0 +1,1056 @@
+{% doc %}
+  @prompt
+    Create a full-width hero section with a dark navy background image. At the top center, place the PULS logo. Below the logo, add a bold headline: ‘This Isn’t Just Coffee… it’s YOUR NEW SECRET WEAPON’. Underneath, add a supporting line: ‘Protein x Creatine x Focus-boosting MCTs’, followed by smaller lighter text for: ‘Fuel your brain, body, and energy — every morning.’ and ‘Forget overpriced lattes and messy powders. This is coffee engineered for performance.’
+    
+    Then add a bold white callout: ‘Only 500 spots in the first drop. Don’t miss out.’ with a smaller line under it: ‘Early signups unlock the launch drop.’
+    
+    Directly beneath this text, add a signup form integrated with Mailchimp: rounded white input field with placeholder ‘Your Email Address’ and a yellow button labeled ‘Claim Early Access’ with a right arrow.
+    
+    Make sure spacing is tight and balanced vertically, and the background fills edge-to-edge with no white gap at the bottom., Create a full-width hero section with a dark navy background that fits the screen height without causing vertical or horizontal scroll. At the top center place the PULS logo. Below add the headline ‘This Isn’t Just Coffee… it’s YOUR NEW SECRET WEAPON’ in bold white text. Then add the supporting line ‘Protein x Creatine x Focus-boosting MCTs’ in medium weight, and smaller lighter lines for: ‘Fuel your brain, body, and energy — every morning.’ and ‘Forget overpriced lattes and messy powders. This is coffee engineered for performance.’
+    
+    After that, add a bold white callout: ‘Only 500 spots in the first drop. Don’t miss out.’ with a smaller subtext: ‘Early signups unlock the launch drop.’
+    
+    Directly underneath, include a Mailchimp-integrated signup form: rounded white input field with placeholder ‘Your Email Address’ and a yellow button labeled ‘Claim Early Access’ with a right arrow.
+    
+    Ensure all elements are centered and evenly spaced vertically, with no large gaps and no overflow causing scrollbars. The section should be fully responsive., separate the text like this:
+    
+    Main tagline (bold white): ‘This Isn’t Just Coffee… it’s YOUR NEW SECRET WEAPON’.
+    
+    Supporting line (semi-bold white): ‘Protein x Creatine x Focus-boosting MCTs’.
+    
+    Body line 1 (regular white): ‘Fuel your brain, body, and energy — every morning.’
+    
+    Body line 2 (regular white): ‘Forget overpriced lattes and messy powders. This is coffee engineered for performance.’
+    
+    Callout (bold white): ‘Only 500 spots in the first drop. Don’t miss out.’
+    
+    Subtext (smaller white): ‘Ea
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-hero-section-{{ ai_gen_id }} {
+    width: 100%;
+    min-height: 100vh;
+    background-color: {{ block.settings.background_color }};
+    {% if block.settings.background_image %}
+      background-image: url('{{ block.settings.background_image | image_url: width: 2000 }}');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    {% endif %}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .ai-hero-content-{{ ai_gen_id }} {
+    max-width: 600px;
+    text-align: center;
+    color: {{ block.settings.text_color }};
+    z-index: 2;
+    transform: translateY({{ block.settings.vertical_offset }}px);
+  }
+
+  .ai-hero-logo-group-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.logo_group_spacing }}px;
+  }
+
+  .ai-hero-logo-{{ ai_gen_id }} img {
+    max-width: {{ block.settings.logo_width }}px;
+    height: auto;
+  }
+
+  .ai-hero-logo-placeholder-{{ ai_gen_id }} {
+    width: {{ block.settings.logo_width }}px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+  }
+
+  .ai-hero-logo-placeholder-{{ ai_gen_id }} svg {
+    width: 80%;
+    height: 80%;
+    opacity: 0.6;
+  }
+
+  .ai-hero-headline-group-{{ ai_gen_id }} {
+    margin-top: {{ block.settings.headline_group_top_spacing }}px;
+    margin-bottom: {{ block.settings.headline_group_spacing }}px;
+  }
+
+  .ai-hero-tagline-line1-{{ ai_gen_id }} {
+    font-size: {{ block.settings.tagline_line1_size }}px;
+    font-weight: {{ block.settings.tagline_line1_weight }};
+    line-height: {{ block.settings.tagline_line1_line_height }};
+    margin-bottom: 8px;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-hero-tagline-line2-{{ ai_gen_id }} {
+    font-size: {{ block.settings.tagline_line2_size }}px;
+    font-weight: {{ block.settings.tagline_line2_weight }};
+    line-height: {{ block.settings.tagline_line2_line_height }};
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-hero-supporting-group-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.supporting_group_spacing }}px;
+  }
+
+  .ai-hero-supporting-line-{{ ai_gen_id }} {
+    font-size: {{ block.settings.supporting_line_size }}px;
+    font-weight: {{ block.settings.supporting_line_weight }};
+    line-height: {{ block.settings.supporting_line_line_height }};
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-hero-body-group-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.body_group_spacing }}px;
+  }
+
+  .ai-hero-body-line1-{{ ai_gen_id }} {
+    font-size: {{ block.settings.body_line1_size }}px;
+    font-weight: {{ block.settings.body_line1_weight }};
+    line-height: {{ block.settings.body_line1_line_height }};
+    margin-bottom: 16px;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-hero-body-line2-{{ ai_gen_id }} {
+    font-size: {{ block.settings.body_line2_size }}px;
+    font-weight: {{ block.settings.body_line2_weight }};
+    line-height: {{ block.settings.body_line2_line_height }};
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-hero-callout-group-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.callout_group_spacing }}px;
+  }
+
+  .ai-hero-callout-{{ ai_gen_id }} {
+    font-size: {{ block.settings.callout_size }}px;
+    font-weight: {{ block.settings.callout_weight }};
+    line-height: {{ block.settings.callout_line_height }};
+    margin-bottom: 8px;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-hero-subtext-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subtext_size }}px;
+    font-weight: {{ block.settings.subtext_weight }};
+    line-height: {{ block.settings.subtext_line_height }};
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-hero-form-group-{{ ai_gen_id }} {
+    margin-bottom: {{ block.settings.form_group_spacing }}px;
+  }
+
+  .ai-hero-form-{{ ai_gen_id }} {
+    display: flex;
+    gap: {{ block.settings.form_gap_desktop }}px;
+    max-width: {{ block.settings.form_max_width }}px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .ai-hero-input-wrapper-{{ ai_gen_id }} {
+    flex: 1;
+    position: relative;
+    min-width: {{ block.settings.input_min_width }}px;
+  }
+
+  .ai-hero-input-icon-{{ ai_gen_id }} {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: {{ block.settings.mail_icon_size }}px;
+    height: {{ block.settings.mail_icon_size }}px;
+    color: {{ block.settings.input_placeholder_color }};
+    pointer-events: none;
+  }
+
+  .ai-hero-input-{{ ai_gen_id }} {
+    width: 100%;
+    padding: {{ block.settings.input_padding }}px 20px {{ block.settings.input_padding }}px {{ block.settings.mail_icon_size | plus: 32 }}px;
+    border: none;
+    border-radius: {{ block.settings.input_border_radius }}px;
+    font-size: {{ block.settings.input_text_size }}px;
+    background-color: {{ block.settings.input_background }};
+    color: {{ block.settings.input_text_color }};
+    outline: none;
+  }
+
+  .ai-hero-input-{{ ai_gen_id }}::placeholder {
+    color: {{ block.settings.input_placeholder_color }};
+  }
+
+  .ai-hero-button-{{ ai_gen_id }} {
+    padding: {{ block.settings.button_padding }}px 24px;
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.button_text_color }};
+    font-size: {{ block.settings.button_text_size }}px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    white-space: nowrap;
+    min-width: {{ block.settings.button_min_width }}px;
+    justify-content: center;
+  }
+
+  .ai-hero-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_color }};
+    transform: translateX(2px);
+  }
+
+  .ai-hero-button-{{ ai_gen_id }}:hover .ai-hero-arrow-{{ ai_gen_id }} {
+    transform: translateX(4px);
+  }
+
+  .ai-hero-arrow-{{ ai_gen_id }} {
+    width: 18px;
+    height: 18px;
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+  }
+
+  .ai-hero-success-{{ ai_gen_id }} {
+    color: {{ block.settings.success_color }};
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
+  .ai-hero-error-{{ ai_gen_id }} {
+    color: {{ block.settings.error_color }};
+    margin-top: 16px;
+    font-size: 14px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-hero-section-{{ ai_gen_id }} {
+      padding: 20px 16px;
+    }
+
+    .ai-hero-content-{{ ai_gen_id }} {
+      transform: translateY({{ block.settings.vertical_offset | times: 0.7 }}px);
+    }
+
+    .ai-hero-logo-group-{{ ai_gen_id }} {
+      margin-bottom: {{ block.settings.logo_group_spacing | times: 0.8 }}px;
+    }
+
+    .ai-hero-headline-group-{{ ai_gen_id }} {
+      margin-top: {{ block.settings.headline_group_top_spacing | times: 0.8 }}px;
+      margin-bottom: {{ block.settings.headline_group_spacing | times: 0.8 }}px;
+    }
+
+    .ai-hero-supporting-group-{{ ai_gen_id }} {
+      margin-bottom: {{ block.settings.supporting_group_spacing | times: 0.8 }}px;
+    }
+
+    .ai-hero-body-group-{{ ai_gen_id }} {
+      margin-bottom: {{ block.settings.body_group_spacing | times: 0.8 }}px;
+    }
+
+    .ai-hero-callout-group-{{ ai_gen_id }} {
+      margin-bottom: {{ block.settings.callout_group_spacing | times: 0.8 }}px;
+    }
+
+    .ai-hero-tagline-line1-{{ ai_gen_id }} {
+      font-size: {{ block.settings.tagline_line1_size | times: 0.8 }}px;
+    }
+
+    .ai-hero-tagline-line2-{{ ai_gen_id }} {
+      font-size: {{ block.settings.tagline_line2_size | times: 0.8 }}px;
+    }
+
+    .ai-hero-supporting-line-{{ ai_gen_id }} {
+      font-size: {{ block.settings.supporting_line_size | times: 0.9 }}px;
+    }
+
+    .ai-hero-form-{{ ai_gen_id }} {
+      flex-direction: column;
+      gap: {{ block.settings.form_gap_mobile }}px;
+    }
+
+    .ai-hero-button-{{ ai_gen_id }} {
+      justify-content: center;
+    }
+
+    .ai-hero-button-{{ ai_gen_id }}:hover {
+      transform: none;
+    }
+
+    .ai-hero-input-icon-{{ ai_gen_id }} {
+      width: {{ block.settings.mail_icon_size | times: 0.9 }}px;
+      height: {{ block.settings.mail_icon_size | times: 0.9 }}px;
+    }
+
+    .ai-hero-input-{{ ai_gen_id }} {
+      padding-left: {{ block.settings.mail_icon_size | times: 0.9 | plus: 28 }}px;
+    }
+  }
+{% endstyle %}<section
+  class="ai-hero-section-{{ ai_gen_id }}"
+  {{ block.shopify_attributes }}
+>
+  <div class="ai-hero-content-{{ ai_gen_id }}">
+    <div class="ai-hero-logo-group-{{ ai_gen_id }}">
+      <div class="ai-hero-logo-{{ ai_gen_id }}">
+        {% if block.settings.logo %}
+          <img
+            src="{{ block.settings.logo | image_url: width: 400 }}"
+            alt="{{ block.settings.logo.alt | escape }}"
+            loading="lazy"
+            width="{{ block.settings.logo.width }}"
+            height="{{ block.settings.logo.height }}"
+          >
+        {% else %}
+          <div class="ai-hero-logo-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+      </div></div>
+
+    <div class="ai-hero-headline-group-{{ ai_gen_id }}">
+      {% if block.settings.tagline_line1 != blank %}
+        <h1 class="ai-hero-tagline-line1-{{ ai_gen_id }}">{{ block.settings.tagline_line1 }}</h1>
+      {% endif %}
+
+      {% if block.settings.tagline_line2 != blank %}
+        <div class="ai-hero-tagline-line2-{{ ai_gen_id }}">{{ block.settings.tagline_line2 }}</div>
+      {% endif %}
+    </div>
+
+    <div class="ai-hero-supporting-group-{{ ai_gen_id }}">
+      {% if block.settings.supporting_line != blank %}
+        <div class="ai-hero-supporting-line-{{ ai_gen_id }}">{{ block.settings.supporting_line }}</div>
+      {% endif %}
+    </div>
+
+    <div class="ai-hero-body-group-{{ ai_gen_id }}">
+      {% if block.settings.body_line_1 != blank %}
+        <div class="ai-hero-body-line1-{{ ai_gen_id }}">{{ block.settings.body_line_1 }}</div>
+      {% endif %}
+
+      {% if block.settings.body_line_2 != blank %}
+        <div class="ai-hero-body-line2-{{ ai_gen_id }}">{{ block.settings.body_line_2 }}</div>
+      {% endif %}
+    </div>
+
+    <div class="ai-hero-callout-group-{{ ai_gen_id }}">
+      {% if block.settings.callout_text != blank %}
+        <div class="ai-hero-callout-{{ ai_gen_id }}">{{ block.settings.callout_text }}</div>
+      {% endif %}
+
+      {% if block.settings.subtext != blank %}
+        <div class="ai-hero-subtext-{{ ai_gen_id }}">{{ block.settings.subtext }}</div>
+      {% endif %}
+    </div>
+
+    <div class="ai-hero-form-group-{{ ai_gen_id }}">
+      {%- form 'customer' -%}
+        <input type="hidden" name="contact[tags]" value="newsletter">
+        <input type="hidden" name="customer[accepts_marketing]" value="true">
+        <div class="ai-hero-form-{{ ai_gen_id }}">
+          <div class="ai-hero-input-wrapper-{{ ai_gen_id }}">
+            <svg class="ai-hero-input-icon-{{ ai_gen_id }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <input
+              type="email"
+              name="contact[email]"
+              class="ai-hero-input-{{ ai_gen_id }}"
+              value="{{ form.email }}"
+              aria-required="true"
+              autocorrect="off"
+              autocapitalize="off"
+              autocomplete="email"
+              {% if form.errors %}
+                aria-invalid="true"aria-describedby="ai-hero-error-{{ ai_gen_id }}"
+              {% endif %}
+              {% if form.posted_successfully? %}
+                aria-describedby="ai-hero-success-{{ ai_gen_id }}"
+              {% endif %}
+              placeholder="{{ block.settings.input_placeholder }}"
+              required
+            >
+          </div>
+          <button
+            type="submit"
+            class="ai-hero-button-{{ ai_gen_id }}">
+            {{ block.settings.button_text }}
+            <svg class="ai-hero-arrow-{{ ai_gen_id }}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M3 12h18"/>
+              <path d="M15 6l6 6-6 6"/>
+            </svg>
+          </button>
+        </div>
+        {%- if form.errors -%}
+          <div
+            id="ai-hero-error-{{ ai_gen_id }}"
+            class="ai-hero-error-{{ ai_gen_id }}"
+          >
+            {% if block.settings.custom_error_message != blank %}
+              {{ block.settings.custom_error_message }}
+            {% else %}
+              {{ form.errors.messages.email }}
+            {% endif %}
+          </div>
+        {%- endif -%}
+        {%- if form.posted_successfully? -%}
+          <div
+            id="ai-hero-success-{{ ai_gen_id }}"
+            class="ai-hero-success-{{ ai_gen_id }}"
+          >
+            {{ block.settings.success_message }}
+          </div>
+        {%- endif -%}
+      {%- endform -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Hero coffee signup",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "vertical_offset",
+      "min": -200,
+      "max": 200,
+      "step": 10,
+      "unit": "px",
+      "label": "Vertical position",
+      "default": 0,
+      "info": "Negative values move content up, positive values move content down"
+    },
+    {
+      "type": "header",
+      "content": "Logo section"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo image"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 100,
+      "max": 300,
+      "step": 10,
+      "unit": "px",
+      "label": "Logo width",
+      "default": 150
+    },
+    {
+      "type": "range",
+      "id": "logo_group_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Space below logo section",
+      "default": 32
+    },
+    {
+      "type": "header",
+      "content": "Headline section"
+    },
+    {
+      "type": "range",
+      "id": "headline_group_top_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Space above headline section",
+      "default": 0
+    },
+    {
+      "type": "text",
+      "id": "tagline_line1",
+      "label": "Tagline line 1",
+      "default": "This Isn't Just Coffee…"
+    },
+    {
+      "type": "range",
+      "id": "tagline_line1_size",
+      "min": 24,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Line 1 font size",
+      "default": 42
+    },
+    {
+      "type": "select",
+      "id": "tagline_line1_weight",
+      "label": "Line 1 font weight",
+      "options": [
+        {"value": "300", "label": "Light"},
+        {"value": "400", "label": "Normal"},
+        {"value": "500", "label": "Medium"},
+        {"value": "600", "label": "Semi-bold"},
+        {"value": "700", "label": "Bold"},
+        {"value": "800", "label": "Extra bold"}
+      ],
+      "default": "700"
+    },
+    {
+      "type": "range",
+      "id": "tagline_line1_line_height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "label": "Line 1 line height",
+      "default": 1.2
+    },
+    {
+      "type": "text",
+      "id": "tagline_line2",
+      "label": "Tagline line 2",
+      "default": "it's YOUR NEW SECRET WEAPON"
+    },
+    {
+      "type": "range",
+      "id": "tagline_line2_size",
+      "min": 24,
+      "max": 60,
+      "step": 2,
+      "unit": "px",
+      "label": "Line 2 font size",
+      "default": 42
+    },
+    {
+      "type": "select",
+      "id": "tagline_line2_weight",
+      "label": "Line 2 font weight",
+      "options": [
+        {"value": "300", "label": "Light"},
+        {"value": "400", "label": "Normal"},
+        {"value": "500", "label": "Medium"},
+        {"value": "600", "label": "Semi-bold"},
+        {"value": "700", "label": "Bold"},
+        {"value": "800", "label": "Extra bold"}
+      ],
+      "default": "700"
+    },
+    {
+      "type": "range",
+      "id": "tagline_line2_line_height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "label": "Line 2 line height",
+      "default": 1.2
+    },
+    {
+      "type": "range",
+      "id": "headline_group_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Space below headline section",
+      "default": 32
+    },
+    {
+      "type": "header",
+      "content": "Supporting line section"
+    },
+    {
+      "type": "text",
+      "id": "supporting_line",
+      "label": "Supporting line text",
+      "default": "Protein x Creatine x Focus-boosting MCTs"
+    },
+    {
+      "type": "range",
+      "id": "supporting_line_size",
+      "min": 16,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Font size",
+      "default": 20
+    },
+    {
+      "type": "select",
+      "id": "supporting_line_weight",
+      "label": "Font weight",
+      "options": [
+        {"value": "300", "label": "Light"},
+        {"value": "400", "label": "Normal"},
+        {"value": "500", "label": "Medium"},
+        {"value": "600", "label": "Semi-bold"},
+        {"value": "700", "label": "Bold"},
+        {"value": "800", "label": "Extra bold"}
+      ],
+      "default": "600"
+    },
+    {
+      "type": "range",
+      "id": "supporting_line_line_height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "label": "Line height",
+      "default": 1.3
+    },
+    {
+      "type": "range",
+      "id": "supporting_group_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Space below supporting section",
+      "default": 32
+    },
+    {
+      "type": "header",
+      "content": "Body text section"
+    },
+    {
+      "type": "text",
+      "id": "body_line_1",
+      "label": "Body line 1",
+      "default": "Fuel your brain, body, and energy — every morning."
+    },
+    {
+      "type": "range",
+      "id": "body_line1_size",
+      "min": 14,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Line 1 font size",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "body_line1_weight",
+      "label": "Line 1 font weight",
+      "options": [
+        {"value": "300", "label": "Light"},
+        {"value": "400", "label": "Normal"},
+        {"value": "500", "label": "Medium"},
+        {"value": "600", "label": "Semi-bold"},
+        {"value": "700", "label": "Bold"},
+        {"value": "800", "label": "Extra bold"}
+      ],
+      "default": "400"
+    },
+    {
+      "type": "range",
+      "id": "body_line1_line_height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "label": "Line 1 line height",
+      "default": 1.4
+    },
+    {
+      "type": "text",
+      "id": "body_line_2",
+      "label": "Body line 2",
+      "default": "Forget overpriced lattes and messy powders. This is coffee engineered for performance."
+    },
+    {
+      "type": "range",
+      "id": "body_line2_size",
+      "min": 14,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Line 2 font size",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "body_line2_weight",
+      "label": "Line 2 font weight",
+      "options": [
+        {"value": "300", "label": "Light"},
+        {"value": "400", "label": "Normal"},
+        {"value": "500", "label": "Medium"},
+        {"value": "600", "label": "Semi-bold"},
+        {"value": "700", "label": "Bold"},
+        {"value": "800", "label": "Extra bold"}
+      ],
+      "default": "400"
+    },
+    {
+      "type": "range",
+      "id": "body_line2_line_height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "label": "Line 2 line height",
+      "default": 1.4
+    },
+    {
+      "type": "range",
+      "id": "body_group_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Space below body section",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Callout section"
+    },
+    {
+      "type": "text",
+      "id": "callout_text",
+      "label": "Callout text",
+      "default": "Only 500 spots in the first drop. Don't miss out."
+    },
+    {
+      "type": "range",
+      "id": "callout_size",
+      "min": 16,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Callout font size",
+      "default": 22
+    },
+    {
+      "type": "select",
+      "id": "callout_weight",
+      "label": "Callout font weight",
+      "options": [
+        {"value": "300", "label": "Light"},
+        {"value": "400", "label": "Normal"},
+        {"value": "500", "label": "Medium"},
+        {"value": "600", "label": "Semi-bold"},
+        {"value": "700", "label": "Bold"},
+        {"value": "800", "label": "Extra bold"}
+      ],
+      "default": "700"
+    },
+    {
+      "type": "range",
+      "id": "callout_line_height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "label": "Callout line height",
+      "default": 1.3
+    },
+    {
+      "type": "text",
+      "id": "subtext",
+      "label": "Subtext",
+      "default": "Early signups unlock the launch drop."
+    },
+    {
+      "type": "range",
+      "id": "subtext_size",
+      "min": 12,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Subtext font size",
+      "default": 14
+    },
+    {
+      "type": "select",
+      "id": "subtext_weight",
+      "label": "Subtext font weight",
+      "options": [
+        {"value": "300", "label": "Light"},
+        {"value": "400", "label": "Normal"},
+        {"value": "500", "label": "Medium"},
+        {"value": "600", "label": "Semi-bold"},
+        {"value": "700", "label": "Bold"},
+        {"value": "800", "label": "Extra bold"}
+      ],
+      "default": "400"
+    },
+    {
+      "type": "range",
+      "id": "subtext_line_height",
+      "min": 1,
+      "max": 2,
+      "step": 0.1,
+      "label": "Subtext line height",
+      "default": 1.4
+    },
+    {
+      "type": "range",
+      "id": "callout_group_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Space below callout section",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Form section"
+    },
+    {
+      "type": "range",
+      "id": "form_max_width",
+      "min": 300,
+      "max": 600,
+      "step": 20,
+      "unit": "px",
+      "label": "Form max width",
+      "default": 480
+    },
+    {
+      "type": "range",
+      "id": "form_gap_desktop",
+      "min": 4,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "label": "Gap between input and button (desktop)",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "form_gap_mobile",
+      "min": 4,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "label": "Gap between input and button (mobile)",
+      "default": 12
+    },
+    {
+      "type": "text",
+      "id": "input_placeholder",
+      "label": "Input placeholder text",
+      "default": "Your Email Address"
+    },
+    {
+      "type": "range",
+      "id": "input_min_width",
+      "min": 200,
+      "max": 400,
+      "step": 20,
+      "unit": "px",
+      "label": "Input minimum width",
+      "default": 280
+    },
+    {
+      "type": "range",
+      "id": "input_padding",
+      "min": 8,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Input padding",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "input_text_size",
+      "min": 12,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Input text size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "input_border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Input border radius",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "mail_icon_size",
+      "min": 14,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "label": "Mail icon size",
+      "default": 20
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Claim Early Access"
+    },
+    {
+      "type": "range",
+      "id": "button_min_width",
+      "min": 120,
+      "max": 250,
+      "step": 10,
+      "unit": "px",
+      "label": "Button minimum width",
+      "default": 180
+    },
+    {
+      "type": "range",
+      "id": "button_padding",
+      "min": 8,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Button padding",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_text_size",
+      "min": 12,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Button text size",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 0,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Button border radius",
+      "default": 20
+    },
+    {
+      "type": "text",
+      "id": "success_message",
+      "label": "Success message",
+      "default": "Thanks! You're on the list for early access."
+    },
+    {
+      "type": "text",
+      "id": "custom_error_message",
+      "label": "Custom error message",
+      "info": "Leave blank to use default error message"
+    },
+    {
+      "type": "range",
+      "id": "form_group_spacing",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Space below form section",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#1a237e"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "input_background",
+      "label": "Input background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "input_text_color",
+      "label": "Input text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "input_placeholder_color",
+      "label": "Input placeholder color",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button color",
+      "default": "#ffd700"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button hover color",
+      "default": "#ffed4e"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "success_color",
+      "label": "Success color",
+      "default": "#4caf50"
+    },
+    {
+      "type": "color",
+      "id": "error_color",
+      "label": "Error color",
+      "default": "#f44336"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero coffee signup"
+    }
+  ]
+}
+{% endschema %}

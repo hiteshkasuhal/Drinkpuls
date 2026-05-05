@@ -1,0 +1,573 @@
+{% doc %}
+  @prompt
+    Create a full-width hero section with a single background image. Centered over the image, add text: ‘This Isn’t Just Coffee… it’s YOUR NEW SECRET WEAPON’ with supporting lines beneath it, and a bold callout about limited spots. Below the text, place an email signup form with a rounded input field and a yellow button labeled ‘Claim Early Access’. The logo will be added separately above., Adjust the hero section so that the background image fills edge to edge without overlay, the PULS logo will be placed separately at the top center, the main tagline is: ‘This Isn’t Just Coffee… it’s YOUR NEW SECRET WEAPON’ in bold white text, followed by supporting lines in lighter white text, then a bold callout: ‘Only 500 spots in the first drop. Don’t miss out.’ The signup form must be Mailchimp integrated with a rounded white input field and a yellow button labeled ‘Claim Early Access’.
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-hero-section-{{ ai_gen_id }} {
+    position: relative;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    min-height: {{ block.settings.section_height }}px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .ai-hero-background-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+
+  .ai-hero-background-{{ ai_gen_id }} img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-hero-background-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #2c1810;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .ai-hero-background-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    opacity: 0.2;
+  }
+
+  .ai-hero-empty-state-{{ ai_gen_id }} {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    pointer-events: none;
+  }
+
+  .ai-hero-logo-{{ ai_gen_id }} {
+    position: relative;
+    z-index: 3;
+    margin-bottom: {{ block.settings.logo_spacing }}px;
+  }
+
+  .ai-hero-logo-{{ ai_gen_id }} img {
+    max-width: {{ block.settings.logo_width }}px;
+    height: auto;
+  }
+
+  .ai-hero-logo-placeholder-{{ ai_gen_id }} {
+    width: {{ block.settings.logo_width }}px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px dashed rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .ai-hero-content-{{ ai_gen_id }} {
+    position: relative;
+    z-index: 3;
+    text-align: center;
+    max-width: {{ block.settings.content_width }}px;
+    padding: 0 20px;
+    color: #ffffff;
+  }
+
+  .ai-hero-main-heading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.main_heading_size }}px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 {{ block.settings.heading_spacing }}px;
+    color: #ffffff;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .ai-hero-subheading-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subheading_size }}px;
+    line-height: 1.5;
+    margin: 0 0 {{ block.settings.subheading_spacing }}px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+  }
+
+  .ai-hero-callout-{{ ai_gen_id }} {
+    font-size: {{ block.settings.callout_size }}px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0 0 {{ block.settings.callout_spacing }}px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .ai-hero-form-{{ ai_gen_id }} {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .ai-hero-form-field-{{ ai_gen_id }} {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .ai-hero-email-input-{{ ai_gen_id }} {
+    flex: 1;
+    padding: 16px 24px;
+    border: none;
+    border-radius: {{ block.settings.input_border_radius }}px;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #333333;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  .ai-hero-email-input-{{ ai_gen_id }}::placeholder {
+    color: #999999;
+  }
+
+  .ai-hero-email-input-{{ ai_gen_id }}:focus {
+    outline: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .ai-hero-submit-button-{{ ai_gen_id }} {
+    padding: 16px 32px;
+    background-color: {{ block.settings.button_color }};
+    color: {{ block.settings.button_text_color }};
+    border: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .ai-hero-submit-button-{{ ai_gen_id }}:hover {
+    background-color: {{ block.settings.button_hover_color }};
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+  }
+
+  .ai-hero-form-message-{{ ai_gen_id }} {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .ai-hero-form-success-{{ ai_gen_id }} {
+    color: #28a745;
+    background-color: rgba(40, 167, 69, 0.1);
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+
+  .ai-hero-form-error-{{ ai_gen_id }} {
+    color: #dc3545;
+    background-color: rgba(220, 53, 69, 0.1);
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .ai-hero-section-{{ ai_gen_id }} {
+      min-height: {{ block.settings.mobile_height }}px;
+      padding: 30px 0;
+    }
+
+    .ai-hero-content-{{ ai_gen_id }} {
+      padding: 0 15px;
+    }
+
+    .ai-hero-main-heading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.main_heading_size | times: 0.7 }}px;
+    }
+
+    .ai-hero-subheading-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subheading_size | times: 0.9 }}px;
+    }
+
+    .ai-hero-callout-{{ ai_gen_id }} {
+      font-size: {{ block.settings.callout_size | times: 0.9 }}px;
+    }
+
+    .ai-hero-form-field-{{ ai_gen_id }} {
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .ai-hero-email-input-{{ ai_gen_id }},
+    .ai-hero-submit-button-{{ ai_gen_id }} {
+      width: 100%;
+    }
+
+    .ai-hero-logo-{{ ai_gen_id }} img,
+    .ai-hero-logo-placeholder-{{ ai_gen_id }} {
+      max-width: {{ block.settings.logo_width | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}<div class="ai-hero-section-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-hero-background-{{ ai_gen_id }}">
+    {% if block.settings.background_image %}
+      <img
+        src="{{ block.settings.background_image | image_url: width: 2000 }}"
+        alt="{{ block.settings.background_image.alt | escape }}"
+        loading="lazy"
+        width="{{ block.settings.background_image.width }}"
+        height="{{ block.settings.background_image.height }}"
+      >
+    {% else %}
+      <div class="ai-hero-background-placeholder-{{ ai_gen_id }}">
+        {{ 'hero-apparel-1' | placeholder_svg_tag }}<div class="ai-hero-empty-state-{{ ai_gen_id }}">
+          Add a background image to complete your hero section
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+  {% if block.settings.show_logo %}
+    <div class="ai-hero-logo-{{ ai_gen_id }}">
+      {% if block.settings.logo %}
+        <img
+          src="{{ block.settings.logo | image_url: width: 400 }}"
+          alt="{{ block.settings.logo.alt | escape }}"
+          loading="lazy"
+          width="{{ block.settings.logo.width }}"
+          height="{{ block.settings.logo.height }}"
+        >
+      {% else %}
+        <div class="ai-hero-logo-placeholder-{{ ai_gen_id }}">PULS Logo
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="ai-hero-content-{{ ai_gen_id }}">
+    {% if block.settings.main_heading != blank %}
+      <h1 class="ai-hero-main-heading-{{ ai_gen_id }}">{{ block.settings.main_heading }}</h1>
+    {% endif %}
+
+    {% if block.settings.subheading != blank %}
+      <div class="ai-hero-subheading-{{ ai_gen_id }}">{{ block.settings.subheading }}</div>
+    {% endif %}
+
+    {% if block.settings.callout_text != blank %}
+      <div class="ai-hero-callout-{{ ai_gen_id }}">{{ block.settings.callout_text }}</div>
+    {% endif %}
+
+    <form
+      action="{{ block.settings.mailchimp_action_url }}" 
+      method="post" 
+      class="ai-hero-form-{{ ai_gen_id }}"
+      target="_blank"
+      novalidate
+    >
+      <div class="ai-hero-form-field-{{ ai_gen_id }}">
+        <input
+          type="email"
+          name="EMAIL"
+          class="ai-hero-email-input-{{ ai_gen_id }}"
+          placeholder="{{ block.settings.email_placeholder }}"
+          aria-required="true"
+          autocorrect="off"
+          autocapitalize="off"
+          autocomplete="email"
+          required
+        >
+        <button type="submit" class="ai-hero-submit-button-{{ ai_gen_id }}">
+          {{ block.settings.button_text }}
+        </button>
+      </div>
+      
+      {% if block.settings.mailchimp_hidden_field != blank %}
+        <div style="position: absolute; left: -5000px;" aria-hidden="true">
+          <input type="text" name="{{ block.settings.mailchimp_hidden_field }}" tabindex="-1" value="">
+        </div>
+      {% endif %}
+    </form>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "PULS coffee hero",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image"
+    },
+    {
+      "type": "header",
+      "content": "Logo"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_logo",
+      "label": "Show logo",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo image"
+    },
+    {
+      "type": "range",
+      "id": "logo_width",
+      "min": 100,
+      "max": 300,
+      "step": 20,
+      "unit": "px",
+      "label": "Logo width",
+      "default": 200
+    },
+    {
+      "type": "range",
+      "id": "logo_spacing",
+      "min": 20,
+      "max": 80,
+      "step": 10,
+      "unit": "px",
+      "label": "Logo bottom spacing",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "section_height",
+      "min": 500,
+      "max": 900,
+      "step": 50,
+      "unit": "px",
+      "label": "Desktop height",
+      "default": 700
+    },
+    {
+      "type": "range",
+      "id": "mobile_height",
+      "min": 400,
+      "max": 700,
+      "step": 50,
+      "unit": "px",
+      "label": "Mobile height",
+      "default": 600
+    },
+    {
+      "type": "range",
+      "id": "content_width",
+      "min": 500,
+      "max": 900,
+      "step": 50,
+      "unit": "px",
+      "label": "Content width",
+      "default": 700
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "main_heading",
+      "label": "Main heading",
+      "default": "This Isn't Just Coffee… it's YOUR NEW SECRET WEAPON"
+    },
+    {
+      "type": "textarea",
+      "id": "subheading",
+      "label": "Supporting text",
+      "default": "Premium coffee engineered for peak performance. Unlock your potential with every sip and transform your daily routine into a competitive advantage."
+    },
+    {
+      "type": "text",
+      "id": "callout_text",
+      "label": "Callout text",
+      "default": "Only 500 spots in the first drop. Don't miss out."
+    },
+    {
+      "type": "text",
+      "id": "email_placeholder",
+      "label": "Email placeholder",
+      "default": "Enter your email address"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Claim Early Access"
+    },
+    {
+      "type": "header",
+      "content": "Mailchimp integration"
+    },
+    {
+      "type": "text",
+      "id": "mailchimp_action_url",
+      "label": "Mailchimp form action URL",
+      "info": "Get this from your Mailchimp embedded form code"
+    },
+    {
+      "type": "text",
+      "id": "mailchimp_hidden_field",
+      "label": "Mailchimp hidden field name",
+      "info": "Usually something like 'b_abc123_def456' - prevents bot signups"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "main_heading_size",
+      "min": 32,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "label": "Main heading size",
+      "default": 56
+    },
+    {
+      "type": "range",
+      "id": "subheading_size",
+      "min": 16,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "label": "Supporting text size",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "callout_size",
+      "min": 14,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "Callout text size",
+      "default": 18
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "heading_spacing",
+      "min": 15,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Heading bottom spacing",
+      "default": 25
+    },
+    {
+      "type": "range",
+      "id": "subheading_spacing",
+      "min": 15,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Supporting text bottom spacing",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "callout_spacing",
+      "min": 20,
+      "max": 50,
+      "step": 5,
+      "unit": "px",
+      "label": "Callout bottom spacing",
+      "default": 35
+    },
+    {
+      "type": "header",
+      "content": "Button style"
+    },
+    {
+      "type": "color",
+      "id": "button_color",
+      "label": "Button color",
+      "default": "#FFD700"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "Button hover color",
+      "default": "#FFC107"
+    },
+    {
+      "type": "range",
+      "id": "input_border_radius",
+      "min": 20,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Input border radius",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "min": 20,
+      "max": 40,
+      "step": 5,
+      "unit": "px",
+      "label": "Button border radius",
+      "default": 30
+    }
+  ],
+  "presets": [
+    {
+      "name": "PULS coffee hero"
+    }
+  ]
+}
+{% endschema %}
