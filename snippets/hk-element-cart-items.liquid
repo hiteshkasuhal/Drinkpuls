@@ -1,0 +1,10 @@
+<div class="hk-line-item-main">
+<div class="hk-line-item-grid">
+{% for item in cart.items %}
+{% if item.product.title contains 'Protection' %}
+{% else %}
+{%  render 'hk-element-cart-item', block:block,item:item %} 
+{%  endif %}
+{% endfor %}
+</div>
+</div>
