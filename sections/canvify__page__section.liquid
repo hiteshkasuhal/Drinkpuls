@@ -1,0 +1,32 @@
+<div class="canvify-page-section">
+  {% if section.settings.canvify_page != blank %}
+    <div id="canvify-section" class="canvify-section">
+      {{ section.settings.canvify_page.content }}
+    </div>
+  {% else %}
+    <div class="canvify-placeholder">
+      <p>Canvify: No page selected. Please select a Canvify page in the theme editor.</p>
+    </div>
+  {% endif %}
+</div>
+
+{% schema %}
+{
+  "name": "Canvify Page",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "page",
+      "id": "canvify_page",
+      "label": "Select Canvify Page",
+      "info": "Choose which Canvify page to display in this section"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Canvify Page"
+    }
+  ]
+}
+{% endschema %}
