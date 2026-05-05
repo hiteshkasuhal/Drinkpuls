@@ -1,1 +1,24 @@
-{"sections":{"1758533445ee52d514":{"type":"_blocks","blocks":{"ai_gen_block_5f6fbf3_CQqHxx":{"type":"ai_gen_block_5f6fbf3","settings":{"vertical_offset":-20,"logo":"shopify:\/\/shop_images\/PULS_Logo_Plain_White_transparent.png","logo_width":100,"logo_group_spacing":0,"headline_group_top_spacing":0,"tagline_line1":"This Isn't Just Coffee… it's","tagline_line1_size":26,"tagline_line1_weight":"600","tagline_line1_line_height":1.2,"tagline_line2":"YOUR NEW SECRET WEAPON","tagline_line2_size":30,"tagline_line2_weight":"700","tagline_line2_line_height":1.1,"headline_group_spacing":12,"supporting_line":"Protein x Creatine x Focus-boosting MCTs","supporting_line_size":16,"supporting_line_weight":"600","supporting_line_line_height":1.3,"supporting_group_spacing":20,"body_line_1":"Fuel your brain, body, and energy — every morning.","body_line1_size":14,"body_line1_weight":"400","body_line1_line_height":1.4,"body_line_2":"Forget overpriced lattes and messy powders.","body_line2_size":14,"body_line2_weight":"400","body_line2_line_height":1.4,"body_group_spacing":16,"callout_text":"Only 100 spots in the first drop.","callout_size":16,"callout_weight":"700","callout_line_height":1.3,"subtext":"Early signups unlock the launch drop.","subtext_size":12,"subtext_weight":"400","subtext_line_height":1.7,"callout_group_spacing":24,"form_max_width":480,"form_gap_desktop":12,"form_gap_mobile":12,"input_placeholder":"Your Email Address","input_min_width":320,"input_padding":16,"input_text_size":14,"input_border_radius":30,"mail_icon_size":16,"button_text":"Claim Early Access","button_min_width":200,"button_padding":16,"button_text_size":14,"button_border_radius":30,"success_message":"Thanks! You're on the list for early access.","custom_error_message":"","form_group_spacing":0,"background_image":"shopify:\/\/shop_images\/Landing_Page_Background.png","background_color":"#1a237e","text_color":"#ffffff","input_background":"#ffffff","input_text_color":"#000000","input_placeholder_color":"#666666","button_color":"#ffbf43","button_hover_color":"#ffed4e","button_text_color":"#000000","success_color":"#4caf50","error_color":"#f44336"},"blocks":{}}},"block_order":["ai_gen_block_5f6fbf3_CQqHxx"],"settings":{}},"main":{"type":"main-page","disabled":true,"settings":{"padding_top":28,"padding_bottom":28}}},"order":["1758533445ee52d514","main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
