@@ -406,6 +406,10 @@
     font-weight: 500;
     line-height: 23.4px;
 }
+.hk-review-card-rating strong {
+    font-weight: 500;
+    color: #fff;
+}
 
 
 
