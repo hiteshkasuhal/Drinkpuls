@@ -1238,6 +1238,24 @@ button#Subscribe:after {
 .hk-footer-submit .hk-element-liquid {
     width: 100%;
 }
+.field_lp input {
+    color: rgba(255, 255, 255, 0.55);
+    font-family: Aeonik;
+    font-size: 19.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.7px;
+    letter-spacing: -0.39px;
+    width: 100%;
+    background: transparent;
+    border: unset;
+    outline: none;
+    height: 70px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.field_lp input::placeholder {
+    color: #fff;
+}
 
 
 
