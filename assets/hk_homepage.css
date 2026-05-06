@@ -1220,6 +1220,9 @@ button#Subscribe {
     border: unset;
     width: unset;
     min-height: unset;
+    position: absolute;
+    top: 20px;
+    right: 0px;
 }
 button#Subscribe:after {
     display: none;
