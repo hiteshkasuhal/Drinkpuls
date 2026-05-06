@@ -40,9 +40,19 @@
         "custom_id": "",
         "custom_class": "hk-header-top"
       }
+    },
+    "hk_page_settings_TQFqVC": {
+      "type": "hk-page-settings",
+      "name": "Page Settings",
+      "settings": {
+        "heading_font": "Bebas Neue",
+        "body_font": "Aeonik",
+        "container_width": 1508
+      }
     }
   },
   "order": [
-    "hk_richtext_RKNM4G"
+    "hk_richtext_RKNM4G",
+    "hk_page_settings_TQFqVC"
   ]
 }
