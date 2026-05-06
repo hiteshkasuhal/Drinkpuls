@@ -887,3 +887,27 @@
 
 }
 /* one css end */
+
+
+
+/* table css start */
+.hk-table-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 40px 0px;
+    width: 100%;
+}
+
+
+
+@media (min-width: 915px) {
+
+}
+
+
+
+@media (max-width: 915px) {
+
+}
+/* table css end */
