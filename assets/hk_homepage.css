@@ -578,6 +578,11 @@
 
 
 /* textbar3 css start */
+.hk-scroll-bar-text3 {
+    border: 0.65px solid rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2.6000001430511475px);
+}
 
 
 
