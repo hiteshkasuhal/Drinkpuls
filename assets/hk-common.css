@@ -352,6 +352,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .hk-MBG-white .hk-icon-with-text-flex {
     color: #162036;
 }
+.relative {
+    position: relative;
+}
+.hk-slider-button {
+    background: transparent;
+    border: unset;
+    cursor: pointer;
+}
 
 
 
