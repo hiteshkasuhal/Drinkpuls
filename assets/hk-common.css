@@ -406,6 +406,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     backdrop-filter: blur(2.7552239894866943px);
     padding: 7.5px 15px;
 }
+.hk-section1-brand img {
+    width: 555px;
+    margin-top: 40px;
+}
 
 
 
