@@ -484,6 +484,9 @@
 .hk-insides-section .hk-image-with-text-column2 {
     width: 44.7%;
 }
+.hk-insides-section .hk-image-with-text-flex {
+    position: relative;
+}
 
 
 
