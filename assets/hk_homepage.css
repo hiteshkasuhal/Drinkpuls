@@ -363,6 +363,20 @@
 .hk-reviews-slider {
     margin: 40px -15px;
 }
+.hk-reviews-slide {
+    padding: 0px 15px;
+}
+.hk-video-section .hk-review-card_main {
+    cursor: grab;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(5.200000286102295px);
+    padding: 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
 
 
