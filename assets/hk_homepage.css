@@ -964,3 +964,23 @@
 
 }
 /* table css end */
+
+
+
+/* faq css start */
+.hk-faq-section .hk-image-with-text-flex {
+    gap: 30px;
+}
+
+
+
+@media (min-width: 915px) {
+
+}
+
+
+
+@media (max-width: 915px) {
+
+}
+/* faq css end */
