@@ -528,6 +528,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .hk-shops-pdt-item .hk-element-title em {
     font-style: normal;
 }
+.hk-shops-pdt-item .hk-element-text p:nth-child(1) {
+    color: #161616;
+    font-size: 19.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 3px;
+}
 
 
 
