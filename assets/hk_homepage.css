@@ -596,3 +596,26 @@
 
 }
 /* textbar3 css end */
+
+
+
+/* looks css start */
+.hk-looks-text1 {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    margin: 9px 0px 40px;
+}
+
+
+@media (min-width: 915px) {
+
+}
+
+
+
+@media (max-width: 915px) {
+
+}
+/* looks css end */
