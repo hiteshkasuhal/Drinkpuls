@@ -1936,12 +1936,89 @@
         "text_color": "#162036",
         "text_alignment": "center",
         "padding_top": 0,
-        "padding_bottom": 40,
+        "padding_bottom": 0,
         "text_alignment_mobile": "center",
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 20,
+        "padding_bottom_mobile": 0,
         "custom_id": "",
         "custom_class": "hk-faq-bottom"
+      }
+    },
+    "hk_scroll_bar_T7beTB": {
+      "type": "hk-scroll-bar",
+      "blocks": {
+        "scroll_item_Xb6ymD": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-brand-img1.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_JQwVGE": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-brand-img2.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_pQNMKn": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-brand-img3.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_YwRrUK": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-brand-img4.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "scroll_item_Xb6ymD",
+        "scroll_item_JQwVGE",
+        "scroll_item_pQNMKn",
+        "scroll_item_YwRrUK"
+      ],
+      "name": "Scroll Bar",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "text_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "text_alignment_mobile": "left",
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 40,
+        "slider_speed": 9,
+        "custom_id": "",
+        "custom_class": "hk-scroll-bar-brand"
       }
     }
   },
@@ -1965,6 +2042,7 @@
     "hk_richtext_BAeA4X",
     "hk_richtext_xLe6KD",
     "hk_image_with_text_p93aBe",
-    "hk_richtext_BRaCqD"
+    "hk_richtext_BRaCqD",
+    "hk_scroll_bar_T7beTB"
   ]
 }
