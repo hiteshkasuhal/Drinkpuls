@@ -1224,6 +1224,11 @@ button#Subscribe {
 button#Subscribe:after {
     display: none;
 }
+.field_lp {
+    width: 91%;
+    margin-left: auto;
+    position: relative;
+}
 
 
 
