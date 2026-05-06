@@ -417,7 +417,7 @@
             "button_label": "Upgrade My Mornings",
             "font_type": "body",
             "custom_id": "",
-            "custom_class": "hk-video-button hk-center"
+            "custom_class": "hk-video-button hk-center hk-btn-black"
           }
         },
         "icon_with_text_kDEidU": {
