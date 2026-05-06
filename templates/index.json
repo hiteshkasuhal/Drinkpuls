@@ -748,6 +748,140 @@
         "custom_id": "",
         "custom_class": "hk-video-section"
       }
+    },
+    "hk_scroll_bar_ixLz3g": {
+      "type": "hk-scroll-bar",
+      "blocks": {
+        "scroll_item_Db94qn": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-imgslider-img1.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_mMdChM": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-imgslider-img2.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_jEbDB6": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-imgslider-img3.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_aAKhYj": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-imgslider-img4.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_B7Y7QH": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-imgslider-img5.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_9Wx7y7": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-imgslider-img6.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_eHMdjV": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-imgslider-img7.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_tfYBRg": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-imgslider-img8.webp",
+            "liquid": "",
+            "text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "scroll_item_Db94qn",
+        "scroll_item_mMdChM",
+        "scroll_item_jEbDB6",
+        "scroll_item_aAKhYj",
+        "scroll_item_B7Y7QH",
+        "scroll_item_9Wx7y7",
+        "scroll_item_eHMdjV",
+        "scroll_item_tfYBRg"
+      ],
+      "name": "Scroll Bar",
+      "settings": {
+        "background_image": "shopify://shop_images/HP-reviews-bg.webp",
+        "background_color": "#344569",
+        "text_color": "#ffffff",
+        "text_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "text_alignment_mobile": "left",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "slider_speed": 9,
+        "custom_id": "",
+        "custom_class": "hk-scroll-bar-img hk-scroll-bar-img1"
+      }
     }
   },
   "order": [
@@ -758,6 +892,7 @@
     "hk_scroll_bar_caxkhK",
     "hk_richtext_EKXntX",
     "hk_scroll_bar_LGfAN8",
-    "hk_richtext_FxggbV"
+    "hk_richtext_FxggbV",
+    "hk_scroll_bar_ixLz3g"
   ]
 }
