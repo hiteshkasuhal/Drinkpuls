@@ -469,6 +469,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: calc(33.3% - (40px)*2/3);
     position: relative;
 }
+.hk-shops-pdt-item .hk-element-image .hk-media:nth-child(1) {
+    border-radius: 6px;
+    background: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
 
 
