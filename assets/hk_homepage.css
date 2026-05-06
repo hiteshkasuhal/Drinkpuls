@@ -794,6 +794,9 @@
 .hk-one-section .hk-image-with-text-flex {
     align-items: center;
 }
+.hk-one-section .hk-image-with-text-flex .hk-image-with-text-column2 {
+    width: 49%;
+}
 
 
 
