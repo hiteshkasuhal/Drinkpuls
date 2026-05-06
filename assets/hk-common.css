@@ -574,7 +574,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 
 /* textbar css start */
-
+.hk-scroll-bar-text .hk-scroll-item-flex img {
+    width: 20.8px;
+    height: unset;
+}
 
 
 
