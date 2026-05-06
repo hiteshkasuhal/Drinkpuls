@@ -608,7 +608,7 @@
     margin: 9px 0px 40px;
 }
 .hk-looks-img img {
-    width: 100%;
+    width: calc(100% - 20px);
 }
 .hk-looks-list1 .hk-element-icon-with-text-grid {
     display: flex;
