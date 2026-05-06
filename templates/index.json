@@ -1129,9 +1129,7 @@
       ],
       "name": "Scroll Bar",
       "settings": {
-        "background_image": "shopify://shop_images/HP-reviews-bg.webp",
-        "background_image_mobile": "shopify://shop_images/HP-reviews-bgmob.webp",
-        "background_color": "#0a112b",
+        "background_color": "rgba(0,0,0,0)",
         "text_color": "#ffffff",
         "text_alignment": "left",
         "padding_top": 17,
