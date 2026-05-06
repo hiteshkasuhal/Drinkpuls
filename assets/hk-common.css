@@ -312,6 +312,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: unset;
     width: 49%;
 }
+.hk-section1-rating .hk-icon-with-text-flex {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 6.5px;
+    padding-bottom: 16px;
+}
 
 
 
