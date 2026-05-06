@@ -289,11 +289,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 
 /* section1 css start */
+.hk-section1 .hk-image-with-text-content {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+    padding: 50px;
+}
 
+
+
+@media (min-width: 915px) {
+.hk-section1 .hk-image-with-text-content {
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-section1-bg.webp");
+}
+}
 
 
 
 @media (max-width: 915px) {
-
+.hk-section1 .hk-image-with-text-content {
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-section1-bgmob.webp");
+}
 }
 /* section1 css end */
