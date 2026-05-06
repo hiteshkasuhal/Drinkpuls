@@ -898,6 +898,11 @@
     margin: 40px 0px;
     width: 100%;
 }
+.hk-table-box-item {
+    width: calc(50% - 20PX);
+    border-radius: 10px;
+    padding: 34PX;
+}
 
 
 
