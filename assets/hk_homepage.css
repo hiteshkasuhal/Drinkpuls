@@ -388,7 +388,7 @@
 .hk-reviews-slider .hk-review-card_main {
     height: 100%;
 }
-.hk-review-card-rating {
+.hk-reviews-slider .hk-review-card-rating {
     display: flex;
     align-items: center;
     color: rgba(255, 255, 255, 0.60);
@@ -400,17 +400,17 @@
     gap: 10.4px;
     margin-bottom: 19.5px;
 }
-.hk-review-card-title {
+.hk-reviews-slider .hk-review-card-title {
     font-size: 18.2px;
     font-style: normal;
     font-weight: 500;
     line-height: 23.4px;
 }
-.hk-review-card-rating strong {
+.hk-reviews-slider .hk-review-card-rating strong {
     font-weight: 500;
     color: #fff;
 }
-.hk-review-card-text {
+.hk-reviews-slider .hk-review-card-text {
     font-size: 18.2px;
     font-style: normal;
     font-weight: 400;
@@ -418,7 +418,7 @@
     padding-top: 6.5px;
     margin-bottom: 19.5px;
 }
-.hk-element-review-name {
+.hk-reviews-slider .hk-element-review-name {
     font-size: 16.9px;
     font-style: normal;
     font-weight: 500;
@@ -428,7 +428,7 @@
     gap: 6.5px;
     margin-bottom: 19.5px;
 }
-.hk-element-review-name strong {
+.hk-reviews-slider .hk-element-review-name strong {
     color: #72D3FF;
     font-weight: 400;
 }
