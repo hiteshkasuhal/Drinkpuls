@@ -791,6 +791,9 @@
     line-height: 125%;
     margin: 30px 0px 40px;
 }
+.hk-one-section .hk-image-with-text-flex {
+    align-items: center;
+}
 
 
 
