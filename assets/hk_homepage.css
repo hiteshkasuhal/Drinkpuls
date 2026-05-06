@@ -737,6 +737,10 @@
     margin: 0px auto;
     width: 247px;
 }
+.hk-global-heading h2 strong {
+    color: #72D3FF;
+    font-weight: unset;
+}
 
 
 
