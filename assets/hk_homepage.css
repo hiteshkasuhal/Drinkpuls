@@ -1233,7 +1233,7 @@ button#Subscribe:after {
     position: relative;
 }
 .hk-footer-submit {
-    min-height: 91px;
+    min-height: 83px;
     align-items: flex-end;
     display: flex;
     justify-content: flex-end;
