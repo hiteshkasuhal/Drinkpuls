@@ -388,6 +388,18 @@
 .hk-reviews-slider .hk-review-card_main {
     height: 100%;
 }
+.hk-review-card-rating {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Aeonik;
+    font-size: 16.9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 10.4px;
+    margin-bottom: 19.5px;
+}
 
 
 
