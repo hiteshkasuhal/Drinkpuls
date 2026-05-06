@@ -316,6 +316,18 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 20.353px;
     height: unset;
 }
+.hk-global-rating .hk-icon-with-text-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 6.5px;
+    padding-bottom: 16px;
+}
 
 
 
