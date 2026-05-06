@@ -1089,9 +1089,11 @@
     background-size: cover;
     border-radius: 13px;
     padding: 50px;
+    position: relative;
 }
 .hk-MBG-section .hk-image-with-text-column1 {
     width: 60%;
+    position: relative;
 }
 .hk-MBG-section .hk-image-with-text-column2 {
     width: 40%;
