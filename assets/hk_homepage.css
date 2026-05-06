@@ -1157,6 +1157,7 @@
     border-radius: 13px;
     padding: 92px 50px 85px;
     position: relative;
+    overflow: hidden;
 }
 
 
