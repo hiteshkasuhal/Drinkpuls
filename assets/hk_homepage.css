@@ -610,6 +610,12 @@
 .hk-looks-img img {
     width: 100%;
 }
+.hk-looks-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    gap: 40px;
+}
 
 
 @media (min-width: 915px) {
