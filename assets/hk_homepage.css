@@ -1146,3 +1146,32 @@
 }
 }
 /* MBG css end */
+
+
+
+/* footer css start */
+.hk-MBG-section .hk-image-with-text-content {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 13px;
+    padding: 50px;
+    position: relative;
+}
+
+
+
+@media (min-width: 915px) {
+.hk-MBG-section .hk-image-with-text-content {
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-MBG-bg.webp");
+}
+}
+
+
+
+@media (max-width: 915px) {
+.hk-MBG-section .hk-image-with-text-content {
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-MBG-bgmob.webp");
+}
+}
+/* footer css end */
