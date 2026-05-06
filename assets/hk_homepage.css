@@ -323,6 +323,11 @@
     letter-spacing: -0.182px;
     text-transform: uppercase;
     gap: 10.4px;
+    padding: 0px 25px;
+}
+.hk-scroll-bar-text2 .hk-scroll-item-flex img {
+    width: 25px;
+    height: unset;
 }
 
 
