@@ -759,6 +759,13 @@
     display: block;
     margin-top: -7%;
 }
+.hk-crash-bottom-curve svg path {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: unset;
+    display: block;
+}
 
 
 
