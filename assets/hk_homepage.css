@@ -826,6 +826,15 @@
     font-weight: 500;
     line-height: 125%;
 }
+.one-table-item ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #00000040;
+    border-left: unset;
+    border-right: unset;
+    margin: 16px 0px 14px;
+}
 
 
 
