@@ -521,6 +521,83 @@
         "custom_id": "",
         "custom_class": "hk-video-section"
       }
+    },
+    "hk_scroll_bar_LGfAN8": {
+      "type": "hk-scroll-bar",
+      "blocks": {
+        "scroll_item_PKbUUz": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "liquid": "",
+            "text": "<p>£1.19 per Serving</p>",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_qryEez": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "liquid": "",
+            "text": "<p>Focus-Boosting MCTs</p>",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_e7Gtnz": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "liquid": "",
+            "text": "<p>Daily Performance Fuel</p>",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_aC6AB8": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "liquid": "",
+            "text": "<p>Mixes Instantly</p>",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "scroll_item_PKbUUz",
+        "scroll_item_qryEez",
+        "scroll_item_e7Gtnz",
+        "scroll_item_aC6AB8"
+      ],
+      "name": "Scroll Bar",
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "text_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "text_alignment_mobile": "left",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "slider_speed": 9,
+        "custom_id": "",
+        "custom_class": "hk-scroll-bar-text2"
+      }
     }
   },
   "order": [
@@ -529,6 +606,7 @@
     "hk_image_with_text_t3kxgA",
     "hk_richtext_pMJBDK",
     "hk_scroll_bar_caxkhK",
-    "hk_richtext_EKXntX"
+    "hk_richtext_EKXntX",
+    "hk_scroll_bar_LGfAN8"
   ]
 }
