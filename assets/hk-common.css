@@ -241,6 +241,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .hk-container {
     width: 1508px;
 }
+.hk-image-with-text-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: self-start;
+}
+.hk-image-with-text-column {
+    width: 50%;
+}
 
 
 
@@ -276,12 +285,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 
 /* section1 css start */
-.hk-image-with-text-flex {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: self-start;
-}
+
 
 
 
