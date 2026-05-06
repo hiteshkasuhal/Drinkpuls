@@ -245,6 +245,11 @@
 .hk-video-slide {
     padding: 0px 20px;
 }
+.hk-video-wrapper {
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
 
 
 
