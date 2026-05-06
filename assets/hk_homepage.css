@@ -499,6 +499,11 @@
     backdrop-filter: blur(5.200000286102295px);
     padding: 25px;
 }
+.hk-insides-list1-item-width img {
+    width: 71.5px;
+    height: unset;
+    aspect-ratio: 1/1;
+}
 
 
 
