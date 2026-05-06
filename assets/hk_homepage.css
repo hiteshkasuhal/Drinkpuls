@@ -1039,6 +1039,12 @@
     width: unset;
     margin: 0px 25px;
 }
+.hk-scroll-bar-brand .hk-scroll-bar-content {
+    width: 1508px;
+    padding: 0px 50px;
+    max-width: 100%;
+    margin: 0px auto;
+}
 
 
 
