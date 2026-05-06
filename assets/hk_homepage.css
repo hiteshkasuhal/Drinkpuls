@@ -654,9 +654,14 @@
     line-height: 125%;
     width: 78%;
 }
+.hk-looks-list1-item {
+    position: relative;
+}
 .hk-looks-list1-item1 {
     top: -20px;
-    position: relative;
+}
+.hk-looks-list1-item2 {
+    top: 20px;
 }
 
 
