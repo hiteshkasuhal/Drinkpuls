@@ -1179,6 +1179,13 @@
     color: #72D3FF;
     font-weight: unset;
 }
+.hk-footer-img img {
+    width: 630px;
+    height: unset;
+    position: absolute;
+    bottom: 0px;
+    right: 50px;
+}
 
 
 
