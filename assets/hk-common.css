@@ -475,7 +475,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    aspect-ratio: 443/345;
+    aspect-ratio: unset;
     min-height: 345px;
 }
 .hk-shops-pdt-item .hk-element-image .hk-media:nth-child(1) img {
