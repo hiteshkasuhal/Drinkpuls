@@ -528,9 +528,9 @@
         "scroll_item_PKbUUz": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "image": "shopify://shop_images/HP-bar2-svg1.webp",
             "liquid": "",
-            "text": "<p>£1.19 per Serving</p>",
+            "text": "<p>5g creatine</p>",
             "image_loading": "lazy",
             "image_performance": "low",
             "font_type": "body",
@@ -538,12 +538,12 @@
             "custom_class": ""
           }
         },
-        "scroll_item_qryEez": {
+        "scroll_item_zCUBcn": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "image": "shopify://shop_images/HP-bar2-svg2.webp",
             "liquid": "",
-            "text": "<p>Focus-Boosting MCTs</p>",
+            "text": "<p>100mg caffeine</p>",
             "image_loading": "lazy",
             "image_performance": "low",
             "font_type": "body",
@@ -551,25 +551,12 @@
             "custom_class": ""
           }
         },
-        "scroll_item_e7Gtnz": {
+        "scroll_item_Yg4dN9": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "image": "shopify://shop_images/HP-bar2-svg3.webp",
             "liquid": "",
-            "text": "<p>Daily Performance Fuel</p>",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": ""
-          }
-        },
-        "scroll_item_aC6AB8": {
-          "type": "scroll-item",
-          "settings": {
-            "image": "shopify://shop_images/HP-bar1-svg.webp",
-            "liquid": "",
-            "text": "<p>Mixes Instantly</p>",
+            "text": "<p>10g protein</p>",
             "image_loading": "lazy",
             "image_performance": "low",
             "font_type": "body",
@@ -580,20 +567,19 @@
       },
       "block_order": [
         "scroll_item_PKbUUz",
-        "scroll_item_qryEez",
-        "scroll_item_e7Gtnz",
-        "scroll_item_aC6AB8"
+        "scroll_item_zCUBcn",
+        "scroll_item_Yg4dN9"
       ],
       "name": "Scroll Bar",
       "settings": {
-        "background_color": "#ffffff",
-        "text_color": "#000000",
+        "background_color": "#344569",
+        "text_color": "#ffffff",
         "text_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_top": 13,
+        "padding_bottom": 13,
         "text_alignment_mobile": "left",
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 20,
+        "padding_top_mobile": 9,
+        "padding_bottom_mobile": 9,
         "slider_speed": 9,
         "custom_id": "",
         "custom_class": "hk-scroll-bar-text2"
