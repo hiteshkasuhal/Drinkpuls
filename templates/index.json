@@ -1697,20 +1697,20 @@
         "heading_YVNBU8": {
           "type": "heading",
           "settings": {
-            "text": "Performance <strong>Without the Crash</strong>",
+            "text": "PULS vs Your Usual Coffee",
             "h1": false,
             "font_type": "heading",
             "custom_id": "",
-            "custom_class": "hk-crash-heading hk-global-heading"
+            "custom_class": "hk-table-heading hk-global-heading"
           }
         },
         "richtext_Tg3TGt": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Designed to perform without overstimulation or unnecessary extras.</p>",
+            "text": "<p>Why your usual coffee falls short</p>",
             "font_type": "body",
             "custom_id": "",
-            "custom_class": "hk-looks-text1 hk-crash-text2"
+            "custom_class": "hk-looks-text1 hk-table-text2"
           }
         },
         "icon_with_text_grid_LQxHfg": {
@@ -1817,15 +1817,14 @@
       ],
       "name": "RichText",
       "settings": {
-        "background_image": "shopify://shop_images/HP-reviews-bg.webp",
-        "background_color": "#0a112b",
-        "text_color": "#ffffff",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#162036",
         "text_alignment": "center",
         "padding_top": 40,
-        "padding_bottom": 100,
+        "padding_bottom": 40,
         "text_alignment_mobile": "center",
         "padding_top_mobile": 20,
-        "padding_bottom_mobile": 100,
+        "padding_bottom_mobile": 20,
         "custom_id": "",
         "custom_class": "hk-table-section"
       }
