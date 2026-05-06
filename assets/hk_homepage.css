@@ -353,8 +353,8 @@
 .hk-global-white .hk-icon-with-text-flex {
     color: rgba(255, 255, 255, 0.80);
 }
-.hk-global-rating .hk-icon-with-text-flex strong,
-.hk-global-rating .hk-icon-with-text-flex em {
+.hk-global-white .hk-icon-with-text-flex strong,
+.hk-global-white .hk-icon-with-text-flex em {
     color: #fff;
 }
 
