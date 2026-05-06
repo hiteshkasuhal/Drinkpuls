@@ -607,6 +607,9 @@
     line-height: 125%;
     margin: 9px 0px 40px;
 }
+.hk-looks-img img {
+    width: 100%;
+}
 
 
 @media (min-width: 915px) {
