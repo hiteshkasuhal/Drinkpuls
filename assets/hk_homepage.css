@@ -329,6 +329,10 @@
     width: 25px;
     height: unset;
 }
+.hk-scroll-bar-text2 {
+    border-bottom: 1px solid #FFF;
+    background: linear-gradient(90deg, #344569 0%, #5D87DF 100%);
+}
 
 
 
