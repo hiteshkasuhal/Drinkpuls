@@ -357,6 +357,9 @@
 .hk-global-white .hk-icon-with-text-flex em {
     color: #fff;
 }
+.hk-global-white .hk-icon-with-text-flex em {
+    font-weight: 400;
+}
 
 
 
