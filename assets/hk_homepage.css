@@ -1212,6 +1212,9 @@
     line-height: 100%;
     letter-spacing: -1.56px;
 }
+.hk-footer-submit {
+    min-height: 91px;
+}
 
 
 
