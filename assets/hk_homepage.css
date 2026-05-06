@@ -671,6 +671,7 @@
 }
 
 
+
 @media (min-width: 915px) {
 
 }
@@ -681,3 +682,25 @@
 
 }
 /* looks css end */
+
+
+
+/* crash css start */
+.hk-crash-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+
+@media (min-width: 915px) {
+
+}
+
+
+
+@media (max-width: 915px) {
+
+}
+/* crash css end */
