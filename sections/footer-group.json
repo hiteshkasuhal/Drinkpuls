@@ -11,7 +11,38 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "hk_richtext_73LbR8": {
+      "type": "hk-richtext",
+      "blocks": {
+        "richtext_Y7nTTN": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Save 26% When You Subscribe + <strong>FREE Gifts!</strong></p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-footer-top"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Y7nTTN"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#ffffff",
+        "text_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 100,
+        "text_alignment_mobile": "left",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 50,
+        "custom_id": "",
+        "custom_class": "hk-footer"
+      }
+    }
   },
   "order": [
+    "hk_richtext_73LbR8"
   ]
 }
