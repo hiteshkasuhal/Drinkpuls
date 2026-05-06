@@ -1164,6 +1164,17 @@
             "custom_class": "hk-looks-text1"
           }
         },
+        "image_79tViJ": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/HP-looks-svg.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
         "button_rppkgC": {
           "type": "button",
           "settings": {
@@ -1193,6 +1204,7 @@
       "block_order": [
         "heading_FfJXgm",
         "richtext_LP6mQJ",
+        "image_79tViJ",
         "button_rppkgC",
         "icon_with_text_izmRby"
       ],
