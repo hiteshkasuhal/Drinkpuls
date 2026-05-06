@@ -578,6 +578,16 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 20.8px;
     height: unset;
 }
+.hk-scroll-bar-text .hk-scroll-item-flex {
+    display: flex;
+    align-items: center;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 12.5px;
+    gap: 6.5px;
+}
 
 
 
