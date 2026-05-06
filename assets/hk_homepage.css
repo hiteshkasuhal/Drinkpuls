@@ -915,13 +915,13 @@
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-bg.webp");
     color: #FFFFFF;
 }
-.hk-table-box-item img {
+.hk-table-box-item .hk-table-img {
     position: absolute;
     bottom: 0;
     right: 65px;
     width: 124px;
 }
-.hk-table-box-item2 img {
+.hk-table-box-item2 .hk-table-img {
     width: 243px;
     right: unset;
     left: -10px;
