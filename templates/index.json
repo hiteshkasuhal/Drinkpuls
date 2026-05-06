@@ -1429,6 +1429,41 @@
         "custom_id": "",
         "custom_class": "hk-crash-section"
       }
+    },
+    "hk_richtext_PUfjWE": {
+      "type": "hk-richtext",
+      "blocks": {
+        "icon_with_text_Lxiwz9": {
+          "type": "icon_with_text",
+          "settings": {
+            "liquid": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"1728\" height=\"123\" viewBox=\"0 0 1728 123\" fill=\"none\">\n  <path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M-724 10.6951L-668.8 13.3691C-613.6 16.043 -503.2 21.3908 -392.8 37.4342C-282.4 53.4777 -172 80.2168 -61.6 88.2385C48.8 96.2602 159.2 85.5646 269.6 85.5646C380 85.5646 490.4 96.2603 600.8 104.282C711.2 112.304 821.6 117.652 932 101.608C1042.4 85.5647 1152.8 48.13 1263.2 45.4561C1373.6 42.7822 1484 74.8691 1594.4 85.5647C1704.8 96.2604 1815.2 85.5648 1925.6 61.4996C2036 37.4344 2146.4 -0.000237343 2256.8 -0.000227691C2367.2 -0.00021804 2477.6 37.4345 2532.8 56.1518L2588 74.8692L2588 123L2532.8 123C2477.6 123 2367.2 122.999 2256.8 122.999C2146.4 122.999 2036 122.999 1925.6 122.999C1815.2 122.999 1704.8 122.999 1594.4 122.999C1484 122.999 1373.6 122.999 1263.2 122.999C1152.8 122.999 1042.4 122.999 932 122.999C821.6 122.999 711.2 122.999 600.8 122.999C490.4 122.999 380 122.999 269.6 122.999C159.2 122.999 48.8 122.999 -61.6 122.999C-172 122.999 -282.4 122.999 -392.8 122.999C-503.2 122.999 -613.6 122.999 -668.8 122.999L-724 122.999L-724 10.6951Z\" fill=\"white\"/>\n</svg>",
+            "title": "",
+            "text": "",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-crash-bottom-curve"
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_Lxiwz9"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "hk-crash-bottom"
+      }
     }
   },
   "order": [
@@ -1444,6 +1479,7 @@
     "hk_image_with_text_rp4Ccy",
     "hk_scroll_bar_JCyym3",
     "hk_richtext_MBi8zj",
-    "hk_richtext_H8DEDA"
+    "hk_richtext_H8DEDA",
+    "hk_richtext_PUfjWE"
   ]
 }
