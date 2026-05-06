@@ -433,7 +433,7 @@
     font-weight: 400;
 }
 .hk-video-section {
-    background-position: 0% 0%;
+    background-position: 0% 0% !important;
 }
 
 
@@ -458,7 +458,7 @@
     margin: 0px 5px;
 }
 .hk-scroll-bar-img1 {
-    background-position: 0% 15%;
+    background-position: 0% 15% !important;
 }
 
 
