@@ -471,7 +471,13 @@
 
 
 /* insides css start */
-
+.hk-insides-text1 {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    padding-top: 8px;
+}
 
 
 
