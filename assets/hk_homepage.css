@@ -350,7 +350,9 @@
 
 
 /* reviews css start */
-
+.hk-global-white .hk-icon-with-text-flex {
+    color: rgba(255, 255, 255, 0.80);
+}
 
 
 
