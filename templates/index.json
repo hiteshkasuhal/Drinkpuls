@@ -401,13 +401,45 @@
             "custom_class": "hk-video-heading hk-global-heading"
           }
         },
-        "review_slider_p3EdkK": {
-          "type": "review_slider",
+        "video_slider_fcnMa6": {
+          "type": "video_slider",
           "settings": {
             "columns_desktop": 4,
             "columns_mobile": 1,
             "custom_id": "",
-            "custom_class": ""
+            "custom_class": "hk-global-slider hk-video-slider"
+          }
+        },
+        "video_slide_cUq8cK": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2025-10-27 at 10.20.02 PM (1).mp4",
+            "custom_id": "",
+            "custom_class": "hk-global-slide hk-video-slide"
+          }
+        },
+        "video_slide_N8YMQf": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2025-10-27 at 10.20.02 PM (1).mp4",
+            "custom_id": "",
+            "custom_class": "hk-global-slide hk-video-slide"
+          }
+        },
+        "video_slide_HLcnep": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2025-10-27 at 10.20.02 PM (1).mp4",
+            "custom_id": "",
+            "custom_class": "hk-global-slide hk-video-slide"
+          }
+        },
+        "video_slide_LaJVm6": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2025-10-27 at 10.20.02 PM (1).mp4",
+            "custom_id": "",
+            "custom_class": "hk-global-slide hk-video-slide"
           }
         },
         "button_qmnPVU": {
@@ -426,7 +458,7 @@
             "image": "shopify://shop_images/HP-MBG-black.webp",
             "liquid": "",
             "title": "",
-            "text": "<p>Rated <strong>4.9 / 5.0 | 11k+ Reviews</strong></p>",
+            "text": "<p>30 Day Money-Back Guarantee</p>",
             "font_type_title": "heading",
             "font_type_text": "body",
             "image_loading": "lazy",
@@ -439,7 +471,11 @@
       "block_order": [
         "icon_with_text_CxwL4E",
         "heading_7zmpVh",
-        "review_slider_p3EdkK",
+        "video_slider_fcnMa6",
+        "video_slide_cUq8cK",
+        "video_slide_N8YMQf",
+        "video_slide_HLcnep",
+        "video_slide_LaJVm6",
         "button_qmnPVU",
         "icon_with_text_kDEidU"
       ],
