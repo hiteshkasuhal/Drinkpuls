@@ -387,6 +387,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .hk-section1-rating .hk-icon-with-text-flex strong {
     font-weight: 500;
 }
+.hk-section1-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 40px;
+    gap: 15px;
+}
 
 
 
