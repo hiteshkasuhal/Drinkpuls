@@ -459,7 +459,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 
 /* reviews css start */
-
+.hk-shops-pdt .hk-element-icon-with-text-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
 
 
 
