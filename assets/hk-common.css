@@ -288,6 +288,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background: transparent;
     color: #72D3FF;
 }
+.hk-button:after {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-btn-svg.webp");
+}
 
 
 
