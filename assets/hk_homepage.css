@@ -541,6 +541,13 @@
     position: relative;
     margin: 40px 0px;
 }
+.hk-insides-list1-item-img img {
+    width: auto;
+    height: 300px;
+    position: absolute;
+    top: 32px;
+    left: 32%;
+}
 
 
 
