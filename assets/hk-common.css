@@ -263,6 +263,27 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     letter-spacing: -2.1px;
     width: 100%;
 }
+.hk-button {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 1298.7px;
+    background: #72D3FF;
+    text-decoration: none;
+    width: 550px;
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    color: #162036;
+    font-size: 20.8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.208px;
+    text-transform: capitalize;
+    border: 2px solid #72D3FF;
+}
 
 
 
