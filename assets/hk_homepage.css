@@ -1099,6 +1099,13 @@
 .hk-MBG-section .hk-image-with-text-column2 {
     width: 40%;
 }
+.hk-MBG-section-img1 img {
+    position: absolute;
+    width: 137px;
+    height: unset;
+    left: 0px;
+    top: 0px;
+}
 
 
 
