@@ -599,7 +599,7 @@
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
-            "custom_class": "hk-video-rating hk-global-rating hk-global-white"
+            "custom_class": "hk-reviews-rating hk-global-rating hk-global-white"
           }
         },
         "heading_3fDTPW": {
