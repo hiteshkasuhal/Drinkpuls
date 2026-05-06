@@ -534,6 +534,9 @@
     padding-top: 7px;
     width: 87%;
 }
+.hk-insides-list1-item-width:nth-child(1) .hk-element-text {
+    width: 79%;
+}
 
 
 
