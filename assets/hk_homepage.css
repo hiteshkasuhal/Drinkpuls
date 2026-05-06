@@ -947,6 +947,10 @@
     line-height: normal;
     gap: 8px;
 }
+.hk-table-box-item2 ul {
+    justify-content: flex-end;
+    margin-left: auto;
+}
 
 
 
