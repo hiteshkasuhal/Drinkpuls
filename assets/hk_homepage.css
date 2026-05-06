@@ -1229,6 +1229,15 @@ button#Subscribe:after {
     margin-left: auto;
     position: relative;
 }
+.hk-footer-submit {
+    min-height: 91px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+.hk-footer-submit .hk-element-liquid {
+    width: 100%;
+}
 
 
 
