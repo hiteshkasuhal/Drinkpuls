@@ -1090,6 +1090,12 @@
     border-radius: 13px;
     padding: 50px;
 }
+.hk-MBG-section .hk-image-with-text-column1 {
+    width: 60%;
+}
+.hk-MBG-section .hk-image-with-text-column2 {
+    width: 40%;
+}
 
 
 
