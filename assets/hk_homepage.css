@@ -428,6 +428,10 @@
     gap: 6.5px;
     margin-bottom: 19.5px;
 }
+.hk-element-review-name strong {
+    color: #72D3FF;
+    font-weight: 400;
+}
 
 
 
