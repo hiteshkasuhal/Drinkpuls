@@ -11,7 +11,38 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "hk_richtext_RKNM4G": {
+      "type": "hk-richtext",
+      "blocks": {
+        "richtext_EeVhiH": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Save 26% When You Subscribe + <strong>FREE Gifts!</strong></p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-header-top-text1"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_EeVhiH"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "#5d87df",
+        "text_color": "#ffffff",
+        "text_alignment": "center",
+        "padding_top": 10,
+        "padding_bottom": 10,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 7,
+        "padding_bottom_mobile": 7,
+        "custom_id": "",
+        "custom_class": "hk-header-top"
+      }
+    }
   },
   "order": [
+    "hk_richtext_RKNM4G"
   ]
 }
