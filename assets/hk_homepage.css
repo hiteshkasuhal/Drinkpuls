@@ -917,8 +917,9 @@
 }
 .hk-table-box-item img {
     position: absolute;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 65px;
+    width: 124px;
 }
 
 
