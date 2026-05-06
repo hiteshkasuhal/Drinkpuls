@@ -867,6 +867,9 @@
 .one-table-item2 p {
     color: #218F0B;
 }
+.one-table-item3 .one-table-top-p {
+    justify-content: center;
+}
 
 
 
