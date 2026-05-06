@@ -574,3 +574,23 @@
 
 }
 /* insides css end */
+
+
+
+/* textbar3 css start */
+.hk-scroll-bar-text2 .hk-scroll-item-flex {
+    padding: 0 12.5px;
+}
+
+
+
+@media (min-width: 915px) {
+
+}
+
+
+
+@media (max-width: 915px) {
+
+}
+/* textbar3 css end */
