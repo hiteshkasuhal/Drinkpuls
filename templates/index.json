@@ -193,10 +193,113 @@
         "custom_id": "",
         "custom_class": "hk-section1"
       }
+    },
+    "hk_richtext_pMJBDK": {
+      "type": "hk-richtext",
+      "blocks": {
+        "icon_with_text_6HHkMy": {
+          "type": "icon_with_text",
+          "settings": {
+            "liquid": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"103\" height=\"20\" viewBox=\"0 0 103 20\" fill=\"none\">\n  <path d=\"M9.50273 0.761033C9.58056 0.521493 9.91944 0.521492 9.99727 0.761033L11.8806 6.55743C11.9154 6.66456 12.0153 6.73708 12.1279 6.73708H18.2226C18.4745 6.73708 18.5792 7.05938 18.3754 7.20743L13.4447 10.7898C13.3536 10.856 13.3155 10.9734 13.3503 11.0805L15.2336 16.8769C15.3115 17.1164 15.0373 17.3156 14.8335 17.1676L9.90282 13.5852C9.8117 13.519 9.6883 13.519 9.59718 13.5852L4.66647 17.1676C4.4627 17.3156 4.18854 17.1164 4.26637 16.8769L6.14973 11.0805C6.18454 10.9734 6.14641 10.856 6.05528 10.7898L1.12457 7.20743C0.920807 7.05938 1.02553 6.73708 1.2774 6.73708H7.37209C7.48473 6.73708 7.58455 6.66455 7.61936 6.55743L9.50273 0.761033Z\" fill=\"#72D3FF\"/>\n  <path d=\"M30.3025 0.760911C30.3804 0.521371 30.7192 0.52137 30.7971 0.760911L32.6804 6.55731C32.7153 6.66443 32.8151 6.73696 32.9277 6.73696H39.0224C39.2743 6.73696 39.379 7.05926 39.1752 7.20731L34.2445 10.7897C34.1534 10.8559 34.1153 10.9732 34.1501 11.0804L36.0334 16.8768C36.1113 17.1163 35.8371 17.3155 35.6333 17.1674L30.7026 13.5851C30.6115 13.5189 30.4881 13.5189 30.397 13.5851L25.4663 17.1674C25.2625 17.3155 24.9883 17.1163 25.0662 16.8768L26.9495 11.0804C26.9843 10.9732 26.9462 10.8559 26.8551 10.7897L21.9244 7.20731C21.7206 7.05926 21.8253 6.73696 22.0772 6.73696H28.1719C28.2845 6.73696 28.3844 6.66443 28.4192 6.55731L30.3025 0.760911Z\" fill=\"#72D3FF\"/>\n  <path d=\"M51.1033 0.760911C51.1811 0.521371 51.52 0.52137 51.5979 0.760911L53.4812 6.55731C53.516 6.66443 53.6159 6.73696 53.7285 6.73696H59.8232C60.0751 6.73696 60.1798 7.05926 59.976 7.20731L55.0453 10.7897C54.9542 10.8559 54.916 10.9732 54.9509 11.0804L56.8342 16.8768C56.912 17.1163 56.6379 17.3155 56.4341 17.1674L51.5034 13.5851C51.4123 13.5189 51.2889 13.5189 51.1978 13.5851L46.2671 17.1674C46.0633 17.3155 45.7891 17.1163 45.867 16.8768L47.7503 11.0804C47.7851 10.9732 47.747 10.8559 47.6559 10.7897L42.7252 7.20731C42.5214 7.05926 42.6261 6.73696 42.878 6.73696H48.9727C49.0853 6.73696 49.1851 6.66443 49.2199 6.55731L51.1033 0.760911Z\" fill=\"#72D3FF\"/>\n  <path d=\"M71.9031 0.760911C71.9809 0.521371 72.3198 0.52137 72.3977 0.760911L74.281 6.55731C74.3158 6.66443 74.4157 6.73696 74.5283 6.73696H80.623C80.8749 6.73696 80.9796 7.05926 80.7758 7.20731L75.8451 10.7897C75.754 10.8559 75.7159 10.9732 75.7507 11.0804L77.634 16.8768C77.7119 17.1163 77.4377 17.3155 77.2339 17.1674L72.3032 13.5851C72.2121 13.5189 72.0887 13.5189 71.9976 13.5851L67.0669 17.1674C66.8631 17.3155 66.5889 17.1163 66.6668 16.8768L68.5501 11.0804C68.5849 10.9732 68.5468 10.8559 68.4557 10.7897L63.525 7.20731C63.3212 7.05926 63.4259 6.73696 63.6778 6.73696H69.7725C69.8851 6.73696 69.9849 6.66443 70.0198 6.55731L71.9031 0.760911Z\" fill=\"#72D3FF\"/>\n  <path d=\"M92.7029 0.760911C92.7808 0.521371 93.1196 0.52137 93.1975 0.760911L95.0808 6.55731C95.1156 6.66443 95.2155 6.73696 95.3281 6.73696H101.423C101.675 6.73696 101.779 7.05926 101.576 7.20731L96.6449 10.7897C96.5538 10.8559 96.5157 10.9732 96.5505 11.0804L98.4338 16.8768C98.5117 17.1163 98.2375 17.3155 98.0337 17.1674L93.103 13.5851C93.0119 13.5189 92.8885 13.5189 92.7974 13.5851L87.8667 17.1674C87.6629 17.3155 87.3887 17.1163 87.4666 16.8768L89.3499 11.0804C89.3847 10.9732 89.3466 10.8559 89.2555 10.7897L84.3248 7.20731C84.121 7.05926 84.2257 6.73696 84.4776 6.73696H90.5723C90.6849 6.73696 90.7847 6.66443 90.8196 6.55731L92.7029 0.760911Z\" fill=\"#72D3FF\"/>\n</svg>",
+            "title": "",
+            "text": "<p>Rated <strong>4.9 / 5.0 |</strong> <em>12,254+ Reviews</em></p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-shops-rating hk-global-rating"
+          }
+        },
+        "heading_taLxhp": {
+          "type": "heading",
+          "settings": {
+            "text": "shop our bestsellers",
+            "h1": false,
+            "font_type": "heading",
+            "custom_id": "",
+            "custom_class": "hk-reviews-heading hk-global-heading"
+          }
+        },
+        "icon_with_text_grid_BaTNGU": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "custom_id": "",
+            "custom_class": "hk-shops-pdt"
+          }
+        },
+        "icon_with_text_item_Ymi7MG": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/HP-shop-img1.webp",
+            "liquid": "12k+ Daily Users",
+            "title": "<strong>Original Latte Flavour </strong><em>Classic latte. Lasting energy.</em>",
+            "text": "<p>£64.95</p><p>From X Per Serving</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-shops-pdt-item hk-shops-pdt-item1"
+          }
+        },
+        "icon_with_text_item_cV6D39": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/HP-shop-img2.webp",
+            "liquid": "Coming Soon!",
+            "title": "<strong>Mocha Flavour </strong><em>Mocha taste. Sharp focus.</em>",
+            "text": "<p>£64.95</p><p>From X Per Serving</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-shops-pdt-item hk-shops-pdt-item2"
+          }
+        },
+        "icon_with_text_item_rbjxpL": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/HP-shop-img3.webp",
+            "liquid": "Coming Soon!",
+            "title": "<strong>Caramel Flavour </strong><em>Silky smooth caramel latte.</em>",
+            "text": "<p>£64.95</p><p>From X Per Serving</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-shops-pdt-item hk-shops-pdt-item3"
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_6HHkMy",
+        "heading_taLxhp",
+        "icon_with_text_grid_BaTNGU",
+        "icon_with_text_item_Ymi7MG",
+        "icon_with_text_item_cV6D39",
+        "icon_with_text_item_rbjxpL"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#162036",
+        "text_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "hk-shops-section"
+      }
     }
   },
   "order": [
     "main",
-    "hk_image_with_text_t3kxgA"
+    "hk_image_with_text_t3kxgA",
+    "hk_richtext_pMJBDK"
   ]
 }
