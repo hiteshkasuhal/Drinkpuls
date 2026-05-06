@@ -418,6 +418,16 @@
     padding-top: 6.5px;
     margin-bottom: 19.5px;
 }
+.hk-element-review-name {
+    font-size: 16.9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 6.5px;
+    margin-bottom: 19.5px;
+}
 
 
 
