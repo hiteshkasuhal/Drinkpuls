@@ -1204,6 +1204,14 @@
     flex-direction: column;
     gap: 9px;
 }
+.hk-footer-text1 p strong {
+    font-family: "Bebas Neue";
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -1.56px;
+}
 
 
 
