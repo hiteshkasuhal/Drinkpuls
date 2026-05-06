@@ -311,6 +311,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     line-height: normal;
     margin-top: 13px;
 }
+.hk-global-MBG .hk-icon-with-text-flex img {
+    width: 20.353px;
+    height: unset;
+}
 
 
 
