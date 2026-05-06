@@ -1172,7 +1172,70 @@
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
-            "custom_class": ""
+            "custom_class": "hk-looks-img"
+          }
+        },
+        "icon_with_text_grid_7V7dQP": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "custom_id": "",
+            "custom_class": "hk-looks-list1"
+          }
+        },
+        "icon_with_text_item_prjHb9": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "liquid": "0–15 minutes",
+            "title": "Alertness kicks in",
+            "text": "<p>Reduced sleepiness and faster mental wake-up.</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-looks-list1-item hk-looks-list1-item1"
+          }
+        },
+        "icon_with_text_item_VMYMA8": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "liquid": "30–60 minutes",
+            "title": "FOCUSED ENERGY",
+            "text": "<p>Clean, usable energy without spikes.</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-looks-list1-item hk-looks-list1-item2"
+          }
+        },
+        "icon_with_text_item_PiNK7G": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "liquid": "1–3 hours",
+            "title": "MENTAL PERFORMANCE",
+            "text": "<p>Steady focus without the usual crash.</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-looks-list1-item hk-looks-list1-item3"
+          }
+        },
+        "icon_with_text_item_dpg9rz": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "liquid": "Post-training / mid-day",
+            "title": "RECOVERY SUPPORT",
+            "text": "<p>Support for muscle energy and repair.</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-looks-list1-item hk-looks-list1-item4"
           }
         },
         "button_rppkgC": {
@@ -1205,6 +1268,11 @@
         "heading_FfJXgm",
         "richtext_LP6mQJ",
         "image_79tViJ",
+        "icon_with_text_grid_7V7dQP",
+        "icon_with_text_item_prjHb9",
+        "icon_with_text_item_VMYMA8",
+        "icon_with_text_item_PiNK7G",
+        "icon_with_text_item_dpg9rz",
         "button_rppkgC",
         "icon_with_text_izmRby"
       ],
