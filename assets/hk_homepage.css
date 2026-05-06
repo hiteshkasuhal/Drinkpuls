@@ -1120,6 +1120,15 @@
 .hk-MBG-rating .hk-icon-with-text-flex strong {
     color: #fff;
 }
+.hk-MBG-section-img2 img {
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    height: 100%;
+    right: 0px;
+    width: auto;
+    object-fit: cover;
+}
 
 
 
