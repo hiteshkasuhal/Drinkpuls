@@ -902,6 +902,11 @@
     width: calc(50% - 20PX);
     border-radius: 10px;
     padding: 34PX;
+    max-width: 100%;
+    position: relative;
+}
+.hk-table-box-item2 {
+    background: #F7F7F7;
 }
 
 
