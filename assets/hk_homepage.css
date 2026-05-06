@@ -982,6 +982,19 @@
     background: #F7F7F7;
     backdrop-filter: blur(13.000000953674316px);
 }
+.hk-question {
+    display: flex;
+    background: transparent;
+    border: unset;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 25px 30px;
+}
 
 
 
