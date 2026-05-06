@@ -692,6 +692,14 @@
     gap: 30px;
     margin-bottom: 40px;
 }
+.hk-crash-list1-item {
+    width: calc(25% - (30px)*3/4);
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2.6000001430511475px);
+    text-align: left;
+    padding: 25px;
+}
 
 
 
