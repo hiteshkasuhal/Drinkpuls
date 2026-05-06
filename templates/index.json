@@ -2021,53 +2021,6 @@
         "custom_class": "hk-scroll-bar-brand"
       }
     },
-    "hk_richtext_nHapcC": {
-      "type": "hk-richtext",
-      "blocks": {
-        "button_CRjQRg": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button_label": "Upgrade My Mornings",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": "hk-table-button hk-center hk-btn-black"
-          }
-        },
-        "icon_with_text_QPQHfy": {
-          "type": "icon_with_text",
-          "settings": {
-            "image": "shopify://shop_images/HP-MBG-black.webp",
-            "liquid": "",
-            "title": "",
-            "text": "<p>30 Day Money-Back Guarantee</p>",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "custom_id": "",
-            "custom_class": "hk-table-MBG hk-global-MBG hk-center hk-MBG-white"
-          }
-        }
-      },
-      "block_order": [
-        "button_CRjQRg",
-        "icon_with_text_QPQHfy"
-      ],
-      "name": "RichText",
-      "settings": {
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#162036",
-        "text_alignment": "center",
-        "padding_top": 40,
-        "padding_bottom": 50,
-        "text_alignment_mobile": "center",
-        "padding_top_mobile": 25,
-        "padding_bottom_mobile": 40,
-        "custom_id": "",
-        "custom_class": "hk-faq-bottom"
-      }
-    },
     "hk_image_with_text_PbirJ4": {
       "type": "hk-image-with-text",
       "blocks": {
@@ -2153,6 +2106,53 @@
         "custom_id": "",
         "custom_class": "hk-MBG-section"
       }
+    },
+    "hk_richtext_nHapcC": {
+      "type": "hk-richtext",
+      "blocks": {
+        "button_CRjQRg": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button_label": "Upgrade My Mornings",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-MBG-button hk-center hk-btn-black"
+          }
+        },
+        "icon_with_text_QPQHfy": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/HP-MBG-black.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>30 Day Money-Back Guarantee</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-MBG-MBG hk-global-MBG hk-center hk-MBG-white"
+          }
+        }
+      },
+      "block_order": [
+        "button_CRjQRg",
+        "icon_with_text_QPQHfy"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#162036",
+        "text_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 50,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 25,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "hk-MBG-bottom"
+      }
     }
   },
   "order": [
@@ -2177,7 +2177,7 @@
     "hk_image_with_text_p93aBe",
     "hk_richtext_BRaCqD",
     "hk_scroll_bar_T7beTB",
-    "hk_richtext_nHapcC",
-    "hk_image_with_text_PbirJ4"
+    "hk_image_with_text_PbirJ4",
+    "hk_richtext_nHapcC"
   ]
 }
