@@ -850,6 +850,10 @@
 .one-table-item2 ul li {
     justify-content: center;
 }
+.one-table-item3 ul li {
+    color: #EB0000;
+    justify-content: flex-end;
+}
 
 
 
