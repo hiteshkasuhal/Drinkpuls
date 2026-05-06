@@ -921,6 +921,11 @@
     right: 65px;
     width: 124px;
 }
+.hk-table-box-item2 img {
+    width: 243px;
+    right: unset;
+    left: -10px;
+}
 
 
 
