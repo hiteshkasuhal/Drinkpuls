@@ -1117,6 +1117,9 @@
     justify-content: flex-start;
     color: rgba(255, 255, 255, 0.50);
 }
+.hk-MBG-rating .hk-icon-with-text-flex strong {
+    color: #fff;
+}
 
 
 
