@@ -797,6 +797,14 @@
 .hk-one-section .hk-image-with-text-flex .hk-image-with-text-column2 {
     width: 49%;
 }
+.one-table {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #FFF;
+}
 
 
 
