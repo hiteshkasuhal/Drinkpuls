@@ -663,6 +663,9 @@
 .hk-looks-list1-item2 {
     top: 20px;
 }
+.hk-looks-list1-item3 {
+    top: -12px;
+}
 
 
 @media (min-width: 915px) {
