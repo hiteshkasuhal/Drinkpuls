@@ -625,6 +625,18 @@
     padding: 20.8px;
     text-align: left;
 }
+.hk-looks-list1-item .hk-media.hk-svg {
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 5.2px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2.6000001430511475px);
+    width: fit-content;
+    padding: 3.9px 10px;
+    margin-bottom: 10.4px;
+}
 
 
 @media (min-width: 915px) {
