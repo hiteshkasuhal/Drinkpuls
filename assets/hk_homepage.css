@@ -526,6 +526,14 @@
 .hk-insides-list1-item-width .hk-element-text strong {
     font-weight: 500;
 }
+.hk-insides-list1-item-width .hk-element-text {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    padding-top: 7px;
+    width: 87%;
+}
 
 
 
