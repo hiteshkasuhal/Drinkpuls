@@ -292,6 +292,10 @@
 .hk-play-button svg path {
     fill: #EBF2FF;
 }
+.hk-play-button span svg {
+    width: 16px;
+    height: unset;
+}
 
 
 
