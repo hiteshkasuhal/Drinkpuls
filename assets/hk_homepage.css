@@ -647,6 +647,13 @@
     text-transform: uppercase;
     padding-bottom: 5.2px;
 }
+.hk-looks-list1-item .hk-element-text {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    width: 78%;
+}
 
 
 @media (min-width: 915px) {
