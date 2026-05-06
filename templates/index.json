@@ -152,6 +152,19 @@
             "custom_id": "",
             "custom_class": "hk-section1-brand hk-hide-mobile"
           }
+        },
+        "image_c3wyVT": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/HP-section1-img.webp",
+            "image_mobile": "shopify://shop_images/HP-section1-img1mob.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-section1-img"
+          }
         }
       },
       "block_order": [
@@ -164,7 +177,8 @@
         "icon_with_text_item_drUYGg",
         "button_TXDXMg",
         "icon_with_text_dcLDwL",
-        "image_Y9dxjq"
+        "image_Y9dxjq",
+        "image_c3wyVT"
       ],
       "name": "Image With Text",
       "settings": {
