@@ -558,6 +558,9 @@
     top: 0px;
     width: 760px;
 }
+.slick-slide>div {
+    display: flex;
+}
 
 
 
