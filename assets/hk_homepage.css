@@ -1311,6 +1311,13 @@ button#Subscribe:after {
     gap: 25px;
     padding-right: 160px;
 }
+.hk-footer-menu ul li a {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    text-decoration: none;
+}
 
 
 
