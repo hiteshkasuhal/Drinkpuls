@@ -977,6 +977,11 @@
     flex-direction: column;
     gap: 30px;
 }
+.hk-faq-main {
+    border-radius: 6px;
+    background: #F7F7F7;
+    backdrop-filter: blur(13.000000953674316px);
+}
 
 
 
