@@ -1304,6 +1304,13 @@ button#Subscribe:after {
     font-weight: 400;
     line-height: 20.8px;
 }
+.hk-footer-menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-right: 160px;
+}
 
 
 
