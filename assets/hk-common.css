@@ -465,6 +465,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     gap: 40px;
     margin-top: 40px;
 }
+.hk-shops-pdt-item {
+    width: calc(33.3% - (40px)*2/3);
+    position: relative;
+}
 
 
 
