@@ -499,10 +499,18 @@
     backdrop-filter: blur(5.200000286102295px);
     padding: 25px;
 }
+
 .hk-insides-list1-item-width img {
     width: 71.5px;
     height: unset;
     aspect-ratio: 1/1;
+}
+.hk-insides-list1-item-width .hk-element-text {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    padding-top: 7px;
 }
 
 
