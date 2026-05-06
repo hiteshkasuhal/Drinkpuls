@@ -926,6 +926,12 @@
     right: unset;
     left: -10px;
 }
+.hk-table-box-item ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 
 
 
