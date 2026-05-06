@@ -700,6 +700,15 @@
     text-align: left;
     padding: 25px;
 }
+.hk-crash-list1-item .hk-element-title {
+    color: #72D3FF;
+    font-family: Aeonik;
+    font-size: 19.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    width: 69%;
+}
 
 
 
