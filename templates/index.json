@@ -904,7 +904,7 @@
             "font_type": "body",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-insides-text1"
+            "custom_class": "hk-insides-text1 hk-insides-text1s"
           }
         },
         "icon_with_text_grid_8wAkab": {
@@ -1464,6 +1464,89 @@
         "custom_id": "",
         "custom_class": "hk-crash-bottom"
       }
+    },
+    "hk_image_with_text_qCCDDR": {
+      "type": "hk-image-with-text",
+      "blocks": {
+        "heading_YccEYT": {
+          "type": "heading",
+          "settings": {
+            "text": "ONE SACHET. EVERYTHING COVERED.",
+            "h1": false,
+            "font_type": "heading",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-insides-heading hk-global-heading"
+          }
+        },
+        "richtext_p3Jf7k": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Replace four daily supplements with one sachet.</p>",
+            "font_type": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-insides-text1 hk-one-text1"
+          }
+        },
+        "richtext_UmM9nb": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>*Based on average UK retail pricing</p>",
+            "font_type": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-one-text2"
+          }
+        },
+        "button_4K8Uc3": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button_label": "Upgrade My Mornings",
+            "font_type": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-section1-button hk-btn-black"
+          }
+        },
+        "icon_with_text_3UpQcG": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/HP-MBG-black.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>30 Day Money-Back Guarantee</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-section1-MBG hk-global-MBG hk-MBG-white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YccEYT",
+        "richtext_p3Jf7k",
+        "richtext_UmM9nb",
+        "button_4K8Uc3",
+        "icon_with_text_3UpQcG"
+      ],
+      "name": "Image With Text",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#162036",
+        "text_alignment": "left",
+        "padding_top": 57,
+        "padding_bottom": 40,
+        "text_alignment_mobile": "left",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "hk-one-section"
+      }
     }
   },
   "order": [
@@ -1480,6 +1563,7 @@
     "hk_scroll_bar_JCyym3",
     "hk_richtext_MBi8zj",
     "hk_richtext_H8DEDA",
-    "hk_richtext_PUfjWE"
+    "hk_richtext_PUfjWE",
+    "hk_image_with_text_qCCDDR"
   ]
 }
