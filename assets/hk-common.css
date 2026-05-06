@@ -169,57 +169,57 @@ img {
 
 /* font family start */
 @font-face {
-  font-family: "Inter Display";
+  font-family: "Aeonik";
   src: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/AeonikTRIAL-Bold.woff);
   font-style: normal;
   font-weight: 300;
   font-display:swap;
 }
 @font-face {
-  font-family: "Inter Display";
-  src: url(https://cdn.shopify.com/s/files/1/0849/4212/7351/files/Display-LightItalic.woff);
+  font-family: "Aeonik";
+  src: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/AeonikTRIAL-LightItalic.woff);
   font-style: italic;
   font-weight: 300;
   font-display:swap;
 }
 @font-face {
-  font-family: "Inter Display";
-  src: url(https://cdn.shopify.com/s/files/1/0849/4212/7351/files/Display-Regular.woff);
+  font-family: "Aeonik";
+  src: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/AeonikTRIAL-Regular.woff);
   font-style: normal;
   font-weight: 400;
   font-display:swap;
 }
 @font-face {
-  font-family: "Inter Display";
-  src: url(https://cdn.shopify.com/s/files/1/0849/4212/7351/files/Display-Italic.woff);
+  font-family: "Aeonik";
+  src: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/AeonikTRIAL-RegularItalic.woff);
   font-style: italic;
   font-weight: 400;
   font-display:swap;
 }
 @font-face {
-  font-family: "Inter Display";
-  src: url(https://cdn.shopify.com/s/files/1/0849/4212/7351/files/Display-Medium.woff);
+  font-family: "Aeonik";
+  src: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/Aeonik-Medium.woff);
   font-style: normal;
   font-weight: 500;
   font-display:swap;
 }
 @font-face {
-  font-family: "Inter Display";
-  src: url(https://cdn.shopify.com/s/files/1/0849/4212/7351/files/Display-MediumItalic.woff);
+  font-family: "Aeonik";
+  src: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/Aeonik-MediumItalic.woff);
   font-style: italic;
   font-weight: 500;
   font-display:swap;
 }
 @font-face {
-  font-family: "Inter Display";
-  src: url(https://cdn.shopify.com/s/files/1/0849/4212/7351/files/Display-Bold.woff);
+  font-family: "Aeonik";
+  src: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/AeonikTRIAL-Bold.woff);
   font-style: normal;
   font-weight: 700;
   font-display:swap;
 }
 @font-face {
-  font-family: "Inter Display";
-  src: url(https://cdn.shopify.com/s/files/1/0849/4212/7351/files/Display-BoldItalic.woff);
+  font-family: "Aeonik";
+  src: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/AeonikTRIAL-BoldItalic.woff);
   font-style: italic;
   font-weight: 700;
   font-display:swap;
