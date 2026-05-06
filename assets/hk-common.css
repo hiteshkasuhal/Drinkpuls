@@ -548,6 +548,15 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 91px;
     height: 18.2px;
 }
+.hk-shops-pdt-item .hk-element-text p:nth-child(2) {
+    color: rgba(22, 22, 22, 0.60);
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    text-align: left;
+    margin-bottom: 20.8px;
+}
 
 
 
