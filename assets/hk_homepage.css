@@ -487,6 +487,11 @@
 .hk-insides-section .hk-image-with-text-flex {
     position: relative;
 }
+.hk-insides-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
 
 
 
