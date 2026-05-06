@@ -584,6 +584,126 @@
         "custom_id": "",
         "custom_class": "hk-scroll-bar-text2"
       }
+    },
+    "hk_richtext_FxggbV": {
+      "type": "hk-richtext",
+      "blocks": {
+        "icon_with_text_ApzBHz": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/HP-video-rating.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Rated <strong>4.9 / 5.0 | 11k+ Reviews</strong></p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-video-rating hk-global-rating"
+          }
+        },
+        "heading_3fDTPW": {
+          "type": "heading",
+          "settings": {
+            "text": "Part of Real Morning Routines",
+            "h1": false,
+            "font_type": "heading",
+            "custom_id": "",
+            "custom_class": "hk-video-heading hk-global-heading"
+          }
+        },
+        "video_slider_WxL3cU": {
+          "type": "video_slider",
+          "settings": {
+            "columns_desktop": 4,
+            "columns_mobile": 1,
+            "custom_id": "",
+            "custom_class": "hk-global-slider hk-video-slider"
+          }
+        },
+        "video_slide_gbWgbX": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2025-10-27 at 10.20.02 PM (1).mp4",
+            "custom_id": "",
+            "custom_class": "hk-global-slide hk-video-slide"
+          }
+        },
+        "video_slide_rNCzKW": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2025-10-27 at 10.20.02 PM (1).mp4",
+            "custom_id": "",
+            "custom_class": "hk-global-slide hk-video-slide"
+          }
+        },
+        "video_slide_9yNKtT": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2025-10-27 at 10.20.02 PM (1).mp4",
+            "custom_id": "",
+            "custom_class": "hk-global-slide hk-video-slide"
+          }
+        },
+        "video_slide_9CrrWK": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/WhatsApp Video 2025-10-27 at 10.20.02 PM (1).mp4",
+            "custom_id": "",
+            "custom_class": "hk-global-slide hk-video-slide"
+          }
+        },
+        "button_akqxFB": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button_label": "Upgrade My Mornings",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-video-button hk-center hk-btn-black"
+          }
+        },
+        "icon_with_text_TCzqiA": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/HP-MBG-black.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>30 Day Money-Back Guarantee</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-video-MBG hk-global-MBG hk-center hk-MBG-white"
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_ApzBHz",
+        "heading_3fDTPW",
+        "video_slider_WxL3cU",
+        "video_slide_gbWgbX",
+        "video_slide_rNCzKW",
+        "video_slide_9yNKtT",
+        "video_slide_9CrrWK",
+        "button_akqxFB",
+        "icon_with_text_TCzqiA"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "#0a112b",
+        "text_color": "#ffffff",
+        "text_alignment": "center",
+        "padding_top": 80,
+        "padding_bottom": 34,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 40,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "hk-video-section"
+      }
     }
   },
   "order": [
@@ -593,6 +713,7 @@
     "hk_richtext_pMJBDK",
     "hk_scroll_bar_caxkhK",
     "hk_richtext_EKXntX",
-    "hk_scroll_bar_LGfAN8"
+    "hk_scroll_bar_LGfAN8",
+    "hk_richtext_FxggbV"
   ]
 }
