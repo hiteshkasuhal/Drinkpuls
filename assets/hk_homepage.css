@@ -432,6 +432,9 @@
     color: #72D3FF;
     font-weight: 400;
 }
+.relative {
+    position: relative;
+}
 
 
 

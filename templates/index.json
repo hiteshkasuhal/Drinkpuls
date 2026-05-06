@@ -618,7 +618,7 @@
             "columns_desktop": 3,
             "columns_mobile": 1,
             "custom_id": "",
-            "custom_class": "hk-reviews-slider"
+            "custom_class": "hk-reviews-slider relative"
           }
         },
         "review_slide_8Mbqxr": {
