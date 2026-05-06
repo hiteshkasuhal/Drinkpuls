@@ -45,11 +45,126 @@
             "custom_id": "",
             "custom_class": "hk-section1-heading hk-global-heading"
           }
+        },
+        "icon_with_text_grid_zPAL8c": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-section1-list1"
+          }
+        },
+        "icon_with_text_item_EdteDV": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "liquid": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\">\n  <path d=\"M8.77539 0C13.6215 0.000211309 17.5498 3.92922 17.5498 8.77539C17.5496 13.6214 13.6214 17.5496 8.77539 17.5498C3.92922 17.5498 0.000211313 13.6215 0 8.77539C0 3.92909 3.92909 0 8.77539 0ZM7.73535 10.2549L5.56445 8.08496L4.18555 9.46387L7.86523 13.1436L8.54883 12.3242L13.4238 6.47363L11.9258 5.22559L7.73535 10.2549Z\" fill=\"#72D3FF\"/>\n</svg>",
+            "title": "",
+            "text": "<p>Protein, Creatine, MCTs</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-section1-list1-item"
+          }
+        },
+        "icon_with_text_item_4KHPxh": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "liquid": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\">\n  <path d=\"M8.77539 0C13.6215 0.000211309 17.5498 3.92922 17.5498 8.77539C17.5496 13.6214 13.6214 17.5496 8.77539 17.5498C3.92922 17.5498 0.000211313 13.6215 0 8.77539C0 3.92909 3.92909 0 8.77539 0ZM7.73535 10.2549L5.56445 8.08496L4.18555 9.46387L7.86523 13.1436L8.54883 12.3242L13.4238 6.47363L11.9258 5.22559L7.73535 10.2549Z\" fill=\"#72D3FF\"/>\n</svg>",
+            "title": "",
+            "text": "<p>£1.19 Per Serving</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-section1-list1-item"
+          }
+        },
+        "icon_with_text_item_4biMjK": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "liquid": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\">\n  <path d=\"M8.77539 0C13.6215 0.000211309 17.5498 3.92922 17.5498 8.77539C17.5496 13.6214 13.6214 17.5496 8.77539 17.5498C3.92922 17.5498 0.000211313 13.6215 0 8.77539C0 3.92909 3.92909 0 8.77539 0ZM7.73535 10.2549L5.56445 8.08496L4.18555 9.46387L7.86523 13.1436L8.54883 12.3242L13.4238 6.47363L11.9258 5.22559L7.73535 10.2549Z\" fill=\"#72D3FF\"/>\n</svg>",
+            "title": "",
+            "text": "<p>Lasting Energy</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-section1-list1-item"
+          }
+        },
+        "icon_with_text_item_drUYGg": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "liquid": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\" fill=\"none\">\n  <path d=\"M8.77539 0C13.6215 0.000211309 17.5498 3.92922 17.5498 8.77539C17.5496 13.6214 13.6214 17.5496 8.77539 17.5498C3.92922 17.5498 0.000211313 13.6215 0 8.77539C0 3.92909 3.92909 0 8.77539 0ZM7.73535 10.2549L5.56445 8.08496L4.18555 9.46387L7.86523 13.1436L8.54883 12.3242L13.4238 6.47363L11.9258 5.22559L7.73535 10.2549Z\" fill=\"#72D3FF\"/>\n</svg>",
+            "title": "",
+            "text": "<p>Mixes Instantly</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-section1-list1-item"
+          }
+        },
+        "button_TXDXMg": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button_label": "UPGRADE MY MORNINGS",
+            "font_type": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-section1-button"
+          }
+        },
+        "icon_with_text_dcLDwL": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/HP-section1-MBG.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>30 Day Money-Back Guarantee</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-section1-MBG hk-global-MBG"
+          }
+        },
+        "image_Y9dxjq": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/HP-section1-brand.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-section1-brand hk-hide-mobile"
+          }
         }
       },
       "block_order": [
         "icon_with_text_ijYVWE",
-        "heading_Y3EYcr"
+        "heading_Y3EYcr",
+        "icon_with_text_grid_zPAL8c",
+        "icon_with_text_item_EdteDV",
+        "icon_with_text_item_4KHPxh",
+        "icon_with_text_item_4biMjK",
+        "icon_with_text_item_drUYGg",
+        "button_TXDXMg",
+        "icon_with_text_dcLDwL",
+        "image_Y9dxjq"
       ],
       "name": "Image With Text",
       "settings": {
