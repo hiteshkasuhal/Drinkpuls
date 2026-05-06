@@ -722,6 +722,12 @@
 .hk-crash-list1-item2 .hk-element-title {
     width: 55%;
 }
+.hk-crash-list1-item .hk-element-text {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
 
 
 
