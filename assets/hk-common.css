@@ -348,6 +348,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: fit-content;
     margin: 0px auto;
 }
+.hk-btn-black .hk-button:hover {
+    color: #000;
+    border-color: #000;
+}
 
 
 
