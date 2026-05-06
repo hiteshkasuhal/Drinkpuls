@@ -393,6 +393,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin: 20px 0px 40px;
     gap: 15px;
 }
+.hk-section1-list1-item .hk-icon-with-text-flex {
+    display: flex;
+    align-items: center;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 6.5px;
+    border-radius: 85.412px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2.7552239894866943px);
+    padding: 7.5px 15px;
+}
 
 
 
