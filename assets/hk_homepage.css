@@ -931,6 +931,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    width: 360px;
+    max-width: 100%;
 }
 .hk-table-box-item ul li img {
     width: 28.08px;
