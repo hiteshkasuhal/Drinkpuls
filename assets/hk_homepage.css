@@ -1008,6 +1008,15 @@
 .hk-question.active:after {
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-faq-close.webp");
 }
+.hk-answer {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.4px;
+    padding: 0px 30px 25px;
+    margin-top: -10px;
+    max-width: 100%;
+}
 
 
 
