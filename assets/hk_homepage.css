@@ -1186,6 +1186,10 @@
     bottom: 0px;
     right: 50px;
 }
+.hk-footer .hk-richtext-content {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 
