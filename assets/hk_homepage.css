@@ -366,7 +366,7 @@
 .hk-reviews-slide {
     padding: 0px 15px;
 }
-.hk-video-section .hk-review-card_main {
+.hk-reviews-slider .hk-review-card_main {
     cursor: grab;
     border-radius: 6px;
     background: rgba(255, 255, 255, 0.05);
@@ -377,8 +377,16 @@
     flex-direction: column;
     justify-content: space-between;
 }
-.slick-track {
+.hk-reviews-slider .slick-track {
     display: flex;
+}
+.hk-reviews-slider .slick-slide {
+    height: inherit;
+}
+.hk-reviews-slider .slick-slide>div, 
+.hk-reviews-slider .hk-reviews-slide, 
+.hk-reviews-slider .hk-review-card_main {
+    height: 100%;
 }
 
 
