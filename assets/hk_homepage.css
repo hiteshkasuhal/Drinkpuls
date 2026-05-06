@@ -815,6 +815,10 @@
     font-weight: 500;
     line-height: 125%;
 }
+.one-table-item img {
+    width: 70px;
+    margin: 0px auto;
+}
 
 
 
