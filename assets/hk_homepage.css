@@ -744,6 +744,10 @@
 .hk-crash-section {
     padding-bottom: 55px;
 }
+.hk-crash-bottom .hk-container {
+    width: 100%;
+    padding: 0px;
+}
 
 
 
