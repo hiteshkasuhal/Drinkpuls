@@ -1271,6 +1271,16 @@ button#Subscribe:after {
     justify-content: flex-end;
     align-items: flex-end;
 }
+.hk-footer-text2 p {
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.156px;
+    padding: 5px 12px;
+    border-radius: 2.6px;
+    background: rgba(255, 255, 255, 0.05);
+}
 
 
 
