@@ -232,7 +232,7 @@
           "type": "icon_with_text_item",
           "settings": {
             "image": "shopify://shop_images/HP-shop-img1.webp",
-            "liquid": "12k+ Daily Users",
+            "liquid": "12k+ <strong>Daily Users</strong>",
             "title": "<strong>Original Latte Flavour </strong><em>Classic latte. Lasting energy.</em>",
             "text": "<p>£64.95</p><p>From X Per Serving</p>",
             "font_type_title": "heading",
