@@ -936,6 +936,15 @@
     width: 28.08px;
     height: unset;
 }
+.hk-table-box-item ul li {
+    display: flex;
+    align-items: center;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    gap: 8px;
+}
 
 
 
