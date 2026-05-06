@@ -1034,7 +1034,11 @@
 
 
 /* brand css start */
-
+.hk-scroll-bar-brand img {
+    height: 39px;
+    width: unset;
+    margin: 0px 25px;
+}
 
 
 
