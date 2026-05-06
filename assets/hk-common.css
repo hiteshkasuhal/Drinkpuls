@@ -371,6 +371,11 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .slick-disabled {
     opacity: 0.25;
 }
+.hk-scroll-bar-img img {
+    width: 195px;
+    height: unset;
+    margin: 0px 5px;
+}
 
 
 
