@@ -1190,6 +1190,11 @@
     display: flex;
     flex-wrap: wrap;
 }
+.hk-footer-text1, 
+.hk-footer-submit {
+    width: 50%;
+    margin-bottom: 50px;
+}
 
 
 
