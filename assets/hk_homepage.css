@@ -313,7 +313,17 @@
 
 
 /* textbar2 css start */
-
+.hk-scroll-bar-text2 .hk-scroll-item-flex {
+    display: flex;
+    align-items: center;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.182px;
+    text-transform: uppercase;
+    gap: 10.4px;
+}
 
 
 
