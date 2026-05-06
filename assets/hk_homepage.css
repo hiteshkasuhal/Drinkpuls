@@ -908,6 +908,13 @@
 .hk-table-box-item2 {
     background: #F7F7F7;
 }
+.hk-table-box-item1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-bg.webp");
+    color: #FFFFFF;
+}
 
 
 
