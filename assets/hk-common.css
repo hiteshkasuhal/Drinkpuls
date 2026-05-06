@@ -298,6 +298,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: 25px;
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-btn-svg.webp");
 }
+.hk-global-MBG .hk-icon-with-text-flex {
+    width: 550px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 13px;
+}
 
 
 
