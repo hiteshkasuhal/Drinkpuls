@@ -2087,7 +2087,7 @@
           "type": "heading",
           "settings": {
             "text": "30-Day Money Back Guarantee",
-            "h1": true,
+            "h1": false,
             "font_type": "heading",
             "position": "left",
             "custom_id": "",
