@@ -9,6 +9,35 @@
  */
 {
   "sections": {
+    "hk_richtext_6LVdPL": {
+      "type": "hk-richtext",
+      "blocks": {
+        "liquid_wLCJ33": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "{{ 'hk_homepage.css' | asset_url | stylesheet_tag: preload: true }}",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "liquid_wLCJ33"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": ""
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -495,6 +524,7 @@
     }
   },
   "order": [
+    "hk_richtext_6LVdPL",
     "main",
     "hk_image_with_text_t3kxgA",
     "hk_richtext_pMJBDK",
