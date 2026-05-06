@@ -814,6 +814,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: 125%;
+    min-height: 43.5px;
+    display: flex;
+    align-items: center;
 }
 .one-table-item img {
     width: 70px;
