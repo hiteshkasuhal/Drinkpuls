@@ -1281,6 +1281,10 @@ button#Subscribe:after {
     border-radius: 2.6px;
     background: rgba(255, 255, 255, 0.05);
 }
+.hk-footer-text2 p strong {
+    color: #72D3FF;
+    font-weight: 700;
+}
 
 
 
