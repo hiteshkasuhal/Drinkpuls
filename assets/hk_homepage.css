@@ -1175,6 +1175,10 @@
     font-weight: 500;
     line-height: 125%;
 }
+.hk-footer-top strong {
+    color: #72D3FF;
+    font-weight: unset;
+}
 
 
 
