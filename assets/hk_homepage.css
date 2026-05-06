@@ -971,6 +971,12 @@
 .hk-faq-section .hk-image-with-text-flex {
     gap: 30px;
 }
+.hk-faq-section .hk-image-with-text-column {
+    width: calc(50% - 15px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
 
 
 
