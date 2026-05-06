@@ -834,6 +834,7 @@
     border-left: unset;
     border-right: unset;
     margin: 16px 0px 14px;
+    gap: 19px;
 }
 .one-table-item ul li {
     min-height: 23px;
