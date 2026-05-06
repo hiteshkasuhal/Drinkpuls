@@ -1239,7 +1239,7 @@ button#Subscribe:after {
     width: 100%;
 }
 .field_lp input {
-    color: rgba(255, 255, 255, 0.55);
+    color: #fff;
     font-family: Aeonik;
     font-size: 19.5px;
     font-style: normal;
@@ -1254,7 +1254,7 @@ button#Subscribe:after {
     border-bottom: 1px solid #FFFFFF;
 }
 .field_lp input::placeholder {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.55);
 }
 
 
