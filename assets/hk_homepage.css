@@ -1259,6 +1259,9 @@ button#Subscribe:after {
 .field_lp input::placeholder {
     color: rgba(255, 255, 255, 0.55);
 }
+.hk-footer-logo, .hk-footer-text2 {
+    width: 50%;
+}
 
 
 
