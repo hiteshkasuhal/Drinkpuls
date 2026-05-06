@@ -1113,6 +1113,10 @@
     line-height: 125%;
     margin: 9px 0px 13px;
 }
+.hk-MBG-rating .hk-icon-with-text-flex {
+    justify-content: flex-start;
+    color: rgba(255, 255, 255, 0.50);
+}
 
 
 
