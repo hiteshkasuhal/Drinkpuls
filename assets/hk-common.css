@@ -484,6 +484,21 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .hk-shops-pdt-item .hk-element-image {
     position: relative;
 }
+.hk-shops-pdt-item .hk-svg {
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.312px;
+    color: #fff;
+    border-radius: 2.34px;
+    background: #72D3FF;
+    width: fit-content;
+    position: absolute;
+    top: 10.4px;
+    left: 10.4px;
+    padding: 8.25px 13px;
+}
 
 
 
