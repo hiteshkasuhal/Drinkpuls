@@ -847,6 +847,9 @@
     line-height: 125%;
     text-transform: capitalize;
 }
+.one-table-item2 ul li {
+    justify-content: center;
+}
 
 
 
