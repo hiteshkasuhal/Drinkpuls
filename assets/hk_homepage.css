@@ -1262,6 +1262,9 @@ button#Subscribe:after {
 .hk-footer-logo, .hk-footer-text2 {
     width: 50%;
 }
+.hk-footer-logo img {
+    width: 109px;
+}
 
 
 
