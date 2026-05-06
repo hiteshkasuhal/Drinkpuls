@@ -372,12 +372,97 @@
         "custom_id": "",
         "custom_class": "hk-scroll-bar-text hk-scroll-bar-text1"
       }
+    },
+    "hk_richtext_EKXntX": {
+      "type": "hk-richtext",
+      "blocks": {
+        "icon_with_text_CxwL4E": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/HP-video-rating.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Rated <strong>4.9 / 5.0 | 11k+ Reviews</strong></p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-video-rating hk-global-rating"
+          }
+        },
+        "heading_7zmpVh": {
+          "type": "heading",
+          "settings": {
+            "text": "Part of Real Morning Routines",
+            "h1": false,
+            "font_type": "heading",
+            "custom_id": "",
+            "custom_class": "hk-video-heading hk-global-heading"
+          }
+        },
+        "review_slider_p3EdkK": {
+          "type": "review_slider",
+          "settings": {
+            "columns_desktop": 4,
+            "columns_mobile": 1,
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "button_qmnPVU": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button_label": "Upgrade My Mornings",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-video-button hk-center"
+          }
+        },
+        "icon_with_text_kDEidU": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/HP-MBG-black.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Rated <strong>4.9 / 5.0 | 11k+ Reviews</strong></p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-video-MBG hk-global-MBG hk-center hk-MBG-white"
+          }
+        }
+      },
+      "block_order": [
+        "icon_with_text_CxwL4E",
+        "heading_7zmpVh",
+        "review_slider_p3EdkK",
+        "button_qmnPVU",
+        "icon_with_text_kDEidU"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#162036",
+        "text_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 80,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 40,
+        "custom_id": "",
+        "custom_class": "hk-video-section"
+      }
     }
   },
   "order": [
     "main",
     "hk_image_with_text_t3kxgA",
     "hk_richtext_pMJBDK",
-    "hk_scroll_bar_caxkhK"
+    "hk_scroll_bar_caxkhK",
+    "hk_richtext_EKXntX"
   ]
 }
