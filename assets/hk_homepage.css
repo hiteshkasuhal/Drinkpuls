@@ -996,6 +996,18 @@
     padding: 25px 30px;
     cursor: pointer;
 }
+.hk-question:after {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-faq-pluse.webp");
+    width: 31.2px;
+    height: 31.2px;
+}
+.hk-question.active:after {
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-faq-close.webp");
+}
 
 
 
