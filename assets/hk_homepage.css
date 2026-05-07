@@ -1594,6 +1594,13 @@
     width: 19px;
     height: 19px;
 }
+.hk-answer {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 16px 18px;
+    margin-top: -5px;
+    max-width: 100%;
+}
 }
 /* faq css end */
 
@@ -1721,6 +1728,29 @@
 @media (max-width: 915px) {
 .hk-MBG-section .hk-image-with-text-content {
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-MBG-bgmob.webp");
+}
+.hk-MBG-section .hk-image-with-text-content {
+    border-radius: 10px;
+    padding: 20px;
+}
+.hk-MBG-section .hk-image-with-text-column1 {
+    width: 100%;
+    padding-left: 0px;
+}
+.hk-MBG-section-img1 img {
+    position: unset;
+    width: 75px;
+    margin: 0px auto 16px;
+}
+.hk-MBG-heading h2 {
+    margin: 0px auto;
+    width: 230px;
+}
+.hk-MBG-text1 {
+    font-size: 14px;
+    margin: 10px auto 12px;
+    width: 241px;
+    max-width: 100%;
 }
 }
 /* MBG css end */
