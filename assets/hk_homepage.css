@@ -2029,5 +2029,12 @@ button#Subscribe {
 .hk-footer-menu ul li a {
     font-size: 14px;
 }
+.hk-footer-img img {
+    position: unset;
+    right: 50px;
+    width: calc(100% + 32px);
+    max-width: calc(100% + 32px);
+    margin-left: -16px;
+}
 }
 /* footer css end */
