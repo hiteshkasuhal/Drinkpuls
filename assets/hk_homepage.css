@@ -1733,6 +1733,10 @@
     border-radius: 10px;
     padding: 20px;
 }
+.hk-MBG-section .hk-image-with-text-column1 {
+    width: 100%;
+    padding-left: 0px;
+}
 }
 /* MBG css end */
 
