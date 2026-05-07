@@ -975,7 +975,13 @@
 
 
 @media (max-width: 915px) {
-
+.hk-looks-text1 {
+    font-size: 14px;
+    margin: 7px 0 25px;
+}
+.hk-looks-section .hk-richtext-content {
+    position: relative;
+}
 }
 /* looks css end */
 
