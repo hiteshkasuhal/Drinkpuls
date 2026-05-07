@@ -1993,5 +1993,9 @@ button#Subscribe {
 .hk-footer-logo {
     width: 82px;
 }
+.hk-footer-text2 {
+    min-height: 50px;
+    width: calc(100% - 82px);
+}
 }
 /* footer css end */
