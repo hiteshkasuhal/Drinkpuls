@@ -1685,6 +1685,15 @@
             "custom_id": "",
             "custom_class": "hk-reviews2-list1-item"
           }
+        },
+        "richtext_RJJQUj": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><a href=\"#\" title=\"#\">Read More</a></p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-pdp-review2-links"
+          }
         }
       },
       "block_order": [
@@ -1697,7 +1706,8 @@
         "icon_with_text_item_piETRF",
         "icon_with_text_item_tmdBBC",
         "icon_with_text_item_FHHD4L",
-        "icon_with_text_item_Jgx3Yy"
+        "icon_with_text_item_Jgx3Yy",
+        "richtext_RJJQUj"
       ],
       "name": "RichText",
       "settings": {
