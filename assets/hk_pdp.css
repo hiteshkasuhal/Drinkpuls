@@ -771,6 +771,29 @@
 .hk-FWITD-faq {
     margin-top: 25px;
 }
+.hk-FWITD-faq .hk-question span {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.hk-FWITD-faq .hk-question span:before {
+    content: "";
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-deliver-icon1.webp");
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hk-FWITD-faq2 .hk-question span:before {
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-deliver-icon2.webp");
+}
+.hk-FWITD-faq3 .hk-question span:before {
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-deliver-icon3.webp");
+}
+.hk-FWITD-faq4 .hk-question span:before {
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-deliver-icon3.webp");
+}
 
 
 
