@@ -442,6 +442,10 @@
 .hk-video-wrapper img {
     aspect-ratio: 201/325;
 }
+.hk-play-button span {
+    width: 34px;
+    height: 34px;
+}
 }
 /* video css end */
 
