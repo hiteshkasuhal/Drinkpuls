@@ -996,6 +996,12 @@
     flex-direction: column;
     padding-left: 123px;
 }
+.hk-looks-list1-item {
+    width: calc(100%);
+    border-radius: 4px;
+    padding: 16px;
+    top: 0px !important;
+}
 }
 /* looks css end */
 
