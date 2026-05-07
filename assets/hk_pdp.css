@@ -1299,6 +1299,11 @@
 .one-table-item2 {
     width: 37%;
 }
+.hk-one-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px 40px;
+}
 
 
 
