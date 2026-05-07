@@ -376,6 +376,31 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     height: unset;
     margin: 0px 5px;
 }
+ul.slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 400px;
+    max-width: 100%;
+    margin: 0px auto;
+    padding-top: 43px;
+}
+ul.slick-dots li {
+    width: 100%;
+    font-size: 0px;
+}
+ul.slick-dots li button {
+    width: 100%;
+    font-size: 0px;
+    padding: 0px !important;
+    background: #fff;
+    height: 2.6px;
+    border: none;
+    cursor: pointer;
+}
+ul.slick-dots li.slick-active~li button {
+    background: #3D3D3D;
+}
 
 
 
