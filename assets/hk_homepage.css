@@ -1752,6 +1752,9 @@
     width: 241px;
     max-width: 100%;
 }
+.hk-MBG-rating .hk-icon-with-text-flex {
+    justify-content: center;
+}
 }
 /* MBG css end */
 
