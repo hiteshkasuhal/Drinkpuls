@@ -1304,6 +1304,18 @@
     flex-wrap: wrap;
     gap: 25px 40px;
 }
+.hk-one-list1-item .hk-icon-with-text-flex {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: Aeonik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.16px;
+    gap: 13px;
+}
 
 
 
