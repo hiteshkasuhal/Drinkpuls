@@ -1057,6 +1057,14 @@
     top: 10px;
     z-index: 2;
 }
+.hk-number-text1 {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    padding-top: 30px;
+}
 
 
 
