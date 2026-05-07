@@ -772,7 +772,10 @@
 
 
 @media (max-width: 915px) {
-
+.hk-insides-img img {
+    position: unset;
+    width: 100%;
+}
 }
 /* insides css end */
 
