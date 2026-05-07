@@ -127,6 +127,11 @@
 .hk-section1 .hk-image-with-text-column2 {
     width: 100%;
 }
+.hk-section1-img {
+    margin-top: 18px;
+    width: calc(100% + 30px);
+    margin-left: -15px;
+}
 }
 /* section1 css end */
 
