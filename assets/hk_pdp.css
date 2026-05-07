@@ -1177,7 +1177,6 @@
 }
 .hk-how-list1-item-text {
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-use-bg.webp");
-    min-height: 260px;
     border-radius: 6px;
     color: #fff;
     display: flex;
@@ -1186,6 +1185,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.hk-how-list1-item {
+    min-height: 260px;
+    border-radius: 6px;
 }
 .hk-how-list1-item-text img {
     width: 41px;
