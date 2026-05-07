@@ -1165,6 +1165,11 @@
     width: 100%;
     margin: 8px 0 4px;
 }
+.hk-crash-list1-item .hk-element-text {
+    font-size: 14px;
+    width: 299px;
+    max-width: 100%;
+}
 }
 /* crash css end */
 
