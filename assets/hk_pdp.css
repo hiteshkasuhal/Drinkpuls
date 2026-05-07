@@ -930,141 +930,6 @@
 
 
 
-/* looks css start */
-.hk-looks-text1 {
-    font-size: 18.2px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%;
-    margin: 9px 0px 40px;
-}
-.hk-looks-img img {
-    width: calc(100% - 20px);
-}
-.hk-looks-list1 .hk-element-icon-with-text-grid {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 61px;
-    gap: 40px;
-}
-.hk-looks-list1-item {
-    width: calc(25% - (40px)*3/4);
-    border-radius: 6px;
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(2.6000001430511475px);
-    padding: 20.8px;
-    text-align: left;
-}
-.hk-looks-list1-item .hk-media.hk-svg {
-    font-size: 15.6px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    border-radius: 5.2px;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(2.6000001430511475px);
-    width: fit-content;
-    padding: 3.9px 10px;
-    margin-bottom: 10.4px;
-}
-.hk-looks-list1-item .hk-element-title {
-    color: #72D3FF;
-    font-family: Aeonik;
-    font-size: 19.5px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 125%;
-    text-transform: uppercase;
-    padding-bottom: 5.2px;
-}
-.hk-looks-list1-item .hk-element-text {
-    font-size: 18.2px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%;
-    width: 78%;
-}
-.hk-looks-list1-item {
-    position: relative;
-}
-.hk-looks-list1-item1 {
-    top: -20px;
-}
-.hk-looks-list1-item2 {
-    top: 20px;
-}
-.hk-looks-list1-item3 {
-    top: -12px;
-}
-.hk-looks-list1-item4 {
-    top: 20px;
-}
-
-
-
-@media (min-width: 915px) {
-
-}
-
-
-
-@media (max-width: 915px) {
-.hk-looks-text1 {
-    font-size: 14px;
-    margin: 7px 0 25px;
-}
-.hk-looks-section .hk-richtext-content {
-    position: relative;
-}
-.hk-looks-img img {
-    width: 109px;
-    position: absolute;
-    top: 129px;
-    left: 0px;
-}
-.hk-looks-list1 .hk-element-icon-with-text-grid {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
-    gap: 16px;
-    flex-direction: column;
-    padding-left: 123px;
-}
-.hk-looks-list1-item {
-    width: calc(100%);
-    border-radius: 4px;
-    padding: 16px;
-    top: 0px !important;
-}
-.hk-looks-list1-item .hk-media.hk-svg {
-    font-size: 12px;
-    border-radius: 4px;
-    padding: 3px 9px;
-    margin-bottom: 8px;
-}
-.hk-looks-list1-item .hk-element-title {
-    font-size: 15px;
-    padding-bottom: 4px;
-}
-.hk-looks-list1-item .hk-element-text {
-    font-size: 14px;
-    width: 170px !important;
-    max-width: 100%;
-}
-.hk-looks-list1-item:nth-child(2) {
-    width: calc(100% - 0px);
-    margin-left: -30px;
-}
-.hk-looks-list1-item:nth-child(4) {
-    width: calc(100% - 0px);
-    margin-left: -34px;
-}
-}
-/* looks css end */
-
-
-
 /* crash css start */
 .hk-crash-list1 .hk-element-icon-with-text-grid {
     display: flex;
@@ -1145,6 +1010,13 @@
     min-width: 100%;
     height: unset;
     display: block;
+}
+.hk-number-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    justify-content: space-between;
+    width: 1052px;
+    max-width: 100%;
+    gap: 40px;
 }
 
 
