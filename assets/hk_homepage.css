@@ -1948,14 +1948,5 @@ button#Subscribe:after {
     padding: 7px 0;
     font-size: 13px;
 }
-.hk-footer .hk-richtext-content {
-    border-radius: 13px;
-    padding: 55px 15px 0px;
-}
-.hk-footer-text1, 
-.hk-footer-submit {
-    width: 100%;
-    margin-bottom: 10px;
-}
 }
 /* footer css end */
