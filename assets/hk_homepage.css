@@ -1012,6 +1012,11 @@
     font-size: 15px;
     padding-bottom: 4px;
 }
+.hk-looks-list1-item .hk-element-text {
+    font-size: 14px;
+    width: 170px !important;
+    max-width: 100%;
+}
 }
 /* looks css end */
 
