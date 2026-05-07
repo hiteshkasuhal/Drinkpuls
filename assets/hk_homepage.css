@@ -438,6 +438,10 @@
     width: calc(100% + 16px);
     padding-right: 135px;
 }
+.hk-video-wrapper video, 
+.hk-video-wrapper img {
+    aspect-ratio: 201/325;
+}
 }
 /* video css end */
 
