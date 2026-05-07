@@ -982,6 +982,12 @@
 .hk-more-list1-items:nth-child(3) p {
     width: 70%;
 }
+.hk-more-list1-items.active {
+    border-color: rgba(255, 255, 255, 0.25);
+    background: #72D3FF;
+    backdrop-filter: blur(2.6000001430511475px);
+    color: #162036;
+}
 
 
 
