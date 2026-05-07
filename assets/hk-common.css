@@ -393,13 +393,13 @@ ul.slick-dots li button {
     width: 100%;
     font-size: 0px;
     padding: 0px !important;
-    background: #fff;
+    background: #FFFFFF40;
     height: 2.6px;
     border: none;
     cursor: pointer;
 }
 ul.slick-dots li.slick-active~li button {
-    background: #3D3D3D;
+    background: #FFFFFF;
 }
 
 
