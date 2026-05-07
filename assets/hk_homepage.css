@@ -1944,5 +1944,9 @@ button#Subscribe:after {
 .hk-footer .hk-richtext-content {
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-footer-bgmob.webp");
 }
+.hk-footer-top {
+    padding: 7px 0;
+    font-size: 13px;
+}
 }
 /* footer css end */
