@@ -1967,5 +1967,22 @@ button#Subscribe:after {
     width: 290px;
     max-width: 100%;
 }
+.hk-footer-submit {
+    min-height: unset;
+    margin-bottom: 40px;
+}
+.field_lp input {
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    width: 100%;
+    height: 61px;
+}
+.field_lp {
+    width: 100%;
+}
+button#Subscribe svg {
+    width: 23px;
+    height: unset;
+}
 }
 /* footer css end */
