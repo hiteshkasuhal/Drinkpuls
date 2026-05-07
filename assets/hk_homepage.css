@@ -1929,6 +1929,12 @@ button#Subscribe:after {
     line-height: 125%;
     text-decoration: none;
 }
+.hk-footer-text3 {
+    font-size: 17.55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
 
 
 
@@ -1995,7 +2001,17 @@ button#Subscribe {
 }
 .hk-footer-text2 {
     min-height: 50px;
+    align-items: center;
     width: calc(100% - 82px);
+}
+.hk-footer-text2 p {
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    padding: 4.5px 10px;
+}
+.hk-footer-text3 {
+    margin: 25px 0 25px;
+    padding-bottom: 25px;
 }
 }
 /* footer css end */
