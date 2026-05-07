@@ -1496,12 +1496,13 @@
           "type": "image",
           "settings": {
             "link": "",
-            "image": "shopify://shop_images/HP-MBG-img.webp",
+            "image": "shopify://shop_images/pdp-MBG-img.webp",
+            "image_mobile": "shopify://shop_images/pdp-MBG-img1mob.webp",
             "image_loading": "lazy",
             "image_performance": "low",
             "position": "right",
             "custom_id": "",
-            "custom_class": "hk-MBG-section-img2 hk-hide-mobile"
+            "custom_class": "hk-MBG-section-img2"
           }
         }
       },
