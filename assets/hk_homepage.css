@@ -982,6 +982,12 @@
 .hk-looks-section .hk-richtext-content {
     position: relative;
 }
+.hk-looks-img img {
+    width: 109px;
+    position: absolute;
+    top: 129px;
+    left: 0px;
+}
 }
 /* looks css end */
 
