@@ -1590,6 +1590,10 @@
     font-size: 14px;
     padding: 18px 16px;
 }
+.hk-question:after {
+    width: 19px;
+    height: 19px;
+}
 }
 /* faq css end */
 
