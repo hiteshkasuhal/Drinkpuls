@@ -383,6 +383,14 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .hk-image-with-text-column {
     width: 100%;
 }
+.hk-global-heading h1 {
+    max-width: 100%;
+    font-size: 46px;
+    letter-spacing: -1.38px;
+    width: 270px;
+    text-align: center;
+    margin: 0px auto;
+}
 }
 /* same css end */
 
