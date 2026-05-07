@@ -1129,6 +1129,11 @@
     max-width: 100%;
     margin: 7px auto 25px;
 }
+.hk-crash-list1 .hk-element-icon-with-text-grid {
+    gap: 16px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
 }
 /* crash css end */
 
