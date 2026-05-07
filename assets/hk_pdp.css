@@ -937,6 +937,13 @@
 .hk-more-section .hk-image-with-text-column1 {
     width: 36.5%;
 }
+.hk-more-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
 
 
 
