@@ -257,6 +257,9 @@
 .hk-shops-pdt-item {
     width: 100%;
 }
+.hk-shops-pdt-item .hk-element-image .hk-media:nth-child(1) img {
+    width: 140px;
+}
 }
 /* shops css end */
 
