@@ -1882,6 +1882,11 @@
     color: #72D3FF;
     font-weight: unset;
 }
+.hk-reviews2-list1-item .hk-element-text {
+    display: flex;
+    align-items: center;
+    gap: 6.5px;
+}
 
 
 
