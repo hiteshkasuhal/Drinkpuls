@@ -1356,6 +1356,10 @@
     max-width: 100%;
     margin-left: auto;
 }
+.one-table-item3 ul li {
+    justify-content: flex-end;
+    padding-right: 11px;
+}
 }
 /* one css end */
 
