@@ -418,6 +418,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .hk-global-MBG .hk-icon-with-text-flex img {
     width: 15.656px;
 }
+.hk-global-heading h2 {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    width: 328px;
+    max-width: 100%;
+}
 }
 /* same css end */
 
