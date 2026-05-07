@@ -592,7 +592,7 @@
         "text_alignment": "center",
         "padding_top": 40,
         "padding_bottom": 80,
-        "text_alignment_mobile": "center",
+        "text_alignment_mobile": "left",
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 40,
         "custom_id": "",
