@@ -1872,6 +1872,16 @@
     flex-direction: column;
     height: 100%;
 }
+.hk-reviews2-list1-item .hk-element-text p {
+    font-size: 16.9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.hk-reviews2-list1-item .hk-element-text p strong {
+    color: #72D3FF;
+    font-weight: unset;
+}
 
 
 
