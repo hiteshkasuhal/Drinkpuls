@@ -2039,5 +2039,8 @@ button#Subscribe {
 .hk-footer-brand {
     margin: 40px 0 15px;
 }
+.hk-footer-brand img {
+    width: 271px;
+}
 }
 /* footer css end */
