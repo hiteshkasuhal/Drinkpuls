@@ -1569,7 +1569,9 @@
 
 
 @media (max-width: 915px) {
-
+.hk-faq-heading h2 {
+    width: 210px;
+}
 }
 /* faq css end */
 
