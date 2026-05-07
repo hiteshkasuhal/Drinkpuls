@@ -948,94 +948,6 @@
         "custom_class": "hk-number-section"
       }
     },
-    "hk_richtext_QCbeaf": {
-      "type": "hk-richtext",
-      "blocks": {
-        "heading_RrHez9": {
-          "type": "heading",
-          "settings": {
-            "text": "How to Use PULS",
-            "h1": false,
-            "font_type": "heading",
-            "custom_id": "",
-            "custom_class": "hk-how-heading hk-global-heading hk-heading-center"
-          }
-        },
-        "richtext_ytKpa3": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>One sachet. Hot water. Stir and go.</p>",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": "hk-looks-text1 hk-how-text2"
-          }
-        },
-        "liquid_FBHqR6": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"hk-table-box\">\n\n\t\t<div class=\"hk-table-box-item hk-table-box-item1\">\n\t\t\t<ul>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> 10g protein</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> 5g creatine</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> MCTs for focus</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> From £1.19/day</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> Smooth, sustained energy</li>\n\t\t\t</ul>\n\t\t\t<img class=\"hk-table-img hk-hide-mobile\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img1.webp\">\n\t\t\t<img class=\"hk-table-img hk-hide-desktop\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img1mob.webp\">\n\t\t</div>\n\n\t\t<div class=\"hk-table-box-item hk-table-box-item2\">\n\t\t\t<ul>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> No protein</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> No creatine</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> No mental fuel</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> Short-lived buzz</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> ~£5/day</li>\n\t\t\t</ul>\n\t\t\t<img class=\"hk-table-img hk-hide-mobile\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img2.webp\">\n\t\t\t<img class=\"hk-table-img hk-hide-desktop\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img2mob.webp\">\n\t\t</div>\n\t\t\n\t</div>",
-            "custom_id": "",
-            "custom_class": "hk-hide-mobile"
-          }
-        },
-        "liquid_A7aebK": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"hk-table-box\">\n\n\t\t<div class=\"hk-table-box-item hk-table-box-item1\">\n\t\t\t<ul>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> <p>10g protein</p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> <p>5g creatine</p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> <p>MCTs for <span>focus</span></p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> <p>Smooth, <span>sustained energy</span></p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> <p>From £1.19/day</p></li>\n\t\t\t</ul>\n\t\t\t<img class=\"hk-table-img hk-hide-mobile\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img1.webp\">\n\t\t\t<img class=\"hk-table-img hk-hide-desktop\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img1mob.webp\">\n\t\t</div>\n\n\t\t<div class=\"hk-table-box-item hk-table-box-item2\">\n\t\t\t<ul>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> <p>No protein</p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> <p>No creatine</p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> <p>No mental <span>fuel</span></p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> <p>Short-lived <span>buzz</span></p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> <p>~£5/day</p></li>\n\t\t\t</ul>\n\t\t\t<img class=\"hk-table-img hk-hide-mobile\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img2.webp\">\n\t\t\t<img class=\"hk-table-img hk-hide-desktop\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img2mob.webp\">\n\t\t</div>\n\t\t\n\t</div>",
-            "custom_id": "",
-            "custom_class": "hk-hide-desktop"
-          }
-        },
-        "button_Hgn6D9": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_link": "",
-            "button_label": "Upgrade My Mornings",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": "hk-table-button hk-center hk-btn-black"
-          }
-        },
-        "icon_with_text_DY4FRK": {
-          "type": "icon_with_text",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/HP-MBG-black.webp",
-            "liquid": "",
-            "title": "",
-            "text": "<p>30 Day Money-Back Guarantee</p>",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "custom_id": "",
-            "custom_class": "hk-table-MBG hk-global-MBG hk-center hk-MBG-white"
-          }
-        }
-      },
-      "block_order": [
-        "heading_RrHez9",
-        "richtext_ytKpa3",
-        "liquid_FBHqR6",
-        "liquid_A7aebK",
-        "button_Hgn6D9",
-        "icon_with_text_DY4FRK"
-      ],
-      "name": "RichText",
-      "settings": {
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#162036",
-        "text_alignment": "center",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "text_alignment_mobile": "center",
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 20,
-        "custom_id": "",
-        "custom_class": "hk-table-section"
-      }
-    },
     "hk_richtext_PUfjWE": {
       "type": "hk-richtext",
       "blocks": {
@@ -1084,6 +996,180 @@
         "padding_bottom_mobile": 0,
         "custom_id": "",
         "custom_class": "hk-crash-bottom"
+      }
+    },
+    "hk_richtext_QCbeaf": {
+      "type": "hk-richtext",
+      "blocks": {
+        "heading_RrHez9": {
+          "type": "heading",
+          "settings": {
+            "text": "How to Use PULS",
+            "h1": false,
+            "font_type": "heading",
+            "custom_id": "",
+            "custom_class": "hk-how-heading hk-global-heading hk-heading-center"
+          }
+        },
+        "richtext_ytKpa3": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>One sachet. Hot water. Stir and go.</p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-looks-text1 hk-how-text2"
+          }
+        },
+        "icon_with_text_grid_y9PFVn": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "custom_id": "",
+            "custom_class": "hk-how-list1"
+          }
+        },
+        "icon_with_text_item_qePhWT": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-use-icon1.webp",
+            "liquid": "",
+            "title": "Tear",
+            "text": "<p>Add 1 sachet of PULS to your mug or shaker.</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item1"
+          }
+        },
+        "icon_with_text_item_yQfUUM": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-use-img2.webp",
+            "liquid": "",
+            "title": "Tear",
+            "text": "<p>Add 1 sachet of PULS to your mug or shaker.</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item2  hk-how-list1-item-img"
+          }
+        },
+        "icon_with_text_item_69nc9U": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-use-icon3.webp",
+            "liquid": "",
+            "title": "Pour",
+            "text": "<p>Add hot water or milk (200–250ml) and stir</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item3"
+          }
+        },
+        "icon_with_text_item_9RxVVX": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-use-img4.webp",
+            "liquid": "",
+            "title": "Tear",
+            "text": "<p>Add 1 sachet of PULS to your mug or shaker.</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item4  hk-how-list1-item-img"
+          }
+        },
+        "icon_with_text_item_4kN4RA": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-use-icon5.webp",
+            "liquid": "",
+            "title": "Perform",
+            "text": "<p>Drink daily for clean energy & focus</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item5"
+          }
+        },
+        "icon_with_text_item_RNzYFt": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-use-img5.webp",
+            "liquid": "",
+            "title": "Tear",
+            "text": "<p>Add 1 sachet of PULS to your mug or shaker.</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item6  hk-how-list1-item-img"
+          }
+        },
+        "button_Hgn6D9": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_link": "",
+            "button_label": "Upgrade My Mornings",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-table-button hk-center hk-btn-black"
+          }
+        },
+        "icon_with_text_DY4FRK": {
+          "type": "icon_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/HP-MBG-black.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>30 Day Money-Back Guarantee</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-table-MBG hk-global-MBG hk-center hk-MBG-white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RrHez9",
+        "richtext_ytKpa3",
+        "icon_with_text_grid_y9PFVn",
+        "icon_with_text_item_qePhWT",
+        "icon_with_text_item_yQfUUM",
+        "icon_with_text_item_69nc9U",
+        "icon_with_text_item_9RxVVX",
+        "icon_with_text_item_4kN4RA",
+        "icon_with_text_item_RNzYFt",
+        "button_Hgn6D9",
+        "icon_with_text_DY4FRK"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#162036",
+        "text_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "hk-how-section"
       }
     },
     "hk_scroll_bar_caxkhK": {
