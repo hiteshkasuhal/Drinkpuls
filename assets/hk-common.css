@@ -466,6 +466,9 @@ ul.slick-dots {
 ul.slick-dots li button {
     height: 2px;
 }
+.hk-heading-center h2 {
+    margin: 0px auto;
+}
 }
 /* same css end */
 
@@ -508,7 +511,7 @@ ul.slick-dots li button {
 
 
 
-/* zoom */
+/* zoom 
 @media (max-width: 1600px) and (min-width: 1400px) {
 body {
     zoom: 90%;
@@ -527,4 +530,4 @@ body {
 body {
     zoom: 65%;
 }
-}
+}*/
