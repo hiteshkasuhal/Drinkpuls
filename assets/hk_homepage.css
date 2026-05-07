@@ -1948,5 +1948,28 @@ button#Subscribe:after {
     padding: 7px 0;
     font-size: 13px;
 }
+.hk-footer .hk-richtext-content {
+    border-radius: 13px;
+    padding: 55px 15px 0px;
+}
+.hk-footer-text1, 
+.hk-footer-submit {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.hk-footer-text1 p strong {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+}
+.hk-footer-text1 p {
+    font-size: 14px;
+    gap: 10px;
+    width: 290px;
+    max-width: 100%;
+}
+.hk-footer-submit {
+    min-height: unset;
+    margin-bottom: 40px;
+}
 }
 /* footer css end */
