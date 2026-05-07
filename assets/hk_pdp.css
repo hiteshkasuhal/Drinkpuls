@@ -961,6 +961,15 @@
     object-position: bottom;
     margin: 0px auto 13px;
 }
+.hk-more-list1-items .hk-media.hk-svg {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    position: absolute;
+    top: 13px;
+    left: 13px;
+}
 
 
 
