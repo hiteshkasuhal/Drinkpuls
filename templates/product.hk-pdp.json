@@ -1224,6 +1224,78 @@
             "custom_class": "hk-one-text2 hk-hide-mobile"
           }
         },
+        "icon_with_text_grid_HnYepJ": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-one-list1"
+          }
+        },
+        "icon_with_text_item_DxAyV4": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-one-icon1.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Sustained energy</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-one-list1-item hk-one-list1-item1"
+          }
+        },
+        "icon_with_text_item_xMA3a4": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-one-icon2.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Sharper focus</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-one-list1-item hk-one-list1-item2"
+          }
+        },
+        "icon_with_text_item_rihmUT": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-one-icon3.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Strength & performance</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-one-list1-item hk-one-list1-item3"
+          }
+        },
+        "icon_with_text_item_k7gzpb": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-one-icon4.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>No crash, no jitters</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-one-list1-item hk-one-list1-item4"
+          }
+        },
         "liquid_pVbGgr": {
           "type": "liquid",
           "settings": {
@@ -1243,33 +1315,6 @@
             "custom_class": "hk-one-text2 hk-hide-desktop"
           }
         },
-        "button_4K8Uc3": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button_label": "Upgrade My Mornings",
-            "font_type": "body",
-            "position": "left",
-            "custom_id": "",
-            "custom_class": "hk-section1-button hk-btn-black"
-          }
-        },
-        "icon_with_text_3UpQcG": {
-          "type": "icon_with_text",
-          "settings": {
-            "image": "shopify://shop_images/HP-MBG-black.webp",
-            "liquid": "",
-            "title": "",
-            "text": "<p>30 Day Money-Back Guarantee</p>",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "position": "left",
-            "custom_id": "",
-            "custom_class": "hk-section1-MBG hk-global-MBG hk-MBG-white"
-          }
-        },
         "liquid_WdPwnh": {
           "type": "liquid",
           "settings": {
@@ -1284,10 +1329,13 @@
         "heading_YccEYT",
         "richtext_p3Jf7k",
         "richtext_UmM9nb",
+        "icon_with_text_grid_HnYepJ",
+        "icon_with_text_item_DxAyV4",
+        "icon_with_text_item_xMA3a4",
+        "icon_with_text_item_rihmUT",
+        "icon_with_text_item_k7gzpb",
         "liquid_pVbGgr",
         "richtext_44nYXN",
-        "button_4K8Uc3",
-        "icon_with_text_3UpQcG",
         "liquid_WdPwnh"
       ],
       "name": "Image With Text",
