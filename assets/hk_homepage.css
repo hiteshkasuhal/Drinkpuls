@@ -832,6 +832,13 @@
 .hk-insides-list1-item-width:nth-child(1) .hk-element-text {
     width: 99px;
 }
+.hk-insides-list1-item-width:nth-child(even) .hk-element-image {
+    display: flex;
+    justify-content: flex-end;
+}
+.hk-insides-list1-item-width:nth-child(even) .hk-element-title {
+    text-align: right;
+}
 }
 /* insides css end */
 
