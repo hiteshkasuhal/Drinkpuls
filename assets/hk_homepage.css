@@ -1971,5 +1971,11 @@ button#Subscribe:after {
     min-height: unset;
     margin-bottom: 40px;
 }
+.field_lp input {
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    width: 100%;
+    height: 61px;
+}
 }
 /* footer css end */
