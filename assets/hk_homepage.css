@@ -446,6 +446,9 @@
     width: 34px;
     height: 34px;
 }
+.hk-play-button span svg {
+    width: 12px;
+}
 }
 /* video css end */
 
