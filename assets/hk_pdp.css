@@ -1190,6 +1190,7 @@
     min-height: 260px;
     border-radius: 6px;
     overflow: hidden;
+    position: relative;
 }
 .hk-how-list1-item-text img {
     width: 41px;
