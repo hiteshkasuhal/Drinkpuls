@@ -1476,6 +1476,9 @@
     justify-content: center;
     align-items: center;
 }
+.hk-table-box-item ul {
+    justify-content: center;
+}
 }
 /* table css end */
 
