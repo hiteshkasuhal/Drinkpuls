@@ -823,6 +823,15 @@
     padding-left: 0px;
     text-align: left;
 }
+.hk-insides-list1-item-width .hk-element-text {
+    font-size: 14px;
+    line-height: 125%;
+    padding-top: 1px;
+    text-align: left;
+}
+.hk-insides-list1-item-width:nth-child(1) .hk-element-text {
+    width: 99px;
+}
 }
 /* insides css end */
 
