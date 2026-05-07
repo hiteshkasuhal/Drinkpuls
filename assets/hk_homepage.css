@@ -1196,6 +1196,12 @@
 .hk-crash-bottom-curve svg {
     margin-top: -20%;
 }
+.hk-crash-img {
+    width: calc(100% - 47px);
+    margin: 40px auto -149px;
+    z-index: 2;
+    position: relative;
+}
 }
 /* crash css end */
 
