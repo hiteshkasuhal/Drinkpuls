@@ -601,6 +601,10 @@
 .hk-reviews-slide {
     padding: 0px 8px 0px 0px;
 }
+.hk-reviews-slider .slick-list.draggable {
+    padding: 0px 77px 0px 0px !important;
+    width: calc(100% + 16px);
+}
 }
 /* reviews css end */
 
