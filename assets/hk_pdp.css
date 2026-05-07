@@ -1824,7 +1824,12 @@
     line-height: 125%;
     margin: 12px 0px 40px;
 }
-
+.hk-reviews2-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+    gap: 30px 40px;
+}
 
 
 
