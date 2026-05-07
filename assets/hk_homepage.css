@@ -105,6 +105,9 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+.hk-section1-list1-item:nth-child(1) {
+    order: 3;
+}
 }
 /* section1 css end */
 
