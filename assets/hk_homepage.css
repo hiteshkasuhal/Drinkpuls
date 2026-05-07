@@ -1329,7 +1329,7 @@
 }
 .one-table-top-p {
     font-size: 12px;
-    min-height: 34px;
+    min-height: 35px;
     text-align: left;
 }
 .one-table-item ul {
@@ -1372,6 +1372,9 @@
 }
 .one-table-item2 {
     width: 32%;
+}
+.one-table-item1 .one-table-bottom-p {
+    text-align: left;
 }
 }
 /* one css end */
