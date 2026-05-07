@@ -1039,7 +1039,7 @@
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
-            "custom_class": "hk-how-list1-item hk-how-list1-item1"
+            "custom_class": "hk-how-list1-item hk-how-list1-item1 hk-how-list1-item-text"
           }
         },
         "icon_with_text_item_yQfUUM": {
@@ -1047,8 +1047,8 @@
           "settings": {
             "image": "shopify://shop_images/pdp-use-img2.webp",
             "liquid": "",
-            "title": "Tear",
-            "text": "<p>Add 1 sachet of PULS to your mug or shaker.</p>",
+            "title": "",
+            "text": "",
             "font_type_title": "heading",
             "font_type_text": "body",
             "image_loading": "lazy",
@@ -1069,7 +1069,7 @@
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
-            "custom_class": "hk-how-list1-item hk-how-list1-item3"
+            "custom_class": "hk-how-list1-item hk-how-list1-item3 hk-how-list1-item-text"
           }
         },
         "icon_with_text_item_9RxVVX": {
@@ -1077,8 +1077,8 @@
           "settings": {
             "image": "shopify://shop_images/pdp-use-img4.webp",
             "liquid": "",
-            "title": "Tear",
-            "text": "<p>Add 1 sachet of PULS to your mug or shaker.</p>",
+            "title": "",
+            "text": "",
             "font_type_title": "heading",
             "font_type_text": "body",
             "image_loading": "lazy",
@@ -1099,7 +1099,7 @@
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
-            "custom_class": "hk-how-list1-item hk-how-list1-item5"
+            "custom_class": "hk-how-list1-item hk-how-list1-item5 hk-how-list1-item-text"
           }
         },
         "icon_with_text_item_RNzYFt": {
@@ -1107,8 +1107,8 @@
           "settings": {
             "image": "shopify://shop_images/pdp-use-img5.webp",
             "liquid": "",
-            "title": "Tear",
-            "text": "<p>Add 1 sachet of PULS to your mug or shaker.</p>",
+            "title": "",
+            "text": "",
             "font_type_title": "heading",
             "font_type_text": "body",
             "image_loading": "lazy",
