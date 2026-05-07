@@ -422,6 +422,9 @@
     font-size: 14px;
     gap: 7px;
 }
+.hk-video-rating img {
+    width: 67px;
+}
 }
 /* video css end */
 
