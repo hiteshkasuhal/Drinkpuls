@@ -491,6 +491,9 @@
     gap: 8px;
     padding: 0 15px;
 }
+.hk-scroll-bar-text2 .hk-scroll-item-flex img {
+    width: 20px;
+}
 }
 /* textbar2 css end */
 
