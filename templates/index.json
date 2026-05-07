@@ -1581,7 +1581,7 @@
             "font_type": "heading",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-insides-heading hk-global-heading"
+            "custom_class": "hk-one-heading hk-global-heading"
           }
         },
         "richtext_p3Jf7k": {
@@ -1656,7 +1656,7 @@
         "text_alignment": "left",
         "padding_top": 57,
         "padding_bottom": 40,
-        "text_alignment_mobile": "left",
+        "text_alignment_mobile": "center",
         "padding_top_mobile": 100,
         "padding_bottom_mobile": 20,
         "custom_id": "",
