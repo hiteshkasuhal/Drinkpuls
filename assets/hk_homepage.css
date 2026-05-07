@@ -323,7 +323,11 @@
 
 
 @media (max-width: 915px) {
-
+.hk-scroll-bar-text .hk-scroll-item-flex {
+    font-size: 14px;
+    padding: 0 5px;
+    gap: 5px;
+}
 }
 /* textbar css end */
 
