@@ -1521,7 +1521,7 @@
 }
 .hk-faq-main {
     border-radius: 6px;
-    background: #F7F7F7;
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(13.000000953674316px);
 }
 .hk-question {
