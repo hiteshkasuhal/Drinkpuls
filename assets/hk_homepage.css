@@ -794,6 +794,20 @@
 .hk-insides-list1 {
     margin: 25px 0;
 }
+.hk-insides-list1 .hk-element-icon-with-text-grid {
+    gap: 10px;
+    align-items: flex-start;
+}
+.hk-insides-list1-item-width {
+    width: calc(50% - 5px);
+    border-radius: 4px;
+    background: #ffffff0d;
+    -webkit-backdrop-filter: blur(5.200000286102295px);
+    backdrop-filter: blur(5.200000286102295px);
+    padding: 16px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.05) 100%);
+    backdrop-filter: blur(4px);
+}
 }
 /* insides css end */
 
