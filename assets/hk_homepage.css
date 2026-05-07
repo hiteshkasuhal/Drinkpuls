@@ -282,17 +282,6 @@
     font-size: 16px;
     letter-spacing: -0.32px;
 }
-.hk-shops-pdt-item .hk-element-text p:nth-child(1) {
-    font-size: 15px;
-}
-.hk-shops-pdt-item .hk-element-text p:nth-child(1):after {
-    width: 70px;
-    height: 14px;
-}
-.hk-shops-pdt-item .hk-element-text p:nth-child(2) {
-    font-size: 12px;
-    margin-bottom: 16px;
-}
 }
 /* shops css end */
 
@@ -323,11 +312,7 @@
 
 
 @media (max-width: 915px) {
-.hk-scroll-bar-text .hk-scroll-item-flex {
-    font-size: 14px;
-    padding: 0 5px;
-    gap: 5px;
-}
+
 }
 /* textbar css end */
 
