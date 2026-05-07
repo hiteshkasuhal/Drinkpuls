@@ -1485,6 +1485,14 @@
 .hk-table-box-item ul li img {
     width: 21px;
 }
+.hk-table-box-item .hk-table-img {
+    position: absolute;
+    bottom: calc(100% - 55px);
+    right: 0px;
+    width: 61px;
+    left: 0px;
+    margin: 0px auto;
+}
 }
 /* table css end */
 
