@@ -1559,6 +1559,9 @@
     margin-top: -10px;
     max-width: 100%;
 }
+.hk-question {
+    text-align: left;
+}
 
 
 
@@ -1571,6 +1574,21 @@
 @media (max-width: 915px) {
 .hk-faq-heading h2 {
     width: 210px;
+}
+.hk-faq-section .hk-image-with-text-flex {
+    gap: 12px;
+    flex-direction: column;
+}
+.hk-faq-section .hk-image-with-text-column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.hk-question {
+    width: 100%;
+    font-size: 14px;
+    padding: 18px 16px;
 }
 }
 /* faq css end */
