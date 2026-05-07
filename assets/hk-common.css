@@ -424,6 +424,12 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 328px;
     max-width: 100%;
 }
+.hk-global-rating .hk-icon-with-text-flex {
+    justify-content: unset;
+    font-size: 12px;
+    gap: 5px;
+    padding-bottom: 12px;
+}
 }
 /* same css end */
 
