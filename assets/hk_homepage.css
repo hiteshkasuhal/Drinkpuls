@@ -1332,6 +1332,15 @@
     min-height: 34px;
     text-align: left;
 }
+.one-table-item ul {
+    margin: 13px 0 10px;
+    gap: 16px;
+    padding: 19px 0;
+}
+.one-table-item ul svg {
+    width: 18px;
+    height: unset;
+}
 }
 /* one css end */
 
