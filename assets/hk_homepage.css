@@ -1479,6 +1479,28 @@
 .hk-table-box-item ul {
     justify-content: center;
 }
+.hk-table-box-item2 ul {
+    justify-content: center;
+}
+.hk-table-box-item ul li img {
+    width: 21px;
+}
+.hk-table-box-item .hk-table-img {
+    position: absolute;
+    bottom: calc(100% - 55px);
+    right: 0px;
+    width: 61px;
+    left: 0px;
+    margin: 0px auto;
+}
+.hk-table-box-item2 .hk-table-img {
+    width: 111px;
+    right: 0px;
+    left: 0px;
+}
+.hk-table-box-item ul li span {
+    display: block;
+}
 }
 /* table css end */
 
