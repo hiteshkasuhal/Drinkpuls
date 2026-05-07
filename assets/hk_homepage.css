@@ -1124,6 +1124,11 @@
 .hk-crash-heading h2 strong {
     display: block;
 }
+.hk-crash-text2 {
+    width: 270px;
+    max-width: 100%;
+    margin: 0px auto;
+}
 }
 /* crash css end */
 
