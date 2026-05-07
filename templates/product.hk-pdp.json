@@ -813,6 +813,127 @@
         "custom_class": "hk-faq-section"
       }
     },
+    "hk_image_with_text_dV3xNm": {
+      "type": "hk-image-with-text",
+      "blocks": {
+        "heading_CXmaFB": {
+          "type": "heading",
+          "settings": {
+            "text": "More Than Coffee. <strong>Built for Performance.</strong>",
+            "h1": false,
+            "font_type": "heading",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-more-heading hk-global-heading hk-heading-center"
+          }
+        },
+        "richtext_TXpQF4": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Tap each benefit to see what PULS delivers in every cup.</p>",
+            "font_type": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-insides-text1 hk-more-text1s"
+          }
+        },
+        "icon_with_text_grid_AmXtNb": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-more-list1"
+          }
+        },
+        "icon_with_text_item_i3GXdL": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more-step1.webp",
+            "liquid": "01",
+            "title": "",
+            "text": "<p>Sustained Energy Production</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-more-list1-items active"
+          }
+        },
+        "icon_with_text_item_8FmDHN": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more-step2.webp",
+            "liquid": "02",
+            "title": "",
+            "text": "<p>Focus & Cognitive Performance</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-more-list1-items active"
+          }
+        },
+        "icon_with_text_item_wt8RJm": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more-step3.webp",
+            "liquid": "03",
+            "title": "",
+            "text": "<p>Muscle Strength  & Power</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-more-list1-items active"
+          }
+        },
+        "icon_with_text_item_AAaiWp": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more-step4.webp",
+            "liquid": "04",
+            "title": "",
+            "text": "<p>Muscle Recovery & Lean Mass Support</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-more-list1-items active"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CXmaFB",
+        "richtext_TXpQF4",
+        "icon_with_text_grid_AmXtNb",
+        "icon_with_text_item_i3GXdL",
+        "icon_with_text_item_8FmDHN",
+        "icon_with_text_item_wt8RJm",
+        "icon_with_text_item_AAaiWp"
+      ],
+      "name": "Image With Text",
+      "settings": {
+        "background_image": "shopify://shop_images/HP-reviews-bg.webp",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "text_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "hk-more-section"
+      }
+    },
     "hk_richtext_eEqQty": {
       "type": "hk-richtext",
       "blocks": {
@@ -1734,6 +1855,7 @@
     "hk_scroll_bar_ixLz3g",
     "hk_richtext_xLe6KD",
     "hk_image_with_text_p93aBe",
+    "hk_image_with_text_dV3xNm",
     "hk_richtext_eEqQty",
     "hk_richtext_PUfjWE",
     "hk_richtext_QCbeaf",
