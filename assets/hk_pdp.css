@@ -1175,6 +1175,15 @@
 .hk-how-list1-item {
     width: calc(16.666% - (20px)*5/6);
 }
+.hk-how-list1-item-text {
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-use-bg.webp");
+    min-height: 260px;
+    border-radius: 6px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
