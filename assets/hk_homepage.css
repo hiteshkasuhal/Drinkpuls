@@ -1452,7 +1452,11 @@
 
 
 @media (max-width: 915px) {
-
+.hk-table-box {
+    gap: 10px;
+    margin: 84px 0px 25px;
+    width: 100%;
+}
 }
 /* table css end */
 
