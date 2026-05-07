@@ -907,7 +907,7 @@
         "padding_bottom": 40,
         "text_alignment_mobile": "left",
         "padding_top_mobile": 25,
-        "padding_bottom_mobile": 25,
+        "padding_bottom_mobile": 20,
         "custom_id": "",
         "custom_class": "hk-faq-section"
       }
