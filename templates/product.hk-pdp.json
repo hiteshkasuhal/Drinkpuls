@@ -471,7 +471,7 @@
         "heading_UjQyjr": {
           "type": "heading",
           "settings": {
-            "text": "What’s Inside each serving",
+            "text": "formulated with <strong>ingredients that deliver</strong>",
             "h1": false,
             "font_type": "heading",
             "position": "left",
@@ -489,128 +489,60 @@
             "custom_class": "hk-insides-text1 hk-insides-text1s"
           }
         },
-        "icon_with_text_grid_8wAkab": {
-          "type": "icon_with_text_grid",
+        "faq_bQF6Gm": {
+          "type": "faq",
           "settings": {
+            "question": "100mg Arabica coffee caffeine",
+            "answer": "<p>Arabica coffee provides a smoother caffeine release compared to synthetic sources.At 100mg, it increases alertness and reaction time by blocking adenosine receptors in the brain - helping you feel awake, focused, and mentally sharp without overstimulation or jitters.</p>",
+            "font_type": "heading",
+            "font_type_answer": "heading",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-insides-list1"
+            "custom_class": "hk-FWITD-faq hk-FWITD-faq1"
           }
         },
-        "icon_with_text_item_eaQGCK": {
-          "type": "icon_with_text_item",
+        "faq_qWzLDY": {
+          "type": "faq",
           "settings": {
-            "image": "shopify://shop_images/HP-insides-list1.webp",
-            "liquid": "",
-            "title": "10g",
-            "text": "<p><strong>Whey protein</strong> to support muscle recovery</p>",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
+            "question": "10g Whey protein",
+            "answer": "<p>Whey protein is rapidly absorbed and rich in essential amino acids, including leucine - a key trigger for muscle protein synthesis.In PULS, it helps support muscle recovery, lean mass, and satiety, while also slowing caffeine absorption for more stable energy.</p>",
+            "font_type": "heading",
+            "font_type_answer": "heading",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-insides-list1-item hk-insides-list1-item-width"
+            "custom_class": "hk-FWITD-faq hk-FWITD-faq2"
           }
         },
-        "icon_with_text_item_RJyY3k": {
-          "type": "icon_with_text_item",
+        "faq_jam8zi": {
+          "type": "faq",
           "settings": {
-            "image": "shopify://shop_images/HP-insides-list2.webp",
-            "liquid": "",
-            "title": "100mg",
-            "text": "<p><strong>Arabica coffee caffeine</strong> for smooth energy and sharper focus.</p>",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
+            "question": "5g Creatine monohydrate",
+            "answer": "<p>Creatine monohydrate is one of the most researched performance supplements available. A daily 5g dose increases phosphocreatine stores in muscle, improving strength output, power, and training consistency over time - without the need for loading phases.</p>",
+            "font_type": "heading",
+            "font_type_answer": "heading",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-insides-list1-item hk-insides-list1-item-width"
+            "custom_class": "hk-FWITD-faq hk-FWITD-faq3"
           }
         },
-        "icon_with_text_item_QtDthk": {
-          "type": "icon_with_text_item",
+        "faq_WCexrm": {
+          "type": "faq",
           "settings": {
-            "image": "shopify://shop_images/HP-insides-list3.webp",
-            "liquid": "",
-            "title": "5g",
-            "text": "<p><strong>Creatine monohydrate</strong> to aid strength and performance.</p>",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
+            "question": "5g Coconut-derived MCTs",
+            "answer": "<p>Medium-chain triglycerides (MCTs) are rapidly converted into usable energy rather than stored as fat. They provide a secondary fuel source for both the brain and body, helping smooth energy delivery and reduce reliance on quick caffeine spikes.</p>",
+            "font_type": "heading",
+            "font_type_answer": "heading",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-insides-list1-item hk-insides-list1-item-width"
-          }
-        },
-        "icon_with_text_item_einV6f": {
-          "type": "icon_with_text_item",
-          "settings": {
-            "image": "shopify://shop_images/HP-insides-list4.webp",
-            "liquid": "",
-            "title": "5g",
-            "text": "<p><strong>Coconut-derived MCTs</strong> for brain fuel and mental clarity.</p>",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "position": "left",
-            "custom_id": "",
-            "custom_class": "hk-insides-list1-item hk-insides-list1-item-width"
-          }
-        },
-        "icon_with_text_item_g9Vzpa": {
-          "type": "icon_with_text_item",
-          "settings": {
-            "image": "shopify://shop_images/HP-insides-left.webp",
-            "image_mobile": "shopify://shop_images/HP-insides-leftimg.webp",
-            "liquid": "",
-            "title": "",
-            "text": "",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "position": "left",
-            "custom_id": "",
-            "custom_class": "hk-insides-list1-item hk-insides-list1-item-img"
-          }
-        },
-        "button_FNkmty": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button_label": "Upgrade My Mornings",
-            "font_type": "body",
-            "position": "left",
-            "custom_id": "",
-            "custom_class": "hk-section1-button"
-          }
-        },
-        "icon_with_text_DCfPaF": {
-          "type": "icon_with_text",
-          "settings": {
-            "image": "shopify://shop_images/HP-section1-MBG.webp",
-            "liquid": "",
-            "title": "",
-            "text": "<p>30 Day Money-Back Guarantee</p>",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "position": "left",
-            "custom_id": "",
-            "custom_class": "hk-section1-MBG hk-global-MBG"
+            "custom_class": "hk-FWITD-faq hk-FWITD-faq4"
           }
         },
         "image_nCCGRd": {
           "type": "image",
           "settings": {
             "link": "",
-            "image": "shopify://shop_images/HP-insides-img.webp",
-            "image_mobile": "shopify://shop_images/HP-insides-img1mob.webp",
+            "image": "shopify://shop_images/pdp-deliver-img.webp",
+            "image_mobile": "shopify://shop_images/pdp-deliver-img1mob.webp",
             "image_loading": "lazy",
             "image_performance": "low",
             "position": "right",
@@ -622,14 +554,10 @@
       "block_order": [
         "heading_UjQyjr",
         "richtext_j3kNDy",
-        "icon_with_text_grid_8wAkab",
-        "icon_with_text_item_eaQGCK",
-        "icon_with_text_item_RJyY3k",
-        "icon_with_text_item_QtDthk",
-        "icon_with_text_item_einV6f",
-        "icon_with_text_item_g9Vzpa",
-        "button_FNkmty",
-        "icon_with_text_DCfPaF",
+        "faq_bQF6Gm",
+        "faq_qWzLDY",
+        "faq_jam8zi",
+        "faq_WCexrm",
         "image_nCCGRd"
       ],
       "name": "Image With Text",
@@ -644,7 +572,7 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20,
         "custom_id": "",
-        "custom_class": "hk-insides-section"
+        "custom_class": "hk-insides-section hk-formulated-section"
       }
     },
     "hk_scroll_bar_ixLz3g": {
