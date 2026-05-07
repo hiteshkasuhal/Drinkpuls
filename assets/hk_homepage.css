@@ -782,6 +782,10 @@
 .hk-insides-section .hk-image-with-text-column1 {
     width: 100%;
 }
+.hk-insides-text1 {
+    font-size: 14px;
+    padding-top: 7px;
+}
 }
 /* insides css end */
 
