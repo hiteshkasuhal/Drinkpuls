@@ -819,7 +819,7 @@
         "text_alignment": "center",
         "padding_top": 80,
         "padding_bottom": 34,
-        "text_alignment_mobile": "center",
+        "text_alignment_mobile": "left",
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 20,
         "custom_id": "",
