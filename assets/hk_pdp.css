@@ -1316,6 +1316,10 @@
     letter-spacing: -0.16px;
     gap: 13px;
 }
+.hk-one-list1-item .hk-icon-with-text-flex img {
+    width: 65px;
+    height: unset;
+}
 
 
 
