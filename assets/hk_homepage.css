@@ -1349,6 +1349,13 @@
 .one-table-bottom-p {
     font-size: 12px;
 }
+.one-table-item3 .one-table-top-p {
+    text-align: right;
+    padding-right: 5px;
+    width: 70px;
+    max-width: 100%;
+    margin-left: auto;
+}
 }
 /* one css end */
 
