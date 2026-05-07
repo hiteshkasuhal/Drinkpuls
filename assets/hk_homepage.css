@@ -249,7 +249,11 @@
 
 
 @media (max-width: 915px) {
-
+.hk-shops-pdt .hk-element-icon-with-text-grid {
+    gap: 30px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
 }
 /* shops css end */
 
