@@ -434,6 +434,10 @@
 .hk-video-slide {
     padding: 0px 8px 0px 0px;
 }
+.hk-video-slider .slick-list.draggable {
+    width: calc(100% + 16px);
+    padding-right: 135px;
+}
 }
 /* video css end */
 
