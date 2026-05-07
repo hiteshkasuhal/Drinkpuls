@@ -1187,6 +1187,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.hk-how-list1-item-text img {
+    width: 41px;
+    margin: 0px auto 20px;
+}
 
 
 
