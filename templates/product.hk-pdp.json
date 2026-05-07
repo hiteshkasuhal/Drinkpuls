@@ -115,15 +115,15 @@
         "custom_class": "hk-scroll-bar-brand hk-scroll-bar-top hk-hide-desktop"
       }
     },
-    "hk_scroll_bar_caxkhK": {
+    "hk_scroll_bar_LGfAN8": {
       "type": "hk-scroll-bar",
       "blocks": {
-        "scroll_item_a6ATLi": {
+        "scroll_item_PKbUUz": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "image": "shopify://shop_images/HP-bar2-svg1.webp",
             "liquid": "",
-            "text": "<p>£1.19 per Serving</p>",
+            "text": "<p>5g creatine</p>",
             "image_loading": "lazy",
             "image_performance": "low",
             "font_type": "body",
@@ -131,12 +131,12 @@
             "custom_class": ""
           }
         },
-        "scroll_item_UDdc8g": {
+        "scroll_item_zCUBcn": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "image": "shopify://shop_images/HP-bar2-svg2.webp",
             "liquid": "",
-            "text": "<p>Focus-Boosting MCTs</p>",
+            "text": "<p>100mg caffeine</p>",
             "image_loading": "lazy",
             "image_performance": "low",
             "font_type": "body",
@@ -144,25 +144,12 @@
             "custom_class": ""
           }
         },
-        "scroll_item_ndXQXK": {
+        "scroll_item_Yg4dN9": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "image": "shopify://shop_images/HP-bar2-svg3.webp",
             "liquid": "",
-            "text": "<p>Daily Performance Fuel</p>",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": ""
-          }
-        },
-        "scroll_item_bAYrX6": {
-          "type": "scroll-item",
-          "settings": {
-            "image": "shopify://shop_images/HP-bar1-svg.webp",
-            "liquid": "",
-            "text": "<p>Mixes Instantly</p>",
+            "text": "<p>10g protein</p>",
             "image_loading": "lazy",
             "image_performance": "low",
             "font_type": "body",
@@ -172,24 +159,23 @@
         }
       },
       "block_order": [
-        "scroll_item_a6ATLi",
-        "scroll_item_UDdc8g",
-        "scroll_item_ndXQXK",
-        "scroll_item_bAYrX6"
+        "scroll_item_PKbUUz",
+        "scroll_item_zCUBcn",
+        "scroll_item_Yg4dN9"
       ],
       "name": "Scroll Bar",
       "settings": {
-        "background_color": "#ffffff",
-        "text_color": "#000000",
+        "background_color": "#344569",
+        "text_color": "#ffffff",
         "text_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 40,
+        "padding_top": 13,
+        "padding_bottom": 13,
         "text_alignment_mobile": "left",
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 20,
+        "padding_top_mobile": 9,
+        "padding_bottom_mobile": 9,
         "slider_speed": 9,
         "custom_id": "",
-        "custom_class": "hk-scroll-bar-text hk-scroll-bar-text1"
+        "custom_class": "hk-scroll-bar-text2"
       }
     },
     "hk_richtext_EKXntX": {
@@ -311,69 +297,6 @@
         "padding_bottom_mobile": 40,
         "custom_id": "",
         "custom_class": "hk-video-section"
-      }
-    },
-    "hk_scroll_bar_LGfAN8": {
-      "type": "hk-scroll-bar",
-      "blocks": {
-        "scroll_item_PKbUUz": {
-          "type": "scroll-item",
-          "settings": {
-            "image": "shopify://shop_images/HP-bar2-svg1.webp",
-            "liquid": "",
-            "text": "<p>5g creatine</p>",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": ""
-          }
-        },
-        "scroll_item_zCUBcn": {
-          "type": "scroll-item",
-          "settings": {
-            "image": "shopify://shop_images/HP-bar2-svg2.webp",
-            "liquid": "",
-            "text": "<p>100mg caffeine</p>",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": ""
-          }
-        },
-        "scroll_item_Yg4dN9": {
-          "type": "scroll-item",
-          "settings": {
-            "image": "shopify://shop_images/HP-bar2-svg3.webp",
-            "liquid": "",
-            "text": "<p>10g protein</p>",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": ""
-          }
-        }
-      },
-      "block_order": [
-        "scroll_item_PKbUUz",
-        "scroll_item_zCUBcn",
-        "scroll_item_Yg4dN9"
-      ],
-      "name": "Scroll Bar",
-      "settings": {
-        "background_color": "#344569",
-        "text_color": "#ffffff",
-        "text_alignment": "left",
-        "padding_top": 13,
-        "padding_bottom": 13,
-        "text_alignment_mobile": "left",
-        "padding_top_mobile": 9,
-        "padding_bottom_mobile": 9,
-        "slider_speed": 9,
-        "custom_id": "",
-        "custom_class": "hk-scroll-bar-text2"
       }
     },
     "hk_richtext_FxggbV": {
@@ -1007,6 +930,83 @@
         "custom_class": "hk-crash-section"
       }
     },
+    "hk_scroll_bar_caxkhK": {
+      "type": "hk-scroll-bar",
+      "blocks": {
+        "scroll_item_a6ATLi": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "liquid": "",
+            "text": "<p>£1.19 per Serving</p>",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_UDdc8g": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "liquid": "",
+            "text": "<p>Focus-Boosting MCTs</p>",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_ndXQXK": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "liquid": "",
+            "text": "<p>Daily Performance Fuel</p>",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_bAYrX6": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "liquid": "",
+            "text": "<p>Mixes Instantly</p>",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "scroll_item_a6ATLi",
+        "scroll_item_UDdc8g",
+        "scroll_item_ndXQXK",
+        "scroll_item_bAYrX6"
+      ],
+      "name": "Scroll Bar",
+      "settings": {
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "text_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "text_alignment_mobile": "left",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "slider_speed": 9,
+        "custom_id": "",
+        "custom_class": "hk-scroll-bar-text hk-scroll-bar-text1"
+      }
+    },
     "hk_richtext_PUfjWE": {
       "type": "hk-richtext",
       "blocks": {
@@ -1570,13 +1570,13 @@
   "order": [
     "hk_richtext_6LVdPL",
     "hk_scroll_bar_a3Tmg7",
-    "hk_scroll_bar_caxkhK",
     "hk_scroll_bar_LGfAN8",
     "hk_richtext_EKXntX",
     "hk_richtext_FxggbV",
     "hk_scroll_bar_ixLz3g",
     "hk_image_with_text_rp4Ccy",
     "hk_richtext_H8DEDA",
+    "hk_scroll_bar_caxkhK",
     "hk_richtext_PUfjWE",
     "hk_image_with_text_qCCDDR",
     "hk_richtext_BAeA4X",
