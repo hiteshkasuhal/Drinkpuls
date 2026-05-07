@@ -1867,6 +1867,11 @@
     flex: 1;
     gap: 19.5px;
 }
+.hk-reviews2-list1-item .hk-icon-with-text-flex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 
 
 
