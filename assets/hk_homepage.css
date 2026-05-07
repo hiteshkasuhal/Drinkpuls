@@ -95,6 +95,10 @@
     gap: 5px;
     padding: 5px 9px;
 }
+.hk-section1-list1 .hk-element-icon-with-text-grid svg {
+    width: 13.5px;
+    height: unset;
+}
 }
 /* section1 css end */
 
