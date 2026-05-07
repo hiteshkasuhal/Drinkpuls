@@ -1594,6 +1594,13 @@
     width: 19px;
     height: 19px;
 }
+.hk-answer {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 16px 18px;
+    margin-top: -5px;
+    max-width: 100%;
+}
 }
 /* faq css end */
 
