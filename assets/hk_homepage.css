@@ -1017,10 +1017,6 @@
     width: 170px !important;
     max-width: 100%;
 }
-.hk-looks-list1-item:nth-child(even) {
-    width: calc(100% - 0px);
-    margin-left: -30px;
-}
 }
 /* looks css end */
 
