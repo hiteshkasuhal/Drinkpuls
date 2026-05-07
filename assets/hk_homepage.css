@@ -2042,5 +2042,10 @@ button#Subscribe {
 .hk-footer-brand img {
     width: 271px;
 }
+.hk-footer-copyright {
+    font-size: 12px;
+    line-height: 16px;
+    padding-bottom: 39px;
+}
 }
 /* footer css end */
