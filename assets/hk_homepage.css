@@ -99,6 +99,12 @@
     width: 13.5px;
     height: unset;
 }
+.hk-section1-list1 .hk-element-icon-with-text-grid {
+    margin: 10px 0 25px;
+    gap: 10px 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 }
 /* section1 css end */
 
