@@ -816,6 +816,13 @@
     height: unset;
     aspect-ratio: 1/1;
 }
+.hk-insides-list1-item-width .hk-element-title {
+    font-size: 50px;
+    letter-spacing: -1.5px;
+    margin-top: 7px;
+    padding-left: 0px;
+    text-align: left;
+}
 }
 /* insides css end */
 
