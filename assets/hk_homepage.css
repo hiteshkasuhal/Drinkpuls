@@ -86,6 +86,10 @@
     padding-bottom: 12px;
     justify-content: center;
 }
+.hk-section1-rating .hk-icon-with-text-flex svg {
+    width: 70px;
+    height: unset;
+}
 }
 /* section1 css end */
 
