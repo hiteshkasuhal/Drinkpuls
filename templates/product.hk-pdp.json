@@ -1163,10 +1163,10 @@
         "background_color": "rgba(0,0,0,0)",
         "text_color": "#162036",
         "text_alignment": "center",
-        "padding_top": 40,
+        "padding_top": 70,
         "padding_bottom": 40,
         "text_alignment_mobile": "center",
-        "padding_top_mobile": 20,
+        "padding_top_mobile": 39,
         "padding_bottom_mobile": 20,
         "custom_id": "",
         "custom_class": "hk-how-section"
