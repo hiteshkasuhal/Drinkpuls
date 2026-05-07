@@ -289,6 +289,10 @@
     width: 70px;
     height: 14px;
 }
+.hk-shops-pdt-item .hk-element-text p:nth-child(2) {
+    font-size: 12px;
+    margin-bottom: 16px;
+}
 }
 /* shops css end */
 
