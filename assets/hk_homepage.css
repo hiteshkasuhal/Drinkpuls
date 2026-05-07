@@ -1327,6 +1327,11 @@
 .one-table-item img {
     width: 55px;
 }
+.one-table-top-p {
+    font-size: 12px;
+    min-height: 34px;
+    text-align: left;
+}
 }
 /* one css end */
 
