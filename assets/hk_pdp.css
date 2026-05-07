@@ -979,6 +979,9 @@
     margin: 0px auto;
     width: 85%;
 }
+.hk-more-list1-items:nth-child(3) p {
+    width: 70%;
+}
 
 
 
