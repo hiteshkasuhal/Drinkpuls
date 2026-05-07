@@ -874,7 +874,7 @@
             "image_performance": "low",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-more-list1-items active"
+            "custom_class": "hk-more-list1-items"
           }
         },
         "icon_with_text_item_wt8RJm": {
@@ -890,7 +890,7 @@
             "image_performance": "low",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-more-list1-items active"
+            "custom_class": "hk-more-list1-items"
           }
         },
         "icon_with_text_item_AAaiWp": {
@@ -906,7 +906,7 @@
             "image_performance": "low",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-more-list1-items active"
+            "custom_class": "hk-more-list1-items"
           }
         }
       },
