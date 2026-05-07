@@ -792,7 +792,7 @@
     margin: 0px auto;
 }
 .hk-insides-list1 {
-    margin: 25px 0;
+    margin: 25px 0px 15px;
 }
 .hk-insides-list1 .hk-element-icon-with-text-grid {
     gap: 10px;
@@ -855,6 +855,12 @@
     top: 14px;
     left: 27%;
     z-index: 1;
+}
+.hk-insides-list1-item-width:nth-child(3) {
+    margin-top: -19px;
+}
+.hk-insides-section .hk-image-with-text-column2 {
+    padding-top: 40px;
 }
 }
 /* insides css end */
