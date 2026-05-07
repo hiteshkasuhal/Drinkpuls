@@ -254,6 +254,9 @@
     margin-top: 25px;
     flex-wrap: wrap;
 }
+.hk-shops-pdt-item {
+    width: 100%;
+}
 }
 /* shops css end */
 
