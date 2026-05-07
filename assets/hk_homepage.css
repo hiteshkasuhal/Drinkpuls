@@ -592,7 +592,9 @@
 
 
 @media (max-width: 915px) {
-
+.hk-reviews-heading h2 {
+    width: 300px;
+}
 }
 /* reviews css end */
 
