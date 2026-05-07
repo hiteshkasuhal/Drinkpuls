@@ -1309,7 +1309,16 @@
 
 
 @media (max-width: 915px) {
-
+.hk-one-section {
+    padding-top: 30px;
+}
+.hk-one-heading h2 {
+    width: 270px;
+}
+.hk-one-text2 {
+    font-size: 12px;
+    margin: 16px 0 25px;
+}
 }
 /* one css end */
 
