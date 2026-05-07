@@ -80,6 +80,12 @@
 .hk-section1 .hk-image-with-text-column1 {
     width: 100%;
 }
+.hk-section1-rating .hk-icon-with-text-flex {
+    font-size: 12px;
+    gap: 5px;
+    padding-bottom: 12px;
+    justify-content: center;
+}
 }
 /* section1 css end */
 
