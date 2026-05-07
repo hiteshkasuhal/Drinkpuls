@@ -630,6 +630,10 @@
     gap: 8px;
     margin-bottom: 15px;
 }
+.hk-reviews-slider .hk-review-card-title {
+    font-size: 14px;
+    line-height: 18px;
+}
 }
 /* reviews css end */
 
