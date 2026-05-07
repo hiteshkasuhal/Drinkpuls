@@ -1501,6 +1501,9 @@
 .hk-table-box-item ul li span {
     display: block;
 }
+.hk-table-box-item ul {
+    flex-direction: column;
+}
 }
 /* table css end */
 
