@@ -273,6 +273,11 @@
     padding: 6.5px 10px;
     gap: 3px;
 }
+.hk-shops-pdt-item .hk-element-title {
+    font-size: 14px;
+    margin: 12px 0;
+    gap: 5px;
+}
 }
 /* shops css end */
 
