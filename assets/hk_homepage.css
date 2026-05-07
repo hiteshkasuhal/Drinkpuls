@@ -2014,5 +2014,12 @@ button#Subscribe {
     padding-bottom: 25px;
     font-size: 13.5px;
 }
+.hk-footer-menu ul {
+    gap: 16px;
+    padding-right: 0px;
+}
+.hk-footer-menu {
+    width: 100%;
+}
 }
 /* footer css end */
