@@ -970,6 +970,22 @@
             "custom_class": "hk-looks-text1 hk-how-text2"
           }
         },
+        "liquid_FBHqR6": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"hk-table-box\">\n\n\t\t<div class=\"hk-table-box-item hk-table-box-item1\">\n\t\t\t<ul>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> 10g protein</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> 5g creatine</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> MCTs for focus</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> From £1.19/day</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> Smooth, sustained energy</li>\n\t\t\t</ul>\n\t\t\t<img class=\"hk-table-img hk-hide-mobile\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img1.webp\">\n\t\t\t<img class=\"hk-table-img hk-hide-desktop\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img1mob.webp\">\n\t\t</div>\n\n\t\t<div class=\"hk-table-box-item hk-table-box-item2\">\n\t\t\t<ul>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> No protein</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> No creatine</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> No mental fuel</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> Short-lived buzz</li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> ~£5/day</li>\n\t\t\t</ul>\n\t\t\t<img class=\"hk-table-img hk-hide-mobile\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img2.webp\">\n\t\t\t<img class=\"hk-table-img hk-hide-desktop\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img2mob.webp\">\n\t\t</div>\n\t\t\n\t</div>",
+            "custom_id": "",
+            "custom_class": "hk-hide-mobile"
+          }
+        },
+        "liquid_A7aebK": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"hk-table-box\">\n\n\t\t<div class=\"hk-table-box-item hk-table-box-item1\">\n\t\t\t<ul>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> <p>10g protein</p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> <p>5g creatine</p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> <p>MCTs for <span>focus</span></p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> <p>Smooth, <span>sustained energy</span></p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-check.webp\"> <p>From £1.19/day</p></li>\n\t\t\t</ul>\n\t\t\t<img class=\"hk-table-img hk-hide-mobile\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img1.webp\">\n\t\t\t<img class=\"hk-table-img hk-hide-desktop\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img1mob.webp\">\n\t\t</div>\n\n\t\t<div class=\"hk-table-box-item hk-table-box-item2\">\n\t\t\t<ul>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> <p>No protein</p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> <p>No creatine</p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> <p>No mental <span>fuel</span></p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> <p>Short-lived <span>buzz</span></p></li>\n\t\t\t\t<li><img src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-close.webp\"> <p>~£5/day</p></li>\n\t\t\t</ul>\n\t\t\t<img class=\"hk-table-img hk-hide-mobile\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img2.webp\">\n\t\t\t<img class=\"hk-table-img hk-hide-desktop\" src=\"https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-table-img2mob.webp\">\n\t\t</div>\n\t\t\n\t</div>",
+            "custom_id": "",
+            "custom_class": "hk-hide-desktop"
+          }
+        },
         "button_Hgn6D9": {
           "type": "button",
           "disabled": true,
@@ -1001,6 +1017,8 @@
       "block_order": [
         "heading_RrHez9",
         "richtext_ytKpa3",
+        "liquid_FBHqR6",
+        "liquid_A7aebK",
         "button_Hgn6D9",
         "icon_with_text_DY4FRK"
       ],
@@ -1494,8 +1512,8 @@
     "hk_richtext_xLe6KD",
     "hk_image_with_text_p93aBe",
     "hk_richtext_H8DEDA",
-    "hk_richtext_QCbeaf",
     "hk_richtext_PUfjWE",
+    "hk_richtext_QCbeaf",
     "hk_scroll_bar_caxkhK",
     "hk_image_with_text_qCCDDR",
     "hk_richtext_BAeA4X",
