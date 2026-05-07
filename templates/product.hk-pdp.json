@@ -781,6 +781,137 @@
         "custom_class": "hk-scroll-bar-img hk-scroll-bar-img1"
       }
     },
+    "hk_richtext_xLe6KD": {
+      "type": "hk-richtext",
+      "blocks": {
+        "heading_nQcUEN": {
+          "type": "heading",
+          "settings": {
+            "text": "frequently asked questions",
+            "h1": false,
+            "font_type": "heading",
+            "custom_id": "",
+            "custom_class": "hk-faq-heading hk-global-heading hk-heading-center"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nQcUEN"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_image": "shopify://shop_images/pdp-pdt-benefits.webp",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "text_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 0,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": "hk-faq-top"
+      }
+    },
+    "hk_image_with_text_p93aBe": {
+      "type": "hk-image-with-text",
+      "blocks": {
+        "faq_8kwDUw": {
+          "type": "faq",
+          "settings": {
+            "question": "Does it taste like coffee or protein shake?",
+            "answer": "<p>PULS tastes like a proper latte — smooth and creamy.  Unlike most protein coffees, there’s no chalky texture or artificial aftertaste. Most customers say they’re surprised it doesn’t taste like a protein shake at all.</p>",
+            "font_type": "body",
+            "font_type_answer": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-blobal-faq hk-faq-section-faq"
+          }
+        },
+        "faq_6Xx7B8": {
+          "type": "faq",
+          "settings": {
+            "question": "Will it make me jittery or cause a crash?",
+            "answer": "<p>No. PULS is designed for smooth, sustained energy. The caffeine is balanced with MCTs and protein, so you get steady focus without the spikes, jitters, or mid-morning crash associated with regular coffee or pre-workouts.</p>",
+            "font_type": "body",
+            "font_type_answer": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-blobal-faq hk-faq-section-faq"
+          }
+        },
+        "faq_PmEhNh": {
+          "type": "faq",
+          "settings": {
+            "question": "Do I still need separate pre-workout?",
+            "answer": "<p>For most people, no. PULS provides clean caffeine, creatine for strength, and protein for performance - making it ideal for workouts without the overstimulation of traditional pre-workouts. Some advanced lifters may still stack it, but many replace their pre-workout entirely.</p>",
+            "font_type": "body",
+            "font_type_answer": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-blobal-faq hk-faq-section-faq"
+          }
+        },
+        "faq_GMAmTd": {
+          "type": "faq",
+          "settings": {
+            "question": "When should I drink PULS?",
+            "answer": "<p>PULS is best in the morning or 30–60 minutes before training. It’s designed to fuel both work and workouts, making it perfect for early starts, training days, or whenever you need sustained energy and focus.</p>",
+            "font_type": "body",
+            "font_type_answer": "body",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-blobal-faq hk-faq-section-faq"
+          }
+        },
+        "faq_UCgMBh": {
+          "type": "faq",
+          "settings": {
+            "question": "Is the creatine safe to take every day?",
+            "answer": "<p>Yes. Creatine monohydrate is one of the most researched supplements available and is safe for daily use when taken as directed.PULS includes an effective daily dose that supports strength, power, and recovery.</p>",
+            "font_type": "body",
+            "font_type_answer": "body",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-blobal-faq hk-faq-section-faq"
+          }
+        },
+        "faq_eLgDm6": {
+          "type": "faq",
+          "settings": {
+            "question": "How do I prepare it?",
+            "answer": "<p>Add one sachet to a mug, pour in hot water or milk (200–250ml), stir, and enjoy. It mixes instantly - no blender, shaker, or prep needed.</p>",
+            "font_type": "body",
+            "font_type_answer": "body",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-blobal-faq hk-faq-section-faq"
+          }
+        }
+      },
+      "block_order": [
+        "faq_8kwDUw",
+        "faq_6Xx7B8",
+        "faq_PmEhNh",
+        "faq_GMAmTd",
+        "faq_UCgMBh",
+        "faq_eLgDm6"
+      ],
+      "name": "Image With Text",
+      "settings": {
+        "background_image": "shopify://shop_images/pdp-pdt-benefits.webp",
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#ffffff",
+        "text_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "text_alignment_mobile": "left",
+        "padding_top_mobile": 25,
+        "padding_bottom_mobile": 25,
+        "custom_id": "",
+        "custom_class": "hk-faq-section"
+      }
+    },
     "hk_richtext_H8DEDA": {
       "type": "hk-richtext",
       "blocks": {
@@ -1213,6 +1344,7 @@
         },
         "button_dnTqJa": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_link": "",
             "button_label": "Upgrade My Mornings",
@@ -1223,6 +1355,7 @@
         },
         "icon_with_text_Y8imKA": {
           "type": "icon_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/HP-MBG-black.webp",
             "liquid": "",
@@ -1257,182 +1390,6 @@
         "padding_bottom_mobile": 20,
         "custom_id": "",
         "custom_class": "hk-table-section"
-      }
-    },
-    "hk_richtext_xLe6KD": {
-      "type": "hk-richtext",
-      "blocks": {
-        "heading_nQcUEN": {
-          "type": "heading",
-          "settings": {
-            "text": "frequently asked questions",
-            "h1": false,
-            "font_type": "heading",
-            "custom_id": "",
-            "custom_class": "hk-faq-heading hk-global-heading hk-heading-center"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nQcUEN"
-      ],
-      "name": "RichText",
-      "settings": {
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#162036",
-        "text_alignment": "center",
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "text_alignment_mobile": "center",
-        "padding_top_mobile": 20,
-        "padding_bottom_mobile": 0,
-        "custom_id": "",
-        "custom_class": "hk-faq-top"
-      }
-    },
-    "hk_image_with_text_p93aBe": {
-      "type": "hk-image-with-text",
-      "blocks": {
-        "faq_8kwDUw": {
-          "type": "faq",
-          "settings": {
-            "question": "Does it taste like coffee or protein shake?",
-            "answer": "<p>PULS tastes like a proper latte — smooth and creamy.  Unlike most protein coffees, there’s no chalky texture or artificial aftertaste. Most customers say they’re surprised it doesn’t taste like a protein shake at all.</p>",
-            "font_type": "body",
-            "font_type_answer": "body",
-            "position": "left",
-            "custom_id": "",
-            "custom_class": "hk-blobal-faq hk-faq-section-faq"
-          }
-        },
-        "faq_6Xx7B8": {
-          "type": "faq",
-          "settings": {
-            "question": "Will it make me jittery or cause a crash?",
-            "answer": "<p>No. PULS is designed for smooth, sustained energy. The caffeine is balanced with MCTs and protein, so you get steady focus without the spikes, jitters, or mid-morning crash associated with regular coffee or pre-workouts.</p>",
-            "font_type": "body",
-            "font_type_answer": "body",
-            "position": "left",
-            "custom_id": "",
-            "custom_class": "hk-blobal-faq hk-faq-section-faq"
-          }
-        },
-        "faq_PmEhNh": {
-          "type": "faq",
-          "settings": {
-            "question": "Do I still need separate pre-workout?",
-            "answer": "<p>For most people, no. PULS provides clean caffeine, creatine for strength, and protein for performance - making it ideal for workouts without the overstimulation of traditional pre-workouts. Some advanced lifters may still stack it, but many replace their pre-workout entirely.</p>",
-            "font_type": "body",
-            "font_type_answer": "body",
-            "position": "left",
-            "custom_id": "",
-            "custom_class": "hk-blobal-faq hk-faq-section-faq"
-          }
-        },
-        "faq_GMAmTd": {
-          "type": "faq",
-          "settings": {
-            "question": "When should I drink PULS?",
-            "answer": "<p>PULS is best in the morning or 30–60 minutes before training. It’s designed to fuel both work and workouts, making it perfect for early starts, training days, or whenever you need sustained energy and focus.</p>",
-            "font_type": "body",
-            "font_type_answer": "body",
-            "position": "right",
-            "custom_id": "",
-            "custom_class": "hk-blobal-faq hk-faq-section-faq"
-          }
-        },
-        "faq_UCgMBh": {
-          "type": "faq",
-          "settings": {
-            "question": "Is the creatine safe to take every day?",
-            "answer": "<p>Yes. Creatine monohydrate is one of the most researched supplements available and is safe for daily use when taken as directed.PULS includes an effective daily dose that supports strength, power, and recovery.</p>",
-            "font_type": "body",
-            "font_type_answer": "body",
-            "position": "right",
-            "custom_id": "",
-            "custom_class": "hk-blobal-faq hk-faq-section-faq"
-          }
-        },
-        "faq_eLgDm6": {
-          "type": "faq",
-          "settings": {
-            "question": "How do I prepare it?",
-            "answer": "<p>Add one sachet to a mug, pour in hot water or milk (200–250ml), stir, and enjoy. It mixes instantly - no blender, shaker, or prep needed.</p>",
-            "font_type": "body",
-            "font_type_answer": "body",
-            "position": "right",
-            "custom_id": "",
-            "custom_class": "hk-blobal-faq hk-faq-section-faq"
-          }
-        }
-      },
-      "block_order": [
-        "faq_8kwDUw",
-        "faq_6Xx7B8",
-        "faq_PmEhNh",
-        "faq_GMAmTd",
-        "faq_UCgMBh",
-        "faq_eLgDm6"
-      ],
-      "name": "Image With Text",
-      "settings": {
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#162036",
-        "text_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "text_alignment_mobile": "left",
-        "padding_top_mobile": 25,
-        "padding_bottom_mobile": 25,
-        "custom_id": "",
-        "custom_class": "hk-faq-section"
-      }
-    },
-    "hk_richtext_BRaCqD": {
-      "type": "hk-richtext",
-      "blocks": {
-        "button_xD6yGt": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button_label": "Upgrade My Mornings",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": "hk-table-button hk-center hk-btn-black"
-          }
-        },
-        "icon_with_text_LHxXxW": {
-          "type": "icon_with_text",
-          "settings": {
-            "image": "shopify://shop_images/HP-MBG-black.webp",
-            "liquid": "",
-            "title": "",
-            "text": "<p>30 Day Money-Back Guarantee</p>",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "custom_id": "",
-            "custom_class": "hk-table-MBG hk-global-MBG hk-center hk-MBG-white"
-          }
-        }
-      },
-      "block_order": [
-        "button_xD6yGt",
-        "icon_with_text_LHxXxW"
-      ],
-      "name": "RichText",
-      "settings": {
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#162036",
-        "text_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "text_alignment_mobile": "center",
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
-        "custom_id": "",
-        "custom_class": "hk-faq-bottom"
       }
     },
     "hk_image_with_text_PbirJ4": {
@@ -1520,53 +1477,6 @@
         "custom_id": "",
         "custom_class": "hk-MBG-section"
       }
-    },
-    "hk_richtext_nHapcC": {
-      "type": "hk-richtext",
-      "blocks": {
-        "button_CRjQRg": {
-          "type": "button",
-          "settings": {
-            "button_link": "",
-            "button_label": "Upgrade My Mornings",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": "hk-MBG-button hk-center hk-btn-black"
-          }
-        },
-        "icon_with_text_QPQHfy": {
-          "type": "icon_with_text",
-          "settings": {
-            "image": "shopify://shop_images/HP-MBG-black.webp",
-            "liquid": "",
-            "title": "",
-            "text": "<p>30 Day Money-Back Guarantee</p>",
-            "font_type_title": "heading",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "custom_id": "",
-            "custom_class": "hk-MBG-MBG hk-global-MBG hk-center hk-MBG-white"
-          }
-        }
-      },
-      "block_order": [
-        "button_CRjQRg",
-        "icon_with_text_QPQHfy"
-      ],
-      "name": "RichText",
-      "settings": {
-        "background_color": "rgba(0,0,0,0)",
-        "text_color": "#162036",
-        "text_alignment": "center",
-        "padding_top": 40,
-        "padding_bottom": 50,
-        "text_alignment_mobile": "center",
-        "padding_top_mobile": 25,
-        "padding_bottom_mobile": 40,
-        "custom_id": "",
-        "custom_class": "hk-MBG-bottom"
-      }
     }
   },
   "order": [
@@ -1577,15 +1487,13 @@
     "hk_richtext_FxggbV",
     "hk_image_with_text_rp4Ccy",
     "hk_scroll_bar_ixLz3g",
+    "hk_richtext_xLe6KD",
+    "hk_image_with_text_p93aBe",
     "hk_richtext_H8DEDA",
     "hk_scroll_bar_caxkhK",
     "hk_richtext_PUfjWE",
     "hk_image_with_text_qCCDDR",
     "hk_richtext_BAeA4X",
-    "hk_richtext_xLe6KD",
-    "hk_image_with_text_p93aBe",
-    "hk_richtext_BRaCqD",
-    "hk_image_with_text_PbirJ4",
-    "hk_richtext_nHapcC"
+    "hk_image_with_text_PbirJ4"
   ]
 }
