@@ -786,6 +786,11 @@
     font-size: 14px;
     padding-top: 7px;
 }
+.hk-insides-text1s {
+    width: 270px;
+    max-width: 100%;
+    margin: 0px auto;
+}
 }
 /* insides css end */
 
