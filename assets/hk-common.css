@@ -430,6 +430,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     gap: 5px;
     padding-bottom: 12px;
 }
+.hk-global-rating .hk-icon-with-text-flex svg {
+    width: 79px;
+    height: unset;
+}
 }
 /* same css end */
 
