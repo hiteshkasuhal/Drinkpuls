@@ -853,15 +853,6 @@
             "custom_class": "hk-crash-heading hk-global-heading hk-heading-center"
           }
         },
-        "richtext_WKHfaP": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Designed to perform without overstimulation or unnecessary extras.</p>",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": "hk-looks-text1 hk-crash-text2"
-          }
-        },
         "icon_with_text_grid_Nebnb7": {
           "type": "icon_with_text_grid",
           "settings": {
@@ -911,6 +902,15 @@
             "custom_class": "hk-number-list1-item hk-number-list1-item3"
           }
         },
+        "richtext_WKHfaP": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>*From verified customer reviews and ongoing use.</p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-looks-text1 hk-crash-text2"
+          }
+        },
         "image_9JmJ6B": {
           "type": "image",
           "settings": {
@@ -926,11 +926,11 @@
       },
       "block_order": [
         "heading_geAwTd",
-        "richtext_WKHfaP",
         "icon_with_text_grid_Nebnb7",
         "icon_with_text_item_jiwrW4",
         "icon_with_text_item_LeMJPC",
         "icon_with_text_item_pntkjh",
+        "richtext_WKHfaP",
         "image_9JmJ6B"
       ],
       "name": "RichText",
