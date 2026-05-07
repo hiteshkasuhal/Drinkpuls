@@ -634,6 +634,12 @@
     font-size: 14px;
     line-height: 18px;
 }
+.hk-reviews-slider .hk-review-card-text {
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 5px;
+    margin-bottom: 15px;
+}
 }
 /* reviews css end */
 
