@@ -132,6 +132,9 @@
     width: calc(100% + 30px);
     margin-left: -15px;
 }
+.hk-section1-button .hk-button {
+    width: calc(100% - 2px);
+}
 }
 /* section1 css end */
 
