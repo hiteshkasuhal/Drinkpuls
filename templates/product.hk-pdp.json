@@ -498,7 +498,7 @@
             "font_type_answer": "heading",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-FWITD-faq hk-FWITD-faq1"
+            "custom_class": "hk-FWITD-faq hk-FWITD-faq1 hk-blobal-faq"
           }
         },
         "faq_qWzLDY": {
@@ -510,7 +510,7 @@
             "font_type_answer": "heading",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-FWITD-faq hk-FWITD-faq2"
+            "custom_class": "hk-FWITD-faq hk-FWITD-faq2 hk-blobal-faq"
           }
         },
         "faq_jam8zi": {
@@ -522,7 +522,7 @@
             "font_type_answer": "heading",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-FWITD-faq hk-FWITD-faq3"
+            "custom_class": "hk-FWITD-faq hk-FWITD-faq3 hk-blobal-faq"
           }
         },
         "faq_WCexrm": {
@@ -534,7 +534,7 @@
             "font_type_answer": "heading",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-FWITD-faq hk-FWITD-faq4"
+            "custom_class": "hk-FWITD-faq hk-FWITD-faq4 hk-blobal-faq"
           }
         },
         "image_nCCGRd": {
