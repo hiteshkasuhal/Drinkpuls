@@ -1008,6 +1008,10 @@
     padding: 3px 9px;
     margin-bottom: 8px;
 }
+.hk-looks-list1-item .hk-element-title {
+    font-size: 15px;
+    padding-bottom: 4px;
+}
 }
 /* looks css end */
 
