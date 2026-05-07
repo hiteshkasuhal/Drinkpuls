@@ -293,8 +293,8 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "text_alignment_mobile": "left",
-        "padding_top_mobile": 40,
-        "padding_bottom_mobile": 40,
+        "padding_top_mobile": 9,
+        "padding_bottom_mobile": 27,
         "slider_speed": 9,
         "custom_id": "",
         "custom_class": "hk-scroll-bar-brand hk-scroll-bar-top hk-hide-desktop"
