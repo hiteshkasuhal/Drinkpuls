@@ -405,6 +405,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     gap: 9px;
     margin: 0px auto;
 }
+.hk-button:after {
+    width: 18px;
+    height: 18px;
+}
 }
 /* same css end */
 
