@@ -948,6 +948,76 @@
         "custom_class": "hk-number-section"
       }
     },
+    "hk_richtext_QCbeaf": {
+      "type": "hk-richtext",
+      "blocks": {
+        "heading_RrHez9": {
+          "type": "heading",
+          "settings": {
+            "text": "How to Use PULS",
+            "h1": false,
+            "font_type": "heading",
+            "custom_id": "",
+            "custom_class": "hk-how-heading hk-global-heading hk-heading-center"
+          }
+        },
+        "richtext_ytKpa3": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>One sachet. Hot water. Stir and go.</p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-looks-text1 hk-how-text2"
+          }
+        },
+        "button_Hgn6D9": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_link": "",
+            "button_label": "Upgrade My Mornings",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-table-button hk-center hk-btn-black"
+          }
+        },
+        "icon_with_text_DY4FRK": {
+          "type": "icon_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/HP-MBG-black.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>30 Day Money-Back Guarantee</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-table-MBG hk-global-MBG hk-center hk-MBG-white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_RrHez9",
+        "richtext_ytKpa3",
+        "button_Hgn6D9",
+        "icon_with_text_DY4FRK"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#162036",
+        "text_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "hk-table-section"
+      }
+    },
     "hk_richtext_PUfjWE": {
       "type": "hk-richtext",
       "blocks": {
@@ -1424,6 +1494,7 @@
     "hk_richtext_xLe6KD",
     "hk_image_with_text_p93aBe",
     "hk_richtext_H8DEDA",
+    "hk_richtext_QCbeaf",
     "hk_richtext_PUfjWE",
     "hk_scroll_bar_caxkhK",
     "hk_image_with_text_qCCDDR",
