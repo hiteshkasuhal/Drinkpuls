@@ -953,6 +953,13 @@
     backdrop-filter: blur(2.6000001430511475px);
     padding: 19.5px;
 }
+.hk-more-list1-items img {
+    width: 39px;
+    height: 39px;
+    object-fit: contain;
+    object-position: bottom;
+    margin: 0px auto 13px;
+}
 
 
 
