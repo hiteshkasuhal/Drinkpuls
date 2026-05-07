@@ -1543,12 +1543,12 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-faq-pluse.webp");
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-deliver-pluse.webp");
     width: 31.2px;
     height: 31.2px;
 }
 .hk-question.active:after {
-    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-faq-close.webp");
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-deliver-close.webp");
 }
 .hk-answer {
     font-size: 18.2px;
