@@ -605,6 +605,10 @@
     padding: 0px 77px 0px 0px !important;
     width: calc(100% + 16px);
 }
+.hk-reviews-slider .hk-review-card_main {
+    border-radius: 4px;
+    padding: 20px 18px;
+}
 }
 /* reviews css end */
 
