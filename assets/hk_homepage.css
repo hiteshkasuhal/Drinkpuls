@@ -1174,6 +1174,25 @@
     width: 23px;
     height: unset;
 }
+.hk-crash-list1-item2 .hk-element-title {
+    width: 120px;
+}
+.hk-crash-list1-item2 .hk-element-text {
+    width: 140px;
+}
+.hk-crash-list1-item4 img {
+    position: absolute;
+    top: -16px;
+    left: unset;
+    right: 0;
+    margin: 0 auto;
+    width: 172px;
+    min-width: 172px;
+}
+.hk-crash-list1-item4 {
+    position: relative;
+    z-index: 1;
+}
 }
 /* crash css end */
 
