@@ -285,6 +285,10 @@
 .hk-shops-pdt-item .hk-element-text p:nth-child(1) {
     font-size: 15px;
 }
+.hk-shops-pdt-item .hk-element-text p:nth-child(1):after {
+    width: 70px;
+    height: 14px;
+}
 }
 /* shops css end */
 
