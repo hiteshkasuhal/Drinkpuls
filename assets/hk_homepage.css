@@ -1987,5 +1987,11 @@ button#Subscribe svg {
 button#Subscribe {
     top: 18px;
 }
+.hk-footer-logo img {
+    width: 82px;
+}
+.hk-footer-logo {
+    width: 82px;
+}
 }
 /* footer css end */
