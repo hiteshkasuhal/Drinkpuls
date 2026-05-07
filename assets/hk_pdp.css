@@ -1050,6 +1050,13 @@
 .hk-number-section .hk-richtext-content {
     position: relative;
 }
+.hk-crash-img img {
+    width: 485px;
+    position: absolute;
+    right: -5%;
+    top: 10px;
+    z-index: 2;
+}
 
 
 
