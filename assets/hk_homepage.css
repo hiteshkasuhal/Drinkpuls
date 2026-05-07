@@ -264,6 +264,14 @@
     border-radius: 5px;
     min-height: 265px;
 }
+.hk-shops-pdt-item .hk-svg {
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    top: 9px;
+    left: 9px;
+    padding: 6.5px 10px;
+    gap: 3px;
+}
 }
 /* shops css end */
 
