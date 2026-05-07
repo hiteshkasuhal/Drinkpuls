@@ -90,6 +90,11 @@
     width: 70px;
     height: unset;
 }
+.hk-section1-list1-item .hk-icon-with-text-flex {
+    font-size: 12px;
+    gap: 5px;
+    padding: 5px 9px;
+}
 }
 /* section1 css end */
 
