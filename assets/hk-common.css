@@ -386,6 +386,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .hk-global-heading h1 {
     max-width: 100%;
     font-size: 46px;
+    font-style: normal;
     letter-spacing: -1.38px;
     width: 270px;
     text-align: center;
