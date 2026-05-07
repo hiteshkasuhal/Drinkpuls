@@ -260,6 +260,10 @@
 .hk-shops-pdt-item .hk-element-image .hk-media:nth-child(1) img {
     width: 140px;
 }
+.hk-shops-pdt-item .hk-element-image .hk-media:nth-child(1) {
+    border-radius: 5px;
+    min-height: 265px;
+}
 }
 /* shops css end */
 
