@@ -614,6 +614,12 @@
     gap: 5px;
     margin-bottom: 15px;
 }
+.hk-reviews-slider .hk-element-review-name svg {
+    width: 12px;
+    height: unset;
+    position: relative;
+    top: 1px;
+}
 }
 /* reviews css end */
 
