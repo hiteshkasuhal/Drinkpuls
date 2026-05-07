@@ -1147,8 +1147,11 @@
     order: 3;
 }
 .hk-crash-list1-item1, 
-.hk-crash-list1-item4 {
+.hk-crash-list1-item3 {
     width: 100%;
+}
+.hk-crash-list1-item2 {
+    width: 58.2%;
 }
 }
 /* crash css end */
