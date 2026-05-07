@@ -1572,6 +1572,10 @@
 .hk-faq-heading h2 {
     width: 210px;
 }
+.hk-faq-section .hk-image-with-text-flex {
+    gap: 12px;
+    flex-direction: column;
+}
 }
 /* faq css end */
 
