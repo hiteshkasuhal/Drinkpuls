@@ -1019,6 +1019,14 @@
     gap: 40px;
     margin-top: 40px;
 }
+.hk-number-list1-item {
+    width: calc(33.3% - (40px)*2/3);
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2.6000001430511475px);
+    padding: 25px;
+    position: relative;
+}
 
 
 
