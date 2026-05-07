@@ -1246,6 +1246,7 @@
           "settings": {
             "link": "",
             "image": "shopify://shop_images/HP-looks-svg.webp",
+            "image_mobile": "shopify://shop_images/HP-looks-svg1mob.webp",
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
