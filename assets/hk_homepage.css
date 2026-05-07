@@ -1319,6 +1319,11 @@
     font-size: 12px;
     margin: 16px 0 25px;
 }
+.one-table {
+    padding: 19px 14px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
 }
 /* one css end */
 
