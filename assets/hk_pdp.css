@@ -931,7 +931,9 @@
 
 
 /* more css start */
-
+.hk-more-heading h2 {
+    white-space: nowrap;
+}
 
 
 
