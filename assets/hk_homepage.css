@@ -1146,6 +1146,11 @@
     width: 82px;
     height: 100%;
 }
+.hk-scroll-bar-brand img {
+    height: 25px;
+    width: unset;
+    margin: 0 15px;
+}
 }
 /* brand css end */
 
