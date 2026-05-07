@@ -1341,6 +1341,11 @@
     width: 18px;
     height: unset;
 }
+.one-table-item ul li {
+    min-height: 18px;
+    font-size: 12px;
+    text-align: left;
+}
 }
 /* one css end */
 
