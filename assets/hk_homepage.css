@@ -1701,6 +1701,7 @@
 .hk-MBG-rating .hk-icon-with-text-flex {
     justify-content: flex-start;
     color: rgba(255, 255, 255, 0.50);
+    padding-bottom: 0px;
 }
 .hk-MBG-rating .hk-icon-with-text-flex strong {
     color: #fff;
