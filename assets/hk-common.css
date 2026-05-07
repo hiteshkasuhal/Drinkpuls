@@ -463,6 +463,9 @@ ul.slick-dots {
     width: 199px;
     padding-top: 25px;
 }
+ul.slick-dots li button {
+    height: 2px;
+}
 }
 /* same css end */
 
