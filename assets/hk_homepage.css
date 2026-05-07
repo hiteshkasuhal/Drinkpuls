@@ -1141,6 +1141,10 @@
 .hk-scroll-bar-brand .hk-scroll-bar-content {
     padding: 0 16px;
 }
+.hk-scroll-bar-brand .hk-scroll-bar-content:after {
+    width: 82px;
+    height: 100%;
+}
 }
 /* brand css end */
 
