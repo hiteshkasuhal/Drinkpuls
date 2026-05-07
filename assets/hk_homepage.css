@@ -1360,12 +1360,18 @@
     justify-content: flex-end;
     padding-right: 11px;
 }
+.one-table-item {
+    width: 45.3%;
+}
 .one-table-item3 {
     width: 23%;
 }
 .one-table-item3 .one-table-bottom-p {
     text-align: right;
     padding-right: 14px;
+}
+.one-table-item2 {
+    width: 32%;
 }
 }
 /* one css end */
