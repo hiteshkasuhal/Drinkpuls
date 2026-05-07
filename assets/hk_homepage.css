@@ -1469,6 +1469,13 @@
     width: 100%;
     max-width: 100%;
 }
+.hk-table-box-item ul li {
+    font-size: 14px;
+    gap: 8px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
 /* table css end */
 
