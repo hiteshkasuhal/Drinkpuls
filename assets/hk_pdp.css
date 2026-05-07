@@ -756,6 +756,9 @@
 .slick-slide>div {
     display: flex;
 }
+.hk-insides-heading {
+    white-space: nowrap;
+}
 
 
 
