@@ -794,6 +794,9 @@
 .hk-FWITD-faq4 .hk-question span:before {
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-deliver-icon4.webp");
 }
+.hk-insides-section .hk-image-with-text-flex {
+    align-items: flex-end;
+}
 
 
 
