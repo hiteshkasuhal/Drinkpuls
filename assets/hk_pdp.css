@@ -1896,6 +1896,15 @@
     background-size: contain;
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/blue_tick_icon_3c08ff49-bb96-499c-944e-a6753cf71816.png");
 }
+.hk-pdp-review2-links a {
+    color: #000;
+    font-size: 19.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.7px;
+    letter-spacing: -0.39px;
+    text-decoration-line: underline;
+}
 
 
 
