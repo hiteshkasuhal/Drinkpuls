@@ -753,12 +753,6 @@
     position: relative;
     z-index: 1;
 }
-.hk-insides-img img {
-    position: absolute;
-    right: -5%;
-    top: 0px;
-    width: 760px;
-}
 .slick-slide>div {
     display: flex;
 }
