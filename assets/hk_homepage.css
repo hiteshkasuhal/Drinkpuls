@@ -1174,6 +1174,9 @@
     width: 23px;
     height: unset;
 }
+.hk-crash-list1-item2 .hk-element-title {
+    width: 120px;
+}
 }
 /* crash css end */
 
