@@ -845,6 +845,17 @@
     width: 125px;
     max-width: 100%;
 }
+.hk-insides-list1-item-width:nth-child(2) .hk-element-text {
+    width: 115px;
+}
+.hk-insides-list1-item-img img {
+    width: auto;
+    height: 361px;
+    position: absolute;
+    top: 14px;
+    left: 27%;
+    z-index: 1;
+}
 }
 /* insides css end */
 
