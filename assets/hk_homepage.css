@@ -100,10 +100,13 @@
     height: unset;
 }
 .hk-section1-list1 .hk-element-icon-with-text-grid {
-    margin: 10px 0 25px;
+    margin: 10px auto 25px;
     gap: 10px 8px;
     flex-wrap: wrap;
     justify-content: center;
+    width: 290px;
+    max-width: 100%;
+    padding: 0px;
 }
 .hk-section1-list1-item:nth-child(1) {
     order: 3;
