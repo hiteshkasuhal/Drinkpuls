@@ -988,6 +988,14 @@
     top: 129px;
     left: 0px;
 }
+.hk-looks-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    gap: 16px;
+    flex-direction: column;
+    padding-left: 123px;
+}
 }
 /* looks css end */
 
