@@ -1363,6 +1363,10 @@
 .one-table-item3 {
     width: 23%;
 }
+.one-table-item3 .one-table-bottom-p {
+    text-align: right;
+    padding-right: 14px;
+}
 }
 /* one css end */
 
