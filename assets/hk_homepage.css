@@ -2036,5 +2036,8 @@ button#Subscribe {
     max-width: calc(100% + 32px);
     margin-left: -16px;
 }
+.hk-footer-brand {
+    margin: 40px 0 15px;
+}
 }
 /* footer css end */
