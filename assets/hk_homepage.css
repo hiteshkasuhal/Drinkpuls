@@ -1170,6 +1170,10 @@
     width: 299px;
     max-width: 100%;
 }
+.hk-crash-list1-item svg {
+    width: 23px;
+    height: unset;
+}
 }
 /* crash css end */
 
