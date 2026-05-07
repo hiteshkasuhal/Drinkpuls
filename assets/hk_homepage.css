@@ -120,6 +120,10 @@
 .hk-section1-list1-item:nth-child(4) {
     order: 1;
 }
+.hk-section1-img img {
+    position: unset;
+    width: 100%;
+}
 }
 /* section1 css end */
 
