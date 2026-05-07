@@ -1480,6 +1480,17 @@
             "custom_id": "",
             "custom_class": "hk-video-MBG hk-global-MBG hk-center"
           }
+        },
+        "image_9JmJ6B": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/HP-reviews-img1mob.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-hide-desktop hk-crash-img"
+          }
         }
       },
       "block_order": [
@@ -1491,7 +1502,8 @@
         "icon_with_text_item_PwBDRX",
         "icon_with_text_item_Lb4QV7",
         "button_HQjmDN",
-        "icon_with_text_tjF7i3"
+        "icon_with_text_tjF7i3",
+        "image_9JmJ6B"
       ],
       "name": "RichText",
       "settings": {
