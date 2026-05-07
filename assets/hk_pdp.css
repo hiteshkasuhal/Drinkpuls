@@ -1838,6 +1838,17 @@
     padding: 25px 23px;
     text-align: left;
 }
+.hk-reviews2-list1-item .hk-media.hk-svg {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16.9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20.8px;
+    gap: 10.4px;
+    padding-bottom: 19.5px;
+}
 
 
 
