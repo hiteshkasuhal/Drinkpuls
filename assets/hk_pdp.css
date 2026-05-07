@@ -1830,6 +1830,14 @@
     margin: 40px 0px;
     gap: 30px 40px;
 }
+.hk-reviews2-list1-item {
+    border-radius: 6px;
+    background: #162036;
+    color: #fff;
+    width: calc(33.3% - (40px)*2/3);
+    padding: 25px 23px;
+    text-align: left;
+}
 
 
 
