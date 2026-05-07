@@ -1047,6 +1047,9 @@
 .hk-number-list1-item2 .hk-element-text {
     width: 81%;
 }
+.hk-number-section .hk-richtext-content {
+    position: relative;
+}
 
 
 
