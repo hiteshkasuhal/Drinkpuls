@@ -1146,6 +1146,10 @@
 .hk-crash-list1-item4 {
     order: 3;
 }
+.hk-crash-list1-item1, 
+.hk-crash-list1-item4 {
+    width: 100%;
+}
 }
 /* crash css end */
 
