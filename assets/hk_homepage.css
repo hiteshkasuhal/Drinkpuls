@@ -1134,6 +1134,18 @@
     margin-bottom: 25px;
     flex-wrap: wrap;
 }
+.hk-crash-list1-item1 {
+    order: 1;
+}
+.hk-crash-list1-item2 {
+    order: 2;
+}
+.hk-crash-list1-item3 {
+    order: 4;
+}
+.hk-crash-list1-item4 {
+    order: 3;
+}
 }
 /* crash css end */
 
