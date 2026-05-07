@@ -1164,6 +1164,30 @@
 
 
 
+/* how css start */
+.hk-how-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+
+
+@media (min-width: 915px) {
+
+}
+
+
+
+@media (max-width: 915px) {
+
+}
+/* how css end */
+
+
+
 /* one css start */
 .hk-one-text2 {
     color: rgba(0, 0, 0, 0.80);
