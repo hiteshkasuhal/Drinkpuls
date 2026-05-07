@@ -1913,7 +1913,7 @@
             "h1": false,
             "font_type": "heading",
             "custom_id": "",
-            "custom_class": "hk-faq-heading hk-global-heading"
+            "custom_class": "hk-faq-heading hk-global-heading hk-heading-center"
           }
         }
       },
