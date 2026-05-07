@@ -1995,13 +1995,7 @@ button#Subscribe {
 }
 .hk-footer-text2 {
     min-height: 50px;
-    align-items: center;
     width: calc(100% - 82px);
-}
-.hk-footer-text2 p {
-    font-size: 12px;
-    letter-spacing: -0.12px;
-    padding: 4.5px 10px;
 }
 }
 /* footer css end */
