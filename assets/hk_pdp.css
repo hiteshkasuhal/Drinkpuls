@@ -944,6 +944,15 @@
     justify-content: space-between;
     margin-top: 40px;
 }
+.hk-more-list1-items {
+    width: calc(50% - (12px)*1/2);
+    border-radius: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    opacity: 0.9;
+    background: linear-gradient(180deg, rgba(41, 57, 91, 0.05) 0%, rgba(24, 33, 60, 0.05) 100%);
+    backdrop-filter: blur(2.6000001430511475px);
+    padding: 19.5px;
+}
 
 
 
