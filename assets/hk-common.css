@@ -383,7 +383,7 @@ ul.slick-dots {
     width: 400px;
     max-width: 100%;
     margin: 0px auto;
-    padding-top: 43px;
+    padding-top: 30px;
 }
 ul.slick-dots li {
     width: 100%;
@@ -458,6 +458,10 @@ ul.slick-dots li.slick-active~li button {
 .hk-global-rating .hk-icon-with-text-flex svg {
     width: 79px;
     height: unset;
+}
+ul.slick-dots {
+    width: 199px;
+    padding-top: 25px;
 }
 }
 /* same css end */
