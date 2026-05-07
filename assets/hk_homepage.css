@@ -1482,6 +1482,9 @@
 .hk-table-box-item2 ul {
     justify-content: center;
 }
+.hk-table-box-item ul li img {
+    width: 21px;
+}
 }
 /* table css end */
 
