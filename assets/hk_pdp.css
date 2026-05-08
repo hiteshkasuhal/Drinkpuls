@@ -678,6 +678,22 @@
 .hk-reviews-slider {
     margin: 25px 0px 0px;
 }
+
+.hk-review-card-rich-text {
+    font-size: 14px;
+    line-height: 20px;
+}
+.hk-review-card-rich-text ul li {
+    width: 18px;
+    height: 4px;
+}
+.hk-review-card-rich-text ul {
+    gap: 4px;
+    padding-top: 10px;
+}
+.hk-reviews-slider ul.slick-dots {
+    margin-left: 0;
+}
 }
 /* reviews css end */
 
@@ -1174,7 +1190,9 @@
     margin-top: 30px;
 }
 
-
+.hk-more-list1-items.active img {
+    filter: brightness(0);
+}
 
 @media (min-width: 915px) {
 
