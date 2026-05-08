@@ -1161,6 +1161,11 @@
 .hk-more-heading strong {
     display: block;
 }
+.hk-more-text1s {
+    width: 221px;
+    max-width: 100%;
+    margin: 0px auto;
+}
 }
 /* more css end */
 
