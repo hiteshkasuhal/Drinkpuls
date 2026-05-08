@@ -1537,6 +1537,7 @@
 .hk-number-list1 .hk-element-icon-with-text-grid {
     position: relative;
     z-index: 2;
+    margin-bottom: -52px;
 }
 .hk-number-list1-item {
     background: #182038;
