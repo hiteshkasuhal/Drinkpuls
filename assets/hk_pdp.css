@@ -449,6 +449,9 @@
 .hk-play-button span svg {
     width: 12px;
 }
+.hk-video-slider {
+    margin: 25px 0px 0px;
+}
 }
 /* video css end */
 
