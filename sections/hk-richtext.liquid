@@ -65,6 +65,8 @@
                     {%  render 'hk-review-item', block:block %} 
                 {%- when 'slider' -%} 
                     {%  render 'hk-slider', block:block %} 
+                {%- when 'products' -%} 
+                    {%  render 'hk-element-products-slider', block:block %} 
                 {%- when '@app' -%} 
                 {% render block %}
             {%  endcase %}
