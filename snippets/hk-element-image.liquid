@@ -14,6 +14,16 @@
 }}   
 </div>
   <div class="hk-media hk-hide-desktop">
+ {{ block.settings.image_mobile | image_url: width: 800 | image_tag:
+  loading: block.settings.image_loading,
+  fetchpriority: block.settings.image_performance,
+  alt:block.settings.image_mobile.alt,
+  widths: '375, 550, 750, 800'
+}}   
+</div>
+{% else %}
+  <div class="hk-media">
+    {%  if block.settings.high_resolution == true %}
     {%  if block.settings.high_resolution == true %}
  {{ block.settings.image_mobile | image_url: width: 1800 | image_tag:
   loading: block.settings.image_loading,
@@ -22,23 +32,13 @@
   widths: '1800'
 }}   
     {%  else %}
- {{ block.settings.image_mobile | image_url: width: 800 | image_tag:
-  loading: block.settings.image_loading,
-  fetchpriority: block.settings.image_performance,
-  alt:block.settings.image_mobile.alt,
-  widths: '375, 550, 750, 800'
-}}   
-    {%  endif %}
-</div>
-{% else %}
-  <div class="hk-media">
-    {%  if block.settings.high_resolution == true %}
  {{ block.settings.image | image_url: width: 1800 | image_tag:
   loading: block.settings.image_loading,
   fetchpriority: block.settings.image_performance,
   alt:block.settings.image.alt,
   widths: '1800'
 }} 
+    {%  endif %}
     {%  else %}
  {{ block.settings.image | image_url: width: 800 | image_tag:
   loading: block.settings.image_loading,
