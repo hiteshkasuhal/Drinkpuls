@@ -913,6 +913,9 @@
 .hk-looks-heading h2 {
     width: 300px;
 }
+.hk-insides-heading {
+    white-space: unset;
+}
 }
 /* insides css end */
 
