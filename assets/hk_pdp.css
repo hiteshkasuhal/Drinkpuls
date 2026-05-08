@@ -1534,6 +1534,10 @@
     padding-top: 16px;
     color: rgba(0, 0, 0, 0.80);
 }
+.hk-number-list1 .hk-element-icon-with-text-grid {
+    position: relative;
+    z-index: 2;
+}
 }
 /* number css end */
 
