@@ -1193,7 +1193,9 @@
 .hk-more-list1-items.active img {
     filter: brightness(0);
 }
-
+.hk-more-box:not(.el-active) {
+    display: none;
+}
 @media (min-width: 915px) {
 
 }
