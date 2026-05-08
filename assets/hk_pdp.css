@@ -1019,6 +1019,16 @@
     padding: 30px;
     margin-top: 131px;
 }
+.hk-more-box .hk-icon-with-text-flex .hk-element-title strong {
+    font-family: "Bebas Neue";
+    font-size: 33.8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -1.014px;
+    display: block;
+    margin-bottom: 2.1px;
+}
 
 
 
