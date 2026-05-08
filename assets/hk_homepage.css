@@ -1842,6 +1842,12 @@
 
 
 /* final touchups */
+.hk-big-section {
+    background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-reviews-bg.webp);
+    background-size: cover;
+    background-position: top;
+}
+
 @media (max-width:915px) {
 
 }
