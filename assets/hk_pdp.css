@@ -1529,6 +1529,11 @@
     bottom: 0px;
     object-position: right;
 }
+.hk-number-text1 {
+    font-size: 14px;
+    padding-top: 16px;
+    color: rgba(0, 0, 0, 0.80);
+}
 }
 /* number css end */
 
