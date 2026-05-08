@@ -1234,6 +1234,11 @@
     width: 100%;
     text-align: left;
 }
+.hk-more-tab-item .hk-icon-with-text-flex {
+    gap: 10px;
+    border-radius: 4px;
+    padding: 3px 14px 3px 3px;
+}
 }
 /* more css end */
 
