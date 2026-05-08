@@ -34,7 +34,8 @@
 {% endcapture %}
 <div class="el-element el-element-button {{ block.settings.custom_class }} el-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
 <div class="el-element-button-{{ block.id }} el-font-{{ block.settings.font_type }}">
-<button class="el-button el-checkout-button el-trigger-{{ section.id }} el-font-body"  variant_id="{{ variant.id }}" selling_plan="{{ variant.selling_plan_allocations.first.selling_plan.id }}">{{ block.settings.button_label | replace:'[price],price_content' }}
+<button class="el-button el-checkout-button el-trigger-{{ section.id }} el-font-body"  variant_id="{{ variant.id }}" selling_plan="{{ variant.selling_plan_allocations.first.selling_plan.id }}">
+  {{ block.settings.button_label | replace:'[price]',price_content }}
 </button></div>
 <script>$(document).on("click", '.el-trigger-{{ section.id }}', function (e) {
   e.preventDefault();
