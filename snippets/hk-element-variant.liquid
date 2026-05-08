@@ -14,9 +14,6 @@
 {% if block.settings.title != blank %}
 <span class="hk-variant-title">{{ block.settings.title }}</span>
 {% endif %}
-{% if block.settings.text != blank %}
-<span class="hk-variant-text">{{ block.settings.text }}</span>
-{% endif %}
 
 <span class="hk-variant-price">
 <span class="hk-sub-trigger" sub_tab="1">
@@ -57,6 +54,9 @@
 }} 
 </span>
 {% endif %}
+{% endif %}
+{% if block.settings.text != blank %}
+<span class="hk-variant-text">{{ block.settings.text }}</span>
 {% endif %}
 </span>
 </button>
