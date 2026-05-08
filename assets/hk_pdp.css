@@ -1215,6 +1215,9 @@
     width: calc(100% - 59px);
     gap: 0px;
 }
+.hk-more-box .hk-icon-with-text-flex ul {
+    display: none;
+}
 }
 /* more css end */
 
