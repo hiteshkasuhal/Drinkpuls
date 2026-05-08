@@ -251,6 +251,10 @@
 .hk-shops-pdt-item .hk-button:after {
     display: none;
 }
+.hk-atc-js.hk-disabled {
+    cursor: no-drop;
+}
+
 @media (min-width: 915px) {
 
 }
