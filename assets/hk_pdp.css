@@ -930,6 +930,14 @@
     width: 20px;
     height: 20px;
 }
+.hk-FWITD-faq .hk-question {
+    padding-left: 16px;
+}
+.hk-FWITD-faq .hk-question span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 }
 /* insides css end */
 
