@@ -332,6 +332,9 @@
         "icon_with_text_grid_BaTNGU": {
           "type": "products",
           "settings": {
+            "columns_desktop": 3,
+            "disable_desktop": false,
+            "columns_mobile": 1,
             "custom_id": "",
             "custom_class": "hk-shops-pdt"
           }
