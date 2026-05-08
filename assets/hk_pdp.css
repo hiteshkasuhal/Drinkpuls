@@ -922,6 +922,9 @@
 .hk-insides-img {
     width: 100%;
 }
+.hk-insides-section .hk-image-with-text-column2 {
+    padding-top: 0px;
+}
 }
 /* insides css end */
 
