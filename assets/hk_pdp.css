@@ -1097,6 +1097,15 @@
     flex-direction: column;
     gap: 2.1px;
 }
+.hk-more-tab-item .hk-element-texts .hk-element-title {
+    color: #72D3FF;
+    font-family: Aeonik;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    text-transform: uppercase;
+}
 
 
 
