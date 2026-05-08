@@ -1511,6 +1511,14 @@
     margin: 0px auto;
     height: unset;
 }
+.hk-number-list1-item .hk-element-title {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    padding-left: 0px;
+    margin-top: -79px;
+    margin-bottom: 9px;
+    text-align: center;
+}
 }
 /* number css end */
 
