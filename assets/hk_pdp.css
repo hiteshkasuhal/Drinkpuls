@@ -1056,6 +1056,15 @@
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(360.7500305175781px);
 }
+.hk-more-box .hk-icon-with-text-flex ul li:before {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-more-check.webp");
+    width: 17.55px;
+    height: 17.55px;
+}
 
 
 
