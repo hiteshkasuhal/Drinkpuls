@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+{ "layout":"theme.global",
   "sections": {
     "hk_richtext_6LVdPL": {
       "type": "hk-richtext",
