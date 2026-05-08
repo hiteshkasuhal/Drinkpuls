@@ -1193,6 +1193,11 @@
 .hk-more-list1-items:nth-child(3) p {
     width: 112px;
 }
+.hk-more-section .hk-image-with-text-column2 {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+}
 }
 /* more css end */
 
