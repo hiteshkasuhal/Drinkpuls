@@ -964,6 +964,22 @@
             "custom_id": "",
             "custom_class": "hk-more-tab-item hk-more-tab1-item"
           }
+        },
+        "icon_with_text_xwrrGh": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more-rightimg.webp",
+            "liquid": "",
+            "title": "<strong>Focus & Cognitive Performance </strong><em>Caffeine + MCTs</em>",
+            "text": "<ul><li>Sharper focus</li><li>Reduced mental fatigue</li></ul>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-box hk-more-box2"
+          }
         }
       },
       "block_order": [
@@ -977,7 +993,8 @@
         "icon_with_text_KGbzrp",
         "icon_with_text_grid_3i7KcL",
         "icon_with_text_item_KeG3W4",
-        "icon_with_text_item_TgE4c7"
+        "icon_with_text_item_TgE4c7",
+        "icon_with_text_xwrrGh"
       ],
       "name": "Image With Text",
       "settings": {
