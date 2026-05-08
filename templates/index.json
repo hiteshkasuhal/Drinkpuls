@@ -146,7 +146,7 @@
         "button_TXDXMg": {
           "type": "button",
           "settings": {
-            "button_link": "",
+            "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
             "font_type": "body",
             "position": "left",
