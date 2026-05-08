@@ -177,6 +177,7 @@
             "image": "shopify://shop_images/HP-section1-brand.webp",
             "image_loading": "lazy",
             "image_performance": "low",
+            "high_resolution": false,
             "position": "left",
             "custom_id": "",
             "custom_class": "hk-section1-brand hk-hide-mobile"
@@ -190,6 +191,7 @@
             "image_mobile": "shopify://shop_images/HP-section1-img1mob.webp",
             "image_loading": "lazy",
             "image_performance": "low",
+            "high_resolution": false,
             "position": "right",
             "custom_id": "",
             "custom_class": "hk-section1-img"
@@ -1108,6 +1110,7 @@
             "image_mobile": "shopify://shop_images/HP-insides-img1mob.webp",
             "image_loading": "lazy",
             "image_performance": "low",
+            "high_resolution": false,
             "position": "right",
             "custom_id": "",
             "custom_class": "hk-insides-img"
@@ -1249,6 +1252,7 @@
             "image_mobile": "shopify://shop_images/HP-looks-svg1mob.webp",
             "image_loading": "lazy",
             "image_performance": "low",
+            "high_resolution": true,
             "custom_id": "",
             "custom_class": "hk-looks-img"
           }
@@ -1488,6 +1492,7 @@
             "image": "shopify://shop_images/HP-reviews-img1mob.webp",
             "image_loading": "lazy",
             "image_performance": "low",
+            "high_resolution": false,
             "custom_id": "",
             "custom_class": "hk-hide-desktop hk-crash-img"
           }
@@ -2166,6 +2171,7 @@
             "image": "shopify://shop_images/HP-MBG-svg.webp",
             "image_loading": "lazy",
             "image_performance": "low",
+            "high_resolution": false,
             "position": "left",
             "custom_id": "",
             "custom_class": "hk-MBG-section-img1"
@@ -2215,6 +2221,7 @@
             "image": "shopify://shop_images/HP-MBG-img.webp",
             "image_loading": "lazy",
             "image_performance": "low",
+            "high_resolution": false,
             "position": "right",
             "custom_id": "",
             "custom_class": "hk-MBG-section-img2 hk-hide-mobile"
