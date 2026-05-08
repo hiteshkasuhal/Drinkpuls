@@ -261,6 +261,39 @@
             "custom_id": "",
             "custom_class": "hk-sub-benifits"
           }
+        },
+        "faq_wkUG4g": {
+          "type": "faq",
+          "settings": {
+            "question": "What Is PULS?",
+            "answer": "<p>PULS is a performance coffee designed to fuel both work and training. Each sachet combines premium Arabica coffee with protein, creatine, and MCTs to deliver smooth energy, focus, and physical performance - without the crash of regular coffee or the overstimulation of pre-workouts.</p>",
+            "font_type": "body",
+            "font_type_answer": "body",
+            "custom_id": "",
+            "custom_class": "hk-global-faq hk-pdp-faq hk-pdp-faq1"
+          }
+        },
+        "faq_i7JLDn": {
+          "type": "faq",
+          "settings": {
+            "question": "Shipping & Returns",
+            "answer": "<p>All orders are dispatched the next working day and shipped via Royal Mail 48-hour delivery.<br/>PULS is backed by a 30-day money-back guarantee. If you’re not satisfied, simply contact our support team within 30 days and we’ll arrange a return or refund.</p>",
+            "font_type": "body",
+            "font_type_answer": "body",
+            "custom_id": "",
+            "custom_class": "hk-global-faq hk-pdp-faq hk-pdp-faq2"
+          }
+        },
+        "faq_MtKpxB": {
+          "type": "faq",
+          "settings": {
+            "question": "Nutritional Information",
+            "answer": "",
+            "font_type": "body",
+            "font_type_answer": "body",
+            "custom_id": "",
+            "custom_class": "hk-global-faq hk-pdp-faq hk-pdp-faq3"
+          }
         }
       },
       "block_order": [
@@ -281,7 +314,10 @@
         "icon_with_text_item_YK88i7",
         "icon_with_text_item_ntHMwi",
         "image_HrqWjf",
-        "icon_with_text_ig7JbL"
+        "icon_with_text_ig7JbL",
+        "faq_wkUG4g",
+        "faq_i7JLDn",
+        "faq_MtKpxB"
       ],
       "name": "Product",
       "settings": {
