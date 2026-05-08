@@ -2,8 +2,8 @@
 <div class="hk-media hk-product-media-main-item">
   <div class="hk-media">
  {{ media | image_url: width: 800 | image_tag:
-  loading: block.settings.image_loading,
-  fetchpriority: block.settings.image_performance,
+  loading: 'lazy',
+  fetchpriority: 'low',
   alt:media.alt,
   widths: '375, 550, 750, 800'
 }} 
