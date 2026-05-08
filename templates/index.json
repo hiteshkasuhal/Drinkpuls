@@ -1075,6 +1075,62 @@
             "custom_class": "hk-insides-list1-item hk-insides-list1-item-img"
           }
         },
+        "icon_with_text_grid2_HeCmqw": {
+          "type": "icon_with_text_grid2",
+          "settings": {
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-insides-list2"
+          }
+        },
+        "icon_with_text_item2_YE3PkM": {
+          "type": "icon_with_text_item2",
+          "settings": {
+            "image": "shopify://shop_images/HP-insides-svg1.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Sustained energy</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-insides-list2-item"
+          }
+        },
+        "icon_with_text_item2_pQEUNC": {
+          "type": "icon_with_text_item2",
+          "settings": {
+            "image": "shopify://shop_images/HP-insides-svg2.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Sharper focus</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-insides-list2-item"
+          }
+        },
+        "icon_with_text_item2_Fzfaqt": {
+          "type": "icon_with_text_item2",
+          "settings": {
+            "image": "shopify://shop_images/HP-insides-svg3.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>No crash, no jitters</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-insides-list2-item"
+          }
+        },
         "button_FNkmty": {
           "type": "button",
           "settings": {
@@ -1126,6 +1182,10 @@
         "icon_with_text_item_QtDthk",
         "icon_with_text_item_einV6f",
         "icon_with_text_item_g9Vzpa",
+        "icon_with_text_grid2_HeCmqw",
+        "icon_with_text_item2_YE3PkM",
+        "icon_with_text_item2_pQEUNC",
+        "icon_with_text_item2_Fzfaqt",
         "button_FNkmty",
         "icon_with_text_DCfPaF",
         "image_nCCGRd"
