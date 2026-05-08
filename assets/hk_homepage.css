@@ -1847,7 +1847,9 @@
     background-size: cover;
     background-position: top;
 }
-
+.hk-big-section .shopify-section>div {
+    background-image: unset !important;
+}
 @media (max-width:915px) {
 
 }
