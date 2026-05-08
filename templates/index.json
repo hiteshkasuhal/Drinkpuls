@@ -358,7 +358,7 @@
         "icon_with_text_item_cV6D39": {
           "type": "product",
           "settings": {
-            "product": "product-test-pouch",
+            "product": "other-example-product-4",
             "image": "shopify://shop_images/HP-shop-img2.webp",
             "liquid": "Coming Soon!",
             "title": "<strong>Mocha Flavour </strong><em>Mocha taste. Sharp focus.</em>",
@@ -374,7 +374,7 @@
         "icon_with_text_item_rbjxpL": {
           "type": "product",
           "settings": {
-            "product": "product-test-pouch",
+            "product": "other-example-product-4",
             "image": "shopify://shop_images/HP-shop-img3.webp",
             "liquid": "Coming Soon!",
             "title": "<strong>Caramel Flavour </strong><em>Silky smooth caramel latte.</em>",
