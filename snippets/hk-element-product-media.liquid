@@ -51,9 +51,12 @@
 <div class="hk-element hk-element-product-media hk-rative {{ block.settings.custom_class }} hk-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
     <div class="hk-rative hk-media-main-wrapper">
 <div class="hk-slick-slider hk-slider-product-media-main" data-slider-config='{{ slider_config_main | strip }}'>
- {%- for media in product.media -%} 
-                    {%  render 'hk-product-image-main', media:media, counter_block:counter_block %} 
-{% endfor %}
+ {%- for block in section.blocks -%} 
+            {%- case block.type -%}  
+                {%- when 'product_image' -%} 
+                    {%  render 'hk-product-image-main', block:block, counter_block:counter_block %} 
+            {%  endcase %}
+        {%  endfor %} 
 </div>
 <div class="hk-slider-navigation">
 <button class="hk-slider-prev-{{ block.id }} hk-slider-button hk-slider-prev"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22" fill="none">
@@ -66,8 +69,11 @@
 
 </div>
 <div class="hk-slick-slider hk-slider-product-media-thumb" data-slider-config='{{ slider_config_thumb | strip }}'>
- {%- for media in product.media -%} 
-                    {%  render 'hk-product-image-thumb', media:media, counter_block:counter_block %} 
+ {%- for block in section.blocks -%} 
+            {%- case block.type -%}  
+                {%- when 'product_image' -%} 
+                    {%  render 'hk-product-image-thumb', block:block, counter_block:counter_block %} 
+            {%  endcase %}
         {%  endfor %} 
 </div>
 
