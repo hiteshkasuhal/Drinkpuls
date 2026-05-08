@@ -1506,6 +1506,11 @@
     max-width: 100%;
     width: 134px;
 }
+.hk-number-list1-item svg {
+    width: 115px;
+    margin: 0px auto;
+    height: unset;
+}
 }
 /* number css end */
 
