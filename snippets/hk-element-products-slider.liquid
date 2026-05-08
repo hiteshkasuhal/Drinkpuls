@@ -24,14 +24,8 @@
 <div class="hk-slick-slider" data-slider-config='{{ slider_config | strip }}'>
  {%- for block in section.blocks -%} 
             {%- case block.type -%}  
-                {%- when 'slide' -%} 
-                  {% if counter_block.settings.position != blank %}
-                  {% if counter_block.settings.position == block.settings.position %}
+                {%- when 'product' -%} 
                     {%  render 'hk-product-item', block:block, counter_block:counter_block %} 
-                  {%  endif %}
-                  {% else %}
-                    {%  render 'hk-product-item', block:block, counter_block:counter_block %} 
-                  {%  endif %}
             {%  endcase %}
         {%  endfor %} 
 </div>
