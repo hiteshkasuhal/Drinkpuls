@@ -258,5 +258,27 @@
             {"type":"header","content":"Layout"},
             {"type":"select","id":"position","label":"Column Position","options":[{"value":"left","label":"Left Column"},{"value":"right","label":"Right Column"}],"default":"left"},
             {"type":"header","content":"Advanced"},{"type":"text","id":"custom_id","label":"Custom CSS ID","info":"For anchor links or custom styling. Use lowercase with hyphens (e.g., 'about-section')"},{"type":"text","id":"custom_class","label":"Custom CSS class","info":"For additional styling. Separate multiple classes with spaces"}]}
+        ,{"type":"icon_with_text_grid2","name":"icon With Text Grid2","settings":[
+            {"type":"header","content":"Layout"},
+            {"type":"select","id":"position","label":"Column Position","options":[{"value":"left","label":"Left Column"},{"value":"right","label":"Right Column"}],"default":"left"},
+            {"type":"header","content":"Advanced"},
+            {"type":"text","id":"custom_id","label":"Custom CSS ID","info":"For anchor links or custom styling. Use lowercase with hyphens (e.g., 'about-section')"},{"type":"text","id":"custom_class","label":"Custom CSS class","info":"For additional styling. Separate multiple classes with spaces"}]}
+        ,{"type":"icon_with_text_item2","name":"Icon With Text Item2","settings":[
+            {"type":"header","content":"Content"},
+            {"type":"image_picker","id":"image","label":"Icon","info":"Recommended: 768x1024px, JPG format"},
+            {"type":"image_picker","id":"image_mobile","label":"Image (mobile)","info":"Recommended: 768x1024px, JPG format. Leave empty to use desktop image"},
+            {"type":"liquid","id":"liquid","label":"icon Code","default":"Add Your Code Here","info":"Supports Html and Liquid Codes"},
+            {"type":"inline_richtext","id":"title","label":"Title","default":"Add Your Title","info":"Supports bold and italic"},
+            {"type":"richtext","id":"text","label":"Text","default":"<p>Add Your Description</p>","info":"Supports bold, italic,list,paragraph and links"},
+            {"type":"header","content":"Design"},
+            {"type":"select","id":"font_type_title","label":"Title Font","options":[{"value":"heading","label":"Heading Font"},{"value":"body","label":"Body Font"}],"default":"heading"},
+            {"type":"select","id":"font_type_text","label":"Text Font","options":[{"value":"heading","label":"Heading Font"},{"value":"body","label":"Body Font"}],"default":"body"},
+            {"type":"header","content":"Loading & Performance"},
+            {"type": "select","id": "image_loading","label": "Image loading","options": [{"value": "eager","label": "Eager (loads immediately)"},{"value": "lazy","label": "Lazy (loads when visible)"}],"default": "lazy","info": "Use 'Eager' only for images at the top of the page"},
+            {"type": "select","id": "image_performance","label": "Image Performance","options": [{"value": "high","label": "High (loads immediately)"},{"value": "low","label": "Low (loads when visible)"}],"default": "low","info": "Use 'High' only for images at the top of the page"},
+            {"type":"header","content":"Layout"},
+            {"type":"select","id":"position","label":"Column Position","options":[{"value":"left","label":"Left Column"},{"value":"right","label":"Right Column"}],"default":"left"},
+            {"type":"header","content":"Advanced"},
+            {"type":"text","id":"custom_id","label":"Custom CSS ID","info":"For anchor links or custom styling. Use lowercase with hyphens (e.g., 'about-section')"},{"type":"text","id":"custom_class","label":"Custom CSS class","info":"For additional styling. Separate multiple classes with spaces"}]}
         ],"presets":[{"name":"Image With Text","category": "Hitesh Kaushal"}]}
 {% endschema %}
