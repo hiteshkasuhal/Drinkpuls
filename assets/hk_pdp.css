@@ -991,6 +991,11 @@
 .hk-more-list1-items {
     cursor: pointer;
 }
+.hk-more-box .hk-icon-with-text-flex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 
 
 
