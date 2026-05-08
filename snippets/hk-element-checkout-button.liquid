@@ -1,136 +1,108 @@
- <div class="hk-element hk-element-button {{ block.settings.custom_class }} hk-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
-<div class="hk-element-button-{{ block.id }} hk-font-{{ block.settings.font_type }}">
-{%  assign single_product = section.settings.collection.products[0] %}
-<button class="hk-button hk-checkout-button hk-trigger-{{ section.id }} hk-font-body"  variant_id="{{ product.selected_or_first_available_variant.id }}" selling_plan="{{ product.selected_or_first_available_variant.selling_plan_allocations.first.selling_plan.id }}">{{ block.settings.button_label }}
 
-{% for i in (1..3) %}
-<span class="hk-quantity-data{% if forloop.first %} active{% endif %}" data_tab="{{ i }}"{% if forloop.index > 1 %} style="display:none;"{% endif %}>
-{% assign total_quantity = i %}
-{%  if forloop.index == 2 %}
-{% assign total_quantity = 3 %}
+{%- for block in section.blocks -%} 
+{%- case block.type -%} 
+{%- when 'variant' -%}  
+{% assign index = block.settings.index | minus:1 %}
+{% if block.settings.active == true %}
+{% assign variant = product.variants[index] %}
+{%  endif %}
+{%  endcase %}
+{%  endfor %} 
+{% capture price_content %}
+
+{%- for block in section.blocks -%} 
+{%- case block.type -%} 
+{%- when 'variant' -%}  
+{% assign index = block.settings.index | minus:1 %}
+{% assign variant = product.variants[index] %}
+{%  assign compare_price = variant.price  %}
+{%  if variant.compare_at_price > variant.price %}
+{%  assign compare_price = variant.compare_at_price  %}
 {% endif %}
-{%  if forloop.index == 3 %}
-{% assign total_quantity = 5 %}
-{% endif %}
-{%  assign price = single_product.price | times:i  %}
-{%  assign price_sub = single_product.selected_or_first_available_variant.selling_plan_allocations.first.per_delivery_price | times:i  %}
-{%  assign compare_price = single_product.compare_at_price | times:total_quantity  %}
-{%  assign save_percentage = compare_price | minus:price| times:100 | divided_by:compare_price |round  %}
-{%  assign save_percentage_sub = compare_price | minus:price_sub| times:100 | divided_by:compare_price |round  %}
-<span class="hk-sub-tab" sub_tab="1" style="display:none;">
-{{ price | money }} <s>{{ compare_price | money }}</s>
+{%  assign price = variant.price  %}
+{%  assign price_sub = variant.selling_plan_allocations.first.per_delivery_price %}
+<span class="el-variant-trigger{% if block.settings.active == true %} el-active{% endif %}" variant_id="{{ variant.id }}"{% if block.settings.active != true %} style="display:none;"{% endif %}>
+<span class="el-sub-trigger" sub_tab="1">
+{{ price_sub | money }}{%  if compare_price > price_sub %} <s>{{ compare_price | money }}</s>{% endif %}
 </span>
-<span class="hk-sub-tab" sub_tab="2">
-{{ price_sub | money }} <s>{{ compare_price | money }}</s>
+<span class="el-sub-trigger" sub_tab="2" style="display:none;">
+{{ price | money }}{%  if compare_price > price %} <s>{{ compare_price | money }}</s>{% endif %}
 </span>
-
 </span>
-{% endfor %}
-
+{%  endcase %}
+{%  endfor %} 
+{% endcapture %}
+<div class="el-element el-element-button {{ block.settings.custom_class }} el-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
+<div class="el-element-button-{{ block.id }} el-font-{{ block.settings.font_type }}">
+<button class="el-button el-checkout-button el-trigger-{{ section.id }} el-font-body"  variant_id="{{ variant.id }}" selling_plan="{{ variant.selling_plan_allocations.first.selling_plan.id }}">{{ block.settings.button_label }}
 </button></div>
-<script>
-
-$(document).on("click", '.hk-trigger-{{ section.id }}', function (e) {
+<script>$(document).on("click", '.el-trigger-{{ section.id }}', function (e) {
   e.preventDefault();
 
   var $btn = $(this);
 
-  // prevent spam clicks
-  if ($btn.hasClass('processing')) return;
-  $btn.addClass('processing').addClass('hk-loading');
+  // prevent multiple clicks
+  if ($btn.hasClass('el-loading')) return;
+
+  $btn.addClass('el-loading');
 
   var items = [];
-  var SHIPPING_VARIANT_ID = 57004055626115;
 
-  var container = $btn.closest('.hk-product-content');
+  // main product
+  var variant_id = $btn.attr('variant_id');
+  var selling_plan = $btn.attr('selling_plan');
 
-  // -----------------------------
-  // STEP 1: Build main items
-  // -----------------------------
-  container.find('.hk-element-option.active .hk-product-option').each(function () {
-    var $item = $(this); 
+  var item = {
+    id: parseInt(variant_id),
+    quantity: 1
+  };
 
-    var VariantId = $item.attr('variant_id');
-    var selling_plan = $item.attr('selling_plan');
-
-    var Item = {
-      id: parseInt(VariantId),
-      quantity: 1
-    };
-
-    var isSubActive = container.find('.hk-sub-toggle').hasClass('active');
-
-    if (
-      isSubActive &&
-      selling_plan &&
-      !$item.hasClass('hk-free-item')
-    ) {
-      Item.selling_plan = parseInt(selling_plan);
-    }
-
-    items.push(Item);
-  });
-
-  // -----------------------------
-  // STEP 2: Check cart safely
-  // -----------------------------
-  $.get('/cart.js')
-    .done(function(cart) {
-
-      var exists = false;
-
-      if (cart && Array.isArray(cart.items)) {
-        exists = cart.items.some(function(item) {
-          return item.id == SHIPPING_VARIANT_ID;
-        });
-      }
-
-      // -----------------------------
-      // STEP 3: Add shipping protection if missing
-      // -----------------------------
-      if (!exists) {
-        items.push({
-          id: SHIPPING_VARIANT_ID,
-          quantity: 1
-        });
-      }
-
-      addToCart(items);
-
-    })
-    .fail(function() {
-      // fallback: still proceed without check
-      addToCart(items);
-    });
-
-  // -----------------------------
-  // FINAL ADD TO CART FUNCTION
-  // -----------------------------
-  function addToCart(items) {
-    $.ajax({
-      type: 'POST',
-      url: '/cart/add.js',
-      data: JSON.stringify({ items: items }),
-      dataType: 'json',
-      contentType: 'application/json',
-
-      success: function () {
-        $('.hk-cart-button').trigger('click');
-        if (typeof refreshCartDrawer === 'function') {
-          refreshCartDrawer();
-        }
-      },
-
-      complete: function () {
-        setTimeout(function () {
-          $btn.removeClass('hk-loading processing');
-        }, 500);
-      }
-    });
+  // add selling plan if exists
+  if (selling_plan) {
+    item.selling_plan = parseInt(selling_plan);
   }
 
-});
+  items.push(item);
 
+  // free gift
+ /* var $freeGift = $('.el-element-sub-option.el-active .el-free-product-details');
+
+  if ($freeGift.length) {
+
+    var free_variant_id = $freeGift.attr('variant_id');
+
+    if (free_variant_id) {
+      items.push({
+        id: parseInt(free_variant_id),
+        quantity: 1
+      });
+    }
+  }*/
+
+  $.ajax({
+    type: 'POST',
+    url: '/cart/add.js',
+    data: JSON.stringify({
+      items: items
+    }),
+    dataType: 'json',
+    contentType: 'application/json',
+
+    success: function () {
+
+      // open cart drawer
+      $('.amp-cart').addClass('amp-cart--open');
+
+    },
+
+    complete: function () {
+      setTimeout(function () {
+        $btn.removeClass('el-loading');
+      }, 500);
+    }
+  });
+
+});
 </script>
 
 </div>
