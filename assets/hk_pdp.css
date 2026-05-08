@@ -1224,6 +1224,9 @@
     letter-spacing: -0.78px;
     margin-bottom: 2.1px;
 }
+.hk-more-box .hk-icon-with-text-flex .hk-element-title em {
+    font-size: 15px;
+}
 }
 /* more css end */
 
