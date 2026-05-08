@@ -62,7 +62,7 @@
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
-            "custom_class": "el-product-rating"
+            "custom_class": "hk-product-rating"
           }
         },
         "icon_with_text_THeW68": {
@@ -76,7 +76,7 @@
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
-            "custom_class": "el-product-title"
+            "custom_class": "hk-product-title"
           }
         },
         "richtext_wDUei3": {
@@ -85,7 +85,7 @@
             "text": "<p>Coffee, re-engineered with protein, creatine and MCTs for strength, focus and clean energy.</p>",
             "font_type": "body",
             "custom_id": "",
-            "custom_class": "el-product-text"
+            "custom_class": "hk-product-text"
           }
         },
         "richtext_gnfXQY": {
@@ -94,13 +94,14 @@
             "text": "<ul><li>Performance fuel for work and training</li><li>Mixes instantly with hot water or milk</li><li>Just £1.19 per serving</li><li>Focus-boosting MCTs for steady energy</li></ul>",
             "font_type": "body",
             "custom_id": "",
-            "custom_class": "el-product-list"
+            "custom_class": "hk-product-list"
           }
         },
         "icon_with_text_znHVFn": {
           "type": "icon_with_text",
           "settings": {
-            "liquid": "Add Your Code Here",
+            "image": "shopify://shop_images/pdp-pdt-pre.webp",
+            "liquid": "",
             "title": "",
             "text": "<p>Pre-sale ending soon!  Ships from February 1st. Your card will not be charged until then.</p>",
             "font_type_title": "heading",
@@ -108,7 +109,7 @@
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
-            "custom_class": "el-pre-sale"
+            "custom_class": "hk-pre-sale"
           }
         },
         "variants_YTNrcd": {
@@ -162,6 +163,104 @@
             "custom_id": "",
             "custom_class": ""
           }
+        },
+        "subscription_widget_h6Rnfy": {
+          "type": "subscription_widget",
+          "settings": {
+            "sub_title": "<strong>subscribe & save 25% </strong>+ FREE Gifts each month!",
+            "sub_text": "<ul><li>Delivers every month</li><li>Pause or cancel anytime </li><li>FREE Shipping</li><li>FREE Gifts Each Month</li></ul>",
+            "one_time_title": "ONE TIME PURCHASE",
+            "free_product": "",
+            "free_title": "",
+            "free_text": "",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "stock_GQWYj7": {
+          "type": "stock",
+          "settings": {
+            "text": "<p>Order Now For Next Day Dispatch  |  <strong>Royal Mail 24hr</strong></p>",
+            "date": 3,
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-product-stock hk-global-stock"
+          }
+        },
+        "checkout_button_XGPDXP": {
+          "type": "checkout_button",
+          "settings": {
+            "button_label": "PRE-ORDER  |  [price] <em>Ships Feb 1st. Your card will not be charged until then</em>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "icon_with_text_grid_R9WAwR": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "custom_id": "",
+            "custom_class": "hk-under-cta-icons"
+          }
+        },
+        "icon_with_text_item_YK88i7": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-MBG.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Money-Back Guarantee</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-under-cta-icon hk-under-cta-icon1"
+          }
+        },
+        "icon_with_text_item_ntHMwi": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-card.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Secure Checkout</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-under-cta-icon hk-under-cta-icon1"
+          }
+        },
+        "image_HrqWjf": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/pdp-pdt-brand.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-pdp-pyament"
+          }
+        },
+        "icon_with_text_ig7JbL": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-BEimg.webp",
+            "image_mobile": "shopify://shop_images/pdp-pdt-BEimg1mob.webp",
+            "liquid": "",
+            "title": "Subscription benefits",
+            "text": "<ul><li>26% OFF EVERY ORDER</li><li>FREE SHIPPING</li><li>FREE Gifts every month</li><li>PAUSE OR CANCEL ANYTIME</li></ul>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-sub-benifits"
+          }
         }
       },
       "block_order": [
@@ -174,7 +273,15 @@
         "variants_YTNrcd",
         "variant_h8caVG",
         "variant_wtAn9V",
-        "variant_HXeJn9"
+        "variant_HXeJn9",
+        "subscription_widget_h6Rnfy",
+        "stock_GQWYj7",
+        "checkout_button_XGPDXP",
+        "icon_with_text_grid_R9WAwR",
+        "icon_with_text_item_YK88i7",
+        "icon_with_text_item_ntHMwi",
+        "image_HrqWjf",
+        "icon_with_text_ig7JbL"
       ],
       "name": "Product",
       "settings": {
