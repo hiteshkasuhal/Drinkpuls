@@ -28,13 +28,6 @@
 }} 
 </div>
 {%  endif %}
-{%  if block.settings.name != blank %}
-<div class="hk-element-review-user-detail">
-<div class="hk-element-review-name">
-{{  block.settings.verified_badge }}<span>{{  block.settings.name }}</span>
-</div>
-</div>
-{% endif %}
 {%  if block.settings.rating != blank or block.settings.rating_icon != blank %}
 <div class="hk-element-review-rating">
 <div class="hk-element-review-rating-{{ block.id }} hk-review-card-rating hk-element">
@@ -46,11 +39,18 @@
 <div class="hk-element-title-{{ block.id }} hk-review-card-title hk-element hk-font-body">{{  block.settings.title }}</div>
 </div>
 {% endif %}
-</div>
-<div class="hk-element-review-card-bottom">
 {%  if block.settings.text != blank %}
 <div class="hk-element-text-main">
 <div class="hk-element-text-{{ block.id }} hk-review-card-text hk-element hk-font-body">{{  block.settings.text }}</div>
+</div>
+{% endif %}
+</div>
+<div class="hk-element-review-card-bottom">
+{%  if block.settings.name != blank %}
+<div class="hk-element-review-user-detail">
+<div class="hk-element-review-name">
+{{  block.settings.verified_badge }}<span>{{  block.settings.name }}</span>
+</div>
 </div>
 {% endif %}
 </div>
