@@ -1065,6 +1065,11 @@
     width: 17.55px;
     height: 17.55px;
 }
+.hk-more-tab .hk-element-icon-with-text-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 21px;
+}
 
 
 
