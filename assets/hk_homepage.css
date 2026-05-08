@@ -622,6 +622,12 @@
 .hk-review-card-rich-text ul li.hk-active {
     background: #72D3FF;
 }
+.hk-reviews-slider ul.slick-dots li.slick-active~li button {
+    background: rgba(255, 255, 255, 0.25);
+}
+.hk-reviews-slider ul.slick-dots li button {
+    background: #FFF;
+}
 
 
 @media (min-width: 915px) {
