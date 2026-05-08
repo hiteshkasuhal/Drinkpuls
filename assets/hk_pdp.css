@@ -1538,6 +1538,10 @@
     position: relative;
     z-index: 2;
 }
+.hk-number-list1-item {
+    background: #182038;
+    backdrop-filter: blur(2px);
+}
 }
 /* number css end */
 
