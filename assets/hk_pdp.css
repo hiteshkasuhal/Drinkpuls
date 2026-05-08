@@ -1170,6 +1170,11 @@
     gap: 8px;
     margin-top: 25px;
 }
+.hk-more-list1-items {
+    width: calc(50% - 4px);
+    border-radius: 4px;
+    padding: 14px;
+}
 }
 /* more css end */
 
