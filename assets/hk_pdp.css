@@ -1244,6 +1244,11 @@
     min-width: 80px;
     height: unset;
 }
+.hk-more-tab-item .hk-element-texts {
+    width: calc(100% - 90px);
+    font-size: 12px;
+    gap: 2.1px;
+}
 }
 /* more css end */
 
