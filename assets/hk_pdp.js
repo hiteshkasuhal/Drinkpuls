@@ -17,3 +17,13 @@ $(document).ready(function () {
   });
 
 });
+
+
+
+$(document).on("click", ".hk-more-list1-items", function (e) {
+    $('.hk-more-list1-items').removeClass('el-active');
+    $(this).addClass('el-active');
+    var tab_index = $(this).index() + 1;
+     $('.hk-more-box').removeClass('el-active');
+     $('.hk-more-box'+tab_index).addClass('el-active');
+});
