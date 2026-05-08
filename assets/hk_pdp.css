@@ -1155,6 +1155,9 @@
 .hk-more-heading h2 {
     white-space: unset;
 }
+.hk-more-section .hk-image-with-text-column1 {
+    width: 100%;
+}
 }
 /* more css end */
 
