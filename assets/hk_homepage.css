@@ -812,7 +812,34 @@
     display: flex;
 }
 
-
+.hk-insides-list2 .hk-element-icon-with-text-grid {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.hk-insides-list2-item {
+    width: 100%;
+    max-width: calc(33.33% - (30px) * 2 / 3);
+}
+.hk-insides-list2-item img {
+    width: 65px;
+    height: 65px;
+}
+.hk-insides-list2-item .hk-icon-with-text-flex {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    text-transform: capitalize;
+}
+.hk-insides-list2 {
+    padding-bottom: 40px;
+}
 
 @media (min-width: 915px) {
 
