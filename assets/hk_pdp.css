@@ -587,6 +587,34 @@
 }
 
 
+.hk-review-card-rich-text {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.hk-review-card-rich-text ul {
+    display: flex;
+    align-items: center;
+    gap: 5.2px;
+    padding-top: 13px;
+    list-style: none;
+}
+.hk-review-card-rich-text ul li {
+    width: 22.1px;
+    height: 5.2px;
+    border-radius: 13px;
+    background: rgba(114, 211, 255, 0.25);
+}
+.hk-review-card-rich-text ul li.hk-active {
+    background: #72D3FF;
+}
+.hk-reviews-slider ul.slick-dots li.slick-active~li button {
+    background: rgba(255, 255, 255, 0.25);
+}
+.hk-reviews-slider ul.slick-dots li button {
+    background: #FFF;
+}
+
 
 @media (min-width: 915px) {
 
@@ -2303,3 +2331,24 @@
 
 }
 /* review2 css end */
+
+
+
+
+
+
+/* final touchups */
+.hk-big-section {
+    background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-reviews-bg.webp);
+    background-size: cover;
+    background-position: top;
+}
+.hk-big-section .shopify-section>div {
+    background-image: unset !important;
+    background-color: transparent !important;
+}
+@media (max-width:915px) {
+.hk-big-section {
+    background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-reviews-bgmob.webp);
+}
+}
