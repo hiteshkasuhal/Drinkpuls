@@ -1091,7 +1091,7 @@
           "settings": {
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-insides-list2"
+            "custom_class": "hk-insides-list2 hk-hide-mobile"
           }
         },
         "icon_with_text_item2_YE3PkM": {
@@ -1182,6 +1182,62 @@
             "custom_id": "",
             "custom_class": "hk-insides-img"
           }
+        },
+        "icon_with_text_grid2_WUW3Bw": {
+          "type": "icon_with_text_grid2",
+          "settings": {
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-insides-list2 hk-hide-desktop"
+          }
+        },
+        "icon_with_text_item2_P9DNRh": {
+          "type": "icon_with_text_item2",
+          "settings": {
+            "image": "shopify://shop_images/HP-insides-svg1.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Sustained energy</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-insides-list2-item"
+          }
+        },
+        "icon_with_text_item2_fAYT89": {
+          "type": "icon_with_text_item2",
+          "settings": {
+            "image": "shopify://shop_images/HP-insides-svg2.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Sharper focus</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-insides-list2-item"
+          }
+        },
+        "icon_with_text_item2_VVpWp8": {
+          "type": "icon_with_text_item2",
+          "settings": {
+            "image": "shopify://shop_images/HP-insides-svg3.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>No crash, no jitters</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-insides-list2-item"
+          }
         }
       },
       "block_order": [
@@ -1199,7 +1255,11 @@
         "icon_with_text_item2_Fzfaqt",
         "button_FNkmty",
         "icon_with_text_DCfPaF",
-        "image_nCCGRd"
+        "image_nCCGRd",
+        "icon_with_text_grid2_WUW3Bw",
+        "icon_with_text_item2_P9DNRh",
+        "icon_with_text_item2_fAYT89",
+        "icon_with_text_item2_VVpWp8"
       ],
       "name": "Image With Text",
       "settings": {
