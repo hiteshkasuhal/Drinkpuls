@@ -1070,6 +1070,15 @@
     flex-wrap: wrap;
     gap: 21px;
 }
+.hk-more-tab-item .hk-icon-with-text-flex {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2.6000001430511475px);
+    padding: 4px 19px 4px 4px;
+}
 
 
 
