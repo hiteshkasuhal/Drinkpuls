@@ -867,47 +867,7 @@
             "image_performance": "low",
             "position": "right",
             "custom_id": "",
-            "custom_class": "hk-more-box hk-more-box1"
-          }
-        },
-        "icon_with_text_grid_3i7KcL": {
-          "type": "icon_with_text_grid",
-          "settings": {
-            "position": "right",
-            "custom_id": "",
-            "custom_class": "hk-more-tab hk-more-tab1"
-          }
-        },
-        "icon_with_text_item_KeG3W4": {
-          "type": "icon_with_text_item",
-          "settings": {
-            "image": "shopify://shop_images/pdp-more1-ing1.webp",
-            "liquid": "",
-            "title": "Caffeine",
-            "text": "<p>Increases alertness and reduces perceived fatigue by blocking adenosine receptors in the brain.</p>",
-            "font_type_title": "body",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "position": "right",
-            "custom_id": "",
-            "custom_class": "hk-more-tab-item hk-more-tab-item1"
-          }
-        },
-        "icon_with_text_item_TgE4c7": {
-          "type": "icon_with_text_item",
-          "settings": {
-            "image": "shopify://shop_images/pdp-more1-ing2.webp",
-            "liquid": "",
-            "title": "MCTs",
-            "text": "<p>Rapidly metabolised into usable energy, providing a sustained fuel source alongside caffeine.</p>",
-            "font_type_title": "body",
-            "font_type_text": "body",
-            "image_loading": "lazy",
-            "image_performance": "low",
-            "position": "right",
-            "custom_id": "",
-            "custom_class": "hk-more-tab-item hk-more-tab-item1"
+            "custom_class": "hk-more-box hk-more-box1 el-active"
           }
         },
         "icon_with_text_xwrrGh": {
@@ -957,6 +917,46 @@
             "custom_id": "",
             "custom_class": "hk-more-box hk-more-box4"
           }
+        },
+        "icon_with_text_grid_3i7KcL": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-tab hk-more-tab1"
+          }
+        },
+        "icon_with_text_item_KeG3W4": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more1-ing1.webp",
+            "liquid": "",
+            "title": "Caffeine",
+            "text": "<p>Increases alertness and reduces perceived fatigue by blocking adenosine receptors in the brain.</p>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-tab-item hk-more-tab-item1"
+          }
+        },
+        "icon_with_text_item_TgE4c7": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more1-ing2.webp",
+            "liquid": "",
+            "title": "MCTs",
+            "text": "<p>Rapidly metabolised into usable energy, providing a sustained fuel source alongside caffeine.</p>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-tab-item hk-more-tab-item1"
+          }
         }
       },
       "block_order": [
@@ -968,12 +968,12 @@
         "icon_with_text_item_wt8RJm",
         "icon_with_text_item_AAaiWp",
         "icon_with_text_KGbzrp",
-        "icon_with_text_grid_3i7KcL",
-        "icon_with_text_item_KeG3W4",
-        "icon_with_text_item_TgE4c7",
         "icon_with_text_xwrrGh",
         "icon_with_text_kwiWdb",
-        "icon_with_text_HEzpT9"
+        "icon_with_text_HEzpT9",
+        "icon_with_text_grid_3i7KcL",
+        "icon_with_text_item_KeG3W4",
+        "icon_with_text_item_TgE4c7"
       ],
       "name": "Image With Text",
       "settings": {
