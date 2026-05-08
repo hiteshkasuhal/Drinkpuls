@@ -1,29 +1,18 @@
 $(document).ready(function () {
 
-  $('.hk-big-section-start').each(function () {
+  $('.hk-big-section-start').each(function (index) {
 
     let $startSection = $(this).closest('.shopify-section');
+
     let $endSection = $('.hk-big-section-end')
-      .eq($('.hk-big-section-start').index(this))
+      .eq(index)
       .closest('.shopify-section');
 
-    let started = false;
+    if (!$startSection.length || !$endSection.length) return;
 
-    $('.shopify-section').each(function () {
+    let $sections = $startSection.nextUntil($endSection).addBack().add($endSection);
 
-      if ($(this).is($startSection)) {
-        started = true;
-      }
-
-      if (started) {
-        $(this).addClass('hk-big-section');
-      }
-
-      if ($(this).is($endSection)) {
-        started = false;
-      }
-
-    });
+    $sections.wrapAll('<div class="hk-big-section"></div>');
 
   });
 
