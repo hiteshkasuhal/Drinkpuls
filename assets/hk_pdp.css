@@ -1210,6 +1210,7 @@
 }
 .hk-more-box .hk-icon-with-text-flex {
     gap: 12px;
+    text-align: left;
 }
 .hk-more-box .hk-icon-with-text-flex .hk-element-texts {
     width: calc(100% - 59px);
