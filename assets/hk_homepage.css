@@ -1762,3 +1762,15 @@
 }
 }
 /* MBG css end */
+
+
+
+
+/* final touchups */
+.hk-shops-pdt-item {
+    padding: 0 20px;
+}
+.hk-shops-pdt {
+    margin: 0 -20px;
+    padding-top: 40px;
+}
