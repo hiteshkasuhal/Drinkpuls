@@ -1249,6 +1249,9 @@
     font-size: 12px;
     gap: 2.1px;
 }
+.hk-more-tab-item .hk-element-texts .hk-element-title {
+    font-size: 14px;
+}
 }
 /* more css end */
 
