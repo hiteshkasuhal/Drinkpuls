@@ -1489,6 +1489,15 @@
     z-index: 2;
     position: relative;
 }
+.hk-number-list1 .hk-element-icon-with-text-grid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    gap: 16px;
+    margin-top: 25px;
+    flex-direction: column;
+}
 }
 /* number css end */
 
