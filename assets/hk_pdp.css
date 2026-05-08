@@ -934,9 +934,10 @@
     padding-left: 16px;
 }
 .hk-FWITD-faq .hk-question span {
-    display: flex;
-    align-items: center;
     gap: 10px;
+}
+.hk-answer {
+    text-align: left;
 }
 }
 /* insides css end */
