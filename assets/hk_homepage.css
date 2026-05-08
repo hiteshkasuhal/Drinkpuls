@@ -254,7 +254,9 @@
 .hk-atc-js.hk-disabled {
     cursor: no-drop;
 }
-
+.hk-button:hover svg path:nth-child(1) {
+    fill: #72D3FF;
+}
 @media (min-width: 915px) {
 
 }
