@@ -2406,7 +2406,7 @@
         "stock_qpbf8T": {
           "type": "stock",
           "settings": {
-            "text": "<p>Add Your Description</p>",
+            "text": "<p><strong>In stock -</strong> delivered to you by [date]</p>",
             "date": 3,
             "font_type": "body",
             "position": "left",
