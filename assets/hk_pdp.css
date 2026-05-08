@@ -1003,6 +1003,9 @@
 .hk-more-box .hk-icon-with-text-flex .hk-element-image {
     width: 61px;
 }
+.hk-more-box .hk-icon-with-text-flex .hk-element-texts {
+    width: calc(100% - 77px);
+}
 
 
 
