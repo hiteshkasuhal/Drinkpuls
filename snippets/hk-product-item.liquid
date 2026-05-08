@@ -42,7 +42,9 @@
 {%  if block.settings.title != blank %}
 <div class="hk-element-title hk-font-{{ block.settings.font_type_title }}">{{ block.settings.title }}</div>
 {% endif %}
-<div class="hk-element-text hk-font-body"><p>{{ product.price | money }}</p><p>From X Per Serving</p></div>
+{%  if block.settings.text != blank %}
+<div class="hk-element-text hk-font-{{ block.settings.font_type_text }}">{{ block.settings.text }}</div>
+{% endif %}
 {% if product.available %}
 <button class="hk-button hk-atc-js" variant_id="{{ product.selected_or_first_available_variant.id }}" quantity="1">Add To Cart</button>
 {% else %}
