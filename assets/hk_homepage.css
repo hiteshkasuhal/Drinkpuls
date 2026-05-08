@@ -1849,6 +1849,7 @@
 }
 .hk-big-section .shopify-section>div {
     background-image: unset !important;
+    background-color: transparent !important;
 }
 @media (max-width:915px) {
 
