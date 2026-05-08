@@ -330,14 +330,14 @@
           }
         },
         "icon_with_text_grid_BaTNGU": {
-          "type": "icon_with_text_grid",
+          "type": "products",
           "settings": {
             "custom_id": "",
             "custom_class": "hk-shops-pdt"
           }
         },
         "icon_with_text_item_Ymi7MG": {
-          "type": "icon_with_text_item",
+          "type": "product",
           "settings": {
             "image": "shopify://shop_images/HP-shop-img1.webp",
             "liquid": "12k+ <strong>Daily Users</strong>",
@@ -352,7 +352,7 @@
           }
         },
         "icon_with_text_item_cV6D39": {
-          "type": "icon_with_text_item",
+          "type": "product",
           "settings": {
             "image": "shopify://shop_images/HP-shop-img2.webp",
             "liquid": "Coming Soon!",
@@ -367,7 +367,7 @@
           }
         },
         "icon_with_text_item_rbjxpL": {
-          "type": "icon_with_text_item",
+          "type": "product",
           "settings": {
             "image": "shopify://shop_images/HP-shop-img3.webp",
             "liquid": "Coming Soon!",
