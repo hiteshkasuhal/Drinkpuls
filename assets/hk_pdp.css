@@ -1166,6 +1166,10 @@
     max-width: 100%;
     margin: 0px auto;
 }
+.hk-more-list1 .hk-element-icon-with-text-grid {
+    gap: 8px;
+    margin-top: 25px;
+}
 }
 /* more css end */
 
