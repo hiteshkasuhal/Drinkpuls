@@ -1079,6 +1079,9 @@
     backdrop-filter: blur(2.6000001430511475px);
     padding: 4px 19px 4px 4px;
 }
+.hk-more-tab-item {
+    width: calc(50% - (21px)*1/2);
+}
 
 
 
