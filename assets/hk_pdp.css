@@ -1152,7 +1152,9 @@
 
 
 @media (max-width: 915px) {
-
+.hk-more-heading h2 {
+    white-space: unset;
+}
 }
 /* more css end */
 
