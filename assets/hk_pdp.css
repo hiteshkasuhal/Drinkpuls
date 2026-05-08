@@ -1185,11 +1185,13 @@
     height: 30px;
     margin: 0 auto 10px;
 }
-.hk-more-list1-items p,
-.hk-more-list1-items:nth-child(3) p {
+.hk-more-list1-items p {
     font-size: 14px;
     width: 122px;
     max-width: 100%;
+}
+.hk-more-list1-items:nth-child(3) p {
+    width: 112px;
 }
 }
 /* more css end */
