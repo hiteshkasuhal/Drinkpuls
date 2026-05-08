@@ -926,6 +926,10 @@
 .hk-insides-section .hk-image-with-text-column2 {
     padding-top: 0px;
 }
+.hk-FWITD-faq .hk-question span:before {
+    width: 20px;
+    height: 20px;
+}
 }
 /* insides css end */
 
