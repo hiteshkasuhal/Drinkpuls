@@ -60,6 +60,8 @@
                     {%  render 'hk-review-item', block:block %}  
                 {%- when 'faq' -%} 
                     {%  render 'hk-element-faq', block:block %} 
+                {%- when 'icon_with_text_grid2' -%} 
+                    {%  render 'hk-element-icon-with-text-grid2', block:block %} 
             {%  endcase %}
             {% endif %}
         {%  endfor %}  
@@ -84,6 +86,8 @@
                     {%  render 'hk-slider', block:block %} 
                 {%- when 'icon_with_text_grid' -%} 
                     {%  render 'hk-element-icon-with-text-grid', block:block %} 
+                {%- when 'icon_with_text_grid2' -%} 
+                    {%  render 'hk-element-icon-with-text-grid2', block:block %} 
                 {%- when 'review_item' -%} 
                     {%  render 'hk-review-item', block:block %} 
                 {%- when 'faq' -%} 
