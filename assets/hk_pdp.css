@@ -1198,6 +1198,13 @@
     padding: 13px;
     margin-top: 25px;
 }
+.hk-more-box img {
+    width: 47px;
+    height: unset;
+}
+.hk-more-box .hk-icon-with-text-flex .hk-element-image {
+    width: 47px;
+}
 }
 /* more css end */
 
