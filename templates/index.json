@@ -38,14 +38,6 @@
         "custom_class": ""
       }
     },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
     "hk_image_with_text_t3kxgA": {
       "type": "hk-image-with-text",
       "blocks": {
@@ -2430,7 +2422,6 @@
   },
   "order": [
     "hk_richtext_6LVdPL",
-    "main",
     "hk_image_with_text_t3kxgA",
     "hk_scroll_bar_a3Tmg7",
     "hk_richtext_pMJBDK",
