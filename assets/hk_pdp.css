@@ -1043,6 +1043,19 @@
     align-items: center;
     gap: 16px;
 }
+.hk-more-box .hk-icon-with-text-flex ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.8px;
+    padding: 7px 10.4px;
+    border-radius: 5.2px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(360.7500305175781px);
+}
 
 
 
