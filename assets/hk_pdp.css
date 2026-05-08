@@ -1158,6 +1158,9 @@
 .hk-more-section .hk-image-with-text-column1 {
     width: 100%;
 }
+.hk-more-heading strong {
+    display: block;
+}
 }
 /* more css end */
 
