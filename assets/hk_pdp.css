@@ -1006,6 +1006,15 @@
 .hk-more-box .hk-icon-with-text-flex .hk-element-texts {
     width: calc(100% - 77px);
 }
+.hk-more-section .hk-image-with-text-column2 {
+    width: 61%;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(2.6000001430511475px);
+    padding: 30px;
+    margin-top: 131px;
+}
 
 
 
