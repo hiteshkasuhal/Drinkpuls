@@ -1082,6 +1082,11 @@
 .hk-more-tab-item {
     width: calc(50% - (21px)*1/2);
 }
+.hk-more-tab-item .hk-element-image {
+    width: 104px;
+    min-width: 104px;
+    height: unset;
+}
 
 
 
