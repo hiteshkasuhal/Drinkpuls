@@ -6,6 +6,16 @@
 {% endif %}
 {%  assign price = variant.price  %}
 {%  assign price_sub = variant.selling_plan_allocations.first.per_delivery_price %}
+
+{% capture per_price_content %}
+{% assign quantity = index | plus:1 %}
+<span class="hk-sub-trigger" sub_tab="1">
+{{ price_sub | divided_by: quantity | money_without_trailing_zeros }} 
+</span>
+<span class="hk-sub-trigger" sub_tab="2" style="display:none;">
+{{ price | divided_by: quantity | money_without_trailing_zeros }} 
+</span>
+{% endcapture %}
 <button class="hk-element-variant{% if block.settings.active == true %} hk-active{% endif %} hk-font-body" variant_id="{{  variant.id  }}" selling_plan="{{ variant.selling_plan_allocations.first.selling_plan.id }}">
 <span class="hk-variant-inner">
 {% if block.settings.badge != blank %}
@@ -56,7 +66,7 @@
 {% endif %}
 {% endif %}
 {% if block.settings.text != blank %}
-<span class="hk-variant-text">{{ block.settings.text }}</span>
+<span class="hk-variant-text">{{ block.settings.text | replae:'[per_price]',per_price_content }}</span>
 {% endif %}
 </span>
 </button>
