@@ -1033,6 +1033,7 @@
     backdrop-filter: blur(2.6000001430511475px);
     padding: 19.5px;
     position: relative;
+    transition:all .3s ease;
 }
 .hk-more-list1-items img {
     width: 39px;
@@ -1062,7 +1063,7 @@
 .hk-more-list1-items:nth-child(3) p {
     width: 70%;
 }
-.hk-more-list1-items.active {
+.hk-more-list1-items.el-active {
     border-color: rgba(255, 255, 255, 0.25);
     background: #72D3FF;
     backdrop-filter: blur(2.6000001430511475px);
@@ -1190,7 +1191,7 @@
     margin-top: 30px;
 }
 
-.hk-more-list1-items.active img {
+.hk-more-list1-items.el-active img {
     filter: brightness(0);
 }
 .hk-more-box:not(.el-active) {
