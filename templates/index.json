@@ -15,7 +15,7 @@
         "liquid_wLCJ33": {
           "type": "liquid",
           "settings": {
-            "liquid": "{{ 'hk_homepage.css' | asset_url | stylesheet_tag: preload: true }}\n\n<script src=\"{{ 'hk-common.js' | asset_url }}\" async=\"async\"></script>",
+            "liquid": "{{ 'hk_homepage.css' | asset_url | stylesheet_tag: preload: true }}\n\n<script src=\"{{ 'hk_homepage.js' | asset_url }}\" async=\"async\"></script>",
             "custom_id": "",
             "custom_class": ""
           }
