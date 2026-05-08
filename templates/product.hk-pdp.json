@@ -2376,6 +2376,89 @@
         "custom_id": "",
         "custom_class": "hk-reviews2-section"
       }
+    },
+    "hk_sticky_cart_Rzb37G": {
+      "type": "hk-sticky-cart",
+      "blocks": {
+        "image_QftKaG": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/pdp-sticky-img.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-sticky-img hk-hide-mobile"
+          }
+        },
+        "heading_hhUYqz": {
+          "type": "heading",
+          "settings": {
+            "text": "beyond coffee",
+            "h1": false,
+            "font_type": "heading",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-sticky-title hk-hide-mobile"
+          }
+        },
+        "stock_qpbf8T": {
+          "type": "stock",
+          "settings": {
+            "text": "<p>Add Your Description</p>",
+            "date": 3,
+            "font_type": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-global-stock hk-sticky-stock"
+          }
+        },
+        "image_W73pXH": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/pdp-sticky-img.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-sticky-img hk-hide-desktop"
+          }
+        },
+        "button_GzdWrA": {
+          "type": "button",
+          "settings": {
+            "button_link": "",
+            "button_label": "ADD TO CART",
+            "font_type": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-sticky-button"
+          }
+        }
+      },
+      "block_order": [
+        "image_QftKaG",
+        "heading_hhUYqz",
+        "stock_qpbf8T",
+        "image_W73pXH",
+        "button_GzdWrA"
+      ],
+      "name": "Sticky ATC",
+      "settings": {
+        "hidden_classes": "Add Your Classes Here",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "text_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 0,
+        "padding_bottom_mobile": 0,
+        "custom_id": "",
+        "custom_class": ""
+      }
     }
   },
   "order": [
@@ -2396,6 +2479,7 @@
     "hk_image_with_text_qCCDDR",
     "hk_richtext_BAeA4X",
     "hk_image_with_text_PbirJ4",
-    "hk_richtext_pKEUhQ"
+    "hk_richtext_pKEUhQ",
+    "hk_sticky_cart_Rzb37G"
   ]
 }
