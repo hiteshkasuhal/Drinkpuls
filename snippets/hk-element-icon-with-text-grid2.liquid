@@ -3,13 +3,13 @@
     {% assign side = block.settings.position %}
  {%- for block in section.blocks -%} 
             {%- case block.type -%}  
-                {%- when 'icon_with_text_item' -%} 
+                {%- when 'icon_with_text_item2' -%} 
                     {% if side != blank %}
             {% if block.settings.position == side %}
-                    {%  render 'hk-element-icon-with-text', block:block %} 
+                    {%  render 'hk-element-icon-with-text2', block:block %} 
             {%  endif %}
                     {%  else %}
-                    {%  render 'hk-element-icon-with-text', block:block %} 
+                    {%  render 'hk-element-icon-with-text2', block:block %} 
                     {%  endif %}
             {%  endcase %}
         {%  endfor %} 
