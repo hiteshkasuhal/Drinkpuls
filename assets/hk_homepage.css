@@ -308,6 +308,22 @@
     font-size: 12px;
     margin-bottom: 16px;
 }
+.hk-shops-pdt {
+    padding-top: 24px;
+    margin-left: -8px;
+    margin-right: -16px;
+}
+.hk-shops-pdt-item {
+    padding: 0 8px;
+}
+.hk-shops-pdt .slick-list {
+    padding-right: 114px;
+}
+.hk-button.hk-atc-js {
+    width: 100%;
+}
+
+
 }
 /* shops css end */
 
