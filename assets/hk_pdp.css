@@ -1005,6 +1005,10 @@
 }
 .hk-more-box .hk-icon-with-text-flex .hk-element-texts {
     width: calc(100% - 77px);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: flex-start;
 }
 .hk-more-section .hk-image-with-text-column2 {
     width: 61%;
