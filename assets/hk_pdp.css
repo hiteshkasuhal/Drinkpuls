@@ -1252,6 +1252,9 @@
 .hk-more-tab-item .hk-element-texts .hk-element-title {
     font-size: 14px;
 }
+.hk-more-tab .hk-element-icon-with-text-grid {
+    margin-top: 20px;
+}
 }
 /* more css end */
 
