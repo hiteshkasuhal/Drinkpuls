@@ -50,21 +50,15 @@
 <div class="hk-element hk-element-product-media hk-rative {{ block.settings.custom_class }} hk-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
     <div class="hk-rative hk-media-main-wrapper">
 <div class="hk-slick-slider hk-slider-product-media-main" data-slider-config='{{ slider_config_main | strip }}'>
- {%- for block in section.blocks -%} 
-            {%- case block.type -%}  
-                {%- when 'product_image' -%} 
-                    {%  render 'hk-product-image-main', block:block, counter_block:counter_block %} 
-            {%  endcase %}
-        {%  endfor %} 
+ {%- for media in product.media -%} 
+                    {%  render 'hk-product-image-main', media:media, counter_block:counter_block %} 
+{% endfor %}
 </div>
 
 </div>
 <div class="hk-slick-slider hk-slider-product-media-thumb" data-slider-config='{{ slider_config_thumb | strip }}'>
- {%- for block in section.blocks -%} 
-            {%- case block.type -%}  
-                {%- when 'product_image' -%} 
-                    {%  render 'hk-product-image-thumb', block:block, counter_block:counter_block %} 
-            {%  endcase %}
+ {%- for media in product.media -%} 
+                    {%  render 'hk-product-image-thumb', media:media, counter_block:counter_block %} 
         {%  endfor %} 
 </div>
 
