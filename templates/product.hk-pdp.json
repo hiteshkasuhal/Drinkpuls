@@ -908,6 +908,14 @@
             "custom_id": "",
             "custom_class": "hk-more-list1-items"
           }
+        },
+        "icon_with_text_grid_3i7KcL": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "position": "right",
+            "custom_id": "",
+            "custom_class": ""
+          }
         }
       },
       "block_order": [
@@ -917,7 +925,8 @@
         "icon_with_text_item_i3GXdL",
         "icon_with_text_item_8FmDHN",
         "icon_with_text_item_wt8RJm",
-        "icon_with_text_item_AAaiWp"
+        "icon_with_text_item_AAaiWp",
+        "icon_with_text_grid_3i7KcL"
       ],
       "name": "Image With Text",
       "settings": {
