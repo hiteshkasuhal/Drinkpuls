@@ -1175,6 +1175,11 @@
     border-radius: 4px;
     padding: 14px;
 }
+.hk-more-list1-items .hk-media.hk-svg {
+    font-size: 14px;
+    top: 10px;
+    left: 10px;
+}
 }
 /* more css end */
 
