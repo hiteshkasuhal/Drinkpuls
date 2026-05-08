@@ -1239,6 +1239,11 @@
     border-radius: 4px;
     padding: 3px 14px 3px 3px;
 }
+.hk-more-tab-item .hk-element-image {
+    width: 80px;
+    min-width: 80px;
+    height: unset;
+}
 }
 /* more css end */
 
