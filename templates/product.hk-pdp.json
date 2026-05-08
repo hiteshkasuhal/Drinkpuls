@@ -909,6 +909,22 @@
             "custom_class": "hk-more-list1-items"
           }
         },
+        "icon_with_text_KGbzrp": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more-rightimg.webp",
+            "liquid": "",
+            "title": "<strong>Sustained Energy Production </strong><em>Caffeine + MCTs</em>",
+            "text": "<ul><li>Longer-lasting fuel</li><li>Fast, clean energy</li></ul>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-box hk-more-box1"
+          }
+        },
         "icon_with_text_grid_3i7KcL": {
           "type": "icon_with_text_grid",
           "settings": {
@@ -958,6 +974,7 @@
         "icon_with_text_item_8FmDHN",
         "icon_with_text_item_wt8RJm",
         "icon_with_text_item_AAaiWp",
+        "icon_with_text_KGbzrp",
         "icon_with_text_grid_3i7KcL",
         "icon_with_text_item_KeG3W4",
         "icon_with_text_item_TgE4c7"
