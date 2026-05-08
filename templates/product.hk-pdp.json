@@ -980,6 +980,38 @@
             "custom_id": "",
             "custom_class": "hk-more-box hk-more-box2"
           }
+        },
+        "icon_with_text_kwiWdb": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more-rightimg.webp",
+            "liquid": "",
+            "title": "<strong>Muscle Strength  & Power </strong><em>CREATINE + PROTEIN</em>",
+            "text": "<ul><li>Increased strength</li><li>Better training output</li></ul>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-box hk-more-box3"
+          }
+        },
+        "icon_with_text_HEzpT9": {
+          "type": "icon_with_text",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more-rightimg.webp",
+            "liquid": "",
+            "title": "<strong>Muscle Recovery & Support </strong><em>PROTEIN + CREATINE</em>",
+            "text": "<ul><li>Faster recovery</li><li>Train more consistently</li></ul>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-box hk-more-box4"
+          }
         }
       },
       "block_order": [
@@ -994,7 +1026,9 @@
         "icon_with_text_grid_3i7KcL",
         "icon_with_text_item_KeG3W4",
         "icon_with_text_item_TgE4c7",
-        "icon_with_text_xwrrGh"
+        "icon_with_text_xwrrGh",
+        "icon_with_text_kwiWdb",
+        "icon_with_text_HEzpT9"
       ],
       "name": "Image With Text",
       "settings": {
