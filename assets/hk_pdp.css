@@ -1616,7 +1616,9 @@
 
 
 @media (max-width: 915px) {
-
+.hk-how-section {
+    padding-top: 40px;
+}
 }
 /* how css end */
 
