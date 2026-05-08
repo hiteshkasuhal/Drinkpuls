@@ -840,6 +840,9 @@
 .hk-insides-list2 {
     padding-bottom: 40px;
 }
+.hk-insides-list2-item {
+    max-width: fit-content;
+}
 
 @media (min-width: 915px) {
 
