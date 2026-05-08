@@ -342,6 +342,7 @@
         "icon_with_text_item_Ymi7MG": {
           "type": "product",
           "settings": {
+            "product": "beyond-coffee",
             "image": "shopify://shop_images/HP-shop-img1.webp",
             "liquid": "12k+ <strong>Daily Users</strong>",
             "title": "<strong>Original Latte Flavour </strong><em>Classic latte. Lasting energy.</em>",
@@ -357,6 +358,7 @@
         "icon_with_text_item_cV6D39": {
           "type": "product",
           "settings": {
+            "product": "product-test-pouch",
             "image": "shopify://shop_images/HP-shop-img2.webp",
             "liquid": "Coming Soon!",
             "title": "<strong>Mocha Flavour </strong><em>Mocha taste. Sharp focus.</em>",
@@ -372,6 +374,7 @@
         "icon_with_text_item_rbjxpL": {
           "type": "product",
           "settings": {
+            "product": "product-test-pouch",
             "image": "shopify://shop_images/HP-shop-img3.webp",
             "liquid": "Coming Soon!",
             "title": "<strong>Caramel Flavour </strong><em>Silky smooth caramel latte.</em>",
