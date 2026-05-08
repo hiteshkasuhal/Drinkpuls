@@ -385,6 +385,19 @@
             "custom_class": "hk-insides-text1 hk-insides-text1s"
           }
         },
+        "image_fBYbB3": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/pdp-deliver-img.webp",
+            "image_mobile": "shopify://shop_images/pdp-deliver-img1mob.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-insides-img hk-hide-desktop"
+          }
+        },
         "faq_bQF6Gm": {
           "type": "faq",
           "settings": {
@@ -443,13 +456,14 @@
             "image_performance": "low",
             "position": "right",
             "custom_id": "",
-            "custom_class": "hk-insides-img"
+            "custom_class": "hk-insides-img hk-hide-mobile"
           }
         }
       },
       "block_order": [
         "heading_UjQyjr",
         "richtext_j3kNDy",
+        "image_fBYbB3",
         "faq_bQF6Gm",
         "faq_qWzLDY",
         "faq_jam8zi",
