@@ -21,31 +21,31 @@
 {% endif %}
 {%  assign price = variant.price  %}
 {%  assign price_sub = variant.selling_plan_allocations.first.per_delivery_price %}
-<span class="el-variant-trigger{% if block.settings.active == true %} el-active{% endif %}" variant_id="{{ variant.id }}"{% if block.settings.active != true %} style="display:none;"{% endif %}>
-<span class="el-sub-trigger" sub_tab="1">
+<span class="hk-variant-trigger{% if block.settings.active == true %} hk-active{% endif %}" variant_id="{{ variant.id }}"{% if block.settings.active != true %} style="display:none;"{% endif %}>
+<span class="hk-sub-trigger" sub_tab="1">
 {{ price_sub | money }}{%  if compare_price > price_sub %} <s>{{ compare_price | money }}</s>{% endif %}
 </span>
-<span class="el-sub-trigger" sub_tab="2" style="display:none;">
+<span class="hk-sub-trigger" sub_tab="2" style="display:none;">
 {{ price | money }}{%  if compare_price > price %} <s>{{ compare_price | money }}</s>{% endif %}
 </span>
 </span>
 {%  endcase %}
 {%  endfor %} 
 {% endcapture %}
-<div class="el-element el-element-button {{ block.settings.custom_class }} el-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
-<div class="el-element-button-{{ block.id }} el-font-{{ block.settings.font_type }}">
-<button class="el-button el-checkout-button el-trigger-{{ section.id }} el-font-body"  variant_id="{{ variant.id }}" selling_plan="{{ variant.selling_plan_allocations.first.selling_plan.id }}">
+<div class="hk-element hk-element-button {{ block.settings.custom_class }} hk-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
+<div class="hk-element-button-{{ block.id }} hk-font-{{ block.settings.font_type }}">
+<button class="hk-button hk-checkout-button hk-trigger-{{ section.id }} hk-font-body"  variant_id="{{ variant.id }}" selling_plan="{{ variant.selling_plan_allocations.first.selling_plan.id }}">
   {{ block.settings.button_label | replace:'[price]',price_content }}
 </button></div>
-<script>$(document).on("click", '.el-trigger-{{ section.id }}', function (e) {
+<script>$(document).on("click", '.hk-trigger-{{ section.id }}', function (e) {
   e.preventDefault();
 
   var $btn = $(this);
 
   // prevent multiple clicks
-  if ($btn.hasClass('el-loading')) return;
+  if ($btn.hasClass('hk-loading')) return;
 
-  $btn.addClass('el-loading');
+  $btn.addClass('hk-loading');
 
   var items = [];
 
@@ -66,7 +66,7 @@
   items.push(item);
 
   // free gift
- /* var $freeGift = $('.el-element-sub-option.el-active .el-free-product-details');
+ /* var $freeGift = $('.hk-element-sub-option.hk-active .hk-free-product-details');
 
   if ($freeGift.length) {
 
@@ -98,7 +98,7 @@
 
     complete: function () {
       setTimeout(function () {
-        $btn.removeClass('el-loading');
+        $btn.removeClass('hk-loading');
       }, 500);
     }
   });
