@@ -1208,6 +1208,9 @@
 .hk-more-box .hk-icon-with-text-flex .hk-element-image {
     width: 47px;
 }
+.hk-more-box .hk-icon-with-text-flex {
+    gap: 12px;
+}
 }
 /* more css end */
 
