@@ -51,6 +51,76 @@
             "custom_class": ""
           }
         },
+        "product_image_J9GcYx": {
+          "type": "product_image",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-img1.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "product_image_TNr3Ny": {
+          "type": "product_image",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-img2.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "product_image_Wkbicw": {
+          "type": "product_image",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-img3.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "product_image_3QKM9f": {
+          "type": "product_image",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-img4.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "product_image_8WTjqz": {
+          "type": "product_image",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-img5.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "product_image_cfMPNp": {
+          "type": "product_image",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-img6.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "product_image_GEQKYn": {
+          "type": "product_image",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-img7.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
         "icon_with_text_UHAYbR": {
           "type": "icon_with_text",
           "settings": {
@@ -298,6 +368,13 @@
       },
       "block_order": [
         "product_media_kDKrXB",
+        "product_image_J9GcYx",
+        "product_image_TNr3Ny",
+        "product_image_Wkbicw",
+        "product_image_3QKM9f",
+        "product_image_8WTjqz",
+        "product_image_cfMPNp",
+        "product_image_GEQKYn",
         "icon_with_text_UHAYbR",
         "icon_with_text_THeW68",
         "richtext_wDUei3",
