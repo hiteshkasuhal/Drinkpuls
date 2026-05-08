@@ -705,6 +705,18 @@
     width: 87px;
     height: unset;
 }
+.hk-review-card-rich-text {
+    font-size: 14px;
+    line-height: 20px;
+}
+.hk-review-card-rich-text ul li {
+    width: 18px;
+    height: 4px;
+}
+.hk-review-card-rich-text ul {
+    gap: 4px;
+    padding-top: 10px;
+}
 }
 /* reviews css end */
 
