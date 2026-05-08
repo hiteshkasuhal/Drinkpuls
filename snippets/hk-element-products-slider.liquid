@@ -10,19 +10,6 @@
   "infinite": true,
   "cssEase": "linear",
   "responsive": [
-    {% if block.settings.disable_desktop %}
-    {
-      "breakpoint": 9999,
-      "settings": "unslick"
-    },
-    {% endif %}
-
-    {% if block.settings.disable_mobile %}
-    {
-      "breakpoint": 915,
-      "settings": "unslick"
-    }
-    {% else %}
     {
       "breakpoint": 915,
       "settings": {
@@ -30,7 +17,6 @@
         "slidesToScroll": 1
       }
     }
-    {% endif %}
   ]
 }
 {% endcapture %}
