@@ -803,7 +803,7 @@
             "image_performance": "low",
             "position": "left",
             "custom_id": "",
-            "custom_class": "hk-more-list1-items el-active"
+            "custom_class": "hk-more-list1-items hk-active"
           }
         },
         "icon_with_text_item_8FmDHN": {
@@ -867,7 +867,7 @@
             "image_performance": "low",
             "position": "right",
             "custom_id": "",
-            "custom_class": "hk-more-box hk-more-box1 el-active"
+            "custom_class": "hk-more-box hk-more-box1 hk-active"
           }
         },
         "icon_with_text_xwrrGh": {

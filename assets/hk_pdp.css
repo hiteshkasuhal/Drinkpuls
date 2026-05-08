@@ -1063,7 +1063,7 @@
 .hk-more-list1-items:nth-child(3) p {
     width: 70%;
 }
-.hk-more-list1-items.el-active {
+.hk-more-list1-items.hk-active {
     border-color: rgba(255, 255, 255, 0.25);
     background: #72D3FF;
     backdrop-filter: blur(2.6000001430511475px);
@@ -1191,10 +1191,10 @@
     margin-top: 30px;
 }
 
-.hk-more-list1-items.el-active img {
+.hk-more-list1-items.hk-active img {
     filter: brightness(0);
 }
-.hk-more-box:not(.el-active) {
+.hk-more-box:not(.hk-active) {
     display: none;
 }
 @media (min-width: 915px) {
