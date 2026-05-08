@@ -1230,6 +1230,10 @@
 .hk-more-tab .hk-element-icon-with-text-grid {
     gap: 8px;
 }
+.hk-more-tab-item {
+    width: 100%;
+    text-align: left;
+}
 }
 /* more css end */
 
