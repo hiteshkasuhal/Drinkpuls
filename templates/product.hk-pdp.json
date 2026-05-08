@@ -916,7 +916,7 @@
             "liquid": "",
             "title": "<strong>Sustained Energy Production </strong><em>Caffeine + MCTs</em>",
             "text": "<ul><li>Longer-lasting fuel</li><li>Fast, clean energy</li></ul>",
-            "font_type_title": "heading",
+            "font_type_title": "body",
             "font_type_text": "body",
             "image_loading": "lazy",
             "image_performance": "low",
