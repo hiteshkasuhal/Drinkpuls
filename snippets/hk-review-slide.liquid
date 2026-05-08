@@ -53,6 +53,11 @@
 </div>
 </div>
 {% endif %}
+{%  if block.settings.richtext != blank %}
+<div class="hk-element-richtext-main">
+<div class="hk-element-richtext-{{ block.id }} hk-review-card-text hk-element hk-font-body">{{  block.settings.richtext }}</div>
+</div>
+{% endif %}
 </div>
 </div>
 </div>
