@@ -241,6 +241,13 @@
 }
 
 
+.hk-shops-pdt-item {
+    padding: 0 20px;
+}
+.hk-shops-pdt {
+    margin: 0 -20px;
+    padding-top: 40px;
+}
 
 @media (min-width: 915px) {
 
@@ -1767,10 +1774,6 @@
 
 
 /* final touchups */
-.hk-shops-pdt-item {
-    padding: 0 20px;
-}
-.hk-shops-pdt {
-    margin: 0 -20px;
-    padding-top: 40px;
+@media (max-width:915px) {
+
 }
