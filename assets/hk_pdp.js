@@ -26,4 +26,6 @@ $(document).on("click", ".hk-more-list1-items", function (e) {
     var tab_index = $(this).index() + 1;
      $('.hk-more-box').removeClass('hk-active');
      $('.hk-more-box'+tab_index).addClass('hk-active');
+     $('.hk-more-tab-item').removeClass('hk-active');
+     $('.hk-more-tab-item'+tab_index).addClass('hk-active');
 });
