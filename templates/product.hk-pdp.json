@@ -939,7 +939,7 @@
             "image_performance": "low",
             "position": "right",
             "custom_id": "",
-            "custom_class": "hk-more-tab-item hk-more-tab-item1"
+            "custom_class": "hk-more-tab-item hk-more-tab-item1 hk-active"
           }
         },
         "icon_with_text_item_TgE4c7": {
@@ -955,7 +955,103 @@
             "image_performance": "low",
             "position": "right",
             "custom_id": "",
-            "custom_class": "hk-more-tab-item hk-more-tab-item1"
+            "custom_class": "hk-more-tab-item hk-more-tab-item1 hk-active"
+          }
+        },
+        "icon_with_text_item_NVhhij": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more1-ing1.webp",
+            "liquid": "",
+            "title": "Caffeine",
+            "text": "<p>Helps you lock in mentally, stay alert, and cut through distractions when focus usually fades.</p>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-tab-item hk-more-tab-item2"
+          }
+        },
+        "icon_with_text_item_EUPHkr": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more1-ing2.webp",
+            "liquid": "",
+            "title": "MCTs",
+            "text": "<p>Support mental clarity by providing steady brain fuel that helps you stay switched on for longer periods.</p>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-tab-item hk-more-tab-item2"
+          }
+        },
+        "icon_with_text_item_R6pQtr": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more3-ing1.webp",
+            "liquid": "",
+            "title": "CREATINE",
+            "text": "<p>Supports explosive strength and power output, helping you push harder during demanding lifts.</p>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-tab-item hk-more-tab-item3"
+          }
+        },
+        "icon_with_text_item_Jwb69Q": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more3-ing2.webp",
+            "liquid": "",
+            "title": "PROTEIN",
+            "text": "<p>Provides the building blocks muscles rely on to perform under load and maintain strength over time.</p>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-tab-item hk-more-tab-item3"
+          }
+        },
+        "icon_with_text_item_M99JKK": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more3-ing2.webp",
+            "liquid": "",
+            "title": "PROTEIN",
+            "text": "<p>Provides the building blocks muscles rely on to perform under load and maintain strength over time.</p>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-tab-item hk-more-tab-item4"
+          }
+        },
+        "icon_with_text_item_NXgrzm": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-more3-ing1.webp",
+            "liquid": "",
+            "title": "CREATINE",
+            "text": "<p>Supports explosive strength and power output, helping you push harder during demanding lifts.</p>",
+            "font_type_title": "body",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-more-tab-item hk-more-tab-item4"
           }
         }
       },
@@ -973,7 +1069,13 @@
         "icon_with_text_HEzpT9",
         "icon_with_text_grid_3i7KcL",
         "icon_with_text_item_KeG3W4",
-        "icon_with_text_item_TgE4c7"
+        "icon_with_text_item_TgE4c7",
+        "icon_with_text_item_NVhhij",
+        "icon_with_text_item_EUPHkr",
+        "icon_with_text_item_R6pQtr",
+        "icon_with_text_item_Jwb69Q",
+        "icon_with_text_item_M99JKK",
+        "icon_with_text_item_NXgrzm"
       ],
       "name": "Image With Text",
       "settings": {

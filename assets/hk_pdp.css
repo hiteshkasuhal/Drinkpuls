@@ -1197,6 +1197,9 @@
 .hk-more-box:not(.hk-active) {
     display: none;
 }
+.hk-more-item-tab:not(.hk-active) {
+    display: none;
+}
 @media (min-width: 915px) {
 
 }
