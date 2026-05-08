@@ -1852,5 +1852,7 @@
     background-color: transparent !important;
 }
 @media (max-width:915px) {
-
+.hk-big-section {
+    background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-reviews-bgmob.webp);
+}
 }
