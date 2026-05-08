@@ -717,6 +717,9 @@
     gap: 4px;
     padding-top: 10px;
 }
+.hk-reviews-slider ul.slick-dots {
+    margin-left: 0;
+}
 }
 /* reviews css end */
 
