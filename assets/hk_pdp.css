@@ -714,6 +714,12 @@ span.stock_inner {
 .hk-product-title .hk-icon-with-text-flex {
     margin-bottom: 12px;
 }
+.hk-product-title .hk-icon-with-text-flex .hk-element-title {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    width: 175px;
+    max-width: 100%;
+}
 }
 /* product css end */
 
