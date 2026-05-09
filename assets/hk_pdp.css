@@ -835,6 +835,9 @@ span.stock_inner {
     font-size: 14px;
     line-height: 18px;
 }
+.hk-element-sub-option:nth-child(1) {
+    padding: 41px 13px 16px;
+}
 }
 /* product css end */
 
