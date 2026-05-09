@@ -584,6 +584,12 @@ span.stock_inner {
     letter-spacing: -0.936px;
     margin-bottom: 12px;
 }
+.hk-sub-benifits ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    gap: 13px;
+}
 
 
 
