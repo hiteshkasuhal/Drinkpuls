@@ -2813,7 +2813,7 @@ span.stock_inner {
 
 @media (max-width: 915px) {
 .hk-one-section {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 .hk-one-heading h2 {
     width: 270px;
