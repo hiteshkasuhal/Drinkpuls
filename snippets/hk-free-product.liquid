@@ -16,8 +16,11 @@
 }} 
 </span>
 {% endif %}
+{% capture price_content  %}
 {% assign price = free_product.selected_or_first_available_variant.price | money %}
+<s>{{ price }}</s>
+{% endcapture %}
 {% if text != blank %}
-<span class="hk-free-product-text">{{ text | replace:'[price]',price }}</span>
+<span class="hk-free-product-text">{{ text | replace:'[price]',price_content }}</span>
 {% endif %}
 </span>
