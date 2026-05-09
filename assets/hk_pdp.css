@@ -2889,6 +2889,10 @@ span.stock_inner {
     gap: 8px;
     flex-direction: column;
 }
+.hk-one-list1-item .hk-icon-with-text-flex img {
+    width: 50px;
+    height: unset;
+}
 }
 /* one css end */
 
