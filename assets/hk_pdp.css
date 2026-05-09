@@ -3574,6 +3574,11 @@ span.stock_inner {
     flex-wrap: wrap;
     gap: 10px;
 }
+.hk-sticky-atc-column2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 }
 /* stikcy css end */
 
