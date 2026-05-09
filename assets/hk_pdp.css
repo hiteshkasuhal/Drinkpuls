@@ -3668,6 +3668,10 @@ span.stock_inner {
 .hk-sticky-atc.hk-active {
     transform: unset;
 }
+body {
+    padding-bottom: 122px;
+}
+
 @media (max-width:915px) {
 .hk-big-section {
     background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-reviews-bgmob.webp);
