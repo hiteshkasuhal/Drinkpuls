@@ -88,9 +88,24 @@ $('.hk-checkout-button').removeAttr('selling_plan',);
 
 
 
-$(document).on("click", ".hk-element-variants", function (e) {
+$(document).on("click", "a[href='#']", function (e) {
   e.preventDefault();
-  document.querySelector('.hk-product-label').scrollIntoView({
+  document.querySelector('.hk-element-variants').scrollIntoView({
     behavior: 'smooth'
   })
+});
+
+
+
+$(document).on("click", "a[href='#show']", function (e) {
+$('.hk-reviews2-list1-item:nth-child(3)~.hk-reviews2-list1-item').slideDown();
+$('.hk-pdp-review2-links:has([href="#show"])').hide();
+$('.hk-pdp-review2-links:has([href="#hide"])').show();
+});
+
+
+$(document).on("click", "a[href='#hide']", function (e) {
+$('.hk-reviews2-list1-item:nth-child(3)~.hk-reviews2-list1-item').slideUp();
+$('.hk-pdp-review2-links:has([href="#hide"])').hide();
+$('.hk-pdp-review2-links:has([href="#show"])').show();
 });
