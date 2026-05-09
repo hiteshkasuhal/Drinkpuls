@@ -2879,6 +2879,10 @@ span.stock_inner {
 .one-table-item1 .one-table-bottom-p {
     text-align: left;
 }
+.hk-one-list1 .hk-element-icon-with-text-grid {
+    gap: 10px;
+    margin-top: 30px;
+}
 }
 /* one css end */
 
