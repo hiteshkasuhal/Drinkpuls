@@ -1,18 +1,12 @@
-
-
-
 {%  assign button_label = block.settings.button_label %}
-
-
-{% capture price_content %}
-
+{%  capture button_content %}
 {%- for block in section.blocks -%} 
 {%- case block.type -%} 
-{%- when 'variant' -%}  
+{%- when 'variant' -%} 
+{% assign index = block.settings.index | minus:1 %}
 {% if block.settings.active == true %}
 {% assign active_variant = product.variants[index] %}
 {%  endif %}
-{% assign index = block.settings.index | minus:1 %}
 {% assign variant = product.variants[index] %}
 {%  assign compare_price = variant.price  %}
 {%  if variant.compare_at_price > variant.price %}
@@ -20,23 +14,14 @@
 {% endif %}
 {%  assign price = variant.price  %}
 {%  assign price_sub = variant.selling_plan_allocations.first.per_delivery_price %}
-<span class="hk-variant-trigger{% if block.settings.active == true %} hk-active{% endif %}" variant_id="{{ variant.id }}"{% if block.settings.active != true %} style="display:none;"{% endif %}>
+{% capture price_content %}
 <span class="hk-sub-trigger" sub_tab="1">
 {{ price_sub | money }}{%  if compare_price > price_sub %} <s>{{ compare_price | money }}</s>{% endif %}
 </span>
 <span class="hk-sub-trigger" sub_tab="2" style="display:none;">
 {{ price | money }}{%  if compare_price > price %} <s>{{ compare_price | money }}</s>{% endif %}
 </span>
-</span>
-{%  endcase %}
-{%  endfor %} 
 {% endcapture %}
-
-{%  capture button_content %}
-{%- for block in section.blocks -%} 
-{%- case block.type -%} 
-{%- when 'variant' -%} 
-{% assign variant = product.variants[index] %}
 <span class="hk-variant-trigger{% if variant.available %}{% else %} el-sold-out{% endif %}{% if block.settings.active == true %} hk-active{% endif %}" variant_id="{{ variant.id }}"{% if block.settings.active != true %} style="display:none;"{% endif %}>
  {% if variant.available %} {{ button_label | replace:'[price]',price_content }}{% else %}Sold Out{% endif %}
 </span>
