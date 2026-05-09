@@ -3596,6 +3596,9 @@ span.stock_inner {
     font-size: 12px;
     letter-spacing: -0.24px;
 }
+.hk-sticky-stock .hk-element-stock {
+    justify-content: center;
+}
 }
 /* stikcy css end */
 
