@@ -118,6 +118,15 @@
     max-width: 100%;
     margin-bottom: 25px;
 }
+.hk-product-list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5.2px;
+    background: #F7F7F7;
+    padding: 15.6px 15.6px 19px;
+    gap: 15.6px;
+}
 
 
 
