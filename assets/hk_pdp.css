@@ -816,6 +816,7 @@ span.stock_inner {
     min-width: 21.6px;
     border-radius: 50px;
     border-width: 3px;
+    border-color: #BDBDBD;
 }
 }
 /* product css end */
