@@ -43,6 +43,25 @@
 
 {% if block.settings.free_product1 != blank %}
 {% assign free_product = block.settings.free_product1 %}
+{% assign title = block.settings.free_title1 %}
+{% assign image = block.settings.free_image1 %}
+{% assign text = block.settings.free_text1 %}
+{% render 'hk-free-product', free_product:free_product %}
+{% endif %}
+
+{% if block.settings.free_product2 != blank %}
+{% assign free_product = block.settings.free_product2 %}
+{% assign title = block.settings.free_title2 %}
+{% assign image = block.settings.free_image2 %}
+{% assign text = block.settings.free_text2 %}
+{% render 'hk-free-product', free_product:free_product %}
+{% endif %}
+
+{% if block.settings.free_product3 != blank %}
+{% assign free_product = block.settings.free_product3 %}
+{% assign title = block.settings.free_title3 %}
+{% assign image = block.settings.free_image3 %}
+{% assign text = block.settings.free_text3 %}
 {% render 'hk-free-product', free_product:free_product %}
 {% endif %}
 </span>
