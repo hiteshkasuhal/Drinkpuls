@@ -670,6 +670,10 @@ span.stock_inner {
 .hk-product-column1 {
     width: 100%;
 }
+.hk-product-column2 {
+    width: 100%;
+    padding-top: 21px;
+}
 }
 /* product css end */
 
