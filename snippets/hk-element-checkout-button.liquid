@@ -1,15 +1,7 @@
 
-{%- for block in section.blocks -%} 
-{%- case block.type -%} 
-{%- when 'variant' -%}  
-{% assign index = block.settings.index | minus:1 %}
-{% if block.settings.active == true %}
-{% assign variant = product.variants[index] %}
-{%  endif %}
-{%  endcase %}
-{%  endfor %} 
 
 
+{%  assign button_label = block.settings.button_label %}
 
 
 {% capture price_content %}
@@ -17,6 +9,9 @@
 {%- for block in section.blocks -%} 
 {%- case block.type -%} 
 {%- when 'variant' -%}  
+{% if block.settings.active == true %}
+{% assign active_variant = product.variants[index] %}
+{%  endif %}
 {% assign index = block.settings.index | minus:1 %}
 {% assign variant = product.variants[index] %}
 {%  assign compare_price = variant.price  %}
@@ -42,15 +37,14 @@
 {%- case block.type -%} 
 {%- when 'variant' -%} 
 <span class="hk-variant-trigger{% if variant.available %}{% else %} el-sold-out{% endif %}{% if block.settings.active == true %} hk-active{% endif %}" variant_id="{{ variant.id }}"{% if block.settings.active != true %} style="display:none;"{% endif %}>
- {% if variant.available %} {{ block.settings.button_label | replace:'[price]',price_content }}{% else %}Sold Out{% endif %}
+ {% if variant.available %} {{ button_label | replace:'[price]',price_content }}{% else %}Sold Out{% endif %}
 </span>
-
 {%  endcase %}
 {%  endfor %} 
   {% endcapture %}
 <div class="hk-element hk-element-button {{ block.settings.custom_class }} hk-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
 <div class="hk-element-button-{{ block.id }} hk-font-{{ block.settings.font_type }}">
-<button class="hk-button hk-checkout-button hk-trigger-{{ section.id }} hk-font-body"  variant_id="{{ variant.id }}" selling_plan="{{ variant.selling_plan_allocations.first.selling_plan.id }}">
+<button class="hk-button hk-checkout-button hk-trigger-{{ section.id }} hk-font-body"  variant_id="{{ active_variant.id }}" selling_plan="{{ active_variant.selling_plan_allocations.first.selling_plan.id }}">
   {{ button_content }}
 </button></div>
 <script>$(document).on("click", '.hk-trigger-{{ section.id }}', function (e) {
