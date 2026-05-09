@@ -3102,7 +3102,7 @@ span.stock_inner {
     text-transform: uppercase;
     padding-bottom: 5px;
 }
-.hk-element-stock {
+.hk-sticky-stock .hk-element-stock {
     display: flex;
     justify-content: unset;
     align-items: center;
@@ -3118,9 +3118,12 @@ span.stock_inner {
     padding: 0px;
     margin-bottom: 0px;
 }
-.hk-element-stock strong {
+.hk-sticky-stock .hk-element-stock strong {
     font-weight: 500;
     color: #425F02;
+}
+.hk-sticky-stock .hk-element-stock .hk-future-date {
+    text-decoration: underline;
 }
 
 
