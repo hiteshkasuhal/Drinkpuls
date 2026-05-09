@@ -685,6 +685,15 @@ span.stock_inner {
     outline: 1px solid #1F2E4E;
     border-radius: 5.2px 5.2px 0 0;
 }
+.hk-sub-option-text ul li:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: url(https://www.drinkpuls.com/cdn/shop/files/pdp-pdt-list1.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 @media (min-width: 915px) {
 
