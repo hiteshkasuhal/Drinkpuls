@@ -729,6 +729,11 @@ span.stock_inner {
     font-size: 14px;
     gap: 6px;
 }
+.hk-product-text {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 16px;
+}
 }
 /* product css end */
 
