@@ -71,6 +71,13 @@
 .hk-product-rating .hk-icon-with-text-flex {
     justify-content: flex-start;
 }
+.hk-product-title .hk-icon-with-text-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 7.9px;
+}
 
 
 
