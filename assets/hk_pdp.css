@@ -611,6 +611,11 @@ span.stock_inner {
     flex-shrink: 0;
     background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-pdt-BEchecks.webp);
 }
+.hk-pdp-faq {
+    border-radius: 5.2px;
+    border: 1px solid #E4E4E4;
+    margin-top: 15.6px;
+}
 
 
 
