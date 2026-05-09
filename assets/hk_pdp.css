@@ -43,6 +43,16 @@
 .hk-rative {
     position: relative;
 }
+.hk-slider-button {
+    border-radius: 1311.817px;
+    background: #72D3FF;
+    backdrop-filter: blur(2.6000001430511475px);
+    width: 35.455px;
+    height: 35.455px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
