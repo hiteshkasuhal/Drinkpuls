@@ -2448,14 +2448,14 @@
       "name": "Sticky ATC",
       "settings": {
         "hidden_classes": "Add Your Classes Here",
-        "background_color": "#ffffff",
-        "text_color": "#000000",
-        "text_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "text_alignment_mobile": "center",
-        "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
+        "background_color": "#f7f7f7",
+        "text_color": "#162036",
+        "text_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "text_alignment_mobile": "left",
+        "padding_top_mobile": 10,
+        "padding_bottom_mobile": 10,
         "custom_id": "",
         "custom_class": ""
       }
