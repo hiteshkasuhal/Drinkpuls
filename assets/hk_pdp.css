@@ -913,6 +913,11 @@ span.stock_inner {
 .hk-pdp-pyament img {
     width: 272px;
 }
+.hk-sub-benifits .hk-icon-with-text-flex {
+    background-image: url(/cdn/shop/files/pdp-pdt-benefitsbgmob.webp);
+    margin: 30px 0;
+    padding: 14px;
+}
 }
 /* product css end */
 
