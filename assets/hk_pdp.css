@@ -3289,6 +3289,9 @@ span.stock_inner {
 .hk-MBG-rating .hk-icon-with-text-flex {
     justify-content: center;
 }
+.hk-MBG-section-img2 img {
+    position: unset;
+}
 }
 /* MBG css end */
 
