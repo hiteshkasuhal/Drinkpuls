@@ -1266,6 +1266,10 @@ span.stock_inner {
     font-weight: 400;
     line-height: 26px;
 }
+.hk-reviews-slide .hk-review-card-rich-text strong {
+    color: #72D3FF;
+    font-weight: unset;
+}
 
 
 .hk-review-card-rich-text {
