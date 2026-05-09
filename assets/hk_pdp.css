@@ -297,6 +297,13 @@
     letter-spacing: -0.624px;
     text-transform: uppercase;
 }
+.hk-sub-option-selector {
+    width: 28.08px;
+    height: 28.08px;
+    min-width: 28.08px;
+    border-radius: 50px;
+    border: 4px solid #1F2E4E;
+}
 
 
 
