@@ -803,6 +803,10 @@ span.stock_inner {
     min-height: 18px;
     width: 100%;
 }
+.hk-element-sub-options {
+    gap: 12px;
+    margin-bottom: 25px;
+}
 }
 /* product css end */
 
