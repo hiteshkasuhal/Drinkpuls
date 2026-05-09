@@ -664,9 +664,6 @@ span.stock_inner {
     width: calc(100% + 2px);
     left: -1px;
 }
-.hk-element-sub-option {
-    overflow: hidden;
-}
 .hk-sub-option-sub-badge {
     height: 34px;
     position: absolute;
