@@ -2652,6 +2652,11 @@ span.stock_inner {
     width: 32px;
     margin: 0 auto 15px;
 }
+.hk-how-list1-item-text .hk-element-title {
+    font-size: 32px;
+    letter-spacing: -0.96px;
+    padding-bottom: 10px;
+}
 }
 /* how css end */
 
