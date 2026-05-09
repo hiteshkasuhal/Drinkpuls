@@ -317,6 +317,9 @@
 .hk-element-sub-option.hk-active .hk-sub-option-select {
     opacity: 1;
 }
+.hk-sub-option-select svg {
+    display: none;
+}
 
 
 
