@@ -556,6 +556,18 @@ span.stock_inner {
     width: 352px;
     margin: 0px auto;
 }
+.hk-sub-benifits .hk-icon-with-text-flex {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-pdt-benefitsbg.webp");
+    border-radius: 5.2px;
+    overflow: hidden;
+    margin: 40px 0px;
+    padding: 25px;
+    position: relative;
+    color: #fff;
+}
 
 
 
