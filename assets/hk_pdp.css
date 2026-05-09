@@ -53,6 +53,13 @@
     align-items: center;
     justify-content: center;
 }
+.slick-disabled {
+    opacity: unset;
+    border-radius: 1311.817px;
+    background: #D2D2D2;
+    backdrop-filter: blur(2.6000001430511475px);
+}
+
 
 
 
