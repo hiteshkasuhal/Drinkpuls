@@ -877,6 +877,13 @@ span.stock_inner {
     width: 7px;
     height: 7px;
 }
+.hk-button.hk-checkout-button {
+    width: 100%;
+    min-height: 70px;
+    gap: 10.4px;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+}
 }
 /* product css end */
 
