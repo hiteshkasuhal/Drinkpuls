@@ -173,7 +173,7 @@
             "image": "shopify://shop_images/pdp-pdt-pre.webp",
             "liquid": "",
             "title": "",
-            "text": "<p>Pre-sale ending soon!  Ships from February 1st. Your card will not be charged until then.</p>",
+            "text": "<p><strong>Pre-sale ending soon!</strong> Ships from February 1st. Your card will not be charged until then.</p>",
             "font_type_title": "heading",
             "font_type_text": "body",
             "image_loading": "lazy",
