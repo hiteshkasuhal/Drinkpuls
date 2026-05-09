@@ -1654,7 +1654,7 @@ span.stock_inner {
     padding-top: 10px;
 }
 .hk-reviews-slider ul.slick-dots {
-    margin-left: 0;
+    margin-left: auto;
 }
 .hk-reviews-slide .hk-review-card-rich-text {
     font-size: 14px;
