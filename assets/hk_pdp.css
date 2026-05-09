@@ -3591,6 +3591,11 @@ span.stock_inner {
     width: calc(100% - 54px);
     padding-left: 15px;
 }
+.hk-sticky-stock .hk-element-stock {
+    gap: 5px;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+}
 }
 /* stikcy css end */
 
