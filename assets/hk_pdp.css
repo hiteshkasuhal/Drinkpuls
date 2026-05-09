@@ -869,6 +869,10 @@ span.stock_inner {
     padding: 8px;
     margin-bottom: 10px;
 }
+span.stock_outer {
+    width: 14px;
+    height: 14px;
+}
 }
 /* product css end */
 
