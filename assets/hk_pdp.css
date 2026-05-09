@@ -633,7 +633,7 @@ span.stock_inner {
     line-height: normal;
     letter-spacing: -0.416px;
 }
-.hk-sub-benifits .hk-question.active:after {
+.hk-pdp-faq .hk-question.active:after {
     background-image: unset;
     content: "-";
 }
