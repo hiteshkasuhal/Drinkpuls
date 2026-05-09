@@ -3064,12 +3064,16 @@ span.stock_inner {
 .hk-sticky-atc-column {
     width: 50%;
 }
-.hk-button {
+.hk-sticky-button .hk-button {
     border-radius: 5.2px;
     min-height: 70px;
     font-size: 23.4px;
     letter-spacing: -0.234px;
     gap: 0px;
+}
+.hk-sticky-button .hk-button:after {
+    width: 0px;
+    height: 0px;
 }
 
 
