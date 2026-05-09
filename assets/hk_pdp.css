@@ -2273,6 +2273,34 @@ span.stock_inner {
 .hk-more-tab .hk-element-icon-with-text-grid {
     margin-top: 20px;
 }
+.hk-more-section .hk-image-with-text-column2 {
+    padding-bottom: 57px;
+    position: relative;
+}
+.hk-more-box .hk-icon-with-text-flex ul li:before {
+    width: 13.5px;
+    height: 13.5px;
+}
+.hk-more-box .hk-icon-with-text-flex ul li {
+    padding: 5px 8px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    height: 28px;
+    gap: 5px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(27.5px);
+}
+.hk-more-box .hk-icon-with-text-flex ul {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    gap: 8px;
+    padding: 13px;
+}
 }
 /* more css end */
 
