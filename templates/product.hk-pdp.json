@@ -2434,7 +2434,7 @@
             "font_type": "body",
             "position": "right",
             "custom_id": "",
-            "custom_class": "hk-sticky-button"
+            "custom_class": "hk-sticky-button hk-btn-black"
           }
         }
       },
