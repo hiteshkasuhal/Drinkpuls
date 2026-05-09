@@ -849,6 +849,10 @@ span.stock_inner {
     width: calc(100% + 2px);
     left: -1px;
 }
+.hk-sub-option-text ul li {
+    font-size: 12px;
+    gap: 6px;
+}
 }
 /* product css end */
 
