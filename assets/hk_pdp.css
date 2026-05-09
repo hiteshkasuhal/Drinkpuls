@@ -3461,6 +3461,13 @@ span.stock_inner {
     display: block;
     text-align: center;
 }
+.hk-sticky-img {
+    width: 54px;
+    height: 54px;
+    padding: 5px;
+    position: unset;
+    min-width: 54px;
+}
 }
 /* review2 css end */
 
