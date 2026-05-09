@@ -46,7 +46,8 @@
 {% assign title = block.settings.free_title1 %}
 {% assign image = block.settings.free_image1 %}
 {% assign text = block.settings.free_text1 %}
-{% render 'hk-free-product', free_product:free_product %}
+{% assign badge = block.settings.free_badge1 %}
+{% render 'hk-free-product', free_product:free_product,title:title,image:image,text:text ,badge:badge   %}
 {% endif %}
 
 {% if block.settings.free_product2 != blank %}
@@ -54,7 +55,8 @@
 {% assign title = block.settings.free_title2 %}
 {% assign image = block.settings.free_image2 %}
 {% assign text = block.settings.free_text2 %}
-{% render 'hk-free-product', free_product:free_product %}
+{% assign badge = block.settings.free_badge2 %}
+{% render 'hk-free-product', free_product:free_product,title:title,image:image,text:text ,badge:badge   %}
 {% endif %}
 
 {% if block.settings.free_product3 != blank %}
@@ -62,7 +64,8 @@
 {% assign title = block.settings.free_title3 %}
 {% assign image = block.settings.free_image3 %}
 {% assign text = block.settings.free_text3 %}
-{% render 'hk-free-product', free_product:free_product %}
+{% assign badge = block.settings.free_badge3 %}
+{% render 'hk-free-product', free_product:free_product,title:title,image:image,text:text ,badge:badge   %}
 {% endif %}
 </span>
 
