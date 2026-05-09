@@ -667,7 +667,9 @@ span.stock_inner {
 
 
 @media (max-width: 915px) {
-
+.hk-product-column1 {
+    width: 100%;
+}
 }
 /* product css end */
 
