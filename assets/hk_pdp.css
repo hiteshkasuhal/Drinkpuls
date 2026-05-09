@@ -320,6 +320,9 @@
 .hk-sub-option-select svg {
     display: none;
 }
+.hk-element-sub-option.hk-active  .hk-sub-option-selector {
+    border-color: #72D3FF;
+}
 
 
 
