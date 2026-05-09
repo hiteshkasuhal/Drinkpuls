@@ -770,7 +770,10 @@ span.stock_inner {
     color: #162036;
 }
 @media (min-width: 915px) {
-
+.hk-product-column1 {
+    position: sticky;
+    top: 100px;
+}
 }
 
 
