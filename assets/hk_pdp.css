@@ -3082,6 +3082,17 @@ span.stock_inner {
     padding-left: 104px;
     position: relative;
 }
+.hk-sticky-img {
+    border-radius: 2.6px;
+    border: 1.3px solid #E6E6E6;
+    background: #fff;
+    width: 83px;
+    height: 83px;
+    padding: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
 
 
