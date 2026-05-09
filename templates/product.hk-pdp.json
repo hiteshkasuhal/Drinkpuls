@@ -358,7 +358,7 @@
           "type": "faq",
           "settings": {
             "question": "Nutritional Information",
-            "answer": "",
+            "answer": "<ul><li>.</li></ul>",
             "font_type": "body",
             "font_type_answer": "body",
             "custom_id": "",
