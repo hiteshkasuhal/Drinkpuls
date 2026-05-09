@@ -2928,6 +2928,16 @@ span.stock_inner {
     margin: 30px auto 0px;
     max-width: 100%;
 }
+.hk-one-section .hk-image-with-text-column {
+    display: flex;
+    flex-direction: column;
+}
+.hk-one-text2 {
+    margin-bottom: 0;
+}
+.hk-one-list1 {
+    order: 9;
+}
 }
 
 
