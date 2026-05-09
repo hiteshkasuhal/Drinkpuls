@@ -863,6 +863,12 @@ span.stock_inner {
     width: 13.478px;
     height: unset;
 }
+.hk-element-stock {
+    gap: 7px;
+    font-size: 12px;
+    padding: 8px;
+    margin-bottom: 10px;
+}
 }
 /* product css end */
 
