@@ -845,6 +845,10 @@ span.stock_inner {
 .hk-element-sub-option.hk-active .hk-sub-option-title-flex {
     color: #162036;
 }
+.hk-variant-badge {
+    width: calc(100% + 2px);
+    left: -1px;
+}
 }
 /* product css end */
 
