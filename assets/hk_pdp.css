@@ -2666,6 +2666,24 @@ span.stock_inner {
     line-height: 125%;
     padding: 0 10px;
 }
+.hk-how-list1-item1 {
+    order: 1;
+}
+.hk-how-list1-item2 {
+    order: 2;
+}
+.hk-how-list1-item3 {
+    order: 4;
+}
+.hk-how-list1-item4 {
+    order: 3;
+}
+.hk-how-list1-item5 {
+    order: 5;
+}
+.hk-how-list1-item6 {
+    order: 6;
+}
 }
 /* how css end */
 
