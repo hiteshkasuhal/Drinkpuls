@@ -762,6 +762,11 @@ span.stock_inner {
     display: unset;
     flex-direction: unset;
 }
+.hk-pre-sale .hk-icon-with-text-flex img {
+    width: 24px;
+    height: unset;
+    min-width: 24px;
+}
 }
 /* product css end */
 
