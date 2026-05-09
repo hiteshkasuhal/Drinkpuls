@@ -137,6 +137,16 @@
     text-transform: uppercase;
     gap: 6.5px;
 }
+.hk-product-list ul li:before {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19.717px;
+    height: 19.717px;
+    flex-shrink: 0;
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-pdt-list1.webp");
+}
 
 
 
