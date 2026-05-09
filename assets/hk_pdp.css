@@ -3546,7 +3546,9 @@ span.stock_inner {
 .hk-reviews2-list1-item:nth-child(3)~.hk-reviews2-list1-item {
     margin-top: 30px;
 }
-
+.hk-pdp-review2-links:has([href="#hide"]) {
+    display: none;
+}
 @media (min-width: 915px) {
 
 }
