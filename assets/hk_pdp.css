@@ -62,6 +62,12 @@
 .hk-element-product-media .slick-disabled path {
     fill: #fff;
 }
+.hk-element-product-media .hk-slider-next {
+    right: -18px;
+}
+.hk-element-product-media .hk-slider-prev {
+    left: -18px;
+}
 
 
 
