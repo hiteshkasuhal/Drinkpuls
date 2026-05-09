@@ -270,7 +270,7 @@
     padding: 16px 25px;
 }
 .hk-element-sub-option.hk-active {
-    border: 1.3px solid #72D3FF;
+    border: 1px solid #72D3FF;
     background: #DFF4FE;
 }
 .hk-element-sub-option:nth-child(1) {
