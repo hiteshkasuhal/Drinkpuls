@@ -68,6 +68,9 @@
 .hk-element-product-media .hk-slider-prev {
     left: -18px;
 }
+.hk-product-rating .hk-icon-with-text-flex {
+    justify-content: flex-start;
+}
 
 
 
