@@ -769,6 +769,11 @@ span.stock_inner {
     line-height: 18.2px;
     color: #162036;
 }
+hk-free-product-badge {
+    margin-top: -1px;
+    position: relative;
+}
+
 @media (min-width: 915px) {
 .hk-product-column1 {
     position: sticky;
