@@ -658,6 +658,9 @@ span.stock_inner {
     background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-pdt-faq.webp);
     aspect-ratio: 560/561;
 }
+.hk-element-variant.hk-active:nth-child(1) {
+    border-radius: 5.2px;
+}
 
 
 @media (min-width: 915px) {
