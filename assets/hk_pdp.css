@@ -23,6 +23,10 @@
 .hk-rative.hk-media-main-wrapper {
     width: calc(100% - 154px);
 }
+.hk-slick-slider.hk-slider-product-media-thumb img {
+    cursor: pointer;
+    margin-bottom: 9px;
+}
 
 
 
