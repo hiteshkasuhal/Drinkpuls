@@ -838,6 +838,10 @@ span.stock_inner {
 .hk-element-sub-option:nth-child(1) {
     padding: 41px 13px 16px;
 }
+.hk-sub-option-title-flex em {
+    font-size: 12px;
+    padding-top: 4px;
+}
 }
 /* product css end */
 
