@@ -91,6 +91,16 @@
     align-items: center;
     gap: 7.8px;
 }
+.hk-product-title .hk-icon-with-text-flex .hk-media.hk-svg:before {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19.5px;
+    height: 19.5px;
+    flex-shrink: 0;
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-heading-icons.webp");
+}
 
 
 
