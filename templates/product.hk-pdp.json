@@ -406,7 +406,7 @@
         "padding_bottom": 80,
         "text_alignment_mobile": "left",
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
+        "padding_bottom_mobile": 40,
         "custom_id": "",
         "custom_class": ""
       }
