@@ -918,6 +918,11 @@ span.stock_inner {
     margin: 30px 0;
     padding: 14px;
 }
+.hk-sub-benifits .hk-element-title {
+    font-size: 24px;
+    letter-spacing: -0.72px;
+    margin-bottom: 10px;
+}
 }
 /* product css end */
 
