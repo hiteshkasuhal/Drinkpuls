@@ -78,6 +78,19 @@
     flex-direction: row-reverse;
     margin-bottom: 7.9px;
 }
+.hk-product-title .hk-icon-with-text-flex .hk-media.hk-svg {
+    border-radius: 2.6px;
+    background: #162036;
+    padding: 6.5px 16.25px;
+    color: #fff;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    gap: 7.8px;
+}
 
 
 
