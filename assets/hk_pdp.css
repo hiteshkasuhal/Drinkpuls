@@ -590,6 +590,17 @@ span.stock_inner {
     flex-direction: column;
     gap: 13px;
 }
+.hk-sub-benifits ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.156px;
+    text-transform: uppercase;
+}
 
 
 
