@@ -3447,6 +3447,10 @@ span.stock_inner {
     font-size: 13px;
     line-height: normal;
 }
+.hk-reviews2-list1-item .hk-element-text:before {
+    width: 12px;
+    height: 12px;
+}
 }
 /* review2 css end */
 
