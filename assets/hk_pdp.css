@@ -859,6 +859,10 @@ span.stock_inner {
     width: 300px;
     max-width: 100%;
 }
+.hk-sub-option-text ul li svg {
+    width: 13.478px;
+    height: unset;
+}
 }
 /* product css end */
 
