@@ -20,6 +20,9 @@
 .hk-slick-slider.hk-slider-product-media-thumb {
     width: 134px;
 }
+.hk-rative.hk-media-main-wrapper {
+    width: calc(100% - 154px);
+}
 
 
 
