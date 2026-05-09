@@ -701,6 +701,11 @@ span.stock_inner {
 .hk-slick-slider.hk-slider-product-media-thumb .slick-slide>div {
     padding-right: 8px;
 }
+.hk-slick-slider.hk-slider-product-media-thumb img {
+    cursor: pointer;
+    margin-bottom: 0px;
+    border-radius: 3px;
+}
 }
 /* product css end */
 
