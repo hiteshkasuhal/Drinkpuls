@@ -3418,6 +3418,11 @@ span.stock_inner {
     margin: 25px 0;
     gap: 16px;
 }
+.hk-reviews2-list1-item {
+    border-radius: 4px;
+    width: 100%;
+    padding: 20px 18px;
+}
 }
 /* review2 css end */
 
