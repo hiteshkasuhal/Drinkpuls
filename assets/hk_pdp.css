@@ -159,6 +159,10 @@
     gap: 14.91px;
     margin: 25px 0px 47px;
 }
+.hk-pre-sale .hk-icon-with-text-flex img {
+    width: 31.2px;
+    height: unset;
+}
 
 
 
