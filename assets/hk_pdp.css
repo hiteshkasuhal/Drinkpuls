@@ -720,6 +720,10 @@ span.stock_inner {
     width: 175px;
     max-width: 100%;
 }
+.hk-product-title .hk-icon-with-text-flex .hk-media.hk-svg:before {
+    width: 15px;
+    height: 15px;
+}
 }
 /* product css end */
 
