@@ -3461,18 +3461,6 @@ span.stock_inner {
     display: block;
     text-align: center;
 }
-.hk-sticky-img {
-    width: 54px;
-    height: 54px;
-    padding: 5px;
-    position: unset;
-    min-width: 54px;
-}
-.hk-sticky-atc-column1 {
-    padding-left: 0px;
-    position: relative;
-    min-height: 0px;
-}
 }
 /* review2 css end */
 
@@ -3567,7 +3555,18 @@ span.stock_inner {
 
 
 @media (max-width: 915px) {
-
+.hk-sticky-img {
+    width: 54px;
+    height: 54px;
+    padding: 5px;
+    position: unset;
+    min-width: 54px;
+}
+.hk-sticky-atc-column1 {
+    padding-left: 0px;
+    position: relative;
+    min-height: 0px;
+}
 }
 /* stikcy css end */
 
