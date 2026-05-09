@@ -498,6 +498,10 @@ span.stock_inner {
     line-height: 125%;
     padding-top: 9px;
 }
+.hk-button.hk-checkout-button:hover {
+    background: transparent;
+    color: #162036;
+}
 
 
 
