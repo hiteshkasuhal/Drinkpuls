@@ -633,6 +633,9 @@ span.stock_inner {
     line-height: normal;
     letter-spacing: -0.416px;
 }
+.hk-pdp-faq .hk-answer {
+    padding: 0 23px 25px;
+}
 
 
 @media (min-width: 915px) {
