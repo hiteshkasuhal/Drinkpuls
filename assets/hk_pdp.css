@@ -1050,6 +1050,51 @@ span.stock_inner {
 .hk-pdp-faq .hk-answer {
     padding: 0 16px 18px;
 }
+.hk-sub-option-sub-badge {
+    height: 26px;
+    font-size: 14px;
+    border-radius: 4px 4px 0 0;
+}
+.hk-free-products-flex {
+    gap: 6px;
+    padding-top: 16px;
+}
+.hk-sub-option-text ul li:before {
+    width: 13.478px;
+    height: 13.478px;
+}
+.hk-free-product-badge {
+    height: 18px;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    border-radius: 4px 4px 0 0;
+}
+.hk-free-product-title {
+    font-size: 12px;
+    padding-top: 6px;
+    padding-bottom: 3px;
+}
+.hk-free-product-image img {
+    width: 64px;
+    height: 64px;
+}
+
+.hk-free-product-text {
+    padding-bottom: 8px;
+    gap: 4px;
+    font-size: 11px;
+    line-height: normal;
+}
+.hk-free-product-text strong {
+    font-size: 10px;
+    width: 42px;
+    height: 14px;
+    border-radius: 4px;
+}
+.hk-free-product-details {
+    max-width: calc(33.33% - (6px) * 2 / 3);
+    border-radius: 4px;
+}
 }
 /* product css end */
 
