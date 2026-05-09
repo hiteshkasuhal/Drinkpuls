@@ -2447,7 +2447,7 @@
       ],
       "name": "Sticky ATC",
       "settings": {
-        "hidden_classes": "Add Your Classes Here",
+        "hidden_classes": ".hk-product-title, .hk-product-media-main-item, .hk-product-text, .hk-product-list ul li, .hk-element-variant, .hk-element-sub-option, .hk-checkout-button",
         "background_color": "#f7f7f7",
         "text_color": "#162036",
         "text_alignment": "left",
