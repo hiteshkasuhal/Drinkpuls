@@ -307,6 +307,16 @@
     align-items: center;
     justify-content: center;
 }
+.hk-sub-option-select {
+    width: 12.48px;
+    height: 12.48px;
+    border-radius: 30px;
+    background: #72D3FF;
+    opacity: 0;
+}
+.hk-element-sub-option.hk-active .hk-sub-option-select {
+    opacity: 1;
+}
 
 
 
