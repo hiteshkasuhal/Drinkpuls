@@ -873,6 +873,10 @@ span.stock_outer {
     width: 14px;
     height: 14px;
 }
+span.stock_inner {
+    width: 7px;
+    height: 7px;
+}
 }
 /* product css end */
 
