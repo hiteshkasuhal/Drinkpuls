@@ -37,6 +37,9 @@
 .hk-slick-slider.hk-slider-product-media-main .slick-list.draggable {
     margin: 0px -10px;
 }
+.hk-slick-slider.hk-slider-product-media-main .slick-slide>div {
+    padding: 0px 10px;
+}
 
 
 
