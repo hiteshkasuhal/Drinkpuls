@@ -3424,6 +3424,11 @@ span.stock_inner {
     width: 100%;
     padding: 20px 18px;
 }
+.hk-reviews2-list1-item .hk-media.hk-svg {
+    font-size: 13px;
+    gap: 7px;
+    padding-bottom: 15px;
+}
 }
 /* review2 css end */
 
