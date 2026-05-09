@@ -3056,6 +3056,11 @@ span.stock_inner {
     height: 83px;
     padding: 5px;
 }
+.hk-sticky-atc-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
