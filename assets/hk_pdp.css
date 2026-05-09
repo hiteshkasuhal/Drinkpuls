@@ -3075,6 +3075,9 @@ span.stock_inner {
     width: 0px;
     height: 0px;
 }
+.hk-sticky-button a {
+    margin-left: auto;
+}
 
 
 
