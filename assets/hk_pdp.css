@@ -136,6 +136,8 @@
     letter-spacing: -0.169px;
     text-transform: uppercase;
     gap: 6.5px;
+    display: flex;
+    align-items: center;
 }
 .hk-product-list ul li:before {
     content: "";
@@ -146,6 +148,16 @@
     height: 19.717px;
     flex-shrink: 0;
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-pdt-list1.webp");
+}
+.hk-pre-sale .hk-icon-with-text-flex {
+    border-radius: 5.2px;
+    border: 1px dashed #FF4343;
+    background: #FFF;
+    padding: 12.9px 24.9px;
+    display: flex;
+    align-items: center;
+    gap: 14.91px;
+    margin: 25px 0px 47px;
 }
 
 
