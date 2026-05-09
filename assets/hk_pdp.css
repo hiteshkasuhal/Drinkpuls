@@ -545,6 +545,13 @@ span.stock_inner {
     align-items: center;
     gap: 19.5px;
 }
+.hk-under-cta-icon1 .hk-icon-with-text-flex .hk-element-text:after {
+    content: "|";
+    color: #00000030;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: -3px;
+}
 
 
 
