@@ -334,6 +334,25 @@
     display: block;
     padding-top: 5.2px;
 }
+.hk-sub-option-price {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.hk-sub-option-price {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #FF4343;
+    text-align: right;
+    font-family: Aeonik;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23.4px;
+}
 
 
 
