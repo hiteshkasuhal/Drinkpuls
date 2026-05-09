@@ -11,6 +11,12 @@
 .hk-product-column2 {
     width: 43%;
 }
+.hk-element-product-media {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 20px;
+}
 
 
 
