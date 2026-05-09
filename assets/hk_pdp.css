@@ -896,6 +896,10 @@ span.stock_inner {
 .hk-under-cta-icon1 .hk-icon-with-text-flex .hk-element-text {
     gap: 15px;
 }
+.hk-under-cta-icon .hk-icon-with-text-flex {
+    font-size: 12px;
+    gap: 7px;
+}
 }
 /* product css end */
 
