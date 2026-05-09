@@ -81,7 +81,9 @@ img, video {
     color: transparent !important;
     position: relative !important;
 }
-
+.hk-checkout-button.hk-loading * {
+    opacity: 0;
+}
 
 
 .hk-loading-cart:after {
