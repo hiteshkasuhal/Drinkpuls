@@ -568,6 +568,14 @@ span.stock_inner {
     position: relative;
     color: #fff;
 }
+.hk-sub-benifits .hk-icon-with-text-flex img {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    height: 100%;
+    right: 0px;
+    width: auto;
+}
 
 
 
