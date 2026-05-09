@@ -695,6 +695,9 @@ span.stock_inner {
 .hk-slick-slider.hk-slider-product-media-thumb {
     width: 100%;
 }
+.hk-slick-slider.hk-slider-product-media-thumb img {
+    margin-bottom: 0px;
+}
 }
 /* product css end */
 
