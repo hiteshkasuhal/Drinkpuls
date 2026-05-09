@@ -2624,6 +2624,10 @@ span.stock_inner {
     object-fit: cover;
     object-position: center;
 }
+.hk-how-list1-item-text .hk-element-text strong {
+    font-weight: unset;
+    display: block;
+}
 
 
 
