@@ -734,6 +734,11 @@ span.stock_inner {
     width: 100%;
     margin-bottom: 16px;
 }
+.hk-product-list ul {
+    padding: 12px 12px 15px;
+    gap: 12px;
+
+}
 }
 /* product css end */
 
