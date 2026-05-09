@@ -748,6 +748,11 @@ span.stock_inner {
     width: 15.167px;
     height: 15.167px;
 }
+.hk-pre-sale .hk-icon-with-text-flex {
+    padding: 10px 12px;
+    gap: 10px;
+    margin: 16px 0 41px;
+}
 }
 /* product css end */
 
