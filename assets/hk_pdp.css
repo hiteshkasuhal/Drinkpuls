@@ -323,6 +323,9 @@
 .hk-element-sub-option.hk-active  .hk-sub-option-selector {
     border-color: #72D3FF;
 }
+.hk-sub-option-title-flex strong {
+    font-weight: unset;
+}
 
 
 
