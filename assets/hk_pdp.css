@@ -774,6 +774,10 @@ span.stock_inner {
     margin-bottom: 25px;
     gap: 10px;
 }
+.hk-element-variant {
+    width: calc(33.3% - (10px)*2/3);
+    padding: 9px 5px 7px;
+}
 }
 /* product css end */
 
