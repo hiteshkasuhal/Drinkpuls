@@ -2560,6 +2560,9 @@ span.stock_inner {
     background: #182038;
     backdrop-filter: blur(2px);
 }
+.hk-how-section {
+    padding-top: 50px;
+}
 }
 /* number css end */
 
