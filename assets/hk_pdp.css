@@ -463,6 +463,30 @@ span.stock_inner {
 .hk-element-stock strong {
     font-weight: 500;
 }
+.hk-button {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    width: 100%;
+    min-height: 91px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    text-transform: capitalize;
+    border: 2px solid #162036;
+    gap: 10.4px;
+    border-radius: 5.2px;
+    background: #162036;
+    color: #72D3FF;
+    font-family: Aeonik;
+    font-size: 23.4px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.234px;
+    display: unset;
+}
 
 
 
