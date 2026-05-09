@@ -247,6 +247,9 @@
     left: 0px;
     right: 0px;
 }
+.hk-element-variant.hk-active .hk-variant-title {
+    font-weight: 500;
+}
 
 
 
