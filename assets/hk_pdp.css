@@ -30,6 +30,10 @@
 .hk-slick-slider.hk-slider-product-media-thumb .slick-list.draggable {
     padding-bottom: 23px;
 }
+.hk-slick-slider.hk-slider-product-media-main img {
+    border-radius: 7px;
+    cursor: grab;
+}
 
 
 
