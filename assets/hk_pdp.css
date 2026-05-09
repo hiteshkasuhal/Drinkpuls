@@ -3102,6 +3102,26 @@ span.stock_inner {
     text-transform: uppercase;
     padding-bottom: 5px;
 }
+.hk-element-stock {
+    display: flex;
+    justify-content: unset;
+    align-items: center;
+    gap: 7.8px;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 2.6px;
+    background: url();
+    -webkit-backdrop-filter: blur(2.6000001430511475px);
+    backdrop-filter: blur(2.6000001430511475px);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.hk-element-stock strong {
+    font-weight: 500;
+    color: #425F02;
+}
 
 
 
