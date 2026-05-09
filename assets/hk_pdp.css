@@ -1379,6 +1379,10 @@ span.stock_inner {
 .hk-reviews-slider ul.slick-dots {
     margin-left: 0;
 }
+.hk-reviews-slide .hk-review-card-rich-text {
+    font-size: 14px;
+    line-height: 18px;
+}
 }
 /* reviews css end */
 
