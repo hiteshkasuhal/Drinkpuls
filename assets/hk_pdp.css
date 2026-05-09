@@ -3410,6 +3410,15 @@ span.stock_inner {
 .hk-reviews2-section {
     padding-top: 95px;
 }
+.hk-reviews2-text1 {
+    color: #000;
+    text-align: left;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    margin: 10px 0 25px;
+}
 }
 /* review2 css end */
 
