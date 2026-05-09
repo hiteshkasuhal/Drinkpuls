@@ -3457,6 +3457,10 @@ span.stock_inner {
     letter-spacing: -0.3px;
     width: 100%;
 }
+.hk-pdp-review2-links a {
+    display: block;
+    text-align: center;
+}
 }
 /* review2 css end */
 
