@@ -3034,6 +3034,9 @@ span.stock_inner {
 .hk-table-box-item ul {
     flex-direction: column;
 }
+.hk-table-box {
+    margin: 84px 0 0px;
+}
 }
 /* table css end */
 
