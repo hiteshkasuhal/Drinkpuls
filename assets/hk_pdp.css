@@ -3093,6 +3093,15 @@ span.stock_inner {
     top: 0px;
     left: 0px;
 }
+.hk-sticky-title h2 {
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -1.32px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
 
 
 
