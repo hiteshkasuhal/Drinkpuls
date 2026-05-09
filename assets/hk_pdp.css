@@ -797,6 +797,12 @@ span.stock_inner {
 .hk-element-variant:nth-child(2) .hk-variant-image img {
     padding: 0px 0;
 }
+.hk-variant-badge {
+    font-size: 12px;
+    bottom: 100%;
+    min-height: 18px;
+    width: 100%;
+}
 }
 /* product css end */
 
