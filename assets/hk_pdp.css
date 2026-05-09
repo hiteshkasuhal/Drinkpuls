@@ -744,6 +744,10 @@ span.stock_inner {
     letter-spacing: -0.13px;
     gap: 5px;
 }
+.hk-product-list ul li:before {
+    width: 15.167px;
+    height: 15.167px;
+}
 }
 /* product css end */
 
