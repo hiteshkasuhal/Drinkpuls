@@ -487,6 +487,17 @@ span.stock_inner {
     letter-spacing: -0.234px;
     display: unset;
 }
+.hk-button.hk-checkout-button em {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    padding-top: 9px;
+}
 
 
 
