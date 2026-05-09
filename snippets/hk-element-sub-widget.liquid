@@ -36,49 +36,19 @@
 </span>
 </span>
 
+
+
+
+<span class="hk-free-products-flex">
+
+{% if block.settings.free_product1 != blank %}
+{% assign free_product = block.settings.free_product1 %}
+{% render 'hk-free-product', free_product:free_product %}
+{% endif %}
+</span>
+
 {% if block.settings.sub_text != blank %}
 <span class="hk-sub-option-text">{{ block.settings.sub_text  }}</span>
-{% endif %}
-{% if block.settings.free_product != blank and block.settings.free_product.available %}
-{% assign free_product = block.settings.free_product %}
-<span class="hk-free-product-details" variant_id="{{ free_product.selected_or_first_available_variant.id }}">
-{% if block.settings.free_image != blank %}
-{% if block.settings.free_image_mobile != blank %}
-<span class="hk-free-product-image hk-hide-desktop">
-{{ block.settings.free_image_mobile | image_url: width: 200 | image_tag:
-  loading: 'lazy',
-  fetchpriority: 'low',
-  alt:block.settings.free_image_mobile.alt,
-  widths: '375, 550, 750, 800'
-}} 
-</span>
-<span class="hk-free-product-image hk-hide-mobile">
-{{ block.settings.free_image | image_url: width: 200 | image_tag:
-  loading: 'lazy',
-  fetchpriority: 'low',
-  alt:block.settings.free_image.alt,
-  widths: '375, 550, 750, 800'
-}} 
-</span>
-{% else %}
-<span class="hk-free-product-image">
-{{ block.settings.free_image | image_url: width: 200 | image_tag:
-  loading: 'lazy',
-  fetchpriority: 'low',
-  alt:block.settings.free_image.alt,
-  widths: '375, 550, 750, 800'
-}} 
-</span>
-{% endif %}
-{% endif %}
-{% if block.settings.free_title != blank %}
-<span class="hk-free-product-title">{{ block.settings.free_title }}</span>
-{% endif %}
-{% assign price = free_product.selected_or_first_available_variant.price | money %}
-{% if block.settings.free_text != blank %}
-<span class="hk-free-product-text">{{ block.settings.free_text | replace:'[price]',price }}</span>
-{% endif %}
-</span>
 {% endif %}
 </button> 
 
