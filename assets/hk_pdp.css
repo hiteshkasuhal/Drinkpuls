@@ -2560,9 +2560,6 @@ span.stock_inner {
     background: #182038;
     backdrop-filter: blur(2px);
 }
-.hk-how-section {
-    padding-top: 50px;
-}
 }
 /* number css end */
 
@@ -2638,7 +2635,7 @@ span.stock_inner {
 
 @media (max-width: 915px) {
 .hk-how-section {
-    padding-top: 40px;
+    padding-top: 50px;
 }
 }
 /* how css end */
