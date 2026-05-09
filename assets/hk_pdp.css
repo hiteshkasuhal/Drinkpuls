@@ -277,6 +277,12 @@
 .hk-element-sub-option:nth-child(1) {
     padding: 54px 25px 21px;
 }
+.hk-sub-option-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 
 
