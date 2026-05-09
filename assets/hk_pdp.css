@@ -229,6 +229,24 @@
 .hk-element-variant {
     position: relative;
 }
+.hk-variant-badge {
+    color: #162036;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    bottom: calc(100%);
+    border-radius: 5.2px 5.2px 0 0;
+    background: #72D3FF;
+    min-height: 23.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+}
 
 
 
