@@ -576,6 +576,14 @@ span.stock_inner {
     right: 0px;
     width: auto;
 }
+.hk-sub-benifits .hk-element-title {
+    font-size: 31.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.936px;
+    margin-bottom: 12px;
+}
 
 
 
