@@ -3061,6 +3061,9 @@ span.stock_inner {
     align-items: center;
     justify-content: space-between;
 }
+.hk-sticky-atc-column {
+    width: 50%;
+}
 
 
 
