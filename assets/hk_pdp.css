@@ -3296,6 +3296,11 @@ span.stock_inner {
     width: 100%;
     padding-top: 16px;
 }
+.hk-MBG-section-img2 img {
+    position: unset;
+    width: 89%;
+    margin: 0px auto -127px;
+}
 }
 /* MBG css end */
 
