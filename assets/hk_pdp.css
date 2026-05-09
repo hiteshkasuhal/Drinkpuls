@@ -537,6 +537,9 @@ span.stock_inner {
     line-height: normal;
     gap: 10.4px;
 }
+.hk-under-cta-icon2 .hk-icon-with-text-flex img {
+    height: 15.6px;
+}
 
 
 
