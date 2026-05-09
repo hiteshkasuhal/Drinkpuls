@@ -2879,10 +2879,6 @@ span.stock_inner {
 .one-table-item1 .one-table-bottom-p {
     text-align: left;
 }
-.hk-one-list1 .hk-element-icon-with-text-grid {
-    gap: 10px;
-    margin-top: 30px;
-}
 .hk-one-list1-item .hk-icon-with-text-flex {
     font-size: 12px;
     letter-spacing: -0.12px;
@@ -2896,6 +2892,14 @@ span.stock_inner {
 .hk-one-list1-item .hk-icon-with-text-flex strong {
     display: block;
     font-weight: unset;
+}
+.hk-one-list1 .hk-element-icon-with-text-grid {
+    gap: 10px;
+    margin-top: 30px;
+    justify-content: space-between;
+    width: 303px;
+    margin: 30px auto 0px;
+    max-width: 100%;
 }
 }
 /* one css end */
