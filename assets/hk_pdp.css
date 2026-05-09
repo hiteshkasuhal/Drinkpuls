@@ -711,6 +711,9 @@ span.stock_inner {
     width: calc(100% + 16px);
     padding-right: 39px;
 }
+.hk-product-title .hk-icon-with-text-flex {
+    margin-bottom: 12px;
+}
 }
 /* product css end */
 
