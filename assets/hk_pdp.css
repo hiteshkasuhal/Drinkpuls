@@ -101,6 +101,14 @@
     flex-shrink: 0;
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-heading-icons.webp");
 }
+.hk-product-title .hk-icon-with-text-flex .hk-element-title {
+    color: #162036;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -1.8px;
+}
 
 
 
