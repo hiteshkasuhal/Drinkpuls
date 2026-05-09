@@ -77,13 +77,6 @@ $(document).on("click", "a[href='#reviews']", function (e) {
     behavior: 'smooth'
   })
 });
-$(document).on("click", "a[href='#']", function (e) {
-  e.preventDefault();
-  document.querySelector('.hk-product-label').scrollIntoView({
-    behavior: 'smooth'
-  })
-});
-
 
 $(document).on("click", ".hk-mobile-menu-button", function (e) {
     $('.hk-drawer-menu').addClass('active');

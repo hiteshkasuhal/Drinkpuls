@@ -85,3 +85,12 @@ $('.hk-checkout-button').attr('selling_plan',selling_plan);
 $('.hk-checkout-button').removeAttr('selling_plan',);
 }
 });
+
+
+
+$(document).on("click", ".hk-element-variants", function (e) {
+  e.preventDefault();
+  document.querySelector('.hk-product-label').scrollIntoView({
+    behavior: 'smooth'
+  })
+});
