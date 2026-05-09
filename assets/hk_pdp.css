@@ -853,6 +853,12 @@ span.stock_inner {
     font-size: 12px;
     gap: 6px;
 }
+.hk-sub-option-text ul {
+    gap: 12px;
+    margin-top: 19px;
+    width: 300px;
+    max-width: 100%;
+}
 }
 /* product css end */
 
