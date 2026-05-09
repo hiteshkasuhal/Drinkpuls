@@ -888,6 +888,11 @@ span.stock_inner {
     font-size: 12px;
     padding-top: 7px;
 }
+.hk-under-cta-icons .hk-element-icon-with-text-grid {
+    gap: 15px;
+    padding: 9px;
+    margin: 12px 0;
+}
 }
 /* product css end */
 
