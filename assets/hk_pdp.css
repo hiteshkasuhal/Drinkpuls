@@ -790,6 +790,10 @@ span.stock_inner {
     font-size: 12px;
     line-height: 15.558px;
 }
+.hk-variant-image img {
+    height: 74px;
+    padding: 5px 0;
+}
 }
 /* product css end */
 
