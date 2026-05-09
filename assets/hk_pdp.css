@@ -681,6 +681,10 @@ span.stock_inner {
 .hk-rative.hk-media-main-wrapper {
     width: 100%;
 }
+.hk-slick-slider.hk-slider-product-media-main .slick-list.draggable {
+    margin: 0px;
+    width: calc(100% + 16px);
+}
 }
 /* product css end */
 
