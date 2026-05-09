@@ -260,6 +260,15 @@
     gap: 20px;
     margin-bottom: 40px;
 }
+.hk-element-sub-option {
+    position: relative;
+    cursor: pointer;
+    border-radius: 5.2px;
+    border: 1px solid #E4E4E4;
+    background: #fff;
+    text-align: left;
+    padding: 16px 25px;
+}
 
 
 
