@@ -807,6 +807,9 @@ span.stock_inner {
     gap: 12px;
     margin-bottom: 25px;
 }
+.hk-element-sub-option {
+    padding: 13px;
+}
 }
 /* product css end */
 
