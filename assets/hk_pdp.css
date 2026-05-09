@@ -523,6 +523,10 @@ span.stock_inner {
     margin: 15.6px 0px;
     align-items: center;
 }
+.hk-under-cta-icon .hk-icon-with-text-flex img {
+    width: auto;
+    height: 19.994px;
+}
 
 
 
