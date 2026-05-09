@@ -269,6 +269,11 @@
     text-align: left;
     padding: 16px 25px;
 }
+.hk-element-sub-option.hk-active {
+    border-radius: 5.2px 0 5.2px 5.2px;
+    border: 1.3px solid #72D3FF;
+    background: #DFF4FE;
+}
 
 
 
