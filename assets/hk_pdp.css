@@ -724,6 +724,11 @@ span.stock_inner {
     width: 15px;
     height: 15px;
 }
+.hk-product-title .hk-icon-with-text-flex .hk-media.hk-svg {
+    padding: 4px 12px;
+    font-size: 14px;
+    gap: 6px;
+}
 }
 /* product css end */
 
