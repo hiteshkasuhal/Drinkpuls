@@ -356,6 +356,11 @@
 .hk-save-badge {
     display: none;
 }
+.hk-sub-option-price s {
+    color: rgba(0, 0, 0, 0.50);
+    font-weight: 400;
+    display: block;
+}
 
 
 
