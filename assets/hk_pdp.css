@@ -2637,6 +2637,10 @@ span.stock_inner {
 .hk-how-section {
     padding-top: 50px;
 }
+.hk-how-list1 .hk-element-icon-with-text-grid {
+    gap: 8px;
+    margin-top: 25px;
+}
 }
 /* how css end */
 
