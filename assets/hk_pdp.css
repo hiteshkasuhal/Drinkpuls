@@ -936,6 +936,9 @@ span.stock_inner {
     height: 13px;
     flex-shrink: 0;
 }
+.hk-pdp-faq {
+    margin-top: 12px;
+}
 }
 /* product css end */
 
