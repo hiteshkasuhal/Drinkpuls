@@ -505,6 +505,10 @@ span.stock_inner {
 .hk-button.hk-checkout-button .hk-sub-trigger {
     color: #FFF;
 }
+.hk-button.hk-checkout-button .hk-sub-trigger s {
+    font-weight: 400;
+    opacity: 0.5;
+}
 
 
 
