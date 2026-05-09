@@ -2356,7 +2356,16 @@
         "richtext_RJJQUj": {
           "type": "richtext",
           "settings": {
-            "text": "<p><a href=\"#\" title=\"#\">Read More</a></p>",
+            "text": "<p><a href=\"#show\" title=\"#show\">Read More</a></p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-pdp-review2-links"
+          }
+        },
+        "richtext_aUnDcW": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p><a href=\"#less\" title=\"#less\">Read Less</a></p>",
             "font_type": "body",
             "custom_id": "",
             "custom_class": "hk-pdp-review2-links"
@@ -2374,7 +2383,8 @@
         "icon_with_text_item_tmdBBC",
         "icon_with_text_item_FHHD4L",
         "icon_with_text_item_Jgx3Yy",
-        "richtext_RJJQUj"
+        "richtext_RJJQUj",
+        "richtext_aUnDcW"
       ],
       "name": "RichText",
       "settings": {
