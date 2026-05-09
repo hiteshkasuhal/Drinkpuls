@@ -739,6 +739,11 @@ span.stock_inner {
     gap: 12px;
 
 }
+.hk-product-list ul li {
+    font-size: 13px;
+    letter-spacing: -0.13px;
+    gap: 5px;
+}
 }
 /* product css end */
 
