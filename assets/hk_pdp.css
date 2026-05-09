@@ -794,6 +794,9 @@ span.stock_inner {
     height: 74px;
     padding: 5px 0;
 }
+.hk-element-variant:nth-child(2) .hk-variant-image img {
+    padding: 0px 0;
+}
 }
 /* product css end */
 
