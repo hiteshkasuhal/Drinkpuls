@@ -226,6 +226,9 @@
 .hk-element-variant:nth-child(1), .hk-element-variant:nth-child(2) {
     border-radius: 0px 0px 5.2px 5.2px;
 }
+.hk-element-variant {
+    position: relative;
+}
 
 
 
