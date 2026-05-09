@@ -219,6 +219,13 @@
 .hk-element-variant:nth-child(3) .hk-variant-image img {
     padding: 0px;
 }
+.hk-element-variant.hk-active {
+    border-color: #72D3FF;
+    background: rgba(114, 211, 255, 0.22);
+}
+.hk-element-variant:nth-child(1), .hk-element-variant:nth-child(2) {
+    border-radius: 0px 0px 5.2px 5.2px;
+}
 
 
 
