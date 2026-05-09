@@ -2432,7 +2432,7 @@
             "button_link": "",
             "button_label": "ADD TO CART",
             "font_type": "body",
-            "position": "left",
+            "position": "right",
             "custom_id": "",
             "custom_class": "hk-sticky-button"
           }
