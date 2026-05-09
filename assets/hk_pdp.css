@@ -175,6 +175,12 @@
 .hk-pre-sale .hk-icon-with-text-flex p strong {
     font-weight: unset;
 }
+.hk-element-variants {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    gap: 18px;
+}
 
 
 
