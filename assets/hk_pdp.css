@@ -893,6 +893,9 @@ span.stock_inner {
     padding: 9px;
     margin: 12px 0;
 }
+.hk-under-cta-icon1 .hk-icon-with-text-flex .hk-element-text {
+    gap: 15px;
+}
 }
 /* product css end */
 
