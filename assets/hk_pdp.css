@@ -250,6 +250,10 @@
 .hk-element-variant.hk-active .hk-variant-title {
     font-weight: 500;
 }
+.hk-element-variant:nth-child(3) .hk-variant-badge {
+    background: #162036;
+    color: #fff;
+}
 
 
 
