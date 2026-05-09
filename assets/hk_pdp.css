@@ -274,6 +274,9 @@
     border: 1.3px solid #72D3FF;
     background: #DFF4FE;
 }
+.hk-element-sub-option:nth-child(1) {
+    padding: 54px 25px 21px;
+}
 
 
 
