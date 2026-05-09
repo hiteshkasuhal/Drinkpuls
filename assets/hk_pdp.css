@@ -3411,13 +3411,12 @@ span.stock_inner {
     padding-top: 95px;
 }
 .hk-reviews2-text1 {
-    color: #000;
-    text-align: left;
     font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%;
     margin: 10px 0 25px;
+}
+.hk-reviews2-list1 .hk-element-icon-with-text-grid {
+    margin: 25px 0;
+    gap: 16px;
 }
 }
 /* review2 css end */
