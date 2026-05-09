@@ -688,6 +688,9 @@ span.stock_inner {
 .hk-slick-slider.hk-slider-product-media-main .slick-slide>div {
     padding: 0px 8px 0px 0px;
 }
+.hk-element-product-media .hk-slider-button {
+    display: none !important;
+}
 }
 /* product css end */
 
