@@ -3579,6 +3579,14 @@ span.stock_inner {
     align-items: center;
     justify-content: space-between;
 }
+.hk-sticky-button .hk-button {
+    border-radius: 5.2px;
+    min-height: 54px;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    gap: 0px;
+    width: 100%;
+}
 }
 /* stikcy css end */
 
