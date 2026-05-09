@@ -2891,7 +2891,6 @@ span.stock_inner {
 }
 .hk-one-list1-item .hk-icon-with-text-flex strong {
     display: block;
-    font-weight: unset;
 }
 .hk-one-list1 .hk-element-icon-with-text-grid {
     gap: 10px;
@@ -2901,6 +2900,12 @@ span.stock_inner {
     margin: 30px auto 0px;
     max-width: 100%;
 }
+}
+
+
+
+.hk-one-list1-item .hk-icon-with-text-flex strong {
+    font-weight: unset;
 }
 /* one css end */
 
