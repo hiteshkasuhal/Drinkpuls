@@ -127,6 +127,16 @@
     padding: 15.6px 15.6px 19px;
     gap: 15.6px;
 }
+.hk-product-list ul li {
+    color: #162442;
+    font-size: 16.9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.169px;
+    text-transform: uppercase;
+    gap: 6.5px;
+}
 
 
 
