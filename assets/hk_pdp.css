@@ -601,6 +601,16 @@ span.stock_inner {
     letter-spacing: -0.156px;
     text-transform: uppercase;
 }
+.hk-sub-benifits ul li:before {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 16.9px;
+    height: 16.9px;
+    flex-shrink: 0;
+    background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/pdp-pdt-BEchecks.webp);
+}
 
 
 
