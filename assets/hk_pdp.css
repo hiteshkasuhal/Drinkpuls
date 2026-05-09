@@ -3081,6 +3081,7 @@ span.stock_inner {
 .hk-sticky-atc-column1 {
     padding-left: 104px;
     position: relative;
+    min-height: 83px;
 }
 .hk-sticky-img {
     border-radius: 2.6px;
