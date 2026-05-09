@@ -209,9 +209,9 @@
 }
 .hk-variant-image img {
     width: 100%;
-    height: 94px;
+    height: 114px;
     object-fit: contain;
-    margin: 8.5px 0px;
+    padding: 8.5px 0px;
 }
 
 
