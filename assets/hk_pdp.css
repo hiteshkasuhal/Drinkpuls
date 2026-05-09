@@ -2648,6 +2648,10 @@ span.stock_inner {
     min-height: 200px;
     border-radius: 4px;
 }
+.hk-how-list1-item-text img {
+    width: 32px;
+    margin: 0 auto 15px;
+}
 }
 /* how css end */
 
