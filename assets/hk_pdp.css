@@ -3443,6 +3443,10 @@ span.stock_inner {
 .hk-reviews2-list1-item .hk-element-text {
     gap: 5px;
 }
+.hk-reviews2-list1-item .hk-element-text p {
+    font-size: 13px;
+    line-height: normal;
+}
 }
 /* review2 css end */
 
