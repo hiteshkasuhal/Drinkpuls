@@ -22,7 +22,7 @@
 {{ price | money }}{%  if compare_price > price %} <s>{{ compare_price | money }}</s>{% endif %}
 </span>
 {% endcapture %}
-<span class="hk-variant-trigger{% if variant.available %}{% else %} el-sold-out{% endif %}{% if block.settings.active == true %} hk-active{% endif %}" variant_id="{{ variant.id }}"{% if block.settings.active != true %} style="display:none;"{% endif %}>
+<span class="hk-variant-trigger{% if variant.available %}{% else %} hk-sold-out{% endif %}{% if block.settings.active == true %} hk-active{% endif %}" variant_id="{{ variant.id }}"{% if block.settings.active != true %} style="display:none;"{% endif %}>
  {% if variant.available %} {{ button_label | replace:'[price]',price_content }}{% else %}Sold Out{% endif %}
 </span>
 {%  endcase %}
