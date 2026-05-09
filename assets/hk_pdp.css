@@ -661,6 +661,10 @@ span.stock_inner {
 .hk-element-variant.hk-active:nth-child(1) {
     border-radius: 5.2px;
 }
+.hk-variant-badge {
+    width: calc(100% + 2px);
+    left: -1px;
+}
 
 
 @media (min-width: 915px) {
