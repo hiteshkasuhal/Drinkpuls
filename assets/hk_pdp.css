@@ -3587,6 +3587,10 @@ span.stock_inner {
     gap: 0px;
     width: 100%;
 }
+.hk-sticky-button {
+    width: calc(100% - 54px);
+    padding-left: 15px;
+}
 }
 /* stikcy css end */
 
