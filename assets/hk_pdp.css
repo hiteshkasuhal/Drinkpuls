@@ -926,6 +926,11 @@ span.stock_inner {
 .hk-sub-benifits ul {
     gap: 10px;
 }
+.hk-sub-benifits ul li {
+    gap: 4px;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+}
 }
 /* product css end */
 
