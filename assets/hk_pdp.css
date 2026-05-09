@@ -767,6 +767,10 @@ span.stock_inner {
     height: unset;
     min-width: 24px;
 }
+.hk-element-variants {
+    margin-bottom: 25px;
+    gap: 10px;
+}
 }
 /* product css end */
 
