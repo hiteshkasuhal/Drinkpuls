@@ -678,6 +678,9 @@ span.stock_inner {
     flex-direction: column;
     gap: 7.9px;
 }
+.hk-rative.hk-media-main-wrapper {
+    width: 100%;
+}
 }
 /* product css end */
 
