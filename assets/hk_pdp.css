@@ -513,6 +513,16 @@ span.stock_inner {
 .hk-button.hk-checkout-button:hover em {
     color: #162036;
 }
+.hk-under-cta-icons .hk-element-icon-with-text-grid {
+    display: flex;
+    border-radius: 5.2px;
+    background: #F7F7F7;
+    backdrop-filter: blur(2.6000001430511475px);
+    gap: 19.5px;
+    padding: 11px;
+    margin: 15.6px 0px;
+    align-items: center;
+}
 
 
 
