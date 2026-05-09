@@ -3665,8 +3665,9 @@ span.stock_inner {
     transition: all .5s ease;
     transform: translateY(100%);
 }
-
-
+.hk-sticky-atc.hk-active {
+    transform: unset;
+}
 @media (max-width:915px) {
 .hk-big-section {
     background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-reviews-bgmob.webp);
