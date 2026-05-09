@@ -906,6 +906,10 @@ span.stock_inner {
 .hk-under-cta-icon2 .hk-icon-with-text-flex img {
     height: 12px;
 }
+.hk-under-cta-icon1 .hk-icon-with-text-flex .hk-element-text:after {
+    font-size: 16px;
+    margin-top: -3px;
+}
 }
 /* product css end */
 
