@@ -2644,6 +2644,10 @@ span.stock_inner {
 .hk-how-list1-item {
     width: calc(50% - (8px)*1/2);
 }
+.hk-how-list1-item {
+    min-height: 200px;
+    border-radius: 4px;
+}
 }
 /* how css end */
 
