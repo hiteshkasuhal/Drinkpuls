@@ -3540,7 +3540,9 @@ span.stock_inner {
     letter-spacing: -0.39px;
     text-decoration-line: underline;
 }
-
+.hk-reviews2-list1-item:nth-child(3)~.hk-reviews2-list1-item {
+    display: none;
+}
 
 
 @media (min-width: 915px) {
