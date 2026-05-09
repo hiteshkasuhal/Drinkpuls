@@ -826,6 +826,10 @@ span.stock_inner {
     font-size: 16px;
     letter-spacing: -0.48px;
 }
+.hk-sub-option-select {
+    width: 9.6px;
+    height: 9.6px;
+}
 }
 /* product css end */
 
