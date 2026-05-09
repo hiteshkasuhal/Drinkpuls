@@ -619,7 +619,20 @@ span.stock_inner {
 .hk-pdp-faq .hk-question {
     padding: 23px 25px 23px 20px;
 }
-
+.hk-pdp-faq .hk-question:after {
+    content: "+";
+    background-image: unset;
+    width: auto;
+    height: unset;
+    color: #162036;
+    text-align: center;
+    font-family: Aeonik;
+    font-size: 20.8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.416px;
+}
 
 
 @media (min-width: 915px) {
