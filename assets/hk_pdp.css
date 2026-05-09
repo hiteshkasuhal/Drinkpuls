@@ -3078,6 +3078,10 @@ span.stock_inner {
 .hk-sticky-button a {
     margin-left: auto;
 }
+.hk-sticky-atc-column1 {
+    padding-left: 104px;
+    position: relative;
+}
 
 
 
