@@ -3407,7 +3407,9 @@ span.stock_inner {
 
 
 @media (max-width: 915px) {
-
+.hk-reviews2-section {
+    padding-top: 95px;
+}
 }
 /* review2 css end */
 
