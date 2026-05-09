@@ -36,6 +36,7 @@
 {%- for block in section.blocks -%} 
 {%- case block.type -%} 
 {%- when 'variant' -%} 
+{% assign variant = product.variants[index] %}
 <span class="hk-variant-trigger{% if variant.available %}{% else %} el-sold-out{% endif %}{% if block.settings.active == true %} hk-active{% endif %}" variant_id="{{ variant.id }}"{% if block.settings.active != true %} style="display:none;"{% endif %}>
  {% if variant.available %} {{ button_label | replace:'[price]',price_content }}{% else %}Sold Out{% endif %}
 </span>
