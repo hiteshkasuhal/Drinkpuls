@@ -2893,6 +2893,10 @@ span.stock_inner {
     width: 50px;
     height: unset;
 }
+.hk-one-list1-item .hk-icon-with-text-flex strong {
+    display: block;
+    font-weight: unset;
+}
 }
 /* one css end */
 
