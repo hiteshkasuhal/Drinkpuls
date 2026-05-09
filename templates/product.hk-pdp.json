@@ -2365,7 +2365,7 @@
         "richtext_aUnDcW": {
           "type": "richtext",
           "settings": {
-            "text": "<p><a href=\"#less\" title=\"#less\">Read Less</a></p>",
+            "text": "<p><a href=\"#hide\" title=\"#hide\">Read Less</a></p>",
             "font_type": "body",
             "custom_id": "",
             "custom_class": "hk-pdp-review2-links"
