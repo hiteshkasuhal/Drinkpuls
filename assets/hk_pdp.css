@@ -3413,6 +3413,7 @@ span.stock_inner {
 .hk-reviews2-text1 {
     font-size: 14px;
     margin: 10px 0 25px;
+    text-align: left;
 }
 .hk-reviews2-list1 .hk-element-icon-with-text-grid {
     margin: 25px 0;
