@@ -213,6 +213,12 @@
     object-fit: contain;
     padding: 8.5px 0px;
 }
+.hk-element-variant:nth-child(2) .hk-variant-image img {
+    padding: 2px 0px;
+}
+.hk-element-variant:nth-child(3) .hk-variant-image img {
+    padding: 0px;
+}
 
 
 
