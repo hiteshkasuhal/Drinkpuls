@@ -460,6 +460,9 @@ span.stock_inner {
     padding: 10.4px;
     margin-bottom: 18px;
 }
+.hk-element-stock strong {
+    font-weight: 500;
+}
 
 
 
