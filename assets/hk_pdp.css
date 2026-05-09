@@ -939,6 +939,9 @@ span.stock_inner {
 .hk-pdp-faq {
     margin-top: 12px;
 }
+.hk-pdp-faq .hk-question {
+    padding: 18px 25px 18px 16px;
+}
 }
 /* product css end */
 
