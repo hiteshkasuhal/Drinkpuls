@@ -522,10 +522,20 @@ span.stock_inner {
     padding: 11px;
     margin: 15.6px 0px;
     align-items: center;
+    justify-content: center;
 }
 .hk-under-cta-icon .hk-icon-with-text-flex img {
     width: auto;
     height: 19.994px;
+}
+.hk-under-cta-icon .hk-icon-with-text-flex {
+    display: flex;
+    align-items: center;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 10.4px;
 }
 
 
