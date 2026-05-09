@@ -816,7 +816,15 @@ span.stock_inner {
     min-width: 21.6px;
     border-radius: 50px;
     border-width: 3px;
+}
+.hk-sub-option-selector {
     border-color: #BDBDBD;
+}
+.hk-sub-option-title-flex {
+    width: 75%;
+    gap: 8px;
+    font-size: 16px;
+    letter-spacing: -0.48px;
 }
 }
 /* product css end */
