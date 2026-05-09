@@ -1,3 +1,26 @@
+/* product css start */
+.hk-product-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+@media (min-width: 915px) {
+
+}
+
+
+
+@media (max-width: 915px) {
+
+}
+/* product css end */
+
+
+
 /* section1 css start */
 .hk-section1 .hk-image-with-text-content {
     background-position: center;
