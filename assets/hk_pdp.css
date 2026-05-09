@@ -810,11 +810,13 @@ span.stock_inner {
 .hk-element-sub-option {
     padding: 13px;
 }
+.hk-sub-option-selector {
     width: 21.6px;
     height: 21.6px;
     min-width: 21.6px;
     border-radius: 50px;
     border-width: 3px;
+}
 }
 /* product css end */
 
