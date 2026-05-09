@@ -842,6 +842,9 @@ span.stock_inner {
     font-size: 12px;
     padding-top: 4px;
 }
+.hk-element-sub-option.hk-active .hk-sub-option-title-flex {
+    color: #162036;
+}
 }
 /* product css end */
 
