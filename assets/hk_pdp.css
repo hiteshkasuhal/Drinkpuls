@@ -636,6 +636,13 @@ span.stock_inner {
 .hk-pdp-faq .hk-answer {
     padding: 0 23px 25px;
 }
+.hk-pdp-faq3 .hk-answer ul li {
+    list-style-type: none;
+    font-size: 0px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
 
 
 @media (min-width: 915px) {
