@@ -3440,6 +3440,9 @@ span.stock_inner {
 .hk-reviews2-list1-item .hk-element-texts {
     gap: 15px;
 }
+.hk-reviews2-list1-item .hk-element-text {
+    gap: 5px;
+}
 }
 /* review2 css end */
 
