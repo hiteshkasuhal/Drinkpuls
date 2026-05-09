@@ -3047,6 +3047,31 @@ span.stock_inner {
 
 
 
+/* stikcy css start */
+.hk-sticky-img {
+    border-radius: 2.6px;
+    border: 1.3px solid #E6E6E6;
+    background: #FFF;
+    width: 83px;
+    height: 83px;
+    padding: 5px;
+}
+
+
+
+@media (min-width: 915px) {
+
+}
+
+
+
+@media (max-width: 915px) {
+
+}
+/* stikcy css end */
+
+
+
 
 
 
