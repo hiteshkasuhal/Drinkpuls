@@ -1,17 +1,20 @@
 <div class="hk-element hk-element-sub-options {{ block.settings.custom_class }} hk-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
 <button class="hk-element-sub-option hk-active hk-font-body" sub_tab="1">
+{% if block.settings.sub_badge != blank %}
+<span class="hk-sub-option-sub-badge">{{ block.settings.sub_badge }}</span>
+{% endif %}
 <span class="hk-sub-option-inner">
-{% if block.settings.sub_title != blank %}
 <span class="hk-sub-option-title-flex">
 
 <span class="hk-sub-option-selector"><span class="hk-sub-option-select"><svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 37 37" fill="none">
   <path d="M32.3556 0H4.04444C1.81393 0 0 1.81393 0 4.04444V32.3556C0 34.5861 1.81393 36.4 4.04444 36.4H32.3556C34.5861 36.4 36.4 34.5861 36.4 32.3556V4.04444C36.4 1.81393 34.5861 0 32.3556 0ZM16.3133 27.2616L8.6814 19.6297L11.5408 16.7703L16.0423 21.2718L24.7358 10.8391L27.844 13.4276L16.3133 27.2616Z" fill="#CAAD58"/>
 </svg></span></span>
 <span class="hk-sub-option-title-texts">
+{% if block.settings.sub_title != blank %}
 <span class="hk-sub-option-title">{{ block.settings.sub_title }}</span>
-</span>
-</span>
 {% endif %}
+</span>
+</span>
 <span class="hk-sub-option-price">
 {%- for block in section.blocks -%} 
 {%- case block.type -%} 
