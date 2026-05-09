@@ -884,6 +884,10 @@ span.stock_inner {
     font-size: 18px;
     letter-spacing: -0.18px;
 }
+.hk-button.hk-checkout-button em {
+    font-size: 12px;
+    padding-top: 7px;
+}
 }
 /* product css end */
 
