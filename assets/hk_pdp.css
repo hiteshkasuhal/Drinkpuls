@@ -509,6 +509,10 @@ span.stock_inner {
     font-weight: 400;
     opacity: 0.5;
 }
+.hk-button.hk-checkout-button:hover hk-sub-trigger,
+.hk-button.hk-checkout-button:hover em {
+    color: #162036;
+}
 
 
 
