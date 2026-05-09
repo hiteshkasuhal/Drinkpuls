@@ -378,6 +378,15 @@
     line-height: normal;
     gap: 7.8px;
 }
+.hk-sub-option-text ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15.6px 20px;
+    margin-top: 20px;
+    width: 410px;
+    max-width: 100%;
+}
 
 
 
