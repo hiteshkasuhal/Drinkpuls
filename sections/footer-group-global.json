@@ -258,6 +258,18 @@
             "custom_id": "",
             "custom_class": "hk-under-checkout-icon hk-under-checkout-icon2"
           }
+        },
+        "image_jcQN4a": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "image": "shopify://shop_images/HP-footer-brand.webp",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-cart-payment"
+          }
         }
       },
       "block_order": [
@@ -269,7 +281,8 @@
         "checkout_button_beRmPL",
         "icon_with_text_grid_47TMHw",
         "icon_with_text_item_Xckr8R",
-        "icon_with_text_item_RrCnTW"
+        "icon_with_text_item_RrCnTW",
+        "image_jcQN4a"
       ],
       "name": "Cart Drawer",
       "settings": {
