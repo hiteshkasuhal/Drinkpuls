@@ -102,20 +102,15 @@ function updateCartCount2() {
 
     success: function () {
 
-    refreshCartDrawer2();
-    $('.hk-cart-drawer').addClass('active');
-    $('.hk-drawer-cart-bg').show();
-    $('body').addClass('hk-overflow-hidden');
-
     },
 
     complete: function () {
       setTimeout(function () {
         $btn.removeClass('hk-loading');
     refreshCartDrawer2();
-    $('.hk-cart-drawer').removeClass('active');
-    $('.hk-drawer-cart-bg').hide();
-    $('body').removeClass('hk-overflow-hidden');
+    $('.hk-cart-drawer').addClass('active');
+    $('.hk-drawer-cart-bg').show();
+    $('body').addClass('hk-overflow-hidden');
       }, 500);
     }
   });
