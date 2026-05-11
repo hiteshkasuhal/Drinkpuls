@@ -2104,4 +2104,16 @@ body .hk-quantity-main {
     border-radius: 3.949px;
     border: 1px solid rgba(0, 0, 0, 0.20);
 }
+body .hk-quantity-main input {
+    width: 59px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #1B3B23;
+    font-family: Aeonik !important;
+}
 /* cart css end */
