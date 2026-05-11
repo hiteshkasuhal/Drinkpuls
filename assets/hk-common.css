@@ -1996,4 +1996,19 @@ body .hk-quantity-main button {
     line-height: 23.4px;
     letter-spacing: unset;
 }
+.hk-cart-drawer-column2 .hk-button {
+    color: #162036;
+    font-family: 'Aeonik';
+    font-size: 20.8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: unset;
+    text-transform: capitalize;
+    gap: 10.4px;
+    height: 70px;
+    border: 2px solid #72D3FF;
+    border-radius: 5.2px;
+    background: #72D3FF;
+}
 /* cart css end */
