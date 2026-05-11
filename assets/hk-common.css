@@ -2097,4 +2097,11 @@ body .hk-line-item-details .hk-item-title {
 body .hk-line-item-details .hk-item-title a {
     text-decoration: none;
 }
+body .hk-quantity-main {
+    height: 30px;
+    width: 131px;
+    padding: 0px;
+    border-radius: 3.949px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+}
 /* cart css end */
