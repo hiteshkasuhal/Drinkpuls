@@ -2652,5 +2652,9 @@ body .hk-line-item-image img {
     padding-top: 10px;
     height: 97px;
 }
+body .elfree-ship-bar {
+    margin-bottom: 0px;
+    font-size: 13px;
+}
 }
 /* cart css end */
