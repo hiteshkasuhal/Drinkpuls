@@ -2679,5 +2679,9 @@ body .elfree-ship-bar {
     min-height: 23px;
     margin-left: 3px;
 }
+.hk-cart-drawer-column1 .hk-element-stock {
+    gap: 5px;
+    font-size: 14px;
+}
 }
 /* cart css end */
