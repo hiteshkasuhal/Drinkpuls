@@ -2359,5 +2359,8 @@ body .hk-quantity-main input {
     color: #1B3B23;
     font-family: Aeonik !important;
 }
+body .hk-line-item-right .hk-item-price {
+    font-size: 14px;
+}
 }
 /* cart css end */
