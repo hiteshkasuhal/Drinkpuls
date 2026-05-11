@@ -2255,8 +2255,7 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     max-height: 10.799px;
     min-width: 13.799px;
 }
-.hk-cart-drawer.active {
-    right: 0;
+.hk-cart-drawer {
     border-radius: 13px;
     padding: 20px;
     background: transparent;
