@@ -2044,4 +2044,7 @@ body .elfree-ship-filled-bar {
     letter-spacing: unset;
     gap: 0px;
 }
+body .elfree-ship-filled-bar svg {
+    display: none;
+}
 /* cart css end */
