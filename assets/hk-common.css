@@ -1948,4 +1948,13 @@ body .hk-quantity-main button {
 .hk-under-checkout-icon2 img {
     height: 15.6px;
 }
+.hk-under-checkout-icon .hk-icon-with-text-flex {
+    display: flex;
+    align-items: center;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    gap: 8px;
+}
 /* cart css end */
