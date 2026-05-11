@@ -1,4 +1,5 @@
-<div class="hk-line-item" data-key="{{ item.key }}" variant_id="{{ item.variant.id }}" selling_plan="{{ item.variant.selling_plan_allocations.first.selling_plan.id }}">
+<div class="hk-line-item{% if item.selling_plan_allocation %} hk-without-sub{% endif %}" data-key="{{ item.key }}" variant_id="{{ item.variant.id }}" selling_plan="{{ item.variant.selling_plan_allocations.first.selling_plan.id }}"
+quantity="{{ item.quantity }}">
 <div class="hk-line-item-flex">
 <div class="hk-line-item-left">
 <div class="hk-line-item-image">
