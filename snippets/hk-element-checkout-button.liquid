@@ -70,21 +70,6 @@
 
   items.push(item);
 
-  // free gift
- /* var $freeGift = $('.hk-element-sub-option.hk-active .hk-free-product-details');
-
-  if ($freeGift.length) {
-
-    var free_variant_id = $freeGift.attr('variant_id');
-
-    if (free_variant_id) {
-      items.push({
-        id: parseInt(free_variant_id),
-        quantity: 1
-      });
-    }
-  }*/
-
   $.ajax({
     type: 'POST',
     url: '/cart/add.js',
