@@ -2365,5 +2365,8 @@ body .hk-line-item-right .hk-item-price {
 body .hk-line-item-right .hk-product-stock-text p {
     font-size: 14px;
 }
+.hk-cart-drawer-column2 {
+    padding: 15px;
+}
 }
 /* cart css end */
