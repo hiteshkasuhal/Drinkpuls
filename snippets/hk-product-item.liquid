@@ -1,5 +1,6 @@
  {% if  block.settings.product != blank %}
  {% assign product = block.settings.product %}
+ {% assign price = product.selected_or_first_available_variant.price %}
  <div class="hk-element hk-element-icon-with-text-main {{ block.settings.custom_class }} hk-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
 <div class="hk-icon-with-text-flex">
 <div class="hk-element-image">
@@ -43,7 +44,7 @@
 <div class="hk-element-title hk-font-{{ block.settings.font_type_title }}">{{ block.settings.title }}</div>
 {% endif %}
 {%  if block.settings.text != blank %}
-<div class="hk-element-text hk-font-{{ block.settings.font_type_text }}">{{ block.settings.text }}</div>
+<div class="hk-element-text hk-font-{{ block.settings.font_type_text }}">{{ block.settings.text | replace:'[price]',price }}</div>
 {% endif %}
 {% if product.available %}
   <a href="{{ product.url }}" class="hk-card-link"></a>
