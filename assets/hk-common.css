@@ -2208,4 +2208,7 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     width: 0px;
     height: 0px;
 }
+.h-cart-upgrade .hk-element-text p:last-child {
+    display: unset;
+}
 /* cart css end */
