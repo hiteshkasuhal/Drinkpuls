@@ -33,7 +33,16 @@
 <button class="hk-button hk-checkout-button hk-trigger-{{ section.id }} hk-font-body"  variant_id="{{ active_variant.id }}" selling_plan="{{ active_variant.selling_plan_allocations.first.selling_plan.id }}">
   {{ button_content }}
 </button></div>
-<script>$(document).on("click", '.hk-trigger-{{ section.id }}', function (e) {
+<script>
+  function refreshCartDrawer2() {
+  $.get(window.location.href, function (response) {
+    var newContent = $(response).find('.hk-cart-drawer-js').html();
+    $('.hk-cart-drawer-js').html(newContent);
+    $('.hk-cart-drawer-js').removeClass('hk-loading-cart');
+  });
+  
+}
+  $(document).on("click", '.hk-trigger-{{ section.id }}', function (e) {
   e.preventDefault();
 
   var $btn = $(this);
@@ -87,14 +96,14 @@
 
     success: function () {
 
-      // open cart drawer
-    location.href="/cart";
+    refreshCartDrawer2();
 
     },
 
     complete: function () {
       setTimeout(function () {
         $btn.removeClass('hk-loading');
+    refreshCartDrawer2();
       }, 500);
     }
   });
