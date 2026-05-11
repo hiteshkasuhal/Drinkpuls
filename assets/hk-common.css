@@ -1985,7 +1985,7 @@ body .hk-quantity-main button {
     line-height: 23.4px;
     letter-spacing: unset;
 }
-.hk-element-total-main .hk-element-total .hk-cart-price {
+.hk-cart-drawer-column2 .hk-element-total-main .hk-element-total .hk-cart-price {
     display: flex;
     gap: 14px;
     color: #000000;
