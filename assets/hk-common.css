@@ -2396,14 +2396,15 @@ body .hk-line-item-right .hk-product-stock-text p {
     margin: 12px 0px;
     gap: 15px;
 }
-.hk-under-checkout-icon .hk-icon-with-text-flex {
-    display: flex;
-    align-items: center;
+.hk-under-checkout-icon .hk-icon-with-text-flex {;
     font-size: 12px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
     gap: 5px;
+}
+.hk-under-checkout-icon1 {
+    gap: 15px;
+}
+.hk-under-checkout-icon2 img {
+    height: 12px;
 }
 }
 /* cart css end */
