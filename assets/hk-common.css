@@ -2687,8 +2687,8 @@ body .elfree-ship-bar {
     gap: 12px;
 }
 span.stock_inner {
-    width: 7px;
-    height: 7px;
+    width: 5px;
+    height: 5px;
 }
 span.stock_outer {
     width: 12px;
