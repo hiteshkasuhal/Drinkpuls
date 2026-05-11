@@ -2260,7 +2260,16 @@ body .hk-line-item-right .hk-product-stock-text p strong {
 
 @media (max-width: 915px) {
 .hk-cart-drawer-column1 {
-    padding: 15px 15px;
+    padding: 15px;
+}
+.hk-cart-drawer .hk-cart-heading .hk-element-heading {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: unset;
+    text-transform: capitalize;
+    font-family: Aeonik !important;
 }
 }
 /* cart css end */
