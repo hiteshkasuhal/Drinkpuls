@@ -2277,5 +2277,8 @@ body .elfree-ship-filled-bar {
 body .elfree-ship-bar {
     margin-bottom: 20px;
 }
+body .hk-line-item-left {
+    gap: 12px;
+}
 }
 /* cart css end */
