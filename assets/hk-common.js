@@ -277,7 +277,6 @@ $(document).on('click', 'a[href="#upgrade"]', async function(e){
   var selling_plan = $lineItem.attr('selling_plan');
   var quantity = $lineItem.attr('quantity');
   var line_key = $lineItem.attr('data-key');
-  alert(line_key);
   try {
 
     // remove old item
