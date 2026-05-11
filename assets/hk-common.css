@@ -2694,5 +2694,8 @@ span.stock_outer {
     width: 12px;
     height: 12px;
 }
+.elfree-ship-bar-top {
+    height: 3px;
+}
 }
 /* cart css end */
