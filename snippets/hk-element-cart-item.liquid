@@ -58,7 +58,9 @@
   {% endif %}
 <div class="hk-item-price">
   {{ line_price | money }}
-  {% if line_compare_price > line_price %}<s> {{ line_compare_price | money }} </s> {% endif %}
+  {% if line_compare_price > line_price %}<s> {{ line_compare_price | money }} </s> 
+<span class="hk-cart-save-badge">SAVE {{  line_compare_price | minus: line_price | money}}</span>
+{% endif %}
 </div>
 <div class="hk-quantity-main-flex">
 <div class="hk-quantity-main">
