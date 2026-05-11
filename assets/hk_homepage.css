@@ -1917,4 +1917,12 @@
 .hk-big-section {
     background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-reviews-bgmob.webp);
 }
+.one-table-item3 .one-table-top-p {
+    min-height: 35px;
+}
+.one-table-item img {
+    min-height: 35px;
+    object-fit: contain;
+}
+
 }
