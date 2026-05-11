@@ -76,6 +76,7 @@ img, video {
     bottom: 0 !important;
     right: 0 !important;
     z-index: 1 !important;
+    display: block !important;
 }
 .hk-loading {
     color: transparent !important;
