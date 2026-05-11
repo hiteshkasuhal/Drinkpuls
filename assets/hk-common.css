@@ -2267,6 +2267,9 @@ body .hk-line-item-right .hk-product-stock-text p strong {
 .hk-cart-drawer {
     width: 527px;
 }
+body .elfree-ship-filled-bar p {
+    white-space: unset;
+}
 
 
 
