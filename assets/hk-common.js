@@ -167,7 +167,6 @@ function refreshCartDrawer() {
 
 
 
-    removeShippingProtection();
 $(document).on('click', '.hk-cart-drawer-js .hk-quantity-plus, .hk-cart-drawer-js .hk-quantity-minus', function () {
     $('.hk-cart-drawer-js').addClass('hk-loading-cart');
   var $btn = $(this);
