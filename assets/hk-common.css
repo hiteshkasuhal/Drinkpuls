@@ -2352,7 +2352,7 @@ hk-item-properties {
     color: rgba(0, 0, 0, 0.50);
     font-weight: 400;
 }
-span.hk-cart-save-badge {
+.hk-cart-save-badge {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -2366,6 +2366,7 @@ span.hk-cart-save-badge {
     background: #EEFFFA;
     padding: 0px 11px;
     min-height: 29px;
+    margin-left: 5px;
 }
 
 
