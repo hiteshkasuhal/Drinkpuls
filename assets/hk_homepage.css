@@ -1924,5 +1924,9 @@
     min-height: 35px;
     object-fit: contain;
 }
-
+.one-table-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 }
