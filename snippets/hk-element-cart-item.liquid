@@ -47,6 +47,7 @@
       {% endfor %}
     </div>
   {% endif %}
+<div class="hk-quantity-main-flex">
 <div class="hk-quantity-main">
 <button class="hk-quantity-button hk-quantity-minus">
 <svg xmlns="http://www.w3.org/2000/svg" width="8" height="1" viewBox="0 0 8 1" fill="none">
@@ -60,6 +61,14 @@
 </svg>
 </button>
 </div>
+
+<div class="hk-element hk-element-stock-main hk-product-stock hk-global-stock hk-element-stock_GQWYj7">
+<div class="hk-element-stock hk-font-body">
+    <span class="stock_outer"><span class="stock_inner"></span></span>
+    <p>In stock</p></div>
+</div>
+</div>
+
 </div>
 </div>
 <div class="hk-line-item-right">
@@ -71,11 +80,6 @@
       {{ item.variant.compare_at_price | times: item.quantity | money }}
     </s>
   {% endif %}
-</div>
-<div class="hk-element hk-element-stock-main hk-product-stock hk-global-stock hk-element-stock_GQWYj7">
-<div class="hk-element-stock hk-font-body">
-    <span class="stock_outer"><span class="stock_inner"></span></span>
-    <p>In stock</p></div>
 </div>
 </div>
 </div>
