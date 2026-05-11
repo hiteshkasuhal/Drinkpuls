@@ -2047,4 +2047,9 @@ body .elfree-ship-filled-bar {
 body .elfree-ship-filled-bar svg {
     display: none;
 }
+body .hk-line-item-left {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+}
 /* cart css end */
