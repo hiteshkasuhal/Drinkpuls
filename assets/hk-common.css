@@ -2673,5 +2673,11 @@ body .elfree-ship-bar {
     margin: 7px 0px 0px;
     gap: 5px;
 }
+.hk-cart-save-badge {
+    font-size: 12px;
+    padding: 0px 7px;
+    min-height: 23px;
+    margin-left: 3px;
+}
 }
 /* cart css end */
