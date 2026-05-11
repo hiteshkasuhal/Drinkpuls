@@ -2027,4 +2027,21 @@ body .hk-quantity-main button {
 body .hk-cart-drawer .hk-cart-heading .hk-element-heading {
     padding-bottom: 15px;
 }
+body .elfree-ship-bar {
+    background: unset;
+    margin-bottom: 25px;
+}
+body .elfree-ship-filled-bar {
+    background: unset;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 16.9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: unset;
+    gap: 0px;
+}
 /* cart css end */
