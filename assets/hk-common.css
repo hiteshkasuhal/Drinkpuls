@@ -2289,6 +2289,9 @@ body .elfree-ship-filled-bar {
 button.hk-quantity-button.hk-quantity-plus {
     border-left: 1px solid #C8C8C8;
 }
+button.hk-quantity-button.hk-quantity-minus {
+    border-right: 1px solid #C8C8C8;
+}
 
 
 
