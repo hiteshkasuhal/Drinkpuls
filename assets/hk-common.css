@@ -2415,5 +2415,10 @@ body .hk-line-item-right .hk-product-stock-text p {
 .hk-cart-payment img {
     width: 272px;
 }
+.h-cart-upgrade .hk-element-title {
+    font-size: 24px;
+    letter-spacing: -0.72px;
+    padding-bottom: 9px;
+}
 }
 /* cart css end */
