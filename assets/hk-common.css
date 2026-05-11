@@ -2085,4 +2085,16 @@ body .hk-line-item-details {
 body .hk-cart-drawer-column1 .hk-item-rating {
     display: none;
 }
+body .hk-line-item-details .hk-item-title {
+    padding: 0px 0px 3px;
+    font-family: "Bebas Neue";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: -0.78px;
+}
+body .hk-line-item-details .hk-item-title a {
+    text-decoration: none;
+}
 /* cart css end */
