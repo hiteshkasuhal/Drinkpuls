@@ -34,13 +34,34 @@
   {{ button_content }}
 </button></div>
 <script>
-  function refreshCartDrawer2() {
+
+function refreshCartDrawer2() {
   $.get(window.location.href, function (response) {
     var newContent = $(response).find('.hk-cart-drawer-js').html();
     $('.hk-cart-drawer-js').html(newContent);
     $('.hk-cart-drawer-js').removeClass('hk-loading-cart');
+    updateCartCount2();
   });
   
+}
+
+function updateCartCount2() {
+  return fetch('/cart.js')
+    .then(res => res.json())
+    .then(cart => {
+      var count = 0;
+      cart.items.forEach(function (item) {
+          count += item.quantity;
+      });
+      $('.hk-cart-count').text(count);
+      if (count > 0) {
+        $('.hk-cart-count').show();
+      } else {
+        $('.hk-cart-count').hide();
+      }
+      return count;
+    })
+    .catch(err => console.error('Cart count error:', err));
 }
   $(document).on("click", '.hk-trigger-{{ section.id }}', function (e) {
   e.preventDefault();
@@ -82,6 +103,9 @@
     success: function () {
 
     refreshCartDrawer2();
+    $('.el-cart-drawer').removeClass('active');
+    $('.el-drawer-cart-bg').hide();
+    $('body').removeClass('el-overflow-hidden');
 
     },
 
@@ -89,6 +113,9 @@
       setTimeout(function () {
         $btn.removeClass('hk-loading');
     refreshCartDrawer2();
+    $('.el-cart-drawer').removeClass('active');
+    $('.el-drawer-cart-bg').hide();
+    $('body').removeClass('el-overflow-hidden');
       }, 500);
     }
   });
