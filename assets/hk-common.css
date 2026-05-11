@@ -2464,6 +2464,15 @@ span.stock_inner {
     margin-bottom: 0px;
     background: transparent;
 }
+.h-cart-upgrade .hk-media.hk-svg {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.4px;
+    position: absolute;
+    right: 14px;
+    top: 19px;
+}
 
 
 
