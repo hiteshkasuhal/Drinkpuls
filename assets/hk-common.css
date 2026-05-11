@@ -2368,6 +2368,12 @@ hk-item-properties {
     min-height: 29px;
     margin-left: 5px;
 }
+.hk-quantity-main-flex {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 14px;
+}
 
 
 
