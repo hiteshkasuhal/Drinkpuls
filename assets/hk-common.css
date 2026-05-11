@@ -2442,5 +2442,8 @@ body .hk-line-item-right .hk-product-stock-text p {
     gap: 9px;
     transition: all 0.3s ease;
 }
+.h-cart-upgrade .hk-element-text {
+    gap: 9px;
+}
 }
 /* cart css end */
