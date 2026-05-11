@@ -2341,5 +2341,17 @@ body .hk-quantity-main {
     height: 25px;
     width: 102px;
 }
+body .hk-quantity-main input {
+    width: 48px;
+    text-align: center;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: #1B3B23;
+    font-family: Aeonik !important;
+}
 }
 /* cart css end */
