@@ -272,7 +272,7 @@ $(document).on('click', 'a[href="#upgrade"]', async function(e){
 
   e.preventDefault();
     $('.hk-cart-drawer-js').addClass('hk-loading-cart');
-  var $lineItem = $(this).closest('.hk-line-item');
+  var $lineItem = $('.hk-without-sub');
   var variant_id = $lineItem.attr('variant_id');
   var selling_plan = $lineItem.attr('selling_plan');
   var quantity = $lineItem.attr('quantity');
