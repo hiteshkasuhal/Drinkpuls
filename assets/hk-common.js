@@ -130,11 +130,80 @@ $(this).parents('.hk-product').find('.hk-sub-tab[sub_tab="'+sub_tab+'"]').show()
 
 
 
+
 $(document).on("click", ".hk-cart-button", function (e) {
     $('.hk-cart-drawer').addClass('active');
     $('.hk-drawer-cart-bg').show();
     $('body').addClass('hk-overflow-hidden');
 });
+$(document).on("click", ".hk-mobile-cart-close, .hk-drawer-cart-bg, a[href='#close_cart']", function (e) {
+  e.preventDefault();
+    $('.hk-cart-drawer').removeClass('active');
+    $('.hk-drawer-cart-bg').hide();
+    $('body').removeClass('hk-overflow-hidden');
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function refreshCartDrawer() {
+  $.get(window.location.href, function (response) {
+    var newContent = $(response).find('.hk-cart-drawer-js').html();
+    $('.hk-cart-drawer-js').html(newContent);
+    $('.hk-cart-drawer-js').removeClass('hk-loading-cart');
+  });
+  
+}
+
+
+
+    removeShippingProtection();
+$(document).on('click', '.hk-cart-drawer-js .hk-quantity-plus, .hk-cart-drawer-js .hk-quantity-minus', function () {
+    $('.hk-cart-drawer-js').addClass('hk-loading-cart');
+  var $btn = $(this);
+  var $wrapper = $btn.closest('.hk-line-item');
+  var $input = $wrapper.find('.hk-quantity-input');
+
+  var key = $wrapper.data('key');
+  var qty = parseInt($input.val());
+
+  if ($btn.hasClass('hk-quantity-plus')) {
+    qty++;
+  } else {
+    qty--;
+  }
+
+  // update UI instantly
+  $input.val(qty);
+
+  // Shopify AJAX cart update
+  $.ajax({
+    url: '/cart/change.js',
+    type: 'POST',
+    data: {
+      id: key,
+      quantity: qty
+    },
+    dataType: 'json',
+    success: function (cart) {
+        refreshCartDrawer();
+    },
+    error: function (err) {
+      console.error('Cart update failed', err);
+    }
+  });
+});
+
 
 
 
