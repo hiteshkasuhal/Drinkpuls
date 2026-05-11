@@ -2454,5 +2454,9 @@ body .hk-line-item-right .hk-product-stock-text p {
     width: 10.833px;
     height: 10.833px;
 }
+body .hk-line-item-image img {
+    padding-top: 10px;
+    height: 97px;
+}
 }
 /* cart css end */
