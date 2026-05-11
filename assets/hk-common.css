@@ -2656,5 +2656,9 @@ body .elfree-ship-bar {
     margin-bottom: 0px;
     font-size: 13px;
 }
+.hk-element-free-shipping {
+    gap: 15px;
+    margin-bottom: 20px;
+}
 }
 /* cart css end */
