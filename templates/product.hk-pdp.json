@@ -371,9 +371,10 @@
           "type": "faq",
           "settings": {
             "question": "Nutritional Information",
-            "answer": "<ul><li>.</li></ul>",
+            "answer": "",
             "font_type": "body",
             "font_type_answer": "body",
+            "image": "shopify://shop_images/pdp-pdt-faq.webp",
             "custom_id": "",
             "custom_class": "hk-global-faq hk-pdp-faq hk-pdp-faq3"
           }
