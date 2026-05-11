@@ -2476,6 +2476,12 @@ span.stock_inner {
 .hk-element-total-main .hk-element-total p {
     font-weight: 500;
 }
+.hk-cart-drawer-column2 .hk-element-total-main .hk-element-total .hk-cart-price {
+    font-weight: 500;
+}
+.hk-element-total-main .hk-element-total .hk-cart-price s {
+    color: #00000080;
+}
 
 
 
