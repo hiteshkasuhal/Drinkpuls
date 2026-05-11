@@ -3842,7 +3842,9 @@ span.stock_inner {
 body {
     padding-bottom: 122px;
 }
-
+.one-table-item ul svg path {
+    fill: #218f0b;
+}
 @media (max-width:915px) {
 .hk-big-section {
     background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-reviews-bgmob.webp);
@@ -3851,6 +3853,18 @@ body {
     padding-bottom: 99px;
 }
 
+.one-table-top-p {
+    min-height: 35px;
+}
+.one-table-item img {
+    min-height: 35px;
+    object-fit: contain;
+}
+.one-table-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 }
 
 
