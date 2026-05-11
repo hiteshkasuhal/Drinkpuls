@@ -2237,4 +2237,22 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     background: transparent;
     color: #72d3ff;
 }
+.h-cart-upgrade .hk-element-text p:last-child a:after {
+    content: "+";
+    width: 13.799px;
+    height: 13.799px;
+    flex-shrink: 0;
+    background: #162036;
+    color: #72d3ff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: unset;
+    padding: 0px 0px 2px;
+    max-height: 10.799px;
+    min-width: 13.799px;
+}
 /* cart css end */
