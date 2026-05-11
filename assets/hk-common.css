@@ -2392,5 +2392,9 @@ body .hk-line-item-right .hk-product-stock-text p {
     height: 15px;
     width: unset;
 }
+.hk-under-checkout-icons .hk-element-icon-with-text-grid {
+    margin: 12px 0px;
+    gap: 15px;
+}
 }
 /* cart css end */
