@@ -1946,4 +1946,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
+.hk-insides-list1-item-width .hk-element-text {
+    width: 111px;
+    max-width: 100%;
+}
 }
