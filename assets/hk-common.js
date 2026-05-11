@@ -227,3 +227,37 @@ $(document).on('click', '.hk-cart-drawer-js .hk-quantity-plus, .hk-cart-drawer-j
 
 
 
+
+
+$(document).on("click", '.hk-atc-js', function (e) {
+  e.preventDefault();
+  var $btn = $(this).addClass('hk-loading');
+  var items = [];
+  var variant_id =  $(this).attr('variant_id');
+  var Item = {
+    id: parseInt(variant_id),
+    quantity: 1
+  };
+  items.push(Item);
+  // Single call to /cart/add.js
+  $.ajax({
+    type: 'POST',
+    url: '/cart/add.js',
+    data: JSON.stringify({ items: items }),
+    dataType: 'json',
+    contentType: 'application/json',
+    success: function () {
+     $('.hk-cart-button').trigger('click');
+     refreshCartDrawer()
+    },
+    complete: function () {
+      setTimeout(function () {
+        $btn.removeClass('hk-loading');
+    refreshCartDrawer();
+    $('.hk-cart-drawer').addClass('active');
+    $('.hk-drawer-cart-bg').show();
+    $('body').addClass('hk-overflow-hidden');
+      }, 500);
+    }
+  });
+});
