@@ -2473,6 +2473,9 @@ span.stock_inner {
     right: 14px;
     top: 19px;
 }
+.hk-element-total-main .hk-element-total p {
+    font-weight: 500;
+}
 
 
 
