@@ -18,7 +18,7 @@
 <!-- Subscription -->
   {% if item.selling_plan_allocation %}
     <div class="hk-item-properties">
-  {{ item.selling_plan_allocation.selling_plan.name }}
+  Subscription: {{ item.selling_plan_allocation.selling_plan.name }}
     </div>
   {% endif %}
  {% if item.properties != blank %}
