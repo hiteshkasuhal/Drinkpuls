@@ -1971,4 +1971,7 @@ body .hk-quantity-main button {
     width: 352px;
     margin: 0px auto;
 }
+.hk-cart-drawer-column2 {
+    padding: 20px 25px;
+}
 /* cart css end */
