@@ -51,6 +51,7 @@
     {
       "breakpoint": 915,
       "settings": {
+  "speed": {{ section.settings.slider_speed_mobile | times: 1000 }},
         "slidesToShow": 1,
         "slidesToScroll": 1
       }
@@ -91,6 +92,7 @@
     {"type":"range","id":"padding_bottom_mobile","min":0,"max":100,"step":1,"unit":"px","label":"Bottom spacing (mobile)","default":0},
     {"type":"header","content":"Slider Settings"},
     {"type": "range","id": "slider_speed","min": 1,"max": 100,"step": 1,"unit": "sec","label": "Slider Scrolling Speed","default": 9,"info":"Time to scroll one Item"},
+    {"type": "range","id": "slider_speed_mobile","min": 1,"max": 100,"step": 1,"unit": "sec","label": "Slider Scrolling Speed (mobile)","default": 9,"info":"Time to scroll one Item"},
     {"type":"header","content":"Advanced"},
     {"type":"text","id":"custom_id","label":"Custom CSS ID","info":"For anchor links or custom styling. Use lowercase with hyphens (e.g., 'about-section')"},{"type":"text","id":"custom_class","label":"Custom CSS class","info":"For additional styling. Separate multiple classes with spaces"}],
     "blocks":[
