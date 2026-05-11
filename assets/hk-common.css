@@ -1934,4 +1934,11 @@ body .hk-quantity-main button {
 
 
 /* cart css start */
+.hk-under-checkout-icons .hk-element-icon-with-text-grid {
+    display: flex;
+    align-items: center;
+    margin: 15.6px 0px;
+    justify-content: center;
+    gap: 19.5px;
+}
 /* cart css end */
