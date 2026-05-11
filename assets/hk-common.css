@@ -2137,4 +2137,19 @@ body .hk-line-item-right .hk-item-price {
     gap: 5.2px;
     padding-bottom: 0px;
 }
+body .hk-line-item-right .hk-product-stock-text p {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: revert-layer;
+    width: fit-content;
+    margin: 0 auto 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: unset;
+    color: #141414;
+    padding: 0px;
+}
 /* cart css end */
