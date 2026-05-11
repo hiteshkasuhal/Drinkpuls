@@ -2668,5 +2668,10 @@ body .elfree-ship-bar {
     font-size: 12px;
     margin-bottom: 3px;
 }
+.hk-item-price {
+    font-size: 14px;
+    margin: 7px 0px 0px;
+    gap: 5px;
+}
 }
 /* cart css end */
