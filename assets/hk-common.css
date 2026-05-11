@@ -2280,5 +2280,9 @@ body .elfree-ship-bar {
 body .hk-line-item-left {
     gap: 12px;
 }
+body .hk-line-item-image {
+    width: 99px;
+    min-width: 99px;
+}
 }
 /* cart css end */
