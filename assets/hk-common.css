@@ -2271,5 +2271,8 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     text-transform: capitalize;
     font-family: Aeonik !important;
 }
+body .elfree-ship-filled-bar {
+    font-size: 13px;
+}
 }
 /* cart css end */
