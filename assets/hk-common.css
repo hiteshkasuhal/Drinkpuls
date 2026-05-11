@@ -2283,7 +2283,9 @@ body .elfree-ship-filled-bar p strong {
     top: 41px;
     right: 41px;
 }
-
+body .elfree-ship-filled-bar {
+    width: 100% !important;
+}
 
 
 
