@@ -2292,6 +2292,15 @@ button.hk-quantity-button.hk-quantity-minus {
 body .hk-line-item-right .hk-product-stock-text p {
     position: relative;
 }
+body .elfree-ship-bar {
+    background: unset;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 16.9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
 
 
 
