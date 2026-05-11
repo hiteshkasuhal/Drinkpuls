@@ -148,9 +148,138 @@
         "custom_id": "",
         "custom_class": "hk-footer"
       }
+    },
+    "hk_cart_drawer_KpFi7q": {
+      "type": "hk-cart-drawer",
+      "blocks": {
+        "heading_3nBK3t": {
+          "type": "heading",
+          "settings": {
+            "text": "Your Cart",
+            "h1": false,
+            "font_type": "heading",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-cart-heading"
+          }
+        },
+        "free_shipping_yJw9dC": {
+          "type": "free_shipping",
+          "settings": {
+            "locked_text": "<p>You’re [price] away from free shipping</p>",
+            "ulocked_text": "<p>Congratulations! You get <strong>FREE shipping</strong></p>",
+            "threshold": 100,
+            "font_type": "body",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "hk-free-shipping-main"
+          }
+        },
+        "cart_items_MttCJ3": {
+          "type": "cart_items",
+          "settings": {
+            "position": "left",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "icon_with_text_ewGxQN": {
+          "type": "icon_with_text",
+          "settings": {
+            "liquid": "Add Your Code Here",
+            "title": "upgrade to Subscribe & Save",
+            "text": "<p>SAVE 26% OFF EVERY ORDER</p><p>FREE SHIPPING</p><p>FREE Gifts every month</p><p>PAUSE OR CANCEL ANYTIME</p><p><a href=\"#upgrade\" title=\"#upgrade\">UPGRADE</a></p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "left",
+            "custom_id": "",
+            "custom_class": "h-cart-upgrade"
+          }
+        },
+        "total_DVUJcR": {
+          "type": "total",
+          "settings": {
+            "total": "<p>Total:</p>",
+            "font_type": "body",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "checkout_button_beRmPL": {
+          "type": "checkout_button",
+          "settings": {
+            "button_link": "",
+            "button_label": "Continue To Secure Checkout",
+            "font_type": "body",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "icon_with_text_grid_47TMHw": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-under-checkout-icons"
+          }
+        },
+        "icon_with_text_item_Xckr8R": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-MBG.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Money-Back Guarantee</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-under-checkout-icon hk-under-checkout-icon1"
+          }
+        },
+        "icon_with_text_item_RrCnTW": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-pdt-card.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>Secure Checkout</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-under-checkout-icon hk-under-checkout-icon2"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3nBK3t",
+        "free_shipping_yJw9dC",
+        "cart_items_MttCJ3",
+        "icon_with_text_ewGxQN",
+        "total_DVUJcR",
+        "checkout_button_beRmPL",
+        "icon_with_text_grid_47TMHw",
+        "icon_with_text_item_Xckr8R",
+        "icon_with_text_item_RrCnTW"
+      ],
+      "name": "Cart Drawer",
+      "settings": {
+        "custom_id": "",
+        "custom_class": ""
+      }
     }
   },
   "order": [
-    "hk_richtext_73LbR8"
+    "hk_richtext_73LbR8",
+    "hk_cart_drawer_KpFi7q"
   ]
 }
