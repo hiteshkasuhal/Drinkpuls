@@ -2301,6 +2301,10 @@ body .elfree-ship-bar {
     font-weight: 500;
     line-height: normal;
 }
+body .elfree-ship-bar strong {
+    color: #72D3FF;
+    font-weight: 700;
+}
 
 
 
