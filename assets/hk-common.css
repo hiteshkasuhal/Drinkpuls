@@ -2233,4 +2233,8 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     gap: 9px;
     transition: all 0.3s ease;
 }
+.h-cart-upgrade .hk-element-text p:last-child a:hover {
+    background: transparent;
+    color: #72d3ff;
+}
 /* cart css end */
