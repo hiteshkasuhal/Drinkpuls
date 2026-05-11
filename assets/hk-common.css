@@ -2388,5 +2388,9 @@ body .hk-line-item-right .hk-product-stock-text p {
 .hk-cart-drawer-column2 .hk-button {
     width: 100%;
 }
+.hk-cart-drawer-column2 .hk-button svg {
+    height: 15px;
+    width: unset;
+}
 }
 /* cart css end */
