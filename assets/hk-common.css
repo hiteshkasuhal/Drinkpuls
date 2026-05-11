@@ -2116,4 +2116,8 @@ body .hk-quantity-main input {
     color: #1B3B23;
     font-family: Aeonik !important;
 }
+body .hk-quantity-main button {
+    cursor: pointer;
+    width: 37px;
+}
 /* cart css end */
