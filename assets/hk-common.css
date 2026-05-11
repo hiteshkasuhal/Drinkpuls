@@ -101,6 +101,7 @@ img, video {
     right: 0 !important;
     z-index: 1 !important;
     background-color: #0000003b !important;
+    display: block !important;
 }
 .hk-loading-cart {
     position: relative;
