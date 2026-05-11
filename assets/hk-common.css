@@ -2420,5 +2420,27 @@ body .hk-line-item-right .hk-product-stock-text p {
     letter-spacing: -0.72px;
     padding-bottom: 9px;
 }
+.h-cart-upgrade .hk-element-text p:last-child a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 97.575px;
+    background: #72D3FF;
+    color: #162036;
+    font-family: 'Aeonik';
+    font-size: 10.614px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 114px;
+    min-height: 34px;
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+    border: 2px solid #72D3FF;
+    gap: 9px;
+    transition: all 0.3s ease;
+}
 }
 /* cart css end */
