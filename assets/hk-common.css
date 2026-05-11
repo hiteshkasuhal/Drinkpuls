@@ -2120,4 +2120,7 @@ body .hk-quantity-main button {
     cursor: pointer;
     width: 37px;
 }
+body .hk-quantity-main {
+    margin-top: 10.4px;
+}
 /* cart css end */
