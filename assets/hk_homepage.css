@@ -1934,7 +1934,10 @@
     border-left: unset;
     border-right: unset;
 }
-
+.hk-big-section .hk-scroll-bar-text3 {
+    background: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(2px) !important;
+}
 @media (max-width:915px) {
 .hk-big-section {
     background-image: url(https://cdn.shopify.com/s/files/1/0907/4953/4535/files/HP-reviews-bgmob.webp);
