@@ -2705,3 +2705,13 @@ span.stock_outer {
 }
 }
 /* cart css end */
+
+
+
+/* cart touchups */
+.hk-item-property, .hk-item-properties {
+    display: none;
+}
+.hk-item-price {
+    margin-top: 0;
+}
