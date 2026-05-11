@@ -2325,5 +2325,8 @@ body .hk-line-item-image {
     top: 30px;
     right: 30px;
 }
+body .hk-line-item-details {
+    width: calc(100% - 111px);
+}
 }
 /* cart css end */
