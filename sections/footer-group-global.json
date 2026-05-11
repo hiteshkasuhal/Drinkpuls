@@ -166,7 +166,7 @@
         "free_shipping_yJw9dC": {
           "type": "free_shipping",
           "settings": {
-            "locked_text": "<p>You’re [price] away from free shipping</p>",
+            "locked_text": "<p>You’re <strong>[price]</strong> away from free shipping</p>",
             "ulocked_text": "<p>Congratulations! You get <strong>FREE shipping</strong></p>",
             "threshold": 100,
             "font_type": "body",

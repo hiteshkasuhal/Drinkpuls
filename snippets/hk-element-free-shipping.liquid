@@ -6,7 +6,7 @@
 {% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
 <div class="hk-element-free-shipping hk-font-{{ block.settings.font_type }}">
   <div class="elfree-ship-bar">
-    <div class="elfree-ship-filled-bar" style="width:{{ cart_total | times: 100 | divided_by: threshold }}%;max-width:100%;">
+    <div class="el-free-ship-filled-bar" style="width:{{ cart_total | times: 100 | divided_by: threshold }}%;max-width:100%;">
     </div>
   </div> 
       {% if remaining > 0 %}
