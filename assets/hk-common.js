@@ -161,11 +161,29 @@ function refreshCartDrawer() {
     var newContent = $(response).find('.hk-cart-drawer-js').html();
     $('.hk-cart-drawer-js').html(newContent);
     $('.hk-cart-drawer-js').removeClass('hk-loading-cart');
+    updateCartCount();
   });
   
 }
 
-
+function updateCartCount() {
+  return fetch('/cart.js')
+    .then(res => res.json())
+    .then(cart => {
+      var count = 0;
+      cart.items.forEach(function (item) {
+          count += item.quantity;
+      });
+      $('.hk-cart-count').text(count);
+      if (count > 0) {
+        $('.hk-cart-count').show();
+      } else {
+        $('.hk-cart-count').hide();
+      }
+      return count;
+    })
+    .catch(err => console.error('Cart count error:', err));
+}
 
 $(document).on('click', '.hk-cart-drawer-js .hk-quantity-plus, .hk-cart-drawer-js .hk-quantity-minus', function () {
     $('.hk-cart-drawer-js').addClass('hk-loading-cart');
