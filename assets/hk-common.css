@@ -2204,4 +2204,8 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     height: 14px;
     background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/cart-bg-check.webp");
 }
+.h-cart-upgrade .hk-element-text p:last-child:before {
+    width: 0px;
+    height: 0px;
+}
 /* cart css end */
