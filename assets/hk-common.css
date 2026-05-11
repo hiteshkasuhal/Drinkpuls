@@ -2322,6 +2322,9 @@ body .elfree-ship-bar strong {
     background: #72D3FF;
     height: 100%;
 }
+body .hk-line-item-left {
+    align-items: flex-start;
+}
 
 
 
