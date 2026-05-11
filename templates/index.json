@@ -291,6 +291,7 @@
         "padding_top_mobile": 9,
         "padding_bottom_mobile": 27,
         "slider_speed": 9,
+        "slider_speed_mobile": 9,
         "custom_id": "",
         "custom_class": "hk-scroll-bar-brand hk-scroll-bar-top hk-hide-desktop"
       }
@@ -476,6 +477,7 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20,
         "slider_speed": 9,
+        "slider_speed_mobile": 9,
         "custom_id": "",
         "custom_class": "hk-scroll-bar-text hk-scroll-bar-text1"
       }
@@ -659,6 +661,7 @@
         "padding_top_mobile": 9,
         "padding_bottom_mobile": 9,
         "slider_speed": 9,
+        "slider_speed_mobile": 9,
         "custom_id": "",
         "custom_class": "hk-scroll-bar-text2"
       }
@@ -962,6 +965,7 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20,
         "slider_speed": 9,
+        "slider_speed_mobile": 9,
         "custom_id": "",
         "custom_class": "hk-scroll-bar-img hk-scroll-bar-img1"
       }
@@ -1342,6 +1346,7 @@
         "padding_top_mobile": 13,
         "padding_bottom_mobile": 13,
         "slider_speed": 9,
+        "slider_speed_mobile": 9,
         "custom_id": "",
         "custom_class": "hk-scroll-bar-text hk-scroll-bar-text3"
       }
@@ -1942,6 +1947,7 @@
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 20,
         "slider_speed": 9,
+        "slider_speed_mobile": 12,
         "custom_id": "",
         "custom_class": "hk-scroll-bar-img hk-scroll-bar-img1"
       }
@@ -2281,6 +2287,7 @@
         "padding_top_mobile": 40,
         "padding_bottom_mobile": 40,
         "slider_speed": 9,
+        "slider_speed_mobile": 9,
         "custom_id": "",
         "custom_class": "hk-scroll-bar-brand"
       }
