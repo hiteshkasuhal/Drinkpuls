@@ -2337,5 +2337,9 @@ body .hk-line-item-details .hk-item-title {
     font-size: 20px;
     letter-spacing: -0.6px;
 }
+body .hk-quantity-main {
+    height: 25px;
+    width: 102px;
+}
 }
 /* cart css end */
