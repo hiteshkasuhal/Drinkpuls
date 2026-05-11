@@ -2274,5 +2274,8 @@ body .hk-line-item-right .hk-product-stock-text p strong {
 body .elfree-ship-filled-bar {
     font-size: 13px;
 }
+body .elfree-ship-bar {
+    margin-bottom: 20px;
+}
 }
 /* cart css end */
