@@ -2406,5 +2406,8 @@ body .hk-line-item-right .hk-product-stock-text p {
 .hk-under-checkout-icon2 img {
     height: 12px;
 }
+.hk-under-checkout-icon img {
+    height: 14px;
+}
 }
 /* cart css end */
