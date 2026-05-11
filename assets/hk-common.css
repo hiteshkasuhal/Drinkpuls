@@ -2264,6 +2264,9 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     border-radius: 13px;
     overflow: hidden;
 }
+.hk-cart-drawer {
+    width: 527px;
+}
 
 
 
