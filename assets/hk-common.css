@@ -2015,4 +2015,16 @@ body .hk-quantity-main button {
     width: 0px;
     height: 0px;
 }
+.hk-cart-drawer .hk-cart-heading .hk-element-heading {
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: unset;
+    text-transform: capitalize;
+    font-family: Aeonik !important;
+}
+body .hk-cart-drawer .hk-cart-heading .hk-element-heading {
+    padding-bottom: 15px;
+}
 /* cart css end */
