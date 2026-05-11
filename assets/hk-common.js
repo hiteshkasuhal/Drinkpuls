@@ -261,3 +261,53 @@ $(document).on("click", '.hk-atc-js', function (e) {
     }
   });
 });
+
+
+
+
+
+
+
+$(document).on('click', 'a[href="#upgrade"]', async function(e){
+
+  e.preventDefault();
+    $('.hk-cart-drawer-js').addClass('hk-loading-cart');
+  var $lineItem = $(this).closest('.hk-line-item');
+  var variant_id = $lineItem.attr('variant_id');
+  var selling_plan = $lineItem.attr('selling_plan');
+  var quantity = $lineItem.attr('quantity');
+  var line_key = $lineItem.attr('data-key');
+  try {
+
+    // remove old item
+    await fetch('/cart/change.js', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        id: line_key,
+        quantity: 0
+      })
+    });
+
+    // add upgraded subscription item
+    await fetch('/cart/add.js', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        items: [{
+          id: parseInt(variant_id),
+          quantity: parseInt(quantity),
+          selling_plan: parseInt(selling_plan)
+        }]
+      })
+    });
+    refreshCartDrawer();
+
+  } catch(err) {
+    console.log(err);
+  }
+});
