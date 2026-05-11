@@ -1957,4 +1957,9 @@ body .hk-quantity-main button {
     line-height: normal;
     gap: 8px;
 }
+.hk-under-checkout-icon1 {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
 /* cart css end */
