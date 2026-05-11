@@ -2697,5 +2697,11 @@ span.stock_outer {
 .elfree-ship-bar-top {
     height: 3px;
 }
+.h-cart-upgrade .hk-media.hk-svg {
+    font-size: 14px;
+    line-height: 18px;
+    right: 14px;
+    top: 15px;
+}
 }
 /* cart css end */
