@@ -2332,6 +2332,11 @@ body .hk-line-item-left {
     line-height: 125%;
     padding-bottom: 12px;
 }
+.hk-item-property, 
+hk-item-properties {
+    font-size: 14px;
+    margin-bottom: 3px;
+}
 
 
 
