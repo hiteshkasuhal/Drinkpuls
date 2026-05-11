@@ -61,6 +61,7 @@
   {% endif %}
   {{  line_price }}
   {{  line_compare_price }}
+  {{  item.original_line_price }}
 <div class="hk-item-price">
   {{ line_price | money }}
   {% if line_compare_price > line_price %}<s> {{ line_compare_price | money }} </s> 
