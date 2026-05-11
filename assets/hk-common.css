@@ -2123,4 +2123,18 @@ body .hk-quantity-main button {
 body .hk-quantity-main {
     margin-top: 10.4px;
 }
+body .hk-line-item-right .hk-item-price {
+    color: #BE1616;
+    font-family: 'Aeonik' !important;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: unset;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 5.2px;
+    padding-bottom: 0px;
+}
 /* cart css end */
