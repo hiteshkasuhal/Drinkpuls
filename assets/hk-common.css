@@ -2371,6 +2371,23 @@ hk-item-properties {
     margin-top: 10px;
     gap: 14px;
 }
+.hk-cart-drawer-column1 .hk-element-stock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.2px;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 2.6px;
+    background: #52dc171f;
+    -webkit-backdrop-filter: blur(2.6000001430511475px);
+    backdrop-filter: blur(2.6000001430511475px);
+    padding: 0px;
+    margin-bottom: 0px;
+    background: transparent;
+}
 
 
 
