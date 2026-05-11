@@ -46,6 +46,7 @@
 <div class="hk-element-text hk-font-{{ block.settings.font_type_text }}">{{ block.settings.text }}</div>
 {% endif %}
 {% if product.available %}
+  <a href="{{ product.url }}" class="hk-card-link"></a>
 <button class="hk-button hk-atc-js" variant_id="{{ product.selected_or_first_available_variant.id }}" quantity="1">Add To Cart <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
   <g clip-path="url(#clip0_1_2498)">
     <path d="M12.1323 24.2646C18.8328 24.2646 24.2646 18.8328 24.2646 12.1323C24.2646 5.43181 18.8328 0 12.1323 0C5.43181 0 0 5.43181 0 12.1323C0 18.8328 5.43181 24.2646 12.1323 24.2646Z" fill="white"/>
