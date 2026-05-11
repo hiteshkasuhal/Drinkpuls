@@ -1962,4 +1962,9 @@ body .hk-quantity-main button {
     align-items: center;
     gap: 19px;
 }
+.hk-under-checkout-icon1:after {
+    content: "|";
+    color: #00000030;
+    font-size: 23px;
+}
 /* cart css end */
