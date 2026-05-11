@@ -2325,6 +2325,13 @@ body .elfree-ship-bar strong {
 body .hk-line-item-left {
     align-items: flex-start;
 }
+.hk-item-subtitle {
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    padding-bottom: 12px;
+}
 
 
 
