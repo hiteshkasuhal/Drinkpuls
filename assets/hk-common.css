@@ -2683,5 +2683,8 @@ body .elfree-ship-bar {
     gap: 5px;
     font-size: 14px;
 }
+.hk-quantity-main-flex {
+    gap: 12px;
+}
 }
 /* cart css end */
