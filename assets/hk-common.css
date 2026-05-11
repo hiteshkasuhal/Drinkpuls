@@ -1977,4 +1977,12 @@ body .hk-quantity-main button {
 .hk-element-total-main .hk-element-total {
     padding: 0px 0px 19px;
 }
+.hk-element-total-main .hk-element-total p {
+    color: #1C1C1C;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.4px;
+    letter-spacing: unset;
+}
 /* cart css end */
