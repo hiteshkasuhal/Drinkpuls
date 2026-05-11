@@ -2330,7 +2330,7 @@ body .hk-line-item-left {
     padding-bottom: 12px;
 }
 .hk-item-property, 
-hk-item-properties {
+.hk-item-properties {
     font-size: 14px;
     margin-bottom: 3px;
 }
@@ -2663,6 +2663,10 @@ body .elfree-ship-bar {
 .hk-item-subtitle {
     font-size: 12px;
     padding-bottom: 10px;
+}
+.hk-item-property, .hk-item-properties {
+    font-size: 12px;
+    margin-bottom: 3px;
 }
 }
 /* cart css end */
