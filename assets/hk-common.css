@@ -2061,4 +2061,8 @@ body .hk-line-item-right {
 .hk-line-item-flex {
     flex-wrap: wrap;
 }
+body .hk-line-item-image {
+    width: 128px;
+    min-width: 128px;
+}
 /* cart css end */
