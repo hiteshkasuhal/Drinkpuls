@@ -2120,9 +2120,6 @@ body .hk-quantity-main button {
     cursor: pointer;
     width: 37px;
 }
-body .hk-quantity-main {
-    margin-top: 10.4px;
-}
 body .hk-line-item-right .hk-item-price {
     color: #BE1616;
     font-family: 'Aeonik' !important;
