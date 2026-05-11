@@ -2079,4 +2079,7 @@ body .hk-line-item-image img {
     padding-top: 20px;
     height: 123px;
 }
+body .hk-line-item-details {
+    width: calc(100% - 144px);
+}
 /* cart css end */
