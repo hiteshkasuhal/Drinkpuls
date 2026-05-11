@@ -1974,4 +1974,7 @@ body .hk-quantity-main button {
 .hk-cart-drawer-column2 {
     padding: 20px 25px;
 }
+.hk-element-total-main .hk-element-total {
+    padding: 0px 0px 19px;
+}
 /* cart css end */
