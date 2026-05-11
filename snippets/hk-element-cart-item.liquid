@@ -54,14 +54,13 @@
   {% assign line_compare_price = item.final_line_price %}
   {% if item.variant.compare_at_price > item.variant.price %}
   {% assign line_compare_price = item.variant.compare_at_price | times:item.quantity %}
+  {% elsif item.variant.price > item.final_line_price %}
+  {% assign line_compare_price = item.variant.price | times:item.quantity %}
   {% else %}
   {% if item.original_line_price > item.final_line_price %}
   {% assign line_compare_price = item.original_line_price %}
     {% endif %}
   {% endif %}
-  {{  line_price }}
-  {{  line_compare_price }}
-  {{  item.original_line_price }}
 <div class="hk-item-price">
   {{ line_price | money }}
   {% if line_compare_price > line_price %}<s> {{ line_compare_price | money }} </s> 
