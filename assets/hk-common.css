@@ -2270,6 +2270,10 @@ body .hk-line-item-right .hk-product-stock-text p strong {
 body .elfree-ship-filled-bar p {
     white-space: unset;
 }
+body .elfree-ship-filled-bar p strong {
+    color: #72D3FF;
+    font-weight: 700;
+}
 
 
 
