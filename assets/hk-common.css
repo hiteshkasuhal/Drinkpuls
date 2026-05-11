@@ -2195,4 +2195,13 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     text-transform: uppercase;
     gap: 5px;
 }
+.h-cart-upgrade .hk-element-text p:before {
+    content: "";
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0907/4953/4535/files/cart-bg-check.webp");
+}
 /* cart css end */
