@@ -2177,4 +2177,9 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     letter-spacing: -0.936px;
     padding-bottom: 10px;
 }
+.h-cart-upgrade .hk-element-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10.4px;
+}
 /* cart css end */
