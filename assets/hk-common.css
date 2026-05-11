@@ -2082,4 +2082,7 @@ body .hk-line-item-image img {
 body .hk-line-item-details {
     width: calc(100% - 144px);
 }
+body .hk-cart-drawer-column1 .hk-item-rating {
+    display: none;
+}
 /* cart css end */
