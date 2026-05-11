@@ -2718,3 +2718,10 @@ span.stock_outer {
 body:has(.hk-item-subscription-cart) .h-cart-upgrade {
     display: none;
 }
+
+
+
+.el-success {
+    padding-top: 10px;
+    font-size: 60%;
+}
