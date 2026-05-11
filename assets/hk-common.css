@@ -2152,4 +2152,7 @@ body .hk-line-item-right .hk-product-stock-text p {
     color: #141414;
     padding: 0px;
 }
+body .hk-line-item-right .hk-product-stock-text p strong {
+    font-weight: unset;
+}
 /* cart css end */
