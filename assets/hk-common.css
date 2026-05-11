@@ -977,3 +977,673 @@ span.hk-countdown-js>span {
 
 
 
+
+
+
+
+
+/* cart css */
+
+body .hk-cart-drawer .hk-cart-heading .hk-element-heading {
+    padding-bottom: 19.5px;
+}
+body .elfree-ship-bar {
+    background: rgba(199, 31, 53, 0.15);
+    margin-bottom: 25px;
+}
+body .elfree-ship-filled-bar {
+    background: #C71F35;
+    padding: 5px 10.4px;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.312px;
+    gap: 7.8px;
+}
+body .elfree-ship-filled-bar svg {
+    width: 18.2px;
+    height: unset;
+    min-width: 18.2px;
+}
+body .hk-line-item-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+body .elfree-ship-filled-bar p {
+    white-space: nowrap;
+}
+body .hk-line-item-right {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+body .hk-line-item-left {
+    display: flex;
+    gap: 16px;
+    width: calc(100% - 150px);
+}
+body .hk-line-item-image {
+    width: 97px;
+    min-width: 97px;
+}
+body .hk-line-item-image img {
+    width: 100%;
+    min-width: unset;
+}
+body .hk-line-item-details {
+    width: calc(100% - 113px);
+    justify-content: flex-start;
+}
+body .hk-item-rating {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 7.8px;
+    color: #1C1C1C;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.312px;
+}
+body .hk-item-rating strong {
+    font-weight: 500;
+}
+body .hk-line-item-details .hk-item-title {
+    color: #1C1C1C;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.364px;
+    text-transform: capitalize;
+    padding: 13.15px 0px;
+}
+body .hk-free-badge {
+    background: #C71F35;
+    color: #FFF;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.312px;
+    width: 71px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.5px;
+}
+body .hk-quantity-main {
+    border-radius: 3.9px;
+    border: 1px solid #E6E6E6;
+    height: 29px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 9px;
+}
+body .hk-quantity-main input {
+    width: 30px;
+    text-align: center;
+    outline: none;
+    border: none;
+    color: #161616;
+    font-family: "Hanken Grotesk";
+    font-size: 14.3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+body .hk-quantity-main button {
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    width: unset;
+    height: unset;
+}
+body .hk-quantity-main button svg path {
+    fill: #161616;
+}
+body .hk-line-item-right .hk-item-price {
+    color: #C71F35;
+    font-family: "Hanken Grotesk";
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.364px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 5.2px;
+    padding-bottom: 15.7px;
+}
+body .hk-line-item-right .hk-item-price s {
+    color: rgba(28, 28, 28, 0.60);
+}
+body .hk-line-item-right .hk-product-stock-text p {
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.312px;
+    width: fit-content;
+    margin: 0 auto 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(137, 221, 99, 0.10);
+    color: #425F02;
+    padding: 4px 5px;
+}
+body .hk-line-item-right .hk-product-stock-text p strong:after {
+    top: 6.9px;
+}
+body .hk-cart-related-heading h2 {
+    color: #1C1C1C;
+    font-size: 19.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: -0.39px;
+    border-top: 1px solid #1C1C1C26;
+    padding-top: 25px;
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+.hk-cart-retaled-products-main .hk-related-grid-item {
+    padding-right: 20px;
+}
+.hk-cart-retaled-products-main .hk-related-product-card-flex {
+    gap: 13px;
+}
+body .hk-cart-retaled-products-main .hk-product-rating {
+    display: none;
+}
+body .hk-cart-retaled-products-main  .hk-related-product-card-left {
+    width: 156px;
+    min-width: 156px;
+}
+body .hk-cart-retaled-products-main  .hk-related-product-card-right {
+    width: calc(100% - 169px);
+}
+body .hk-cart-retaled-products-main .hk-product-title {
+    color: #1C1C1C;
+    font-family: "Hanken Grotesk";
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -0.364px;
+    text-transform: capitalize;
+    padding-bottom: 7.8px;
+}
+body .hk-cart-retaled-products-main .hk-related-product-card-left img {
+    width: 100%;
+    min-width: unset;
+}
+body .hk-product-price-flex .hk-product-price {
+    display: flex;
+    gap: 5.2px;
+    color: #C71F35;
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.312px;
+    text-transform: capitalize;
+    padding-bottom: 7.8px;
+}
+body .hk-product-price-flex .hk-product-price s {
+    color: rgba(28, 28, 28, 0.60);
+}
+body .hk-product-price-flex .hk-product-price-badge {
+    color: #FFF;
+    text-align: center;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.26px;
+    background: #C71F35;
+    padding: 2.5px 5px;
+}
+body .hk-product-bottom-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+body .hk-product-bottom-flex .hk-product-inspired-by {
+    display: flex;
+    flex-direction: column;
+    color: rgba(28, 28, 28, 0.60);
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+    letter-spacing: -0.312px;
+    text-transform: capitalize;
+    gap: 3.9px;
+}
+body .hk-product-bottom-flex .hk-product-inspired-by strong {
+    color: #1C1C1C;
+    font-weight: unset;
+}
+.hk-cart-retaled-products-main .hk-product-bottom-flex button.hk-button {
+    background: #CAAD58;
+    color: #FFF;
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.364px;
+    border: 2px solid #CAAD58;
+    height: 41px;
+}
+.hk-cart-retaled-products-main .hk-product-bottom-flex button.hk-button:hover {
+    background: transparent;
+    color: #b37829;
+}
+.hk-button {
+    cursor: pointer;
+}
+.hk-cart-retaled-products-main .slick-list.draggable {
+    padding-right: 55px;
+    width: calc(100% + 25px);
+}
+.hk-cart-retaled-products-main .hk-related-product-card-flex {
+    cursor: grab;
+}
+body .hk-element-shipping-protection-main {
+    display: flex;
+    padding: 16px 16px 14px 118px;
+    border: 1px solid #CAAD58;
+    background: #fff;
+    position: relative;
+    justify-content: space-between;
+    gap: 7px;
+}
+body .hk-shipping-protection-flex img {
+    width: 107.9px;
+    height: unset;
+}
+body .hk-shipping-protection-left .hk-element-text {
+    width: 90%;
+}
+body .hk-shipping-protection-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #000;
+    text-align: center;
+    font-family: "Hanken Grotesk";
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.4px;
+    letter-spacing: -0.364px;
+    text-align: right;
+}
+.hk-element-total-main .hk-element-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 19px 0px;
+}
+.hk-element-total-main .hk-element-total p {
+    color: #1C1C1C;
+    font-size: 19.5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.4px;
+    letter-spacing: -0.39px;
+}
+.hk-element-total-main .hk-element-total .hk-cart-price {
+    display: flex;
+    gap: 14px;
+    color: rgba(28, 28, 28, 0.60);
+    text-align: right;
+    font-size: 18.2px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.4px;
+    letter-spacing: -0.364px;
+}
+.hk-element-total-main .hk-element-total .hk-cart-price s {
+    color: #000000;
+}
+.hk-cart-drawer-column2 .hk-button {
+    background: #1C1C1C;
+    color: #FFF;
+    font-family: "Hanken Grotesk";
+    font-size: 20.8px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.416px;
+    text-transform: uppercase;
+    gap: 10.4px;
+    height: 78px;
+    border: 2px solid #1C1C1C;
+}
+.hk-cart-drawer-column2 .hk-button:hover {
+    background: transparent;
+    color: #000;
+}
+.hk-cart-drawer-column2 .hk-button:hover svg path, 
+.hk-cart-drawer-column2 .hk-button:hover svg rect {
+    fill: #000;
+}
+.hk-cart-payment-icons {
+    padding-top: 20px;
+}
+.hk-cart-drawer-column2 .hk-cart-under-cta-icons .hk-element-icon-with-text-grid {
+    padding-top: 20.8px;
+}
+.hk-cart-drawer-column2 .hk-cart-under-cta-icons .hk-element-icon-with-text-grid .hk-cart-under-cta-icon:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 20.8px;
+}
+.hk-cart-drawer-column2 .hk-cart-under-cta-icons .hk-element-icon-with-text-grid .hk-cart-under-cta-icon:nth-child(1):after {
+    content: "|";
+    color: #00000030;
+}
+body .hk-product-price-flex .hk-product-price {
+    padding-bottom: 0px;
+}
+body .hk-product-bottom-flex {
+    padding-top: 7.8px;
+}
+
+body .hk-quantity-main button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hk-cart-button {
+    position: relative;
+}
+.hk-cart-count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background: #000;
+    color: #fff;
+    font-size: 10px;
+    border-radius: 100%;
+    line-height: normal;
+    position: absolute;
+    bottom: calc(100% - 10px);
+    left: calc(100% - 10px);
+}
+@media (max-width: 915px) {
+.hk-cart-drawer-column1 {
+    padding: 15px 16px;
+}
+.hk-cart-drawer .hk-cart-heading .hk-element-heading {
+    font-size: 15px;
+    letter-spacing: -0.3px;
+}
+body .hk-cart-drawer .hk-cart-heading .hk-element-heading {
+    padding-bottom: 15px;
+}
+.hk-mobile-cart-close {
+    top: 18px;
+    right: 15px;
+}
+body .elfree-ship-filled-bar {
+    padding: 4px 8px;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    gap: 6px;
+}
+body .elfree-ship-filled-bar svg {
+    width: 14px;
+    height: unset;
+    min-width: 14px;
+}
+body .hk-line-item-image {
+    width: 75px;
+    min-width: 75px;
+}
+body .hk-line-item-left {
+    gap: 12px;
+    width: calc(100% - 100px);
+}
+body .hk-line-item-details {
+    width: calc(100% - 87px);
+}
+body .hk-item-rating {
+    gap: 6px;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+}
+body .hk-item-rating svg {
+    width: 70px;
+    height: unset;
+}
+body .hk-line-item-details .hk-item-title {
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    padding: 10.5px 0;
+}
+body .hk-free-badge {
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    width: 55px;
+    height: 23px;
+    gap: 5px;
+}
+body .hk-free-badge svg {
+    width: 10px;
+    height: unset;
+}
+body .hk-quantity-main {
+    border-radius: 3px;
+    height: 23px;
+    width: 95px;
+    padding: 0 7.5px;
+}
+body .hk-quantity-main input {
+    width: 21px;
+    font-size: 11px;
+}
+body .hk-quantity-main button svg {
+    width: 9px;
+    height: unset;
+}
+body .hk-line-item-right .hk-item-price {
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    gap: 4px;
+    padding-bottom: 11px;
+}
+.hk-product-stock-text p strong {
+    gap: 5px;
+}
+body .hk-line-item-right .hk-product-stock-text p {
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    gap: 5px;
+    padding: 2.5px 7px;
+}
+body .hk-line-item-right .hk-product-stock-text p strong:after {
+    top: 5px;
+}
+body .hk-line-item-grid {
+    gap: 20px;
+}
+.hk-cart-drawer-column2 {
+    padding: 13px 16px;
+}
+body .hk-element-shipping-protection-main {
+    padding: 12px 12px 12px 91px;
+    gap: 7px;
+}
+.hk-shipping-protection-left .hk-element-title {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+.hk-shipping-protection-left .hk-element-text {
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    padding-top: 6px;
+}
+body .hk-shipping-protection-flex img {
+    width: 83px;
+}
+body .hk-shipping-protection-right {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+.hk-shipping-protection-toggle {
+    height: 27px;
+    width: 61px;
+}
+.hk-shipping-protection-toggle-button {
+    width: 21px;
+    height: 21px;
+    left: 2.7px;
+    top: 2px;
+}
+.hk-shipping-protection-toggle-wrapper.active .hk-shipping-protection-toggle-button {
+    left: calc(100% - 23px);
+}
+.hk-element-total-main .hk-element-total {
+    padding: 15px 0;
+}
+.hk-element-total-main .hk-element-total p {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.3px;
+}
+.hk-element-total-main .hk-element-total .hk-cart-price {
+    gap: 11px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+.hk-cart-drawer-column2 .hk-button {
+    font-size: 16px;
+    letter-spacing: -0.32px;
+    gap: 8px;
+    height: 60px;
+}
+.hk-cart-drawer-column2 .hk-button svg {
+    width: 18.24px;
+    height: 18.24px;
+}
+.hk-cart-payment-icons {
+    padding-top: 16px;
+}
+.hk-cart-drawer-column2 .hk-cart-under-cta-icons .hk-element-icon-with-text-grid {
+    padding-top: 16px;
+}
+.hk-cart-drawer-column2 .hk-cart-under-cta-icons .hk-element-icon-with-text-grid .hk-cart-under-cta-icon:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.hk-cart-drawer-column2 .hk-cart-under-cta-icons .hk-element-icon-with-text-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding-top: 25px;
+}
+.hk-cart-drawer-column2 .hk-cart-under-cta-icons .hk-icon-with-text-flex {
+    gap: 6px;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+}
+.hk-cart-drawer-column2 .hk-cart-under-cta-icons .hk-element-icon-with-text-grid {
+    padding-top: 16px;
+}
+body .hk-cart-related-heading h2 {
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    padding-top: 25px;
+    margin-top: 25px;
+    padding-bottom: 16px;
+}
+.hk-cart-retaled-products-main .slick-list.draggable {
+    padding-right: 32px;
+    width: calc(100% + 16px);
+}
+body .hk-cart-retaled-products-main .hk-related-product-card-left {
+    width: 120px;
+    min-width: 120px;
+}
+.hk-cart-retaled-products-main .hk-related-product-card-flex {
+    gap: 10px;
+}
+body .hk-cart-retaled-products-main .hk-related-product-card-right {
+    width: calc(100% - 130px);
+}
+body .hk-cart-retaled-products-main .hk-product-title {
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    padding-bottom: 6px;
+}
+body .hk-product-price-flex .hk-product-price {
+    gap: 4px;
+    font-size: 12px;
+    letter-spacing: -0.24px;
+}
+body .hk-product-price-flex .hk-product-price-badge {
+    font-size: 10px;
+    letter-spacing: -0.2px;
+    padding: 1.5px 4.5px;
+}
+body .hk-product-bottom-flex {
+    padding-top: 6px;
+}
+body .hk-product-bottom-flex .hk-product-inspired-by {
+    font-size: 12px;
+    letter-spacing: -0.24px;
+    gap: 3px;
+}
+body .hk-product-bottom-flex {
+    gap: 10px;
+}
+.hk-cart-retaled-products-main .hk-product-bottom-flex button.hk-button {
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    height: 32px;
+}
+.hk-cart-drawer {
+    max-width: calc(100% - 20px);
+}
+.hk-cart-count {
+    bottom: calc(100% - 7px);
+    left: calc(100% - 7px);
+    width: 14px;
+    height: 14px;
+    font-size: 7px;
+}
+}
+
+
+
+body .hk-quantity-main button {
+    cursor: pointer;
+}
+/* cart css end */
