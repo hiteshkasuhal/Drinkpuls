@@ -2229,5 +2229,8 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     position: absolute;
     bottom: 14px;
     right: 14px;
+    border: 2px solid #72D3FF;
+    gap: 9px;
+    transition: all 0.3s ease;
 }
 /* cart css end */
