@@ -2450,5 +2450,9 @@ body .hk-line-item-right .hk-product-stock-text p {
     letter-spacing: -0.1px;
     gap: 3px;
 }
+.h-cart-upgrade .hk-element-text p:before {
+    width: 10.833px;
+    height: 10.833px;
+}
 }
 /* cart css end */
