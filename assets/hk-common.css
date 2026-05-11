@@ -2344,6 +2344,9 @@ hk-item-properties {
     font-weight: 500;
     line-height: normal;
     margin: 10px 0px 0px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
 }
 .hk-item-price s {
     color: rgba(0, 0, 0, 0.50);
