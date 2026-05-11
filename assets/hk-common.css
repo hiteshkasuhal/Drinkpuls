@@ -1941,4 +1941,8 @@ body .hk-quantity-main button {
     justify-content: center;
     gap: 19.5px;
 }
+.hk-under-checkout-icon img {
+    height: 19px;
+    width: auto;
+}
 /* cart css end */
