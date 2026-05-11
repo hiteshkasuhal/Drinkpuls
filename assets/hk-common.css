@@ -2715,3 +2715,6 @@ span.stock_outer {
 .hk-item-price {
     margin-top: 0;
 }
+body:has(.hk-item-subscription-cart) .h-cart-upgrade {
+    display: none;
+}
