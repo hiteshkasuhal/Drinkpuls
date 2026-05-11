@@ -2332,5 +2332,10 @@ body .hk-line-item-details .hk-item-title a {
     text-decoration: none;
     display: unset;
 }
+body .hk-line-item-details .hk-item-title {
+    padding: 0px 0px 3px;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+}
 }
 /* cart css end */
