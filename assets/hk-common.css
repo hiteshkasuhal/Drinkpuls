@@ -2058,4 +2058,7 @@ body .hk-line-item-right {
     flex-direction: column;
     align-items: flex-end;
 }
+.hk-line-item-flex {
+    flex-wrap: wrap;
+}
 /* cart css end */
