@@ -5,10 +5,11 @@
 {% for item in cart.items %}
   {% if item.variant.compare_at_price > item.variant.price %}
     {% assign line_compare = item.variant.compare_at_price | times: item.quantity %}
+     {% elsif item.variant.price > item.original_line_price %}
+  {% assign line_compare = item.variant.price | times:item.quantity %}
   {% else %}
     {% assign line_compare = item.original_line_price %}
   {% endif %}
-
   {% assign custom_compare_total = custom_compare_total | plus: line_compare %}
 {% endfor %}
 
