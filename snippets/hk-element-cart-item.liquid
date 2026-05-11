@@ -47,6 +47,16 @@
       {% endfor %}
     </div>
   {% endif %}
+  
+<div class="hk-item-price">
+  {{ item.final_line_price | money }}
+
+  {% if item.variant.compare_at_price > item.variant.price %}
+    <s>
+      {{ item.variant.compare_at_price | times: item.quantity | money }}
+    </s>
+  {% endif %}
+</div>
 <div class="hk-quantity-main-flex">
 <div class="hk-quantity-main">
 <button class="hk-quantity-button hk-quantity-minus">
@@ -69,17 +79,6 @@
 </div>
 </div>
 
-</div>
-</div>
-<div class="hk-line-item-right">
-<div class="hk-item-price">
-  {{ item.final_line_price | money }}
-
-  {% if item.variant.compare_at_price > item.variant.price %}
-    <s>
-      {{ item.variant.compare_at_price | times: item.quantity | money }}
-    </s>
-  {% endif %}
 </div>
 </div>
 </div>
