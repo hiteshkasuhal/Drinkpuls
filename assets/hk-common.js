@@ -166,7 +166,7 @@ function refreshCartDrawer() {
   
 }
 
-function updateCartCount2() {
+function updateCartCount() {
   return fetch('/cart.js')
     .then(res => res.json())
     .then(cart => {
