@@ -2316,5 +2316,8 @@ body .hk-line-item-image {
 .hk-cart-drawer {
     max-width: 100%;
 }
+.hk-cart-drawer {
+    padding: 14px;
+}
 }
 /* cart css end */
