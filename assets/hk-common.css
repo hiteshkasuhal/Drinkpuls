@@ -2294,7 +2294,7 @@ body .hk-line-item-right .hk-product-stock-text p {
 }
 body .elfree-ship-bar {
     background: unset;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #000;
     font-size: 16.9px;
     font-style: normal;
@@ -2304,6 +2304,11 @@ body .elfree-ship-bar {
 body .elfree-ship-bar strong {
     color: #72D3FF;
     font-weight: 700;
+}
+.hk-element-free-shipping {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
 }
 
 
