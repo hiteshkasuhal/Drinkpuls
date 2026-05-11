@@ -13,15 +13,15 @@
 {% endfor %}
 
 <div class="hk-cart-price">
+
+  <span class="hk-cart-total-price">
+    {{ cart.total_price | money_without_trailing_zeros }}
+  </span>
   {% if custom_compare_total > cart.total_price %}
     <span class="hk-cart-total-price">
       <s>{{ custom_compare_total | money_without_trailing_zeros }}</s>
     </span>
   {% endif %}
-
-  <span class="hk-cart-total-price">
-    {{ cart.total_price | money_without_trailing_zeros }}
-  </span>
 </div>
 </div>
 </div>
