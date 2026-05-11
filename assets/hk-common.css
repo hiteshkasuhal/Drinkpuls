@@ -2182,4 +2182,17 @@ body .hk-line-item-right .hk-product-stock-text p strong {
     flex-direction: column;
     gap: 10.4px;
 }
+.h-cart-upgrade .hk-element-text p {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Aeonik;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.13px;
+    text-transform: uppercase;
+    gap: 5px;
+}
 /* cart css end */
