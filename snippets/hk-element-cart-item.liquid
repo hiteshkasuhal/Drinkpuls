@@ -16,13 +16,6 @@
 <div class="hk-line-item-details">
 <div class="hk-item-title"><a href="{{ item.product.url }}">{{ item.title }}</a>
 </div>
-<!-- Subscription -->
-  {% if item.selling_plan_allocation %}
-    <div class="hk-item-properties">
-  Subscription: {{ item.selling_plan_allocation.selling_plan.name }}
-    </div>
-  {% endif %}
-
 <!-- Variant Options (Size, Color, etc.) -->
 {% unless item.product.has_only_default_variant %}
   <div class="hk-item-properties">
@@ -33,6 +26,13 @@
     {% endfor %}
   </div>
 {% endunless %}
+<!-- Subscription -->
+  {% if item.selling_plan_allocation %}
+    <div class="hk-item-properties">
+  Subscription: {{ item.selling_plan_allocation.selling_plan.name }}
+    </div>
+  {% endif %}
+
  {% if item.properties != blank %}
     <div class="hk-item-properties">
       {% for p in item.properties %}
@@ -41,7 +41,7 @@
 
         {% unless value == blank or key contains '_' %}
           <div class="hk-item-property">
-            <strong>{{ key }}:</strong> {{ value }}
+          {{ key }}: {{ value }}
           </div>
         {% endunless %}
       {% endfor %}
