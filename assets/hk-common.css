@@ -2362,5 +2362,8 @@ body .hk-quantity-main input {
 body .hk-line-item-right .hk-item-price {
     font-size: 14px;
 }
+body .hk-line-item-right .hk-product-stock-text p {
+    font-size: 14px;
+}
 }
 /* cart css end */
