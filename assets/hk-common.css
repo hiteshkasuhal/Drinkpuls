@@ -2052,4 +2052,10 @@ body .hk-line-item-left {
     gap: 16px;
     width: 100%;
 }
+body .hk-line-item-right {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 /* cart css end */
