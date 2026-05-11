@@ -2211,4 +2211,23 @@ body .hk-line-item-right .hk-product-stock-text p strong {
 .h-cart-upgrade .hk-element-text p:last-child {
     display: unset;
 }
+.h-cart-upgrade .hk-element-text p:last-child a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 97.575px;
+    background: #72D3FF;
+    color: #162036;
+    font-family: 'Aeonik';
+    font-size: 13.799px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17.741px;
+    width: 187px;
+    min-height: 45px;
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
+}
 /* cart css end */
