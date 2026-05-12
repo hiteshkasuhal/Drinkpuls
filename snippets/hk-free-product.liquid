@@ -17,7 +17,7 @@
 </span>
 {% endif %}
 {% capture price_content  %}
-{% assign price = free_product.selected_or_first_available_variant.price | money %}
+{% assign price = free_product.selected_or_first_available_variant.compare_at_price | money %}
 <s>{{ price }}</s>
 {% endcapture %}
 {% if text != blank %}
