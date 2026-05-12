@@ -198,6 +198,7 @@ function refreshCartDrawer() {
 }
 
     removeShippingProtection();
+    updateCartCountExcludeShipping();
 function updateCartCount() {
   return fetch('/cart.js')
     .then(res => res.json())
