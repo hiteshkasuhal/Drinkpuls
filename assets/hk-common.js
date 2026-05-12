@@ -155,9 +155,10 @@ function removeShippingProtection() {
   var variantId = '53900035981639';
 
   $.getJSON('/cart.js', function (cart) {
+
     // only 1 item AND it's the shipping product
     if (cart.items.length === 1 && cart.items[0].variant_id == variantId) {
-      
+
       var key = cart.items[0].key;
 
       $.ajax({
@@ -169,15 +170,18 @@ function removeShippingProtection() {
         },
         dataType: 'json',
         success: function () {
-          refreshCartDrawer(); 
+          refreshCartDrawer();
         },
         error: function (err) {
-          refreshCartDrawer(); 
+          refreshCartDrawer();
         }
       });
-  });
-}
 
+    }
+
+  });
+
+}
 
 
 
