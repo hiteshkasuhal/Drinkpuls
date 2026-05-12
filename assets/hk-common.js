@@ -187,7 +187,7 @@ function refreshCartDrawer() {
     var newContent = $(response).find('.hk-cart-drawer-js').html();
     $('.hk-cart-drawer-js').html(newContent);
     $('.hk-cart-drawer-js').removeClass('hk-loading-cart');
-    updateCartCount();
+    updateCartCountExcludeShipping();
   });
   
 }
@@ -210,6 +210,39 @@ function updateCartCount() {
     })
     .catch(err => console.error('Cart count error:', err));
 }
+
+
+
+function updateCartCountExcludeShipping() {
+  return fetch('/cart.js')
+    .then(res => res.json())
+    .then(cart => {
+
+      var shippingVariantId = '53900035981639';
+
+      var count = 0;
+
+      cart.items.forEach(function (item) {
+        // exclude shipping protection
+        if (item.variant_id != shippingVariantId) {
+          count += item.quantity;
+        }
+      });
+
+      $('.el-cart-count').text(count);
+
+      if (count > 0) {
+        $('.el-cart-count').show();
+      } else {
+        $('.el-cart-count').hide();
+      }
+
+      return count;
+    })
+    .catch(err => console.error('Cart count error:', err));
+}
+
+
 
 $(document).on('click', '.hk-cart-drawer-js .hk-quantity-plus, .hk-cart-drawer-js .hk-quantity-minus', function () {
     $('.hk-cart-drawer-js').addClass('hk-loading-cart');
