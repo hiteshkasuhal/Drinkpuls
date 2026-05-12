@@ -49,20 +49,31 @@ function updateCartCount2() {
   return fetch('/cart.js')
     .then(res => res.json())
     .then(cart => {
+
+      var shippingVariantId = '53900035981639';
+
       var count = 0;
+
       cart.items.forEach(function (item) {
+        // exclude shipping protection
+        if (item.variant_id != shippingVariantId) {
           count += item.quantity;
+        }
       });
-      $('.hk-cart-count').text(count);
+
+      $('.el-cart-count').text(count);
+
       if (count > 0) {
-        $('.hk-cart-count').show();
+        $('.el-cart-count').show();
       } else {
-        $('.hk-cart-count').hide();
+        $('.el-cart-count').hide();
       }
+
       return count;
     })
     .catch(err => console.error('Cart count error:', err));
 }
+
   $(document).on("click", '.hk-trigger-{{ section.id }}', function (e) {
   e.preventDefault();
 
