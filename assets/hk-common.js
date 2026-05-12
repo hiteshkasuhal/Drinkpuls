@@ -192,10 +192,12 @@ function refreshCartDrawer() {
     $('.hk-cart-drawer-js').html(newContent);
     $('.hk-cart-drawer-js').removeClass('hk-loading-cart');
     updateCartCountExcludeShipping();
+    removeShippingProtection();
   });
   
 }
 
+    removeShippingProtection();
 function updateCartCount() {
   return fetch('/cart.js')
     .then(res => res.json())
