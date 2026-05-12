@@ -376,3 +376,9 @@ $(document).on('click', 'a[href="#upgrade"]', async function(e){
     console.log(err);
   }
 });
+
+
+
+$(document).on("click", ".hk-remove-fake", function(e) {
+$(this).parents('.hk-line-item').find('.hk-quantity-minus').trigger('click');
+});
