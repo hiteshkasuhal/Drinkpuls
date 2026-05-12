@@ -4,7 +4,11 @@
 {% if item.product.title contains 'Shipping Insurance' %}
 {%  render 'hk-element-cart-item-shipping', block:block,item:item %} 
 {% else %}
+    {% if item.final_line_price > 0 %}
 {%  render 'hk-element-cart-item', block:block,item:item %} 
+    {% else %}
+{%  render 'hk-element-cart-item-free', block:block,item:item %} 
+{%  endif %}
 {%  endif %}
 {% endfor %}
 </div>
