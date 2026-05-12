@@ -2729,3 +2729,41 @@ body:has(.hk-item-subscription-cart) .h-cart-upgrade {
 .hk-line-item[variant_id="53900035981639"] {
     order: 10000;
 }
+
+body .hk-custom-shipping-insurance .hk-line-item-left {
+    gap: 13px;
+}
+body .hk-custom-shipping-insurance .hk-line-item-image {
+    width: 92.664px;
+    height: 92.664px;
+    min-width: 92.664px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body .hk-custom-shipping-insurance .hk-line-item-image img {
+    padding: 0;
+    width: 56.94px;
+    height: 56.94px;
+}
+body .hk-custom-shipping-insurance .hk-line-item-details {
+    width: auto;
+    flex: 1;
+}
+body .hk-custom-shipping-insurance .hk-line-item-details .hk-item-title {
+    font-family: Aeonik;
+    font-size: 16.9px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20.8px;
+}
+.hk-custom-shipping-insurance .hk-item-subtitle {
+    opacity: .8;
+    padding-bottom: 6.5px;
+}
+.hk-custom-shipping-insurance .hk-item-price {
+    color: #000;
+}
+body .hk-custom-shipping-insurance .hk-quantity-main {
+    display: none;
+}
