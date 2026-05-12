@@ -151,6 +151,32 @@ $(document).on("click", ".hk-mobile-cart-close, .hk-drawer-cart-bg, a[href='#clo
 
 
 
+function removeShippingProtection() {
+  var variantId = '53900035981639';
+
+  $.getJSON('/cart.js', function (cart) {
+    // only 1 item AND it's the shipping product
+    if (cart.items.length === 1 && cart.items[0].variant_id == variantId) {
+      
+      var key = cart.items[0].key;
+
+      $.ajax({
+        url: '/cart/change.js',
+        type: 'POST',
+        data: {
+          id: key,
+          quantity: 0
+        },
+        dataType: 'json',
+        success: function () {
+          refreshCartDrawer(); 
+        },
+        error: function (err) {
+          refreshCartDrawer(); 
+        }
+      });
+  });
+}
 
 
 
