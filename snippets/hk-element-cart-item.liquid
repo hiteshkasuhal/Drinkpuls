@@ -4,7 +4,7 @@ quantity="{{ item.quantity }}">
 <div class="hk-line-item-left">
 <div class="hk-line-item-image">
 {% assign feature_image = item.product.featured_image %}
-{% if item.product.featured_image != blank %}
+{% if item.variant.featured_image != blank %}
 {% assign feature_image = item.variant.featured_image %}
 {% endif %}
  {{ feature_image | image_url: width: 200 | image_tag:
