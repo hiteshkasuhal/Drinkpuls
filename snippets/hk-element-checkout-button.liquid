@@ -102,12 +102,13 @@ function updateCartCount2() {
   }
 
   items.push(item);
-
-var free_variant_id = $('.hk-element-sub-option.hk-active .hk-free-product-details:nth-child(1)').attr('variant_id');
+$('.hk-element-sub-option.hk-active .hk-free-product-details:nth-child(1)').each(function(){
+var free_variant_id = $(this).attr('variant_id');
   var free_item = {
     id: parseInt(free_variant_id),
     quantity: 1
   };
+});
 
   items.push(free_item);
 
