@@ -2776,6 +2776,16 @@ body .hk-custom-shipping-insurance .hk-quantity-main {
     line-height: 20.8px;
     cursor: pointer;
 }
+body .hk-custom-shipping-insurance .hk-quantity-main-flex {
+    display: none;
+}
+.hk-item-price-flex {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 100%;
+}
+
 @media (max-width:915px) {
 body .hk-custom-shipping-insurance .hk-line-item-left {
     gap: 10px;
