@@ -2812,3 +2812,8 @@ body .hk-custom-shipping-insurance .hk-line-item-details .hk-item-title {
     line-height: 16px;
 }
 }
+
+.hk-free-item .hk-item-price {
+    align-items: center;
+    color: red;
+}
