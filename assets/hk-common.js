@@ -156,23 +156,45 @@ function removeShippingProtection() {
 
   $.getJSON('/cart.js', function (cart) {
 
-    // only 1 item AND it's the shipping product
-    if (cart.items.length === 1 && cart.items[0].variant_id == variantId) {
+    var hasProtection = false;
+    var otherProductsTotal = 0;
 
-      var key = cart.items[0].key;
+    cart.items.forEach(function (item) {
+
+      if (item.variant_id == variantId) {
+        hasProtection = true;
+      } else {
+        otherProductsTotal += item.final_line_price;
+      }
+
+    });
+
+    // if protection exists AND all other products total is less than 1
+    if (hasProtection && otherProductsTotal < 1) {
 
       $.ajax({
-        url: '/cart/change.js',
+        url: '/cart/clear.js',
         type: 'POST',
-        data: {
-          id: key,
-          quantity: 0
-        },
         dataType: 'json',
         success: function () {
           refreshCartDrawer();
         },
-        error: function (err) {
+        error: function () {
+          refreshCartDrawer();
+        }
+      });
+
+    }
+    if (otherProductsTotal < 1) {
+
+      $.ajax({
+        url: '/cart/clear.js',
+        type: 'POST',
+        dataType: 'json',
+        success: function () {
+          refreshCartDrawer();
+        },
+        error: function () {
           refreshCartDrawer();
         }
       });
