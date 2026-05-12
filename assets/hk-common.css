@@ -2817,3 +2817,7 @@ body .hk-custom-shipping-insurance .hk-line-item-details .hk-item-title {
     align-items: center;
     color: red;
 }
+
+body .hk-custom-shipping-insurance .hk-line-item-left {
+    align-items: center;
+}
