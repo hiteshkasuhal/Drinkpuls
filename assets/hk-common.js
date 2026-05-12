@@ -235,12 +235,12 @@ function updateCartCountExcludeShipping() {
         }
       });
 
-      $('.el-cart-count').text(count);
+      $('.hk-cart-count').text(count);
 
       if (count > 0) {
-        $('.el-cart-count').show();
+        $('.hk-cart-count').show();
       } else {
-        $('.el-cart-count').hide();
+        $('.hk-cart-count').hide();
       }
 
       return count;
