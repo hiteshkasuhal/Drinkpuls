@@ -2725,3 +2725,7 @@ body:has(.hk-item-subscription-cart) .h-cart-upgrade {
     padding-top: 10px;
     font-size: 60%;
 }
+
+.hk-line-item[variant_id="53900035981639"] {
+    order: 10000;
+}
