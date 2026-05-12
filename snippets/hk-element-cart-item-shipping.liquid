@@ -28,8 +28,11 @@ quantity="{{ item.quantity }}">
   {% if item.final_line_price > line_compare_price %}
   {% assign line_compare_price = item.original_line_price %}
     {% endif %}
+<div class="hk-item-price-flex">
 <div class="hk-item-price">
   {{ line_price | money }}
+</div>
+<div class="hk-remove-fake">Remove</div>
 </div>
 <div class="hk-quantity-main-flex">
 <div class="hk-quantity-main">
@@ -45,7 +48,6 @@ quantity="{{ item.quantity }}">
 </svg>
 </button>
 </div>
-<div class="hk-remove-fake">Remove</div>
 </div>
 
 </div>
