@@ -2726,7 +2726,7 @@ body:has(.hk-item-subscription-cart) .h-cart-upgrade {
     font-size: 60%;
 }
 
-.hk-line-item[variant_id="53900035981639"] {
+.hk-line-item.hk-custom-shipping-insurance {
     order: 10000;
 }
 
