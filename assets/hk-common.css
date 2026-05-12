@@ -2767,7 +2767,15 @@ body .hk-custom-shipping-insurance .hk-line-item-details .hk-item-title {
 body .hk-custom-shipping-insurance .hk-quantity-main {
     display: none;
 }
-
+.hk-remove-fake {
+    font-size: 15.6px;
+    font-style: normal;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.80);
+    text-decoration: underline;
+    line-height: 20.8px;
+    cursor: pointer;
+}
 @media (max-width:915px) {
 body .hk-custom-shipping-insurance .hk-line-item-left {
     gap: 10px;
@@ -2789,5 +2797,8 @@ body .hk-custom-shipping-insurance .hk-line-item-details .hk-item-title {
     width: 122px;
     max-width: 100%;
 }
-
+.hk-remove-fake {
+    font-size: 12px;
+    line-height: 16px;
+}
 }
