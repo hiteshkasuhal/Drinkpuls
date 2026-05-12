@@ -1,4 +1,9 @@
 {% assign threshold = block.settings.threshold | times: 100 %}
+{%  for item in cart.items %}
+  {% if item.selling_plan_allocation %}
+    {% assign threshold = 0 | plus: 0 %}
+  {%  endif %}
+{%  endfor %}
 {% assign cart_total = cart.total_price %}
 {% assign remaining = threshold | minus: cart_total %}
 
