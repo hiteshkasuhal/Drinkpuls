@@ -152,7 +152,7 @@ $(document).on("click", ".hk-mobile-cart-close, .hk-drawer-cart-bg, a[href='#clo
 
 
 function removeShippingProtection() {
-  var variantId = '53900035981639';
+  var variantId = 53900035981639;
 
   $.getJSON('/cart.js', function (cart) {
 
@@ -224,7 +224,7 @@ function updateCartCountExcludeShipping() {
     .then(res => res.json())
     .then(cart => {
 
-      var shippingVariantId = '53900035981639';
+      var shippingVariantId = 53900035981639;
 
       var count = 0;
 
