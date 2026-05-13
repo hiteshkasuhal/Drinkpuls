@@ -851,6 +851,19 @@
             "custom_class": ""
           }
         },
+        "scroll_item_aAKhYj": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/Instagram_story_aesthetic_idea.jpg",
+            "liquid": "",
+            "text": "",
+            "image_loading": "eager",
+            "image_performance": "high",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
         "scroll_item_mMdChM": {
           "type": "scroll-item",
           "settings": {
@@ -867,20 +880,7 @@
         "scroll_item_jEbDB6": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/HP-imgslider-img3.webp",
-            "liquid": "",
-            "text": "",
-            "image_loading": "eager",
-            "image_performance": "high",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": ""
-          }
-        },
-        "scroll_item_aAKhYj": {
-          "type": "scroll-item",
-          "settings": {
-            "image": "shopify://shop_images/HP-imgslider-img4.webp",
+            "image": "shopify://shop_images/coffeee.jpg",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
@@ -945,9 +945,9 @@
       },
       "block_order": [
         "scroll_item_Db94qn",
+        "scroll_item_aAKhYj",
         "scroll_item_mMdChM",
         "scroll_item_jEbDB6",
-        "scroll_item_aAKhYj",
         "scroll_item_B7Y7QH",
         "scroll_item_9Wx7y7",
         "scroll_item_eHMdjV",
