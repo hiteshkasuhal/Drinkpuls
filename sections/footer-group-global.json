@@ -73,7 +73,7 @@
         "richtext_HtTLPG": {
           "type": "richtext",
           "settings": {
-            "text": "<ul><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">Shop Now</a></li><li><a href=\"#\" title=\"#\">About Us</a></li><li><a href=\"#\" title=\"#\">Track Your Order</a></li><li><a href=\"#\" title=\"#\">Contact Us</a></li><li><a href=\"#\" title=\"#\">FAQs</a></li></ul>",
+            "text": "<ul><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">Shop Now</a></li><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">About Us</a></li><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">Track Your Order</a></li><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">Contact Us</a></li><li><a href=\"#faq\" title=\"#faq\">FAQs</a></li></ul>",
             "font_type": "body",
             "custom_id": "",
             "custom_class": "hk-footer-menu hk-footer-menu1"
@@ -82,7 +82,7 @@
         "richtext_a3tqmg": {
           "type": "richtext",
           "settings": {
-            "text": "<ul><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy</a></li><li><a href=\"#\" title=\"#\">Refund Policy</a></li><li><a href=\"#\" title=\"#\">Shipping Policy</a></li><li><a href=\"#\" title=\"#\">Subscription Policy</a></li><li><a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Service</a></li></ul>",
+            "text": "<ul><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Refund Policy</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Shipping Policy</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Subscription Policy</a></li><li><a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Service</a></li></ul>",
             "font_type": "body",
             "custom_id": "",
             "custom_class": "hk-footer-menu hk-footer-menu2"
