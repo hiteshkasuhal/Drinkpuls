@@ -2065,7 +2065,7 @@
         "text_alignment_mobile": "center",
         "padding_top_mobile": 20,
         "padding_bottom_mobile": 0,
-        "custom_id": "",
+        "custom_id": "faq",
         "custom_class": "hk-faq-top"
       }
     },
