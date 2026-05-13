@@ -168,7 +168,7 @@
           "settings": {
             "locked_text": "<p>You’re <strong>[price]</strong> away from free shipping</p>",
             "ulocked_text": "<p>Congratulations! You get <strong>FREE shipping</strong></p>",
-            "threshold": 100,
+            "threshold": 50,
             "font_type": "body",
             "position": "left",
             "custom_id": "",
