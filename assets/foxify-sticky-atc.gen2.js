@@ -12,8 +12,14 @@ if (!customElements.get('x-sticky-atc-bar')) {
         this.container = this.closest('.x-sticky-atc');
 
         const stickyAtcBlock = this.closest('.x-extension\\:sticky-atc-block');
-        const foxifyWrappers = document.querySelectorAll('.x-main');
-        const foxifyWrapper = [...foxifyWrappers].find((wrapper) => wrapper.id !== 'x-Age-Verifier-Modal');
+        const foxifyWrappers = [...document.querySelectorAll('.x-main')].filter(
+          (wrapper) =>
+            wrapper.id !== 'x-Age-Verifier-Modal' &&
+            !wrapper.closest('.shopify-section-group-foxify-header-group'),
+        );
+        const mainContentWrapperCandidates = [...document.querySelectorAll('#MainContent .x-app.x-main')];
+        const mainContentWrapper = mainContentWrapperCandidates.find((wrapper) => !wrapper.closest('.shopify-section-group-foxify-header-group'));
+        const foxifyWrapper = mainContentWrapper || foxifyWrappers[0];
         if (stickyAtcBlock && foxifyWrapper && ![...foxifyWrapper.children].includes(stickyAtcBlock)) {
           foxifyWrapper.appendChild(stickyAtcBlock);
           const content = this.querySelector('template').content?.firstElementChild?.cloneNode(true);
@@ -26,7 +32,6 @@ if (!customElements.get('x-sticky-atc-bar')) {
         (async () => {
           const productJson = await window.Foxify.Utils.fetchJSON(`/products/${this.dataset.productHandle}.js`);
           this.variantJson = productJson.variants;
-          console.log(this.variantJson, 'this.variantJson');
         })();
 
         this.submitButton = this.querySelector('.x-button[name="add"]');
@@ -52,8 +57,8 @@ if (!customElements.get('x-sticky-atc-bar')) {
         );
 
         if (this.dataset.selectedVariantAvailable !== 'true') {
-          this.submitButton && this.submitButton.setAttribute('disabled', 'true');
-          this.shopifyButton && this.shopifyButton.setAttribute('disabled', 'true');
+          if (this.submitButton) this.submitButton.setAttribute('disabled', 'true');
+          if (this.shopifyButton) this.shopifyButton.setAttribute('disabled', 'true');
         }
 
         this.setObserveTarget();
@@ -68,7 +73,7 @@ if (!customElements.get('x-sticky-atc-bar')) {
         }
       };
 
-      checkDevice(e) {
+      checkDevice(_e) {
         const sectionHeight = this.clientHeight + 'px';
         document.documentElement.style.setProperty('--x-sticky-atc-bar-height', sectionHeight);
       }
@@ -83,13 +88,13 @@ if (!customElements.get('x-sticky-atc-bar')) {
         if (this.selectedVariant) {
           this.variantInput.value = this.selectedVariant.id;
           if (this.selectedVariant.available) {
-            this.submitButton && this.submitButton.removeAttribute('disabled');
-            this.shopifyButton && this.shopifyButton.removeAttribute('disabled');
-            btnLabel && (btnLabel.textContent = window.Foxify.Strings.addToCart);
+            if (this.submitButton) this.submitButton.removeAttribute('disabled');
+            if (this.shopifyButton) this.shopifyButton.removeAttribute('disabled');
+            if (btnLabel) btnLabel.textContent = window.Foxify.Strings.addToCart;
           } else {
-            this.submitButton && this.submitButton.setAttribute('disabled', 'true');
-            this.shopifyButton && this.shopifyButton.setAttribute('disabled', 'true');
-            btnLabel && (btnLabel.textContent = window.Foxify.Strings.soldOut);
+            if (this.submitButton) this.submitButton.setAttribute('disabled', 'true');
+            if (this.shopifyButton) this.shopifyButton.setAttribute('disabled', 'true');
+            if (btnLabel) btnLabel.textContent = window.Foxify.Strings.soldOut;
           }
           this.updatePrice();
           if (shouldEmit && window.Foxify && window.Foxify.Events) {
@@ -151,9 +156,9 @@ if (!customElements.get('x-sticky-atc-bar')) {
           if (source === this) return;
 
           if (!variant) {
-            btnLabel && (btnLabel.textContent = window.Foxify.Strings.unavailable);
-            this.submitButton && this.submitButton.setAttribute('disabled', 'true');
-            this.shopifyButton && this.shopifyButton.setAttribute('disabled', 'true');
+            if (btnLabel) btnLabel.textContent = window.Foxify.Strings.unavailable;
+            if (this.submitButton) this.submitButton.setAttribute('disabled', 'true');
+            if (this.shopifyButton) this.shopifyButton.setAttribute('disabled', 'true');
             return;
           }
 
