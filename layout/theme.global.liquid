@@ -25,6 +25,7 @@
 
     {% render 'meta-tags' %}
     {{ content_for_header }}
+  {% render "assets_theme" %}
 
    
 
@@ -41,6 +42,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 {{ 'hk-common.css' | asset_url | stylesheet_tag: preload: true }}
+    {% render "nonFlickerCode" %}
 
   </head>
 
@@ -101,6 +103,8 @@
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 <script src="{{ 'hk-common.js' | asset_url }}" async="async"></script>
+  <link rel="preload" href="{{ 'splide.min.js' | asset_url }}" as="script">
+    <script src="{{ 'splide.min.js' | asset_url }}"></script>
    
  </body>
 </html>
