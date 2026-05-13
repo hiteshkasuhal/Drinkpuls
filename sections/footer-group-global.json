@@ -73,7 +73,7 @@
         "richtext_HtTLPG": {
           "type": "richtext",
           "settings": {
-            "text": "<ul><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">Shop Now</a></li><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">About Us</a></li><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">Track Your Order</a></li><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">Contact Us</a></li><li><a href=\"#faq\" title=\"#faq\">FAQs</a></li></ul>",
+            "text": "<ul><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">Shop Now</a></li><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">About Us</a></li><li><a href=\"/products/beyond-coffee\" title=\"Beyond Coffee\">Track Your Order</a></li><li><a href=\"mailto:hello@drinkpuls.com\" title=\"mailto:hello@drinkpuls.com\">Contact Us</a></li><li><a href=\"#faq\" title=\"#faq\">FAQs</a></li></ul>",
             "font_type": "body",
             "custom_id": "",
             "custom_class": "hk-footer-menu hk-footer-menu1"
