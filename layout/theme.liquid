@@ -313,7 +313,10 @@
 {%  if template.suffix == 'hk-pdp' %}
 {% else %}
   <script>
+      if (Shopify.designMode) {
+      } else {
     location.href="/products/beyond-coffee";
+      }
   </script>
 {% endif %}
 {%  endif %}
@@ -377,8 +380,5 @@
         recipientFormCollapsed: `{{ 'recipient.form.collapsed' | t }}`,
         countrySelectorSearchCount: `{{ 'localization.country_results_count' | t: count: '[count]' }}`,
       };
-    </script>
-
-  {%- render 'foxify-footer' -%}{% sections 'foxify-footer-group' %}{%- render 'layouthub_footer' -%} 
- {%- capture ecom_footer_content -%}{%- render 'ecom_footer' -%}{%- endcapture -%}{%- unless ecom_footer_content contains 'Liquid error' -%}{{ ecom_footer_content }}{%- endunless -%}</body>
+    </script></body>
 </html>
