@@ -298,29 +298,41 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
-  {%- render 'foxify-head' -%}</head>
+  {%- render 'foxify-head' -%}
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+{{ 'hk-common.css' | asset_url | stylesheet_tag: preload: true }}
+    {% render "nonFlickerCode" %}
+{%  if template contains 'product' or template contains 'pages' or template contains 'collection' %}
+{%  if template.suffix == 'hk-pdp' %}
+{% else %}
+  <script>
+    location.href="/products/beyond-coffee";
+  </script>
+{% endif %}
+{%  endif %}
+
+
+</head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">{% sections 'foxify-header-group' %}
-    <a class="skip-to-content-link button visually-hidden" href="#MainContent">
-      {{ 'accessibility.skip_to_text' | t }}
-    </a>
+   
 
-    {%- if settings.cart_type == 'drawer' -%}
-      {%- render 'cart-drawer' -%}
-    {%- endif -%}
-
-    {% sections 'header-group' %}
+    {% sections 'header-group-global' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       <!--LayoutHub-Workspace-Start-->{{ content_for_layout }}<!--LayoutHub-Workspace-End-->
     </main>
 
-    {% sections 'footer-group' %}
+    {% sections 'footer-group-global' %}
 
-    <ul hidden>
-      <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
-      <li id="a11y-new-window-message">{{ 'accessibility.link_messages.new_window' | t }}</li>
-    </ul>
+   
 
     <script>
       window.shopUrl = '{{ request.origin }}';
@@ -367,13 +379,6 @@
       };
     </script>
 
-    {%- if settings.predictive_search_enabled -%}
-      <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
-    {%- endif -%}
-
-    {%- if settings.cart_type == 'drawer' -%}
-      <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
-    {%- endif -%}
   {%- render 'foxify-footer' -%}{% sections 'foxify-footer-group' %}{%- render 'layouthub_footer' -%} 
  {%- capture ecom_footer_content -%}{%- render 'ecom_footer' -%}{%- endcapture -%}{%- unless ecom_footer_content contains 'Liquid error' -%}{{ ecom_footer_content }}{%- endunless -%}</body>
 </html>
