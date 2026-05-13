@@ -43,7 +43,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 {{ 'hk-common.css' | asset_url | stylesheet_tag: preload: true }}
     {% render "nonFlickerCode" %}
-
+{%  if template contains 'product' or template contains 'pages' or template contains 'collection' %}
+{%  if template.suffix == 'hk-pdp' %}
+{% else %}
+  <script>
+    location.href="/products/beyond-coffee";
+  </script>
+{% endif %}
+{%  endif %}
   </head>
 
   <body class="hk-global-body">
