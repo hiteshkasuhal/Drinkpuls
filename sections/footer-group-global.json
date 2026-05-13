@@ -188,7 +188,7 @@
           "settings": {
             "liquid": "-£4.99",
             "title": "upgrade to Subscribe & Save",
-            "text": "<p>SAVE 26% OFF EVERY ORDER</p><p>FREE SHIPPING</p><p>FREE Gifts every month</p><p>PAUSE OR CANCEL ANYTIME</p><p><a href=\"#upgrade\" title=\"#upgrade\">UPGRADE</a></p>",
+            "text": "<p>Save Up to £180 a year</p><p>FREE SHIPPING</p><p>FREE Gifts every month</p><p>PAUSE OR CANCEL ANYTIME</p><p><a href=\"#upgrade\" title=\"#upgrade\">UPGRADE</a></p>",
             "font_type_title": "heading",
             "font_type_text": "body",
             "image_loading": "lazy",
