@@ -322,22 +322,60 @@ $(document).on("click", '.hk-atc-js', function (e) {
   var $btn = $(this).addClass('hk-loading');
   var items = [];
   var variant_id =  $(this).attr('variant_id');
+  var SHIPPING_VARIANT_ID = 53900035981639;
   var Item = {
     id: parseInt(variant_id),
     quantity: 1
   };
   items.push(Item);
   // Single call to /cart/add.js
+
+ $.get('/cart.js')
+    .done(function(cart) {
+
+      var exists = false;
+
+      if (cart && Array.isArray(cart.items)) {
+        exists = cart.items.some(function(item) {
+          return item.id == SHIPPING_VARIANT_ID;
+        });
+      }
+
+      // -----------------------------
+      // STEP 3: Add shipping protection if missing
+      // -----------------------------
+      if (!exists) {
+        items.push({
+          id: SHIPPING_VARIANT_ID,
+          quantity: 1
+        });
+      }
+
+      addToCart(items);
+      
+
+    })
+    .fail(function() {
+      // fallback: still proceed without check
+      addToCart(items);
+    });
+
+
+
+  function addToCart(items) {
   $.ajax({
     type: 'POST',
     url: '/cart/add.js',
-    data: JSON.stringify({ items: items }),
+    data: JSON.stringify({
+      items: items
+    }),
     dataType: 'json',
     contentType: 'application/json',
+
     success: function () {
-     $('.hk-cart-button').trigger('click');
-     refreshCartDrawer()
+
     },
+
     complete: function () {
       setTimeout(function () {
         $btn.removeClass('hk-loading');
@@ -348,6 +386,7 @@ $(document).on("click", '.hk-atc-js', function (e) {
       }, 500);
     }
   });
+}
 });
 
 
