@@ -390,7 +390,11 @@ $(document).on('click', 'a[href="#upgrade"]', async function(e){
           id: parseInt(variant_id),
           quantity: parseInt(quantity),
           selling_plan: parseInt(selling_plan)
-        }]
+        },
+          {
+            id: 53900196479303,
+            quantity: 1
+          }]
       })
     });
     refreshCartDrawer();
