@@ -186,7 +186,7 @@ function removeShippingProtection() {
 
     }
     if (otherProductsTotal < 1) {
-
+alert('ok');
       $.ajax({
         url: '/cart/clear.js',
         type: 'POST',
