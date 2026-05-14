@@ -2817,6 +2817,11 @@ body .hk-custom-shipping-insurance .hk-line-item-details .hk-item-title {
     font-size: 12px;
     line-height: 16px;
 }
+
+.hk-item-property, .hk-item-properties {
+    font-size: 10px;
+    line-height: normal;
+}
 }
 
 .hk-free-item .hk-item-price {
