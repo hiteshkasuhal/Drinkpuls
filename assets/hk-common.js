@@ -159,8 +159,9 @@ function removeShippingProtection() {
     var hasProtection = false;
     var otherProductsTotal = 0;
 
+      var count = 0;
     cart.items.forEach(function (item) {
-
+count += item.quantity;
       if (item.variant_id == variantId) {
         hasProtection = true;
       } else {
@@ -185,8 +186,7 @@ function removeShippingProtection() {
       });
 
     }
-    if (otherProductsTotal < 1) {
-alert('ok');
+    if (count> 0 && otherProductsTotal < 1) {
       $.ajax({
         url: '/cart/clear.js',
         type: 'POST',
