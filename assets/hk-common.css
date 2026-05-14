@@ -2710,7 +2710,7 @@ span.stock_outer {
 
 /* cart touchups */
 .hk-item-property, .hk-item-properties {
-    display: none;
+    //display: none;
 }
 .hk-item-price {
     margin-top: 0;
@@ -2821,3 +2821,5 @@ body .hk-custom-shipping-insurance .hk-line-item-details .hk-item-title {
 body .hk-custom-shipping-insurance .hk-line-item-left {
     align-items: center;
 }
+
+
