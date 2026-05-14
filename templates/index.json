@@ -854,7 +854,7 @@
         "scroll_item_aAKhYj": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/pdp-imgslider-img1.webp",
+            "image": "shopify://shop_images/download_1.jpg",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
@@ -893,7 +893,7 @@
         "scroll_item_B7Y7QH": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/pdp-imgslider-img7.webp",
+            "image": "shopify://shop_images/cofee_time.jpg",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
@@ -906,7 +906,7 @@
         "scroll_item_9Wx7y7": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/HP-imgslider-img6.webp",
+            "image": "shopify://shop_images/ef607ec2b4657c515f50723f0a3d8234.jpg",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
@@ -919,7 +919,7 @@
         "scroll_item_eHMdjV": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/HP-imgslider-img7.webp",
+            "image": "shopify://shop_images/Coffee_morning.jpg",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
@@ -932,7 +932,7 @@
         "scroll_item_tfYBRg": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/HP-imgslider-img8.webp",
+            "image": "shopify://shop_images/download.jpg",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
