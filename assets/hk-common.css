@@ -2786,7 +2786,7 @@ body .hk-custom-shipping-insurance .hk-quantity-main-flex {
     width: 100%;
 }
 .hk-item-subtitle:has(~.hk-item-properties) {
-    padding-bottom: 3px;
+    //padding-bottom: 3px;
 }
 .hk-item-property, .hk-item-properties {
     font-size: 12px;
@@ -2834,3 +2834,6 @@ body .hk-custom-shipping-insurance .hk-line-item-left {
 }
 
 
+.hk-item-property, .hk-item-properties {
+    display: none;
+}
