@@ -545,6 +545,7 @@
         },
         "video_slide_LaJVm6": {
           "type": "video_slide",
+          "disabled": true,
           "settings": {
             "video": "shopify://files/videos/WhatsApp Video 2025-10-27 at 10.20.02 PM (1).mp4",
             "custom_id": "",
