@@ -519,6 +519,14 @@
             "custom_class": "hk-global-slider hk-video-slider"
           }
         },
+        "video_slide_HLcnep": {
+          "type": "video_slide",
+          "settings": {
+            "video": "shopify://files/videos/fffda5abcaed46f6a79c4da30877adf2.MOV",
+            "custom_id": "",
+            "custom_class": "hk-global-slide hk-video-slide"
+          }
+        },
         "video_slide_cUq8cK": {
           "type": "video_slide",
           "settings": {
@@ -531,14 +539,6 @@
           "type": "video_slide",
           "settings": {
             "video": "shopify://files/videos/PULS UGC Older.mov",
-            "custom_id": "",
-            "custom_class": "hk-global-slide hk-video-slide"
-          }
-        },
-        "video_slide_HLcnep": {
-          "type": "video_slide",
-          "settings": {
-            "video": "shopify://files/videos/WhatsApp Video 2025-10-27 at 10.20.02 PM (1).mp4",
             "custom_id": "",
             "custom_class": "hk-global-slide hk-video-slide"
           }
@@ -581,9 +581,9 @@
         "icon_with_text_CxwL4E",
         "heading_7zmpVh",
         "video_slider_fcnMa6",
+        "video_slide_HLcnep",
         "video_slide_cUq8cK",
         "video_slide_N8YMQf",
-        "video_slide_HLcnep",
         "video_slide_LaJVm6",
         "button_qmnPVU",
         "icon_with_text_kDEidU"
