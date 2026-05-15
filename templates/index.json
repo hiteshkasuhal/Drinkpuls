@@ -841,7 +841,7 @@
         "scroll_item_Db94qn": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/Woman_Holding_PULS.jpg",
+            "image": "shopify://shop_images/1_5006f4fd-18e9-4335-a563-b0cca3013f08.png",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
@@ -854,46 +854,7 @@
         "scroll_item_aAKhYj": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/download_1.jpg",
-            "liquid": "",
-            "text": "",
-            "image_loading": "eager",
-            "image_performance": "high",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": ""
-          }
-        },
-        "scroll_item_mMdChM": {
-          "type": "scroll-item",
-          "settings": {
-            "image": "shopify://shop_images/PHOTO-2026-05-13-13-27-52.jpg",
-            "liquid": "",
-            "text": "",
-            "image_loading": "eager",
-            "image_performance": "high",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": ""
-          }
-        },
-        "scroll_item_jEbDB6": {
-          "type": "scroll-item",
-          "settings": {
-            "image": "shopify://shop_images/coffeee.jpg",
-            "liquid": "",
-            "text": "",
-            "image_loading": "eager",
-            "image_performance": "high",
-            "font_type": "body",
-            "custom_id": "",
-            "custom_class": ""
-          }
-        },
-        "scroll_item_B7Y7QH": {
-          "type": "scroll-item",
-          "settings": {
-            "image": "shopify://shop_images/cofee_time.jpg",
+            "image": "shopify://shop_images/2_c6d056fc-2393-46ae-959e-859c3b41e76a.png",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
@@ -906,7 +867,7 @@
         "scroll_item_9Wx7y7": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/ef607ec2b4657c515f50723f0a3d8234.jpg",
+            "image": "shopify://shop_images/6_fb69aa92-0573-4853-8fd7-4987337757a1.png",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
@@ -916,10 +877,23 @@
             "custom_class": ""
           }
         },
-        "scroll_item_eHMdjV": {
+        "scroll_item_mMdChM": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/Coffee_morning.jpg",
+            "image": "shopify://shop_images/3_8370c72f-dd17-460b-a70f-2f9605d0a438.png",
+            "liquid": "",
+            "text": "",
+            "image_loading": "eager",
+            "image_performance": "high",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_jEbDB6": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/4_a31014ae-3493-4df8-aadd-960d829e0996.png",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
@@ -932,7 +906,33 @@
         "scroll_item_tfYBRg": {
           "type": "scroll-item",
           "settings": {
-            "image": "shopify://shop_images/download.jpg",
+            "image": "shopify://shop_images/8.png",
+            "liquid": "",
+            "text": "",
+            "image_loading": "eager",
+            "image_performance": "high",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_B7Y7QH": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/5_983d7008-98a5-4071-a229-150f74074fef.png",
+            "liquid": "",
+            "text": "",
+            "image_loading": "eager",
+            "image_performance": "high",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_eHMdjV": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/7_e90f0824-9dbb-4c49-b3e3-9a6313aa7144.png",
             "liquid": "",
             "text": "",
             "image_loading": "eager",
@@ -946,12 +946,12 @@
       "block_order": [
         "scroll_item_Db94qn",
         "scroll_item_aAKhYj",
+        "scroll_item_9Wx7y7",
         "scroll_item_mMdChM",
         "scroll_item_jEbDB6",
+        "scroll_item_tfYBRg",
         "scroll_item_B7Y7QH",
-        "scroll_item_9Wx7y7",
-        "scroll_item_eHMdjV",
-        "scroll_item_tfYBRg"
+        "scroll_item_eHMdjV"
       ],
       "name": "Scroll Bar",
       "settings": {
