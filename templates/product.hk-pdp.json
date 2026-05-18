@@ -412,7 +412,7 @@
       ],
       "name": "Product",
       "settings": {
-        "product": "{{ product }}",
+        "product": "beyond-coffee",
         "background_color": "#ffffff",
         "text_color": "#000000",
         "text_alignment": "left",
