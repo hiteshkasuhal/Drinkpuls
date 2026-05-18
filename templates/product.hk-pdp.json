@@ -2434,7 +2434,7 @@
         "stock_qpbf8T": {
           "type": "stock",
           "settings": {
-            "text": "<p><strong>In stock -</strong> delivered to you by [date]</p>",
+            "text": "<p><strong>In stock -</strong> delivered to you from 1st July.</p>",
             "date": 3,
             "font_type": "body",
             "position": "left",
