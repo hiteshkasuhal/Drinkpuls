@@ -238,9 +238,9 @@
           "type": "subscription_widget",
           "settings": {
             "sub_badge": "92% of Customers Choose to Subscribe",
-            "sub_title": "<strong>subscribe & save 25% </strong><em>+ FREE Gifts each month!</em>",
+            "sub_title": "<strong>Subscribe & Save 25% </strong><em>+ FREE Gifts each month!</em>",
             "sub_text": "<ul><li>Delivers every month</li><li>Pause or cancel anytime </li><li>FREE Shipping</li><li>FREE Gifts Each Month</li></ul>",
-            "one_time_title": "ONE TIME PURCHASE",
+            "one_time_title": "One Time Purchase",
             "free_product1": "puls-coffee-mixer",
             "free_image1": "shopify://shop_images/pdp-pdt-su2.webp",
             "free_title1": "Electric Mixer",
