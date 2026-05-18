@@ -3871,5 +3871,12 @@ body {
 }
 }
 
+@media (min-width:915px) {
+.hk-sticky-atc {
+    transform: translateY(-200%);
+    bottom: unset;
+    top: 94px;
+}
 
+}
 
