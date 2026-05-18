@@ -3883,3 +3883,6 @@ body {
 .hk-sub-option-title-flex {
     text-transform: unset;
 }
+.hk-sub-option-title-flex em {
+    letter-spacing: 0;
+}
