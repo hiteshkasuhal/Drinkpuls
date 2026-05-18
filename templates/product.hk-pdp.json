@@ -275,7 +275,7 @@
         "checkout_button_XGPDXP": {
           "type": "checkout_button",
           "settings": {
-            "button_label": "PRE-ORDER  |  [price] <em>Ships Feb 1st. Your card will not be charged until then</em>",
+            "button_label": "PRE-ORDER  |  [price] <em>Ships July 1st. Your card will not be recharged until then</em>",
             "font_type": "body",
             "custom_id": "",
             "custom_class": ""
