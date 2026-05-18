@@ -3880,3 +3880,6 @@ body {
 
 }
 
+.hk-sub-option-title-flex {
+    text-transform: unset;
+}
