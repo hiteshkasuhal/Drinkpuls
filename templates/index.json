@@ -339,7 +339,7 @@
             "product": "other-example-product-4",
             "image": "shopify://shop_images/HP-shop-img1.webp",
             "liquid": "Coming Soon!",
-            "title": "<strong>Original Latte </strong><em>Our </em>signature original latte blend!",
+            "title": "<strong>Original Latte </strong><em>Our signature latte blend!</em>",
             "text": "<p>COMING SOON</p><p>From £1.19 Per Serving</p>",
             "font_type_title": "heading",
             "font_type_text": "body",
