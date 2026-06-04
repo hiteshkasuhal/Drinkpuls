@@ -138,7 +138,6 @@
         },
         "button_TXDXMg": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
@@ -573,7 +572,6 @@
         },
         "button_qmnPVU": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
@@ -805,7 +803,6 @@
         },
         "button_akqxFB": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
@@ -1163,7 +1160,6 @@
         },
         "button_FNkmty": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
@@ -1474,7 +1470,6 @@
         },
         "button_rppkgC": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
@@ -1615,7 +1610,6 @@
         },
         "button_HQjmDN": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
@@ -1784,7 +1778,6 @@
         },
         "button_4K8Uc3": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
@@ -2018,7 +2011,6 @@
         },
         "button_dnTqJa": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
@@ -2199,7 +2191,6 @@
       "blocks": {
         "button_xD6yGt": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
@@ -2413,7 +2404,6 @@
       "blocks": {
         "button_CRjQRg": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Upgrade My Mornings",
