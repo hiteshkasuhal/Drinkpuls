@@ -333,8 +333,25 @@
             "custom_class": "hk-shops-pdt"
           }
         },
+        "product_LMWPGf": {
+          "type": "product",
+          "settings": {
+            "product": "other-example-product-4",
+            "image": "shopify://shop_images/HP-shop-img1.webp",
+            "liquid": "Coming Soon!",
+            "title": "<strong>Original Latte </strong><em>Our </em>signature original latte blend!",
+            "text": "<p>COMING SOON</p><p>From £1.19 Per Serving</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-shops-pdt-item hk-shops-pdt-item3"
+          }
+        },
         "icon_with_text_item_Ymi7MG": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "beyond-coffee",
             "image": "shopify://shop_images/HP-shop-img1.webp",
@@ -386,6 +403,7 @@
         "icon_with_text_6HHkMy",
         "heading_taLxhp",
         "icon_with_text_grid_BaTNGU",
+        "product_LMWPGf",
         "icon_with_text_item_Ymi7MG",
         "icon_with_text_item_cV6D39",
         "icon_with_text_item_rbjxpL"
