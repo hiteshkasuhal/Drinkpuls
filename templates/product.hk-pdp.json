@@ -169,6 +169,7 @@
         },
         "icon_with_text_znHVFn": {
           "type": "icon_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pdp-pdt-pre.webp",
             "liquid": "",
@@ -280,6 +281,7 @@
         },
         "checkout_button_XGPDXP": {
           "type": "checkout_button",
+          "disabled": true,
           "settings": {
             "button_label": "PRE-ORDER  |  [price] <em>Ships July 1st. Your card will not be recharged until then</em>",
             "font_type": "body",
