@@ -268,7 +268,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     letter-spacing: -2.1px;
     width: 100%;
 }
-.hk-button {
+.hk-button, 
+.submitButtonStyle {
     cursor: pointer;
     transition: all 0.3s ease;
     border-radius: 1298.7px;
@@ -290,7 +291,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     border: 2px solid #72D3FF;
     gap: 10.4px;
 }
-.hk-button:hover {
+.hk-button:hover, 
+.submitButtonStyle:hover {
     background: transparent;
     color: #72D3FF;
 }
