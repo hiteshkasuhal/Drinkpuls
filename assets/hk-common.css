@@ -2837,3 +2837,8 @@ body .hk-custom-shipping-insurance .hk-line-item-left {
 .hk-item-property, .hk-item-properties {
     display: none;
 }
+
+
+.hk-checkout-button:has(.hk-sold-out.hk-active) {
+    display: none;
+}
