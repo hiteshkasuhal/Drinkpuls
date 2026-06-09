@@ -184,6 +184,7 @@
         },
         "variants_YTNrcd": {
           "type": "variants",
+          "disabled": true,
           "settings": {
             "custom_id": "",
             "custom_class": ""
@@ -191,6 +192,7 @@
         },
         "variant_h8caVG": {
           "type": "variant",
+          "disabled": true,
           "settings": {
             "active": false,
             "index": 1,
@@ -206,6 +208,7 @@
         },
         "variant_wtAn9V": {
           "type": "variant",
+          "disabled": true,
           "settings": {
             "active": true,
             "index": 2,
@@ -221,6 +224,7 @@
         },
         "variant_HXeJn9": {
           "type": "variant",
+          "disabled": true,
           "settings": {
             "active": false,
             "index": 3,
@@ -236,6 +240,7 @@
         },
         "subscription_widget_h6Rnfy": {
           "type": "subscription_widget",
+          "disabled": true,
           "settings": {
             "sub_badge": "92% of Customers Choose to Subscribe",
             "sub_title": "<strong>Subscribe & Save 25% </strong><em>+ FREE Gifts each month!</em>",
@@ -264,6 +269,7 @@
         },
         "stock_GQWYj7": {
           "type": "stock",
+          "disabled": true,
           "settings": {
             "text": "<p>Order Now For Next Day Dispatch  |  <strong>Royal Mail 24hr</strong></p>",
             "date": 3,
@@ -2473,6 +2479,7 @@
         "image_W73pXH",
         "button_GzdWrA"
       ],
+      "disabled": true,
       "name": "Sticky ATC",
       "settings": {
         "hidden_classes": ".hk-product-title, .hk-product-media-main-item, .hk-product-text, .hk-product-list ul li, .hk-element-variant, .hk-element-sub-option, .hk-checkout-button",
