@@ -2842,3 +2842,6 @@ body .hk-custom-shipping-insurance .hk-line-item-left {
 .hk-checkout-button:has(.hk-sold-out.hk-active) {
     display: none;
 }
+.restock-alerts-modal-wrapper.modalWrapperStyle {
+    height: 100% !important;
+}
