@@ -32,7 +32,16 @@
 <div class="hk-element-button-{{ block.id }} hk-font-{{ block.settings.font_type }}">
 <button class="hk-button hk-checkout-button hk-trigger-{{ section.id }} hk-font-body"  variant_id="{{ active_variant.id }}" selling_plan="{{ active_variant.selling_plan_allocations.first.selling_plan.id }}">
   {{ button_content }}
-</button></div>
+</button>
+{% unless product.available %}
+  <a href="#"
+     id="restock-{{ product.handle }}"
+     class="notify-me-btn hk-button hk-checkout-button ">
+     Notify Me When Available
+  </a>
+{% endunless %}
+
+</div>
 <script>
 
 function refreshCartDrawer2() {
