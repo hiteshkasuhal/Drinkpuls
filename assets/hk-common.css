@@ -2842,8 +2842,13 @@ body .hk-custom-shipping-insurance .hk-line-item-left {
 
 
 .hk-checkout-button:has(.hk-sold-out.hk-active) {
-    display: none;
+    //display: none;
 }
 .restock-alerts-modal-wrapper.modalWrapperStyle {
     height: 100% !important;
+}
+
+
+.hk-element-button:has(a#restock-beyond-coffee) .hk-button.hk-checkout-button {
+    display: none;
 }
