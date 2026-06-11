@@ -104,7 +104,7 @@
         "product_image_cfMPNp": {
           "type": "product_image",
           "settings": {
-            "image": "shopify://shop_images/pdp-pdt-img6.webp",
+            "image": "shopify://shop_images/WHATs_In_PULS.png",
             "image_loading": "lazy",
             "image_performance": "low",
             "custom_id": "",
