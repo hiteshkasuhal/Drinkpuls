@@ -82,7 +82,7 @@
         "richtext_a3tqmg": {
           "type": "richtext",
           "settings": {
-            "text": "<ul><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Refund Policy</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Shipping Policy</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Subscription Policy</a></li><li><a href=\"/policies/terms-of-service\" title=\"Terms of Service\">Terms of Service</a></li></ul>",
+            "text": "<ul><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Privacy Policy</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Refund Policy</a></li><li><a href=\"/policies/privacy-policy\" title=\"Privacy Policy\">Shipping Policy</a></li><li><a href=\"/pages/subscription-policy-puls\" title=\"Subscription Policy | PULS\">Subscription Policy</a></li><li><a href=\"/pages/terms-conditions-puls\" title=\"Terms & Conditions | PULS\">Terms & Conditions </a></li></ul>",
             "font_type": "body",
             "custom_id": "",
             "custom_class": "hk-footer-menu hk-footer-menu2"
