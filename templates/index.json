@@ -649,6 +649,180 @@
         "custom_class": "hk-video-section"
       }
     },
+    "hk_richtext_c6nmeD": {
+      "type": "hk-richtext",
+      "blocks": {
+        "heading_Gzeytf": {
+          "type": "heading",
+          "settings": {
+            "text": "How to Use PULS",
+            "h1": false,
+            "font_type": "heading",
+            "custom_id": "",
+            "custom_class": "hk-how-heading hk-global-heading hk-heading-center"
+          }
+        },
+        "richtext_ketbyM": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>One sachet. Hot water. Stir and go.</p>",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-looks-text1 hk-how-text2 hk-insides-text1"
+          }
+        },
+        "icon_with_text_grid_k4D69H": {
+          "type": "icon_with_text_grid",
+          "settings": {
+            "custom_id": "",
+            "custom_class": "hk-how-list1"
+          }
+        },
+        "icon_with_text_item_mx8wjW": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-use-icon1.webp",
+            "liquid": "",
+            "title": "Tear",
+            "text": "<p>Add 1 sachet of <strong>PULS to your mug</strong> or shaker.</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item1 hk-how-list1-item-text"
+          }
+        },
+        "icon_with_text_item_bPVTKp": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/9.png",
+            "liquid": "",
+            "title": "",
+            "text": "",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item2  hk-how-list1-item-img"
+          }
+        },
+        "icon_with_text_item_HNpbiD": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-use-icon3.webp",
+            "liquid": "",
+            "title": "Pour",
+            "text": "<p>Add hot water or milk <strong>(200–250ml) and stir</strong></p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item3 hk-how-list1-item-text"
+          }
+        },
+        "icon_with_text_item_WKJ8Ug": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/10.png",
+            "liquid": "",
+            "title": "",
+            "text": "",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item4  hk-how-list1-item-img"
+          }
+        },
+        "icon_with_text_item_c9QmhD": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-use-icon5.webp",
+            "liquid": "",
+            "title": "Perform",
+            "text": "<p>Drink daily for clean <strong>energy & focus</strong></p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item5 hk-how-list1-item-text"
+          }
+        },
+        "icon_with_text_item_FAcKJK": {
+          "type": "icon_with_text_item",
+          "settings": {
+            "image": "shopify://shop_images/11.png",
+            "liquid": "",
+            "title": "",
+            "text": "",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-how-list1-item hk-how-list1-item6  hk-how-list1-item-img"
+          }
+        },
+        "button_MDgUcj": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_link": "",
+            "button_label": "Upgrade My Mornings",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": "hk-table-button hk-center hk-btn-black"
+          }
+        },
+        "icon_with_text_d4i8ty": {
+          "type": "icon_with_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/HP-MBG-black.webp",
+            "liquid": "",
+            "title": "",
+            "text": "<p>30 Day Money-Back Guarantee</p>",
+            "font_type_title": "heading",
+            "font_type_text": "body",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "custom_id": "",
+            "custom_class": "hk-table-MBG hk-global-MBG hk-center hk-MBG-white"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Gzeytf",
+        "richtext_ketbyM",
+        "icon_with_text_grid_k4D69H",
+        "icon_with_text_item_mx8wjW",
+        "icon_with_text_item_bPVTKp",
+        "icon_with_text_item_HNpbiD",
+        "icon_with_text_item_WKJ8Ug",
+        "icon_with_text_item_c9QmhD",
+        "icon_with_text_item_FAcKJK",
+        "button_MDgUcj",
+        "icon_with_text_d4i8ty"
+      ],
+      "name": "RichText",
+      "settings": {
+        "background_color": "rgba(0,0,0,0)",
+        "text_color": "#162036",
+        "text_alignment": "center",
+        "padding_top": 70,
+        "padding_bottom": 40,
+        "text_alignment_mobile": "center",
+        "padding_top_mobile": 39,
+        "padding_bottom_mobile": 20,
+        "custom_id": "",
+        "custom_class": "hk-how-section"
+      }
+    },
     "hk_scroll_bar_LGfAN8": {
       "type": "hk-scroll-bar",
       "blocks": {
@@ -2482,6 +2656,7 @@
     "hk_richtext_pMJBDK",
     "hk_scroll_bar_caxkhK",
     "hk_richtext_EKXntX",
+    "hk_richtext_c6nmeD",
     "hk_scroll_bar_LGfAN8",
     "hk_richtext_FxggbV",
     "hk_scroll_bar_ixLz3g",
