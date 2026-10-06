@@ -2122,8 +2122,8 @@
         "faq_8kwDUw": {
           "type": "faq",
           "settings": {
-            "question": "Does it taste like coffee or protein shake?",
-            "answer": "<p>PULS tastes like a proper latte, smooth and creamy. &nbsp;Unlike most protein coffees, there’s no chalky texture or artificial aftertaste. Most customers say they’re surprised it doesn’t taste like a protein shake at all.</p>",
+            "question": "Can't I just stir creatine into my coffee?",
+            "answer": "<p>You can, but standard creatine powder often turns gritty in a hot drink. PULS uses special creatine types and mixing processes, so that it mixes smoothly and tastes like coffee. It's also pre-dosed, so there's no scooping and no tub to reorder.</p>",
             "font_type": "body",
             "font_type_answer": "body",
             "position": "left",
@@ -2133,6 +2133,7 @@
         },
         "faq_YHEnD3": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "question": "Does it taste like coffee or protein shake?",
             "answer": "<p>PULS tastes like a proper latte, smooth and creamy. &nbsp;Unlike most protein coffees, there’s no chalky texture or artificial aftertaste. Most customers say they’re surprised it doesn’t taste like a protein shake at all.</p>",
@@ -2179,6 +2180,18 @@
             "custom_class": "hk-blobal-faq hk-faq-section-faq"
           }
         },
+        "faq_eLgDm6": {
+          "type": "faq",
+          "settings": {
+            "question": "Is PULS for me?&nbsp;",
+            "answer": "<p>If you exercise, drink coffee most mornings and want a simpler way to stay consistent with creatine, yes. Creatine is one of the most widely studied sports supplements, and it works best when you take it every day, which is exactly where most people slip. PULS is built to make that daily habit easier.</p>",
+            "font_type": "body",
+            "font_type_answer": "body",
+            "position": "right",
+            "custom_id": "",
+            "custom_class": "hk-blobal-faq hk-faq-section-faq"
+          }
+        },
         "faq_GMAmTd": {
           "type": "faq",
           "settings": {
@@ -2203,7 +2216,7 @@
             "custom_class": "hk-blobal-faq hk-faq-section-faq"
           }
         },
-        "faq_eLgDm6": {
+        "faq_pKckHY": {
           "type": "faq",
           "settings": {
             "question": "How do I prepare it?",
@@ -2222,9 +2235,10 @@
         "faq_VwzyL7",
         "faq_6Xx7B8",
         "faq_PmEhNh",
+        "faq_eLgDm6",
         "faq_GMAmTd",
         "faq_UCgMBh",
-        "faq_eLgDm6"
+        "faq_pKckHY"
       ],
       "name": "Image With Text",
       "settings": {
