@@ -2261,7 +2261,7 @@
           "type": "button",
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
-            "button_label": "Upgrade My Mornings",
+            "button_label": "Start My PULS Routine",
             "font_type": "body",
             "custom_id": "",
             "custom_class": "hk-table-button hk-center hk-btn-black"
