@@ -316,7 +316,7 @@
         "heading_taLxhp": {
           "type": "heading",
           "settings": {
-            "text": "shop our bestsellers",
+            "text": "Choose your flavour",
             "h1": false,
             "font_type": "heading",
             "custom_id": "",
@@ -340,7 +340,7 @@
             "image": "shopify://shop_images/Untitled_design_10_3ad4726a-24a8-4801-a3b4-7528cfe488fa.png",
             "liquid": "Coming Soon!",
             "title": "<strong>Original Latte </strong><em>Our signature latte blend!</em>",
-            "text": "<p>COMING SOON</p><p>From £1.19 Per Serving</p>",
+            "text": "<p>COMING THIS OCTOBER</p><p>From £1.33 Per Serving</p>",
             "font_type_title": "heading",
             "font_type_text": "body",
             "image_loading": "lazy",
