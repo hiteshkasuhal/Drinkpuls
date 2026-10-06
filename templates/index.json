@@ -430,7 +430,7 @@
           "settings": {
             "image": "shopify://shop_images/HP-bar1-svg.webp",
             "liquid": "",
-            "text": "<p>£1.19 per Serving</p>",
+            "text": "<p>5g Creatine</p>",
             "image_loading": "lazy",
             "image_performance": "low",
             "font_type": "body",
@@ -443,7 +443,7 @@
           "settings": {
             "image": "shopify://shop_images/HP-bar1-svg.webp",
             "liquid": "",
-            "text": "<p>Focus-Boosting MCTs</p>",
+            "text": "<p>10g Protein</p>",
             "image_loading": "lazy",
             "image_performance": "low",
             "font_type": "body",
@@ -456,7 +456,7 @@
           "settings": {
             "image": "shopify://shop_images/HP-bar1-svg.webp",
             "liquid": "",
-            "text": "<p>Daily Performance Fuel</p>",
+            "text": "<p>Arabica Coffee</p>",
             "image_loading": "lazy",
             "image_performance": "low",
             "font_type": "body",
@@ -465,6 +465,32 @@
           }
         },
         "scroll_item_bAYrX6": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "liquid": "",
+            "text": "<p>No Scoop</p>",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_RQFbAg": {
+          "type": "scroll-item",
+          "settings": {
+            "image": "shopify://shop_images/HP-bar1-svg.webp",
+            "liquid": "",
+            "text": "<p>No Shaker</p>",
+            "image_loading": "lazy",
+            "image_performance": "low",
+            "font_type": "body",
+            "custom_id": "",
+            "custom_class": ""
+          }
+        },
+        "scroll_item_C6zJ74": {
           "type": "scroll-item",
           "settings": {
             "image": "shopify://shop_images/HP-bar1-svg.webp",
@@ -482,7 +508,9 @@
         "scroll_item_a6ATLi",
         "scroll_item_UDdc8g",
         "scroll_item_ndXQXK",
-        "scroll_item_bAYrX6"
+        "scroll_item_bAYrX6",
+        "scroll_item_RQFbAg",
+        "scroll_item_C6zJ74"
       ],
       "name": "Scroll Bar",
       "settings": {
