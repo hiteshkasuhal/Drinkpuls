@@ -322,11 +322,16 @@ $(document).on("click", '.hk-atc-js', function (e) {
   var $btn = $(this).addClass('hk-loading');
   var items = [];
   var variant_id =  $(this).attr('variant_id');
+  var selling_plan =  $(this).attr('selling_plan');
   var SHIPPING_VARIANT_ID = 53900035981639;
   var Item = {
     id: parseInt(variant_id),
     quantity: 1
   };
+  // add selling plan if exists
+  if (selling_plan) {
+    item.selling_plan = parseInt(selling_plan);
+  }
   items.push(Item);
   // Single call to /cart/add.js
 
