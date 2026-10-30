@@ -330,7 +330,7 @@ $(document).on("click", '.hk-atc-js', function (e) {
   };
   // add selling plan if exists
   if (selling_plan) {
-    item.selling_plan = parseInt(selling_plan);
+    Item.selling_plan = parseInt(selling_plan);
   }
   items.push(Item);
   // Single call to /cart/add.js
