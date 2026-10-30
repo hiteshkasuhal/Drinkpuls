@@ -138,21 +138,9 @@
         },
         "button_TXDXMg": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "button_link": "shopify://products/beyond-coffee",
             "button_label": "Start my PULS routine",
-            "font_type": "body",
-            "position": "left",
-            "custom_id": "",
-            "custom_class": "hk-section1-button"
-          }
-        },
-        "button_ke3jiG": {
-          "type": "button",
-          "settings": {
-            "button_link": "shopify://products/beyond-coffee",
-            "button_label": "COMING 30TH OCTOBER",
             "font_type": "body",
             "position": "left",
             "custom_id": "",
@@ -212,7 +200,6 @@
         "icon_with_text_item_4biMjK",
         "icon_with_text_item_drUYGg",
         "button_TXDXMg",
-        "button_ke3jiG",
         "icon_with_text_dcLDwL",
         "image_Y9dxjq",
         "image_c3wyVT"
@@ -348,6 +335,7 @@
         },
         "product_LMWPGf": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "product": "other-example-product-4",
             "image": "shopify://shop_images/Untitled_design_10_3ad4726a-24a8-4801-a3b4-7528cfe488fa.png",
@@ -364,13 +352,12 @@
         },
         "icon_with_text_item_Ymi7MG": {
           "type": "product",
-          "disabled": true,
           "settings": {
             "product": "beyond-coffee",
-            "image": "shopify://shop_images/HP-shop-img1.webp",
-            "liquid": "12k+ <strong>Daily Users</strong>",
-            "title": "<strong>Original Latte Flavour </strong><em>Classic latte. Lasting energy.</em>",
-            "text": "<p>[price]</p><p>From £1.19 Per Serving</p>",
+            "image": "shopify://shop_images/Untitled_design_10_3ad4726a-24a8-4801-a3b4-7528cfe488fa.png",
+            "liquid": "Selling Quickly",
+            "title": "<strong>Original Latte </strong><em>Our signature latte blend!</em>",
+            "text": "<p>[price]</p><p>From £1.33 Per Serving</p>",
             "font_type_title": "heading",
             "font_type_text": "body",
             "image_loading": "lazy",
