@@ -3901,3 +3901,6 @@ body {
     height: 100%;
     object-fit: contain;
 }
+.nm-portal {
+    display: none !important;
+}
