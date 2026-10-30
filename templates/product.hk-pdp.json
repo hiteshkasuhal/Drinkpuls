@@ -239,7 +239,7 @@
           "settings": {
             "sub_badge": "92% of Customers Choose to Subscribe",
             "sub_title": "<strong>Subscribe & Save 25% </strong><em>+ FREE Gifts each month!</em>",
-            "sub_text": "<ul><li>Delivers every month</li><li>Pause or cancel anytime </li><li>FREE Shipping</li><li>FREE Gifts Each Month</li></ul>",
+            "sub_text": "<ul><li>Delivers every month</li><li>Pause or cancel anytime&nbsp;</li><li>FREE Shipping</li><li>FREE Gifts Each Month</li></ul>",
             "one_time_title": "One Time Purchase",
             "free_product1": "puls-coffee-mixer",
             "free_image1": "shopify://shop_images/pdp-pdt-su2.webp",
@@ -275,7 +275,7 @@
         "checkout_button_XGPDXP": {
           "type": "checkout_button",
           "settings": {
-            "button_label": "PRE-ORDER  |  [price] <em>Ships July 1st. Your card will not be recharged until then</em>",
+            "button_label": "ORDER NOW &nbsp;| &nbsp;[price] We’re officially live. Your subscription, your terms. Cancel anytime.&nbsp;",
             "font_type": "body",
             "custom_id": "",
             "custom_class": ""
