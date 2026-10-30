@@ -3886,3 +3886,18 @@ body {
 .hk-sub-option-title-flex em {
     letter-spacing: 0;
 }
+
+
+
+.hk-element-sub-option[sub_tab="2"] {
+    display: none;
+}
+.hk-sticky-img .hk-element-image, .hk-sticky-img .hk-element-image .hk-media {
+    width: 100%;
+    height: 100%;
+}
+.hk-sticky-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
