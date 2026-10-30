@@ -2293,10 +2293,10 @@
         "text_color": "#162036",
         "text_alignment": "center",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 15,
         "text_alignment_mobile": "center",
         "padding_top_mobile": 0,
-        "padding_bottom_mobile": 0,
+        "padding_bottom_mobile": 25,
         "custom_id": "",
         "custom_class": "hk-faq-bottom"
       }
