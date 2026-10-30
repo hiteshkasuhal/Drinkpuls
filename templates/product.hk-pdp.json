@@ -2184,7 +2184,7 @@
             "image": "shopify://shop_images/HP-MBG-rating.webp",
             "liquid": "",
             "title": "",
-            "text": "<p>Rated <strong>4.9 / 5.0 | 11k+ Reviews</strong></p>",
+            "text": "<p>Rated <strong>4.9 / 5.0 | Based on early reviews</strong></p>",
             "font_type_title": "heading",
             "font_type_text": "body",
             "image_loading": "lazy",
