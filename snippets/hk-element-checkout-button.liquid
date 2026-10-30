@@ -34,9 +34,11 @@
   {{ button_content }}
 </button>
 {% unless product.available %}
+  {% comment %}
   <a href="#"
      id="restock-{{ product.handle }}"
      class="notify-me-btn hk-button hk-checkout-button">Notify Me</a>
+     {% endcomment %}
 {% endunless %}
 
 </div>
