@@ -169,7 +169,6 @@
         },
         "icon_with_text_znHVFn": {
           "type": "icon_with_text",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pdp-pdt-pre.webp",
             "liquid": "",
@@ -185,7 +184,6 @@
         },
         "variants_YTNrcd": {
           "type": "variants",
-          "disabled": true,
           "settings": {
             "custom_id": "",
             "custom_class": ""
@@ -193,7 +191,6 @@
         },
         "variant_h8caVG": {
           "type": "variant",
-          "disabled": true,
           "settings": {
             "active": false,
             "index": 1,
@@ -209,7 +206,6 @@
         },
         "variant_wtAn9V": {
           "type": "variant",
-          "disabled": true,
           "settings": {
             "active": true,
             "index": 2,
@@ -225,7 +221,6 @@
         },
         "variant_HXeJn9": {
           "type": "variant",
-          "disabled": true,
           "settings": {
             "active": false,
             "index": 3,
@@ -241,7 +236,6 @@
         },
         "subscription_widget_h6Rnfy": {
           "type": "subscription_widget",
-          "disabled": true,
           "settings": {
             "sub_badge": "92% of Customers Choose to Subscribe",
             "sub_title": "<strong>Subscribe & Save 25% </strong><em>+ FREE Gifts each month!</em>",
@@ -289,7 +283,6 @@
         },
         "icon_with_text_grid_R9WAwR": {
           "type": "icon_with_text_grid",
-          "disabled": true,
           "settings": {
             "custom_id": "",
             "custom_class": "hk-under-cta-icons"
@@ -297,7 +290,6 @@
         },
         "icon_with_text_item_YK88i7": {
           "type": "icon_with_text_item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pdp-pdt-MBG.webp",
             "liquid": "",
@@ -313,7 +305,6 @@
         },
         "icon_with_text_item_ntHMwi": {
           "type": "icon_with_text_item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pdp-pdt-card.webp",
             "liquid": "",
@@ -329,7 +320,6 @@
         },
         "image_HrqWjf": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "link": "",
             "image": "shopify://shop_images/pdp-pdt-brand.webp",
