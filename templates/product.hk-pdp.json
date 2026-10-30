@@ -237,8 +237,8 @@
         "subscription_widget_h6Rnfy": {
           "type": "subscription_widget",
           "settings": {
-            "sub_badge": "92% of Customers Choose to Subscribe",
-            "sub_title": "<strong>Subscribe & Save 25% </strong><em>+ FREE Gifts each month!</em>",
+            "sub_badge": "&nbsp;YOUR COFFEE, DELIVERED MONTHLY&nbsp;",
+            "sub_title": "<strong>Your Monthly PULS Subscription</strong> <em>Monthly delivery. Pause / cancel anytime.&nbsp;</em>",
             "sub_text": "<ul><li>Delivers every month</li><li>Pause or cancel anytime&nbsp;</li><li>FREE Shipping</li><li>FREE Gifts&nbsp;</li></ul>",
             "one_time_title": "One Time Purchase",
             "free_product1": "puls-coffee-mixer",
