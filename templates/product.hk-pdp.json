@@ -2472,7 +2472,6 @@
         "image_W73pXH",
         "button_GzdWrA"
       ],
-      "disabled": true,
       "name": "Sticky ATC",
       "settings": {
         "hidden_classes": ".hk-product-title, .hk-product-media-main-item, .hk-product-text, .hk-product-list ul li, .hk-element-variant, .hk-element-sub-option, .hk-checkout-button",
