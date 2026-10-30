@@ -341,16 +341,6 @@ $(document).on("click", '.hk-atc-js', function (e) {
     quantity: 1
   };
   items.push(Item);
-    var Item = {
-    id: 53900171346247,
-    quantity: 1
-  };
-  items.push(Item);
-    var Item = {
-    id: 53589255749959,
-    quantity: 1
-  };
-  items.push(Item);
 
  $.get('/cart.js')
     .done(function(cart) {
