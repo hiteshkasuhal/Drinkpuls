@@ -2457,7 +2457,7 @@
           "type": "button",
           "settings": {
             "button_link": "",
-            "button_label": "PRE-ORDER",
+            "button_label": "ADD TO CART",
             "font_type": "body",
             "position": "right",
             "custom_id": "",
