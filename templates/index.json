@@ -357,7 +357,7 @@
             "image": "shopify://shop_images/Untitled_design_10_3ad4726a-24a8-4801-a3b4-7528cfe488fa.png",
             "liquid": "Selling Quickly",
             "title": "<strong>Original Latte </strong><em>Our signature latte blend!</em>",
-            "text": "<p>[price]</p><p>From £1.33 Per Serving</p>",
+            "text": "<p>£39.99</p><p>From £1.33 Per Serving</p>",
             "font_type_title": "heading",
             "font_type_text": "body",
             "image_loading": "lazy",
