@@ -169,6 +169,7 @@
         },
         "icon_with_text_znHVFn": {
           "type": "icon_with_text",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pdp-pdt-pre.webp",
             "liquid": "",
@@ -269,9 +270,8 @@
         },
         "stock_GQWYj7": {
           "type": "stock",
-          "disabled": true,
           "settings": {
-            "text": "<p>Order Now For Next Day Dispatch  |  <strong>Royal Mail 24hr</strong></p>",
+            "text": "<p>Order Now For Dispatch on Monday &nbsp;| &nbsp;<strong>Royal Mail 48hr</strong></p>",
             "date": 3,
             "font_type": "body",
             "custom_id": "",
