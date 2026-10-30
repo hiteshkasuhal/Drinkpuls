@@ -2363,6 +2363,7 @@
         "scroll_item_pQNMKn",
         "scroll_item_YwRrUK"
       ],
+      "disabled": true,
       "name": "Scroll Bar",
       "settings": {
         "background_color": "rgba(0,0,0,0)",
