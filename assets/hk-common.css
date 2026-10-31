@@ -980,7 +980,6 @@ span.hk-countdown-js>span {
 }
 /* PULS mobile header layout */
 @media screen and (max-width: 915px) {
-.hk-header-content,
 .hk-container:has(> .hk-header-content) {
   width: 100% !important;
   width: 100%;
