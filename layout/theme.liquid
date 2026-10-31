@@ -311,17 +311,25 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 {{ 'hk-common.css' | asset_url | stylesheet_tag: preload: true }}
     {% render "nonFlickerCode" %}
-{%  if template contains 'product' or template contains 'pages' or template contains 'collection' %}
-{%  if template.suffix == 'hk-pdp' %}
-{% else %}
+{% assign redirect_page = false %}
+
+{% if template contains 'product' or template contains 'pages' %}
+  {% assign redirect_page = true %}
+{% endif %}
+
+{% if template contains 'collection' %}
+  {% unless collection.handle == 'puls-merch' %}
+    {% assign redirect_page = true %}
+  {% endunless %}
+{% endif %}
+
+{% if redirect_page and template.suffix != 'hk-pdp' %}
   <script>
-      if (Shopify.designMode) {
-      } else {
-    location.href="/products/beyond-coffee";
-      }
+    if (!Shopify.designMode) {
+      location.href="/products/beyond-coffee";
+    }
   </script>
 {% endif %}
-{%  endif %}
 
 
 </head>
