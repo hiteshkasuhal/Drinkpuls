@@ -978,6 +978,27 @@ span.hk-countdown-js>span {
     width: auto;
 }
 }
+/* PULS mobile header layout */
+@media screen and (max-width: 915px) {
+  .hk-header-content {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+  }
+
+  .hk-header-content > :first-child {
+    justify-self: start;
+  }
+
+  .hk-header-content > .hk-header-logo {
+    justify-self: center;
+    display: block;
+  }
+
+  .hk-header-content > :last-child {
+    justify-self: end;
+  }
+}
 /* header section css end */
 
 
