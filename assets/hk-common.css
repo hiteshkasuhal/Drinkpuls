@@ -846,9 +846,12 @@ body {
     z-index: 9;
 }
 .hk-header-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
 }
 .hk-header-logo {
     width: 71.5px;
