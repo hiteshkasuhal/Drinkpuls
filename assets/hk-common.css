@@ -982,7 +982,7 @@ span.hk-countdown-js>span {
 @media screen and (max-width: 915px) {
   .hk-header-content {
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+   grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
     align-items: center;
   }
 
