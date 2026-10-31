@@ -38,7 +38,7 @@
 
 <div class="hk-section-bg-{{ section.id }} hk-header {{ section.settings.custom_class }}" {% if section.settings.custom_id != blank %} id="{{ section.settings.custom_id }}" {% endif %}>
   <div class="hk-container hk-section-{{ section.id }}-padding">
-    <div class="hk-header-content hk-text-{{ section.settings.text_alignment }}-desktop hk-text-{{ section.settings.text_alignment_mobile }}-mobile"> 
+<div class="hk-header-content puls-mobile-header hk-text-{{ section.settings.text_alignment }}-desktop hk-text-{{ section.settings.text_alignment_mobile }}-mobile">
         {%- for block in section.blocks -%} 
             {%- case block.type -%} 
                 {%- when 'mobile_menu' -%} 
