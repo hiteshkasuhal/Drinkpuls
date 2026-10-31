@@ -2882,3 +2882,10 @@ body .hk-custom-shipping-insurance .hk-line-item-left {
     justify-self: end !important;
   }
 }
+@media screen and (max-width: 915px) {
+  .hk-header .hk-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box;
+  }
+}
