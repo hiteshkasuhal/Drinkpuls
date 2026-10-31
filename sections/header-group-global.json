@@ -66,6 +66,7 @@
           "type": "logo",
           "settings": {
             "logo": "shopify://shop_images/HP-header-logo.webp",
+            "logo_mobile": "shopify://shop_images/HP-one-logo.webp",
             "custom_id": "",
             "custom_class": "hk-header-logo"
           }
@@ -84,7 +85,7 @@
       ],
       "name": "Header",
       "settings": {
-        "background_color": "#ffffff",
+        "background_color": "#FFFFFF",
         "text_color": "#162036",
         "text_alignment": "center",
         "padding_top": 25,
