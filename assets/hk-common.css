@@ -2856,6 +2856,12 @@ body .hk-custom-shipping-insurance .hk-line-item-left {
 }
 /* PULS mobile header fix */
 @media screen and (max-width: 915px) {
+    .hk-container:has(> .hk-header-content) {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 0 !important;
+  box-sizing: border-box;
+}
   .hk-header-content {
     width: 100% !important;
     max-width: 100% !important;
