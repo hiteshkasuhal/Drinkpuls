@@ -2857,20 +2857,3 @@ body .hk-custom-shipping-insurance .hk-line-item-left {
 .hk-element-button:has(a#restock-beyond-coffee) .hk-button.hk-checkout-button {
     display: none;
 }
-/* PULS mobile header fix */
-@media screen and (max-width: 749px) {
-  .shopify-section.header,
-  .hk-container,
-  .hk-header-content {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-    box-sizing: border-box;
-  }
-
-  .hk-header-content {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-  }
-}
