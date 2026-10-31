@@ -980,6 +980,12 @@ span.hk-countdown-js>span {
 }
 /* PULS mobile header layout */
 @media screen and (max-width: 915px) {
+    .hk-header-content {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
   .hk-header-content {
     display: grid;
  grid-template-columns: repeat(3, minmax(0, 1fr));
