@@ -2879,3 +2879,8 @@ body .hk-custom-shipping-insurance .hk-line-item-left {
     justify-self: end !important;
   }
 }
+
+
+.shopify-section.header {
+    display: block;
+}
