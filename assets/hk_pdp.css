@@ -3904,3 +3904,8 @@ body {
 .nm-portal {
     display: none !important;
 }
+
+
+.hk-slider-product-media-main:not(.slick-initialized) .hk-product-media-main-item:not(:first-child) {
+    display: none;
+}
