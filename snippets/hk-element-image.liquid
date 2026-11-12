@@ -2,7 +2,7 @@
 <div class="hk-element hk-element-image-main {{ block.settings.custom_class }} hk-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
 <div class="hk-element-image">
 {% if block.settings.link != blank %}
-<a href="{{ block.settings.link }}">
+<a href="{{ block.settings.link }}" aria-label="link">
 {%  endif %}
 {% if block.settings.image_mobile != blank %}
   <div class="hk-media hk-hide-mobile">
