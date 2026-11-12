@@ -10,14 +10,14 @@
  {{ block.settings.image | image_url: width: 1800 | image_tag:
   loading: block.settings.image_loading,
   fetchpriority: block.settings.image_performance,
-  alt:shop.name,
+  alt:block.settings.image.alt,
   widths: '1800'
 }}   
     {%  else %}
  {{ block.settings.image | image_url: width: 800 | image_tag:
   loading: block.settings.image_loading,
   fetchpriority: block.settings.image_performance,
-  alt:shop.name,
+  alt:block.settings.image.alt,
   widths: '375, 550, 750, 800'
 }}   
     {%  endif %}
@@ -26,7 +26,7 @@
  {{ block.settings.image_mobile | image_url: width: 800 | image_tag:
   loading: block.settings.image_loading,
   fetchpriority: block.settings.image_performance,
-  alt:shop.name,
+  alt:block.settings.image_mobile.alt,
   widths: '375, 550, 750, 800'
 }}   
 </div>
@@ -36,14 +36,14 @@
  {{ block.settings.image | image_url: width: 1800 | image_tag:
   loading: block.settings.image_loading,
   fetchpriority: block.settings.image_performance,
-  alt:shop.name,
+  alt:block.settings.image.alt,
   widths: '1800'
 }} 
     {%  else %}
  {{ block.settings.image | image_url: width: 800 | image_tag:
   loading: block.settings.image_loading,
   fetchpriority: block.settings.image_performance,
-  alt:shop.name,
+  alt:block.settings.image.alt,
   widths: '375, 550, 750, 800'
 }} 
     {%  endif %}

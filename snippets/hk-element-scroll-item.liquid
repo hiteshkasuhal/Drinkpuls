@@ -5,7 +5,7 @@
  {{ block.settings.image | image_url: width: 800 | image_tag:
   loading: block.settings.image_loading,
   fetchpriority: block.settings.image_performance,
-  alt:shop.name,
+  alt:block.settings.image.alt,
   widths: '375, 550, 750, 800'
 }} 
 </div>
