@@ -3909,3 +3909,6 @@ body {
 .hk-slider-product-media-main:not(.slick-initialized) .hk-product-media-main-item:not(:first-child) {
     display: none;
 }
+.hk-slider-product-media-thumb:not(.slick-initialized) .hk-product-media-thumb-item:nth-child(4)~.hk-product-media-thumb-item {
+    display: none;
+}
