@@ -1,11 +1,11 @@
  {%- if block.settings.video != blank -%}
 <div class="hk-ugc-item {{ block.settings.custom_class }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
 <div class="hk-video-wrapper hk-media">
-{{ block.settings.video | media_tag: image_size: "master", autoplay: false, loop: true, controls: true, preload: "true", class:"hk-video" }}
+{{ block.settings.video | media_tag: image_size: "master", autoplay: false, loop: true, controls: true, preload: "true", class:"hk-video"| replace:'<img' ,'<img loading="lazy" fethcpriority="low" alt="poster"' }}
  {{ block.settings.video.preview_image | image_url: width: 800 | image_tag:
   loading: lazy,
   fetchpriority: low,
-  alt:block.settings.video.preview_image.alt,
+  alt:'Video Poster',
   widths: '375, 550, 750, 800'
 }}   
 <div class="hk-play-button">
