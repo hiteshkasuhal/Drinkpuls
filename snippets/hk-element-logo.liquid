@@ -6,14 +6,14 @@
  {{ block.settings.logo | image_url: width: 800 | image_tag:
   loading: 'eager',
   fetchpriority: 'high',
-  alt:block.settings.logo.alt,
+  alt:block.settings.logo.alt | default: shop.name,
   class: 'hk-hide-mobile',
   widths: '375, 550, 750, 800'
 }}   
  {{ block.settings.logo_mobile | image_url: width: 800 | image_tag:
   loading: 'eager',
   fetchpriority: 'high',
-  alt:block.settings.logo_mobile.alt,
+  alt:block.settings.logo_mobile.alt | default: shop.name,
   class: 'hk-hide-desktop',
   widths: '375, 550, 750, 800'
 }}   
@@ -21,7 +21,7 @@
  {{ block.settings.logo | image_url: width: 800 | image_tag:
   loading: 'eager',
   fetchpriority: 'high',
-  alt:block.settings.logo.alt,
+  alt:block.settings.logo.alt | default: shop.name,
   widths: '375, 550, 750, 800'
 }} 
 {%  endif %}
