@@ -1,7 +1,7 @@
 {%  if block.settings.logo != blank %}
 <div class="hk-element hk-element-logo-main {{ block.settings.custom_class }} hk-element-{{ block.id }}"{% if block.settings.custom_id != blank %} id="{{ block.settings.custom_id }}"{% endif %}>
 <div class="hk-element-logo hk-media">
-<a href="/">
+<a href="/" aria-label="logo">
 {% if block.settings.logo_mobile != blank %}
  {{ block.settings.logo | image_url: width: 800 | image_tag:
   loading: 'eager',
