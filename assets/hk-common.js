@@ -317,7 +317,7 @@ $(document).on('click', '.hk-cart-drawer-js .hk-quantity-plus, .hk-cart-drawer-j
 
 
 
-$(document).on("click", '.hk-atc-js', function (e) {
+$(document).on("click", '.hk-atc-js:not(.hk-disabled)', function (e) {
   e.preventDefault();
   var $btn = $(this).addClass('hk-loading');
   var items = [];

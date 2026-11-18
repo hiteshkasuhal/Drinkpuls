@@ -1,8 +1,8 @@
 {% if template contains 'cart' %}
 {% else %}
     <div class="hk-drawer-cart-bg"></div>
-<div class="hk-cart-drawer hk-cart-drawer-js {{ section.settings.custom_class }}" {% if section.settings.custom_id != blank %} id="{{ section.settings.custom_id }}" {% endif %}>
-  <button class="hk-mobile-cart-close"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
+<div class="hk-cart-drawer hk-cart-drawer-js {{ section.settings.custom_class }} " {% if section.settings.custom_id != blank %} id="{{ section.settings.custom_id }}" {% endif %}>
+  <button class="hk-mobile-cart-close"  aria-label="cart close"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="11" viewBox="0 0 12 11" fill="none">
   <path d="M10.3613 0.936005L0.936329 10.036" stroke="black" stroke-width="1.872" stroke-linecap="round"/>
   <path d="M0.935547 0.936005L10.3605 10.036" stroke="black" stroke-width="1.872" stroke-linecap="round"/>
 </svg></button>
